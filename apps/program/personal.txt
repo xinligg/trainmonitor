@@ -1,0 +1,16 @@
+6227	0000	1332	0177	922	建设银行
+
+bugfree用户名：
+
+
+
+
+redmine 
+http://172.16.13.135/redmine/my/account  
+
+账号：guoyh  密码 1234
+
+
+
+http://172.16.13.110/bugfree/index.php  
+用户名 guoyihong 密码 guoyihong

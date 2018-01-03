@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd /opt/eGTouch32withX
+[ -e /etc/eGTouchL.ini ] || cp eGTouchL.ini /etc
+./eGTouchD
+cp eGTouchU /usr/bin
