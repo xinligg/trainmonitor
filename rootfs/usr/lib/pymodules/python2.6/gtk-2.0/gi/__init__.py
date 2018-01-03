@@ -1,0 +1,1 @@
+/usr/share/pyshared/gtk-2.0/gi/__init__.py

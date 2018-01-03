@@ -1,0 +1,35 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 1
+[files]
+/usr/lib/python2.6/dist-packages/UpdateManager=d
+/usr/lib/python2.6/dist-packages/UpdateManager/ChangelogViewer.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/DistUpgradeFetcher.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/GtkProgress.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/MetaReleaseGObject.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/ReleaseNotesViewer.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/UpdateManager.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/SafeGConfClient.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/SimpleGtkbuilderApp.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/HelpViewer.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/backend=d
+/usr/lib/python2.6/dist-packages/UpdateManager/backend/InstallBackendAptdaemon.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/backend/__init__.py=f
+/usr/lib/python2.6/dist-packages/UpdateManager/backend/InstallBackendSynaptic.py=f
+/usr/share/pyshared/UpdateManager=d
+/usr/share/pyshared/UpdateManager/backend=d
+/usr/share/pyshared/UpdateManager/backend/InstallBackendAptdaemon.py=f
+/usr/share/pyshared/UpdateManager/backend/__init__.py=f
+/usr/share/pyshared/UpdateManager/backend/InstallBackendSynaptic.py=f
+/usr/share/pyshared/UpdateManager/ChangelogViewer.py=f
+/usr/share/pyshared/UpdateManager/DistUpgradeFetcher.py=f
+/usr/share/pyshared/UpdateManager/GtkProgress.py=f
+/usr/share/pyshared/UpdateManager/MetaReleaseGObject.py=f
+/usr/share/pyshared/UpdateManager/ReleaseNotesViewer.py=f
+/usr/share/pyshared/UpdateManager/UpdateManager.py=f
+/usr/share/pyshared/UpdateManager/SafeGConfClient.py=f
+/usr/share/pyshared/UpdateManager/SimpleGtkbuilderApp.py=f
+/usr/share/pyshared/UpdateManager/HelpViewer.py=f

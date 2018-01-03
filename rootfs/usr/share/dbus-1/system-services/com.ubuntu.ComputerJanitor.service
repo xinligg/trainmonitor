@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.ubuntu.ComputerJanitor
+Exec=/usr/share/computerjanitor/janitord
+User=root

@@ -1,0 +1,389 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail
+END
+69-language-selector-ja-jp.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/69-language-selector-ja-jp.conf
+END
+53-monospace-lcd-filter.conf
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/53-monospace-lcd-filter.conf
+END
+10-unhinted.conf
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-unhinted.conf
+END
+25-ttf-arphic-uming-nobitmaps.conf
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/25-ttf-arphic-uming-nobitmaps.conf
+END
+65-khmer.conf
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/65-khmer.conf
+END
+69-language-selector-zh-tw.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/69-language-selector-zh-tw.conf
+END
+10-hinting-slight.conf
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-hinting-slight.conf
+END
+11-lcd-filter-lcddefault.conf
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/11-lcd-filter-lcddefault.conf
+END
+10-autohint.conf
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-autohint.conf
+END
+69-language-selector-zh-cn.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/69-language-selector-zh-cn.conf
+END
+51-local.conf
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/51-local.conf
+END
+65-ttf-thai-tlwg.conf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/65-ttf-thai-tlwg.conf
+END
+10-sub-pixel-vrgb.conf
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-sub-pixel-vrgb.conf
+END
+10-sub-pixel-vbgr.conf
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-sub-pixel-vbgr.conf
+END
+10-sub-pixel-rgb.conf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-sub-pixel-rgb.conf
+END
+10-sub-pixel-bgr.conf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-sub-pixel-bgr.conf
+END
+10-no-sub-pixel.conf
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-no-sub-pixel.conf
+END
+90-ttf-arphic-ukai-embolden.conf
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/90-ttf-arphic-ukai-embolden.conf
+END
+40-nonlatin.conf
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/40-nonlatin.conf
+END
+52-languageselector.conf
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/52-languageselector.conf
+END
+25-unhint-nonlatin.conf
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/25-unhint-nonlatin.conf
+END
+65-nonlatin.conf
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/65-nonlatin.conf
+END
+29-language-selector-ko-kr.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/29-language-selector-ko-kr.conf
+END
+30-urw-aliases.conf
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/30-urw-aliases.conf
+END
+69-language-selector-ko-kr.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/69-language-selector-ko-kr.conf
+END
+10-hinting-full.conf
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-hinting-full.conf
+END
+65-fonts-persian.conf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/65-fonts-persian.conf
+END
+35-ttf-arphic-uming-aliases.conf
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/35-ttf-arphic-uming-aliases.conf
+END
+69-language-selector-zh-sg.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/69-language-selector-zh-sg.conf
+END
+69-language-selector-zh-mo.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/69-language-selector-zh-mo.conf
+END
+44-wqy-zenhei.conf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/44-wqy-zenhei.conf
+END
+90-ttf-thai-tlwg-synthetic.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/90-ttf-thai-tlwg-synthetic.conf
+END
+10-hinting-medium.conf
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-hinting-medium.conf
+END
+45-latin.conf
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/45-latin.conf
+END
+41-ttf-arphic-uming.conf
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/41-ttf-arphic-uming.conf
+END
+66-wqy-zenhei-sharp.conf
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/66-wqy-zenhei-sharp.conf
+END
+64-ttf-arphic-uming.conf
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/64-ttf-arphic-uming.conf
+END
+30-cjk-aliases.conf
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/30-cjk-aliases.conf
+END
+29-language-selector-zh.conf
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/29-language-selector-zh.conf
+END
+41-ttf-arphic-ukai.conf
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/41-ttf-arphic-ukai.conf
+END
+69-unifont.conf
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/69-unifont.conf
+END
+25-ttf-arphic-uming-render.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/25-ttf-arphic-uming-render.conf
+END
+30-metric-aliases.conf
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/30-metric-aliases.conf
+END
+20-fix-globaladvance.conf
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/20-fix-globaladvance.conf
+END
+90-ttf-arphic-uming-embolden.conf
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/90-ttf-arphic-uming-embolden.conf
+END
+25-ttf-arphic-ukai-render.conf
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/25-ttf-arphic-ukai-render.conf
+END
+60-latin.conf
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/60-latin.conf
+END
+35-ttf-arphic-ukai-aliases.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/35-ttf-arphic-ukai-aliases.conf
+END
+70-no-bitmaps.conf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/70-no-bitmaps.conf
+END
+75-ttf-arphic-ukai-select.conf
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/75-ttf-arphic-ukai-select.conf
+END
+25-ttf-arphic-uming-bitmaps.conf
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/25-ttf-arphic-uming-bitmaps.conf
+END
+90-synthetic.conf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/90-synthetic.conf
+END
+50-user.conf
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/50-user.conf
+END
+80-delicious.conf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/80-delicious.conf
+END
+69-language-selector-zh-hk.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/69-language-selector-zh-hk.conf
+END
+10-hinting.conf
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-hinting.conf
+END
+69-language-selector-ka-ge.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/69-language-selector-ka-ge.conf
+END
+99-language-selector-zh.conf
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/99-language-selector-zh.conf
+END
+70-yes-bitmaps.conf
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/70-yes-bitmaps.conf
+END
+10-antialias.conf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/10-antialias.conf
+END
+20-unhint-small-vera.conf
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/20-unhint-small-vera.conf
+END
+49-sansserif.conf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/49-sansserif.conf
+END
+29-language-selector-ja-jp.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/29-language-selector-ja-jp.conf
+END
+85-xfonts-wqy.conf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/package/config/etc/fonts/conf.avail/85-xfonts-wqy.conf
+END

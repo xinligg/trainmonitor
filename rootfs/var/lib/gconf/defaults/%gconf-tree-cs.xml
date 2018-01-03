@@ -1,0 +1,764 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="check-new-release-gtk bude ignorovat informace získané o novém vydání">
+						<longdesc>Toto natrvalo skryje oznámení o novém vydání poskytnuté od check-new-release-gtk. Všimněte si, že malé tlačítko v okně správce aktualizací bude stále viditelné.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Uvítací zpráva při prvním spuštění">
+						<longdesc>Je-li je tento klíč nastaven, bude při prvním spuštění zobrazena uvítací zpráva.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Zobrazit souhrn o balíčku před názvem balíčku v seznamu aktualizací">
+						<longdesc>Je-li klíč nastaven, hlavní okno seznamu aktualizací zobrazí souhrn o balíčku před názvem balíčku.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Zobrazit verzi v seznamu aktualizací">
+						<longdesc>Je-li klíč nstaven, hlavní okno seznamu aktualizací ukáže informace o verzích (aktualizace od verze k verzi).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Automaticky zavřít instalační okno po úspěšné instalaci">
+						<longdesc>Je-li je tento klíč nastaven, pak bude instalační okno automaticky zavřeno po úspěšné instalaci.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*zavržené* Zkontrolovat nová vydání distribuce">
+						<longdesc>Tento klíč je zavržen ve prospěch souboru/etc/update-manager/release-upgrades. Automaticky kontrolovat, zda je dostupná nová verze současné distribuce a nabídnout povýšení systému, je-li to možné.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Velikost okna">
+						<longdesc>Uchovává velikost dialogového okna správce aktualizací</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Zobrazit podrobnosti o aktualizaci">
+						<longdesc>Uchovává stav prvku obsahujícího seznam změn a popisů</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Připomenout obnovení seznamu zdrojů">
+						<longdesc>Tato volba umožňuje skrytí upomínky na nutnost ručního obnovení seznamu zdrojů, která se zobrazí v případě, že automatická kontrola aktualizací je zakázána.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="Používat UTF-8 v exportu do LaTeXu">
+								<longdesc>Toto nastavení určuje, jestli vytvářené soubory LaTeX používají UTF-8 (unicode) nebo ISO-8859-1 (Latin1). Pro použití souborů UTF-8 musíte mít nainstalován balík LaTeXu ucs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="Povolit nezaměřené výběry oblastí">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema short_desc="Formát hlavičky/patičky (pravá část)">
+							<longdesc>Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema short_desc="Formát hlavičky/patičky (prostřední část)">
+							<longdesc>Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema short_desc="Formát hlavičky/patičky (levá část)">
+							<longdesc>Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="Implicitní spodní okraj">
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="Implicitní spodní okraj">
+							<longdesc>Tato hodnota udává implicitní počet bodů od spodního okraje stránky ke konci těla. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="Implicitní horní okraj">
+							<longdesc>Tato hodnota udává implicitní počet bodů od horního okraje stránky k začátku těla. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-left">
+						<local_schema short_desc="Implicitně opakovaná levá oblast">
+							<longdesc>Tento řetězec udává implicitní oblast, kterou opakovat v levé části každého tištěného listu. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-top">
+						<local_schema short_desc="Implicitně opakovaná horní oblast">
+							<longdesc>Tento řetězec udává implicitní oblast, kterou opakovat v horní části každého tištěného listu. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="Implicitní výška pro změnu měřítka">
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="Implicitní šířka pro změnu měřítka">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="Implicitní procenta měřítka">
+							<longdesc>Tato hodnota udává procenta, o kolik změnit měřítko každé tištěné stránky. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="Implicitní typ změny měřítka">
+							<longdesc>Tato hodnota určuje implicitní nastavení v dialogu Nastavení tisku, jestli zmenšovat stránky o danou část. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="Implicitní směr tisku">
+							<longdesc>Tato hodnota určuje implicitní nastavení v dialogu Nastavení tisku, jestli tisknout nejdříve doprava, pak dolů. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="Implicitní tisk nadpisu">
+							<longdesc>Tato hodnota určuje implicitní nastavení v dialogu Nastavení tisku, jestli tisknout hlavičky řádků a sloupců. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="Implicitně černobílý tisk">
+							<longdesc>Tato hodnota určuje implicitní nastavení v dialogu Nastavení tisku, jestli tisknout jen černobíle. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-even-if-only-styles">
+						<local_schema short_desc="Implicitně tisknout buňky jen se styly">
+							<longdesc>Tato hodnota určuje implicitní nastavení v dialogu Nastavení tisku, jestli tisknout prázdné, ale formátované buňky. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="Implicitní tisk mřížky">
+							<longdesc>&gt;Tato hodnota určuje implicitní nastavení v dialogu Nastavení tisku, jestli tisknout mřížku. Pro úpravu této hodnoty prosím používejte dialog Nastavení tisku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="Implicitní svislé centrování">
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="Implicitní vodorovné centrování">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="Implicitní písmo hlaviček/patiček je kurzíva.">
+							<longdesc>Tato hodnota určuje, zdali je implicitní písmo pro hlavičky a patičky kurzíva.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="Implicitní písmo hlaviček/patiček je tučné.">
+							<longdesc>Tato hodnota určuje, zdali je implicitní písmo pro hlavičky a patičky tučné.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="Implicitní název písma hlavičky/patičky">
+							<longdesc>Implicitní název písma pro hlavičky a patičky.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="Implicitní velikost písma hlavičky/patičky">
+							<longdesc>Implicitní velikost písma pro hlavičky a patičky.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="Patička stránky">
+							<longdesc>Implicitní patička stránky pro nové dokumenty, která může být upravena pomocí dialogu nastavení stránky.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Hlavička stránky">
+							<longdesc>Implicitní hlavička stránky pro nové dokumenty, která může být upravena pomocí dialogu nastavení stránky.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="Použít nastavení tisku na všechny listy">
+							<longdesc>Tato hodnota určuje, zdali se implicitně vztahuje dialog pro nastavení tisku na všechny listy zároveň.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Uživatelský adresář pro automatické formáty">
+							<longdesc>Hlavní adresář pro uživatelsky definované šablony automatického formátu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="Systémový adresář pro automatické formáty">
+							<longdesc>Tento adresář obsahuje předinstalované šablony automatického formátu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="Seznam dodatečných adresářů s automatickým formátem.">
+							<longdesc>Tento seznam obsahuje všechny dodatečné adresáře obsahující šablony automatického formátu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="Seznam dodatečných adresářů se zásuvnými moduly.">
+							<longdesc>Tento seznam obsahuje všechny dodatečné adresáře obsahující zásuvné moduly.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Seznam stavů souborů zásuvných modulů.">
+							<longdesc>Tento seznam obsahuje stavy souborů všech zásuvných modulů.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Seznam dostupných zásuvných modulů.">
+							<longdesc>Tento seznam obsahuje všechny známé zásuvné moduly.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Seznam aktivních zásuvných modulů.">
+							<longdesc>Tento seznam obsahuje všechny zásuvné moduly, které by měly být automaticky aktivovány.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Aktivovat nové zásuvné moduly">
+							<longdesc>Tato proměnná určuje, zdali se má aktivovat každý nově dostupný zásuvný modul.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Automaticky opravovat nahrazení">
+							<longdesc>Automaticky opravovat nahrazení</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="Automaticky opravovat názvy dnů">
+							<longdesc>Automaticky opravovat názvy dnů</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="Seznam výjimek prvních písmen">
+							<longdesc>Automatická oprava neopravuje první písmena slov v tomto seznamu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="Automaticky opravovat první písmeno">
+							<longdesc>Automaticky opravovat první písmeno</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="Seznam výjimek úvodních kapitálek">
+							<longdesc>Automatická oprava neopravuje úvodní kapitálky slov v tomto seznamu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Automaticky opravovat úvodní kapitálky">
+							<longdesc>Automaticky opravovat úvodní kapitálky</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="Maximální délka seznamu nedávno použitých funkcí">
+							<longdesc>Výběr funkce uchovává seznam nedávno použitých funkcí. Toto je maximální délka tohoto seznamu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="Seznam nedávno použitých funkcí.">
+							<longdesc>Výběr funkce uchovává seznam nedávno použitých funkcí. Toto je ten seznam.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="cut-and-paste">
+					<entry name="prefer-clipboard">
+						<local_schema short_desc="Dávat přednost výběru CLIPBOARD před PRIMARY">
+							<longdesc>Je-li TRUE, bude Gnumeric dávat přednost modernímu výběru CLIPBOARD před klasickým výběrem PRIMARY. Nastavte na FALSE, pokud musíte pracovat se staršími aplikacemi jako Xterm nebo Emacs, které nastavují jen výběr PRIMARY.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="Počet automatických klauzulí">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Setřídit vzestupně">
+									<longdesc>Tato volba určuje počáteční stav tlačítka pro pořadí třídění v dialogu třídění.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Třídění zachovává formát">
+									<longdesc>Nastavení této volby způsobí, že tlačítka třídění na liště nástrojů budou zachovávat formát buňky při třídění, ovlivní úvodní nastavení zaškrtávacího okénka pro zachování formátu v dialogu třídění.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Rozlišovat velikost písmen při třídění">
+									<longdesc>Nastavení této volby způsobí, že všechna tlačítka třídění na liště nástrojů budou provádět třídění s rozlišením malých a velkých písmen, a ovlivní úvodní nastavení zaškrtávacího okénka pro rozlišování velkých a malých písmen v dialogu třídění.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Implicitně přepisovat soubory">
+									<longdesc>Před tím, než se přepíše existující soubor, je zobrazen varovný dialog. Nastavením této volby učiníte tlačítko &quot;Přepsat&quot; v tomto dialogu výchozím.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="Varovat při exportu do formátu s jediným listem">
+									<longdesc>Některé formáty souborů mohou obsahovat pouze jediný list. Tato proměnná určuje, zdali bude uživatel varován, pokud se má uložit pouze jeden list sešitu s více listy.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Výchozí úroveň komprimace souborů Gnumeric">
+								<longdesc>Toto celé číslo (mezi 0 a 9) udává úroveň komprimace prováděné Gnumericem při ukládání souborů v implicitním formátu. 0 je minimální komprese, 9 je maximální komprese.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Výchozí poměr zvětšení">
+									<longdesc>Počáteční poměr zvětšení pro nové sešity.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Výchozí svislá velikost okna">
+									<longdesc>Toto číslo (v intervalu 0,25 až 1,00) udává svislou část velikosti obrazovky pokrytou výchozím oknem.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Výchozí vodorovná velikost okna">
+									<longdesc>Toto číslo (v intervalu 0,25 až 1,00) udává vodorovnou část velikosti obrazovky pokrytou výchozím oknem.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="transitionkeys">
+								<local_schema short_desc="Klávesy přechodu">
+								</local_schema>
+							</entry>
+							<entry name="recalclag">
+								<local_schema short_desc="Prodleva automatického přepočítávání výrazů">
+									<longdesc>Je-li `lag&apos; 0, gnumeric přepočítává všechny automatické výrazy hned po každé změně. Nenulové hodnoty `lag&apos; umožňují gnumericu akumuluvat více změn před každým přepočítáním. Je-li `lag&apos; kladné, tak gnumeric při každé změně čeká `lag&apos; milisekund a pak přepočítává; pokud se v té době objeví více změn, jsou v té době také zpracovány. Je-li `lag&apos; záporné, přepočítává se jen po tichém období |lag| milisekund.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="Živé posunování">
+									<longdesc>Tato proměnná určuje, zdali je prováděno živé nebo zpožděné posunování.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Automatické doplňování">
+									<longdesc>Tato proměnná určuje, zdali je zapnuto automatické doplňování.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbars">
+							<entry name="ObjectToolbar">
+								<local_schema short_desc="Lišta nástrojů Objekt viditelná">
+									<longdesc>Tato proměnná určuje, jestli má být na začátku viditelná lišta nástrojů objekt.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar">
+								<local_schema short_desc="Lišta nástrojů Formát viditelná">
+									<longdesc>Tato proměnná určuje, jestli má být na začátku viditelná lišta nástrojů formát.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar">
+								<local_schema short_desc="Standardní lišta nástrojů viditelná">
+									<longdesc>Tato proměnná určuje, jestli má být na začátku viditelná standardní lišta nástrojů.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="Vertikální DPI">
+									<longdesc>Rozlišení obrazovky ve svislém směru.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="Horizontální DPI">
+									<longdesc>Rozlišení obrazovky ve vodorovném směru.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="Výchozí počet listů">
+								<longdesc>Počet zpočátku vytvořených listů v novém sešitu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Výchozí písmo je kurzíva.">
+								<longdesc>Tato hodnota určuje, zdali je výchozí písmo pro nový sešit kurzíva.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="Výchozí písmo je tučné.">
+								<longdesc>Tato hodnota určuje, zdali je výchozí písmo pro nový sešit tučné.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Výchozí název písma">
+								<longdesc>Výchozí název písma pro nové sešity.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Výchozí velikost písma">
+								<longdesc>Výchozí velikost písma pro nové sešity.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="Délka popisovačů zpětných operací">
+							<longdesc>Tato hodnota udává maximální délku popisovače příkazů v řetězech zpětných akcí a jejich vrácení.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="Počet zpětných položek">
+							<longdesc>Tato hodnota určuje maximální počet položek v seznamu zpětných operací či jejich vrácení.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Maximální velikost zpětných operací">
+							<longdesc>Tato hodnota určuje délku řetězu zpětných operací. Každá operace úpravy s sebou nese určitou velikost, pro porovnání s paměťovými nároky jednoduché úpravy jedné buňky (velikost 1). Seznam zpětných operací bude oříznut, pokud jeho celková velikost překročí nastavenou hodnotu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="Zobrazovat název listu v seznamu zpětných operací">
+							<longdesc>Tato hodnota určuje, zdali se má v seznamu zpětných operací či jejich vrácení zobrazovat název listu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Styl lišty nástrojů">
+							<longdesc>Styl lišty nástrojů. Platné hodnoty jsou both, both_horiz, icon a text</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Adresář pro ukládání souborů">
+						<longdesc>Adresář pro ukládání souborů. Standardně se ukládají do adresáře Dokumenty, pokud není nastaveno.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Strana stránky ke skenování">
+						<longdesc>Strana stránky ke skenování. Může to být jedna z následujících hodnot: „both“ (obě), „front“ (přední), „back“ (zadní)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Rozlišení pro skenování fotografií">
+						<longdesc>Rozlišení v bodech na palec použité při skenování fotografií.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Rozlišení pro skenování textu">
+						<longdesc>Rozlišení v bodech na palec použité při skenování textu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Rozlišení posledního skenovaného obrázku">
+						<longdesc>Rozlišení posledně skenovaného obrázku v bodech na palec.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Výška papíru v desetinách milimetru">
+						<longdesc>Výška papíru v desetinách milimetru (nebo 0 pro automatické zjištění papíru).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Šířka papíru v desetinách milimetru">
+						<longdesc>Šířka papíru v desetinách milimetru (nebo 0 pro automatické zjištění papíru).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Výška skenovaného obrázku v pixelech">
+						<longdesc>Výška skenovaného obrázku v pixelech. Tato hodnota je přizpůsobena posledně skenované stránce.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Šířka skenovaného obrázku v pixelech">
+						<longdesc>Šířka skenovaného obrázku v pixelech. Tato hodnota je přizpůsobena posledně skenované stránce.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Směr skenování">
+						<longdesc>Směr skenování stránky. Jsou dostupné následující možnosti: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Typ skenovaného dokumentu">
+						<longdesc>Typ skenovaného dokumentu. &apos;text&apos; pro textové dokumenty, &apos;photo&apos; pro fotografie. Toto nastavení rozhoduje o rozlišení skenování, barvách a následném zpracování.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Zařízení určené ke skenování">
+						<longdesc>Zařízení SANE pro načítání obrázků.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="Nastavit na hodnotu PRAVDA, pokud má být okno maximalizované">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Výška okna v pixelech">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Šířka okna v pixelech">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

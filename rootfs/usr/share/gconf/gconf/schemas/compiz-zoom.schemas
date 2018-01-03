@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/zoom/allscreens/options/initiate_button</key>
+      <applyto>/apps/compiz/plugins/zoom/allscreens/options/initiate_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;Button3</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate</short>
+        <long>Zoom In</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/zoom/allscreens/options/zoom_in_button</key>
+      <applyto>/apps/compiz/plugins/zoom/allscreens/options/zoom_in_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;Button4</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Zoom In</short>
+        <long>Zoom In</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/zoom/allscreens/options/zoom_out_button</key>
+      <applyto>/apps/compiz/plugins/zoom/allscreens/options/zoom_out_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;Button5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Zoom Out</short>
+        <long>Zoom Out</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/zoom/allscreens/options/zoom_pan_button</key>
+      <applyto>/apps/compiz/plugins/zoom/allscreens/options/zoom_pan_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;Button2</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Zoom Pan</short>
+        <long>Zoom pan</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/zoom/screen0/options/speed</key>
+      <applyto>/apps/compiz/plugins/zoom/screen0/options/speed</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1.5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Speed</short>
+        <long>Zoom Speed (0.1 - 50)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/zoom/screen0/options/timestep</key>
+      <applyto>/apps/compiz/plugins/zoom/screen0/options/timestep</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1.2</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Timestep</short>
+        <long>Zoom Timestep (0.1 - 50)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/zoom/screen0/options/zoom_factor</key>
+      <applyto>/apps/compiz/plugins/zoom/screen0/options/zoom_factor</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>2</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Zoom factor</short>
+        <long>Zoom factor (1.01 - 3)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/zoom/screen0/options/filter_linear</key>
+      <applyto>/apps/compiz/plugins/zoom/screen0/options/filter_linear</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Filter Linear</short>
+        <long>Use linear filter when zoomed in</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

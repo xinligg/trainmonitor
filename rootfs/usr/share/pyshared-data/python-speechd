@@ -1,0 +1,18 @@
+[python-package]
+format = 1
+python-version = all
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/share/pyshared/speechd=d
+/usr/share/pyshared/speechd/client.py=f
+/usr/share/pyshared/speechd/__init__.py=f
+/usr/share/pyshared/speechd/_test.py=f
+/usr/share/pyshared/speechd/paths.py=f
+/usr/share/pyshared/speechd_config=d
+/usr/share/pyshared/speechd_config/config.py=f
+/usr/share/pyshared/speechd_config/__init__.py=f
+/usr/share/pyshared/speechd_config/paths.py=f
+/usr/share/pyshared/speechd_config-0.0.egg-info=f
+/usr/share/pyshared/speechd-0.3.egg-info=f

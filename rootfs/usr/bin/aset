@@ -1,0 +1,34 @@
+#!/bin/sh
+#调节音量的脚本
+#用alsactl store来保存当前音量设置
+#用alsactl restore来加载上次音量设置
+amixer sset "Front" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Front Mic Boost" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Master" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Master Mono" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Master Digital" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Playback" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Headphone" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "PCM" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "PCM,1" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "DAC" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "DAC,0" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "DAC,1" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Synth" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Mic Boost" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Speaker" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Surround" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Center" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "LFE" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset Line,0 50%,50% unmute cap >/dev/null 2>&1
+amixer sset "CD" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Phone" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "IEC958" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "PC Speaker" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Aux" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Mono" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Capture" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Mix" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Stereo Downmix" 100%,100% unmute cap >/dev/null 2>&1
+amixer sset "Mic" 100%,100% mute cap >/dev/null 2>&1
+amixer sset "Video" 100%,100% unmute cap >/dev/null 2>&1

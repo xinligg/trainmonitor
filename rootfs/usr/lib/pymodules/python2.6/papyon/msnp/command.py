@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/msnp/command.py

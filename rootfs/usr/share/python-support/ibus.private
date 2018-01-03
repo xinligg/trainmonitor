@@ -1,0 +1,17 @@
+/usr/share/ibus/setup/main.py
+/usr/share/ibus/setup/icon.py
+/usr/share/ibus/setup/enginecombobox.py
+/usr/share/ibus/setup/enginetreeview.py
+/usr/share/ibus/setup/engineabout.py
+/usr/share/ibus/setup/keyboardshortcut.py
+/usr/share/ibus/ui/gtk/candidatepanel.py
+/usr/share/ibus/ui/gtk/handle.py
+/usr/share/ibus/ui/gtk/icon.py
+/usr/share/ibus/ui/gtk/languagebar.py
+/usr/share/ibus/ui/gtk/main.py
+/usr/share/ibus/ui/gtk/menu.py
+/usr/share/ibus/ui/gtk/notifications.py
+/usr/share/ibus/ui/gtk/panel.py
+/usr/share/ibus/ui/gtk/propitem.py
+/usr/share/ibus/ui/gtk/toolitem.py
+/usr/share/ibus/ui/gtk/engineabout.py

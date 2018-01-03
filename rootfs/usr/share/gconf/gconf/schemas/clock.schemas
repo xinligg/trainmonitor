@@ -1,0 +1,622 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+    <schemalist>
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/format</key>
+        <owner>clock-applet</owner>
+        <type>string</type>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <default>
+            <!-- Translators:
+               This controls whether the GNOME panel clock should display time in 24 hour mode
+               or 12 hour mode by default. The only valid values for this are "24-hour" and
+               "12-hour". If your locale uses 24 hour time notation, translate this to "24-hour".
+               If your locale uses 12 hour time notation with am/pm, translate this to "12-hour".
+               Do NOT translate this into anything else than "24-hour" or "12-hour". For example,
+               if you translate this to "24 sata" or anything else that isn't "24-hour" or
+               "12-hour", things will not work.
+              -->
+            24-hour
+          </default>
+          <short>Hour format</short>
+          <long>
+            This key specifies the hour format used by the clock applet.
+            Possible values are "12-hour", "24-hour", "internet", "unix" and
+	    "custom".
+            If set to "internet", the clock will display Internet time.
+            The Internet time system divides the day into 1000 ".beats". There
+            are no time zones in this system, so time is the same all over the
+            world.
+            If set to "unix", the clock will display time in seconds since
+            Epoch, i.e. 1970-01-01.
+	    If set to "custom", the clock will display time according to the
+	    format specified in the custom_format key.
+          </long>
+        </locale>
+        <locale name="af">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ar">
+          <default>12-hour</default>
+        </locale>
+        <locale name="as">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ast">
+          <default>24-hour</default>
+        </locale>
+        <locale name="az">
+          <default>24-hour</default>
+        </locale>
+        <locale name="be">
+          <default>24-hour</default>
+        </locale>
+        <locale name="be@latin">
+          <default>24-hour</default>
+        </locale>
+        <locale name="bg">
+          <default>24-hour</default>
+        </locale>
+        <locale name="bn">
+          <default>24-hour</default>
+        </locale>
+        <locale name="bn_IN">
+          <default>24-hour</default>
+        </locale>
+        <locale name="br">
+          <default>24-eur</default>
+        </locale>
+        <locale name="bs">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ca">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ca@valencia">
+          <default>24-hour</default>
+        </locale>
+        <locale name="crh">
+          <default>24-hour</default>
+        </locale>
+        <locale name="cs">
+          <default>24-hour</default>
+        </locale>
+        <locale name="cy">
+          <default>24-hour</default>
+        </locale>
+        <locale name="da">
+          <default>24-hour</default>
+        </locale>
+        <locale name="de">
+          <default>24-hour</default>
+        </locale>
+        <locale name="dz">
+          <default>ཆུ་ཚོད་-༢༤</default>
+        </locale>
+        <locale name="el">
+          <default>24-hour</default>
+        </locale>
+        <locale name="en@shaw">
+          <default>24-hour</default>
+        </locale>
+        <locale name="en_CA">
+          <default>24-hour</default>
+        </locale>
+        <locale name="en_GB">
+          <default>24-hour</default>
+        </locale>
+        <locale name="eo">
+          <default>24-hour</default>
+        </locale>
+        <locale name="es">
+          <default>24-hour</default>
+        </locale>
+        <locale name="et">
+          <default>24-hour</default>
+        </locale>
+        <locale name="eu">
+          <default>24-hour</default>
+        </locale>
+        <locale name="fa">
+          <default>24-hour</default>
+        </locale>
+        <locale name="fi">
+          <default>24-hour</default>
+        </locale>
+        <locale name="fr">
+          <default>24-hour</default>
+        </locale>
+        <locale name="fur">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ga">
+          <default>24-hour</default>
+        </locale>
+        <locale name="gl">
+          <default>24-hour</default>
+        </locale>
+        <locale name="gu">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ha">
+          <default>24-hour</default>
+        </locale>
+        <locale name="he">
+          <default>24-hour</default>
+        </locale>
+        <locale name="hi">
+          <default>24-घंटे</default>
+        </locale>
+        <locale name="hr">
+          <default>24-hour</default>
+        </locale>
+        <locale name="hu">
+          <default>24-hour</default>
+        </locale>
+        <locale name="hy">
+          <default>24-ժամ</default>
+        </locale>
+        <locale name="id">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ig">
+          <default>Elekere nke Iri abụọ na anọ</default>
+        </locale>
+        <locale name="is">
+          <default>24-hour</default>
+        </locale>
+        <locale name="it">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ja">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ka">
+          <default>24-hour</default>
+        </locale>
+        <locale name="kn">
+          <default>೨೪-ಗಂಟೆ</default>
+        </locale>
+        <locale name="ko">
+          <default>12-hour</default>
+        </locale>
+        <locale name="ku">
+          <default>24-demjimêr</default>
+        </locale>
+        <locale name="ky">
+          <default>24-hour</default>
+        </locale>
+        <locale name="lt">
+          <default>24-hour</default>
+        </locale>
+        <locale name="lv">
+          <default>24-hour</default>
+        </locale>
+        <locale name="mai">
+          <default>24-घंटा</default>
+        </locale>
+        <locale name="mg">
+          <default>12-hour</default>
+        </locale>
+        <locale name="mi">
+          <default>24-hour</default>
+        </locale>
+        <locale name="mk">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ml">
+          <default>24-മണിക്കൂര്‍</default>
+        </locale>
+        <locale name="mn">
+          <default>24-цаг</default>
+        </locale>
+        <locale name="mr">
+          <default>24-तास</default>
+        </locale>
+        <locale name="ms">
+          <default>24-hour</default>
+        </locale>
+        <locale name="nb">
+          <default>24-hour</default>
+        </locale>
+        <locale name="nds">
+          <default>24-Stunnen</default>
+        </locale>
+        <locale name="ne">
+          <default>२४ घन्टा</default>
+        </locale>
+        <locale name="nl">
+          <default>24-hour</default>
+        </locale>
+        <locale name="nn">
+          <default>24-hour</default>
+        </locale>
+        <locale name="nso">
+          <default>24-hour</default>
+        </locale>
+        <locale name="oc">
+          <default>24-hour</default>
+        </locale>
+        <locale name="or">
+          <default>24-hour</default>
+        </locale>
+        <locale name="pa">
+          <default>12-hour</default>
+        </locale>
+        <locale name="pl">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ps">
+          <default>۲۴-ګنټې</default>
+        </locale>
+        <locale name="pt">
+          <default>24-hour</default>
+        </locale>
+        <locale name="pt_BR">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ro">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ru">
+          <default>24-hour</default>
+        </locale>
+        <locale name="si">
+          <default>පැය 24</default>
+        </locale>
+        <locale name="sk">
+          <default>24-hour</default>
+        </locale>
+        <locale name="sl">
+          <default>24-hour</default>
+        </locale>
+        <locale name="sq">
+          <default>24-hour</default>
+        </locale>
+        <locale name="sr">
+          <default>24-hour</default>
+        </locale>
+        <locale name="sr@ije">
+          <default>24-hour</default>
+        </locale>
+        <locale name="sr@latin">
+          <default>24-hour</default>
+        </locale>
+        <locale name="sv">
+          <default>24-hour</default>
+        </locale>
+        <locale name="ta">
+          <default>24-hour</default>
+        </locale>
+        <locale name="te">
+          <default>24-hour</default>
+        </locale>
+        <locale name="th">
+          <default>24-hour</default>
+        </locale>
+        <locale name="tr">
+          <default>24-hour</default>
+        </locale>
+        <locale name="uk">
+          <default>24-hour</default>
+        </locale>
+        <locale name="uz">
+          <default>24-soat</default>
+        </locale>
+        <locale name="uz@cyrillic">
+          <default>24-соат</default>
+        </locale>
+        <locale name="vi">
+          <default>24-hour</default>
+        </locale>
+        <locale name="xh">
+          <default>24-hour</default>
+        </locale>
+        <locale name="yo">
+          <default>wákàtí mẹ́rìnlélógún</default>
+        </locale>
+        <locale name="zh_CN">
+          <default>24-hour</default>
+        </locale>
+        <locale name="zh_HK">
+          <default>24-hour</default>
+        </locale>
+        <locale name="zh_TW">
+          <default>24-hour</default>
+        </locale>
+	<locale name="en_US">
+	  <default>12-hour</default>
+	</locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/custom_format</key>
+        <owner>clock-applet</owner>
+        <type>string</type>
+        <default></default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Custom format of the clock</short>
+          <long>
+            This key specifies the format used by the clock applet when the
+	    format key is set to "custom". You can use conversion specifiers
+	    understood by strftime() to obtain a specific format. See the
+	    strftime() manual for more information.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/show_seconds</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Show time with seconds</short>
+          <long>If true, display seconds in time.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/show_date</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>true</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Show date in clock</short>
+          <long>If true, display date in the clock, in addition to time.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/show_tooltip</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>true</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Show date in tooltip</short>
+          <long>
+            If true, show date in a tooltip when the pointer is over the clock.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/show_weather</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>true</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Show weather in clock</short>
+          <long>If true, display a weather icon.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/show_temperature</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>true</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Show temperature in clock</short>
+          <long>If true, show the temperature next to the weather icon.</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/gmt_time</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Use UTC</short>
+          <long>
+	    The use of this key was deprecated in GNOME 2.28 in favour of the
+	    use of timezones. The schema is retained for compatibility with
+	    older versions.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/config_tool</key>
+        <owner>clock-applet</owner>
+        <type>string</type>
+        <default> </default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Time configuration tool</short>
+          <long>
+            The use of this key was deprecated in GNOME 2.22 with the use
+            of an internal time configuration tool. The schema is retained for
+            compatibility with older versions.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/show_week_numbers</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>true</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Show week numbers in calendar</short>
+          <long>
+            If true, show week numbers in the calendar.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/expand_appointments</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Expand list of appointments</short>
+          <long>
+            If true, expand the list of appointments in the calendar window.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/expand_birthdays</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Expand list of birthdays</short>
+          <long>
+            If true, expand the list of birthdays in the calendar window.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/expand_tasks</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Expand list of tasks</short>
+          <long>
+            If true, expand the list of tasks in the calendar window.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/expand_weather</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Expand list of weather information</short>
+          <long>
+            If true, expand the list of weather information in the calendar
+            window.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/expand_locations</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Expand list of locations</short>
+          <long>
+            If true, expand the list of locations in the calendar
+            window.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/hour_format</key>
+        <owner>clock-applet</owner>
+        <type>int</type>
+        <default>12</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Hour format</short>
+          <long>
+	    The use of this key was deprecated in GNOME 2.6 in favour of the
+	    'format' key. The schema is retained for compatibility with older
+	    versions.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/unix_time</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Use UNIX time</short>
+          <long>
+	    The use of this key was deprecated in GNOME 2.6 in favour of the
+	    'format' key. The schema is retained for compatibility with older
+	    versions.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/internet_time</key>
+        <owner>clock-applet</owner>
+        <type>bool</type>
+        <default>false</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Use Internet time</short>
+          <long>
+	    The use of this key was deprecated in GNOME 2.6 in favour of the
+	    'format' key. The schema is retained for compatibility with older
+	    versions.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/cities</key>
+        <owner>clock-applet</owner>
+        <type>list</type>
+        <list_type>string</list_type>
+        <default>[]</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>List of locations</short>
+          <long>
+            A list of locations to display in the calendar window.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/temperature_unit</key>
+        <owner>clock-applet</owner>
+        <type>string</type>
+        <default>Default</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Temperature unit</short>
+          <long>
+            The unit to use when showing temperatures.
+          </long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/clock_applet/prefs/speed_unit</key>
+        <owner>clock-applet</owner>
+        <type>string</type>
+        <default>Default</default>
+        <gettext_domain>gnome-panel-2.0</gettext_domain>
+        <locale name="C">
+          <short>Speed unit</short>
+          <long>
+            The unit to use when showing wind speed.
+          </long>
+        </locale>
+      </schema>
+
+  </schemalist>
+</gconfschemafile>

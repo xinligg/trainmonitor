@@ -1,0 +1,77 @@
+#!/bin/busybox sh
+
+try_mount()
+{
+	RW=$1; shift
+	# FIXME: any way to mount ntfs gracefully?
+	mount -o $RW $@ || mount.ntfs-3g -o rw,force $@
+}
+
+#SRC=BOOT
+IFHAVEDISKPART=0
+LOG=/dev/null
+[ -e $LOG ] || busybox mknod $LOG c 1 3
+
+#exec 2> $LOG
+
+#/bin/sh
+
+busybox mount -t proc proc /proc
+#busybox mount -t tmpfs mdev /dev 
+busybox mount -t devtmpfs udev /dev 
+busybox mount -t sysfs sys /sys
+
+
+busybox --install -s
+
+#echo /sbin/mdev > /proc/sys/kernel/hotplug
+export PATH=$PATH:/bin:/sbin:/usr/bin:/usr/sbin
+#export PATH=$PATH:/system/bin
+
+echo 0 0 0 0 > /proc/sys/kernel/printk
+
+#echo Mounting root file system...
+
+#mdev -s
+
+#echo "src=$SRC"
+#/bin/busybox sh
+
+#split_partition
+
+while [ 1 ]; do
+	for device in /dev/sd* /dev/sr* /dev/cdrom; do
+#	for device in `grep -E '^ .*[^k][0-9]$' /proc/partitions  | tr -s ' ' | cut -f5 -d' '`; do
+		mount $device /mnt
+		cd /mnt/$SRC
+		if [  ! -e system.img ]; then
+			cd /
+			umount /mnt
+			continue
+		fi
+		mount -o loop /mnt/$SRC/system.img /sfs
+		mount -t tmpfs tmpfs /tmpfs
+		#echo " found at $device"
+		harddisk=`basename $device`
+		break
+	done
+	mountpoint -q /sfs && break
+	sleep 1
+	echo -n .
+done
+
+echo "mount aufs /root"
+#mount -o rw $SRC /root
+mount -t aufs -o br=/tmpfs=rw:/sfs=ro none /root
+mount -o bind /mnt/$SRC /root/host
+#mount --move /sys /root/sys
+#mount --move /dev /root/dev
+#mount --move /proc /root/proc
+
+echo "harddisk=$harddisk"
+
+echo "run rootfs init"
+#cp -r /lib/modules/* /root/lib/modules
+exec switch_root /root /sbin/init
+
+sh # avoid kernel panic

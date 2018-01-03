@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/allscreens/options/pulse</key>
+      <applyto>/apps/compiz/plugins/blur/allscreens/options/pulse</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Pulse</short>
+        <long>Pulse effect</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/blur_speed</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/blur_speed</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>3.5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Blur Speed</short>
+        <long>Window blur speed (0.1 - 10.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/focus_blur_match</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/focus_blur_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>toolbar | menu | utility | normal | dialog | modaldialog</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Focus blur windows</short>
+        <long>Windows that should be affected by focus blur (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/focus_blur</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/focus_blur</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Focus Blur</short>
+        <long>Blur windows that doesn't have focus</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/alpha_blur_match</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/alpha_blur_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>any</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Alpha blur windows</short>
+        <long>Windows that should be use alpha blur by default (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/alpha_blur</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/alpha_blur</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Alpha Blur</short>
+        <long>Blur behind translucent parts of windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/filter</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/filter</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Blur Filter</short>
+        <long>Filter method used for blurring (0 = 4xBilinear, 1 = Gaussian, 2 = Mipmap)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/gaussian_radius</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/gaussian_radius</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>3</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Gaussian Radius</short>
+        <long>Gaussian radius (1 - 15)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/gaussian_strength</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/gaussian_strength</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1.0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Gaussian Strength</short>
+        <long>Gaussian strength (0.0 - 1.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/mipmap_lod</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/mipmap_lod</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>2.5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Mipmap LOD</short>
+        <long>Mipmap level-of-detail (0.1 - 5.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/saturation</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/saturation</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>100</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Blur Saturation</short>
+        <long>Blur saturation (0 - 100)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/occlusion</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/occlusion</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Blur Occlusion</short>
+        <long>Disable blurring of screen regions obscured by other windows.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/blur/screen0/options/independent_tex</key>
+      <applyto>/apps/compiz/plugins/blur/screen0/options/independent_tex</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Independent texture fetch</short>
+        <long>Use the available texture units to do as many as possible independent texture fetches.</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

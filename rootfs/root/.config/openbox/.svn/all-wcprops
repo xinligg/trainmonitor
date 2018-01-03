@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/skeleton/overwrite/root/.config/openbox
+END
+autostart.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/skeleton/overwrite/root/.config/openbox/autostart.sh
+END
+menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/skeleton/overwrite/root/.config/openbox/menu.xml
+END
+rc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/skeleton/overwrite/root/.config/openbox/rc.xml
+END

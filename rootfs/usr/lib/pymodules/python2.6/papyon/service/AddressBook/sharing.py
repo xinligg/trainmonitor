@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/service/AddressBook/sharing.py

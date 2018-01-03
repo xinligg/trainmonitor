@@ -1,0 +1,8 @@
+pyversions=2.5-
+
+/usr/share/pyshared/pyatspi/__init__.py
+/usr/share/pyshared/pyatspi/accessible.py
+/usr/share/pyshared/pyatspi/constants.py
+/usr/share/pyshared/pyatspi/event.py
+/usr/share/pyshared/pyatspi/registry.py
+/usr/share/pyshared/pyatspi/utils.py

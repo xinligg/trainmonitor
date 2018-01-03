@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/gnomecompat/allscreens/options/main_menu_key</key>
+      <applyto>/apps/compiz/plugins/gnomecompat/allscreens/options/main_menu_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;F1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Show Main Menu</short>
+        <long>Show the main menu</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/gnomecompat/allscreens/options/run_key</key>
+      <applyto>/apps/compiz/plugins/gnomecompat/allscreens/options/run_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;F2</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Run Dialog</short>
+        <long>Show Run Application dialog</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/gnomecompat/allscreens/options/command_screenshot</key>
+      <applyto>/apps/compiz/plugins/gnomecompat/allscreens/options/command_screenshot</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>gnome-screenshot</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Screenshot command line</short>
+        <long>Screenshot command line</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/gnomecompat/allscreens/options/run_command_screenshot_key</key>
+      <applyto>/apps/compiz/plugins/gnomecompat/allscreens/options/run_command_screenshot_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Print</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Take a screenshot</short>
+        <long>Take a screenshot</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/gnomecompat/allscreens/options/command_window_screenshot</key>
+      <applyto>/apps/compiz/plugins/gnomecompat/allscreens/options/command_window_screenshot</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>gnome-screenshot --window</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Window screenshot command line</short>
+        <long>Window screenshot command line</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/gnomecompat/allscreens/options/run_command_window_screenshot_key</key>
+      <applyto>/apps/compiz/plugins/gnomecompat/allscreens/options/run_command_window_screenshot_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;Print</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Take a screenshot of a window</short>
+        <long>Take a screenshot of a window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/gnomecompat/allscreens/options/command_terminal</key>
+      <applyto>/apps/compiz/plugins/gnomecompat/allscreens/options/command_terminal</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>gnome-terminal</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Terminal command line</short>
+        <long>Terminal command line</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/gnomecompat/allscreens/options/run_command_terminal_key</key>
+      <applyto>/apps/compiz/plugins/gnomecompat/allscreens/options/run_command_terminal_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Open a terminal</short>
+        <long>Open a terminal</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

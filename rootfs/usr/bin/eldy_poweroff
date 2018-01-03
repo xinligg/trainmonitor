@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python /usr/share/howtododialog/system-command.py

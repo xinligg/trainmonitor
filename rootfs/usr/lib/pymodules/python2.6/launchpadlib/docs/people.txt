@@ -1,0 +1,1 @@
+/usr/share/pyshared/launchpadlib/docs/people.txt

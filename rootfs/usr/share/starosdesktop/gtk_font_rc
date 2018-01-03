@@ -1,0 +1,190 @@
+style "my_font_style" {
+  fg[NORMAL] = "#ffffff"
+  bg[NORMAL] = "#000000"
+  base[NORMAL] = "#000000"
+  fg[ACTIVE] = "#ffffff"
+  bg[ACTIVE] = "#000000"
+  base[ACTIVE] = "#000000"
+  fg[PRELIGHT] = "#ffffff"
+  bg[PRELIGHT] = "#000000"
+  base[PRELIGHT] = "#000000"
+  font_name = "Sans 20"
+}
+widget "*label_title" style "my_font_style"
+#widget "GtkWidget*" style "my_font_style"
+
+style "my_textview_style" {
+  bg[NORMAL] = "#cccccc"
+  fg[NORMAL] = "#cccccc"
+#  base[NORMAL] = "#1D47AB"
+  font_name = "Sans 10"
+}
+#widget "*GtkTextView*" style "my_textview_style"
+widget "*label_server" style "my_textview_style"
+
+style "label_app_style" {
+  bg[NORMAL] = "#cccccc"
+  fg[NORMAL] = "#cccccc"
+  font_name = "Sans 12"
+}
+widget "*label_app" style "label_app_style"
+
+style "search_entry_style" {
+	xthickness                              = 3
+	ythickness                              = 3
+
+	GtkWidget::interior_focus               = 0
+	GtkEntry::inner_border                  = { 0, 0, 0, 0}
+
+    engine "pixmap" {
+	image {
+	    function = BOX
+	    recolorable = TRUE
+#	    state = NORMAL
+		border = { 4, 4, 5, 4}
+	    stretch = TRUE
+	    file = "image/search_entry.png"
+	}
+    }
+  bg[NORMAL] = "#cccccc"
+  fg[NORMAL] = "#cccccc"
+#  base[NORMAL] = "#000000"
+  font_name = "Sans 12"
+}
+widget "*search_entry" style "search_entry_style"
+class "*GtkEntry*" style "search_entry_style"
+#widget "*email_button*" style "email_button_style"
+#widget "*starcenter_button*" style "email_button_style"
+#widget "*label_app" style "email_button_style"
+
+style "line_style" {
+    xthickness = 1
+    ythickness = 1
+}
+class "GtkSeparator" style "line_style"
+
+style "search_button_style" {
+    xthickness                              = 3
+    ythickness                              = 3
+
+#    GtkButton::inner-border                 = { 4, 4, 2, 4}
+#    GtkButton::outside-border               = { 0, 0, 0, 0}
+#    GtkWidget::focus-line-width             = 0
+
+    engine "pixmap" {
+	image {
+	    function = FOCUS
+	}
+	image {
+	    function = BOX
+	    recolorable = TRUE
+	    state = ACTIVE
+	    stretch = TRUE
+	    file = "image/search_button_press.png"
+	}
+	image {
+	    function = BOX
+	    recolorable = TRUE
+	    state = PRELIGHT
+	    stretch = TRUE
+	    file = "image/search_button_prelight.png"
+	}
+	image {
+	    function = BOX
+	    recolorable = TRUE
+	    state = NORMAL
+	    stretch = TRUE
+	    file = "image/search_button_normal.png"
+        border = {0, 0, 0, 0}
+	}
+    }
+  bg[NORMAL] = "#cccccc"
+  fg[NORMAL] = "#cccccc"
+#  base[NORMAL] = "#000000"
+#  bg_pixmap[NORMAL] = "image/find.png"
+  font_name = "Sans 12"
+}
+widget "*search_button" style "search_button_style"
+
+style "application_button_style" {
+    xthickness                              = 3
+    ythickness                              = 3
+
+    engine "pixmap" {
+	image {
+	    function = FOCUS
+	}
+	image {
+	    function = BOX
+	    recolorable = TRUE
+	    state = ACTIVE
+	    stretch = TRUE
+	    file = "image/application_button_press.png"
+	}
+	image {
+	    function = BOX
+	    recolorable = TRUE
+	    state = PRELIGHT
+	    stretch = TRUE
+	    file = "image/application_button_prelight.png"
+	}
+	image {
+	    function = BOX
+	    recolorable = TRUE
+	    state = NORMAL
+	    stretch = TRUE
+	    file = "image/application_button_normal.png"
+            border = {0, 0, 0, 0}
+	}
+    }
+  bg[NORMAL] = "#cccccc"
+  fg[NORMAL] = "#cccccc"
+#  base[NORMAL] = "#000000"
+#  bg_pixmap[NORMAL] = "image/find.png"
+#  font_name = "Sans 12"
+}
+widget "*app_button" style "application_button_style"
+
+style "webapp_button_style" {
+    xthickness                              = 3
+    ythickness                              = 3
+
+    engine "pixmap" {
+
+	image {
+	    function = FOCUS
+	}
+	image {
+	    function = BOX
+
+	}
+	}
+}
+widget "*web_app" style "webapp_button_style"
+
+#style "my_window_style" {
+#    engine "pixmap" {
+#	image {
+#	    function = FLAT_BOX
+#	    recolorable = TRUE
+#	    stretch = TRUE
+#	    file = "./bg_new_img.jpg"
+#	}
+#    }
+#}
+#widget "main_window" style "my_window_style"
+
+#style "fixed" {
+#    bg_pixmap[NORMAL] = "<parent>"
+#    bg_pixmap[INSENSITIVE]="<parent>"
+#    bg_pixmap[ACTIVE]="<parent>"
+#    bg_pixmap[PRELIGHT]="<parent>"
+#}
+#widget "win.fixed" style "fixed"
+
+# Setting default font style
+#class "GtkWidget" style "my_font_style"
+#class "GtkLabel" style "my_font_style"
+#class "GtkTextView" style "my_textview_style"
+#class "*email_button*" style "email_button_style"
+#class "GtkButton" style "email_button_style"

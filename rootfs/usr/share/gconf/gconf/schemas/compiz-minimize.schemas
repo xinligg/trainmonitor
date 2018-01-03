@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/minimize/screen0/options/speed</key>
+      <applyto>/apps/compiz/plugins/minimize/screen0/options/speed</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1.5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Speed</short>
+        <long>Minimize speed (0.1 - 50.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/minimize/screen0/options/timestep</key>
+      <applyto>/apps/compiz/plugins/minimize/screen0/options/timestep</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>0.5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Timestep</short>
+        <long>Minimize timestep (0.1 - 50.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/minimize/screen0/options/window_match</key>
+      <applyto>/apps/compiz/plugins/minimize/screen0/options/window_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>toolbar | utility | dialog | normal</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Minimize Windows</short>
+        <long>Windows that should be transformed when minimized (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/minimize/screen0/options/shade_resistance</key>
+      <applyto>/apps/compiz/plugins/minimize/screen0/options/shade_resistance</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>75</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Shade Resistance</short>
+        <long>Shade resistance (0 - 100)</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

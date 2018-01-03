@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/gnet/protocol/__init__.py

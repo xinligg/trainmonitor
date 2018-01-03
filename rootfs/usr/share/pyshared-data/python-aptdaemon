@@ -1,0 +1,35 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 1
+[files]
+/usr/lib/python2.6/dist-packages/aptdaemon=d
+/usr/lib/python2.6/dist-packages/aptdaemon/__init__.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/client.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/console.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/core.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/debconf.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/defer.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/enums.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/errors.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/loop.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/lock.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/policykit1.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/progress.py=f
+/usr/lib/python2.6/dist-packages/aptdaemon/worker.py=f
+/usr/share/pyshared/aptdaemon=d
+/usr/share/pyshared/aptdaemon/__init__.py=f
+/usr/share/pyshared/aptdaemon/client.py=f
+/usr/share/pyshared/aptdaemon/console.py=f
+/usr/share/pyshared/aptdaemon/core.py=f
+/usr/share/pyshared/aptdaemon/debconf.py=f
+/usr/share/pyshared/aptdaemon/defer.py=f
+/usr/share/pyshared/aptdaemon/enums.py=f
+/usr/share/pyshared/aptdaemon/errors.py=f
+/usr/share/pyshared/aptdaemon/loop.py=f
+/usr/share/pyshared/aptdaemon/lock.py=f
+/usr/share/pyshared/aptdaemon/policykit1.py=f
+/usr/share/pyshared/aptdaemon/progress.py=f
+/usr/share/pyshared/aptdaemon/worker.py=f

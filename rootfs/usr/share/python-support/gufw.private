@@ -1,0 +1,9 @@
+/usr/share/gufw/instance.py
+/usr/share/gufw/gufw.py
+/usr/share/gufw/controller.py
+/usr/share/gufw/model/Rule.py
+/usr/share/gufw/model/GufwLog.py
+/usr/share/gufw/model/Firewall.py
+/usr/share/gufw/model/__init__.py
+/usr/share/gufw/view/guiGufw.py
+/usr/share/gufw/view/__init__.py

@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/service/description/AB/ABGroupContactDelete.py

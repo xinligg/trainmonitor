@@ -1,0 +1,670 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/active_plugins</key>
+      <applyto>/apps/compiz/general/allscreens/options/active_plugins</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[core,ccp,dbus,place,mousepoll,gnomecompat,move,resize,decoration,png,svg,imgjpeg,text,commands,neg,wall,snap,animation,scale,scaleaddon,expo,staticswitcher,regex,resizeinfo,workarounds,ezoom,vpswitch,fade,session]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Active Plugins</short>
+        <long>List of currently active plugins</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/audible_bell</key>
+      <applyto>/apps/compiz/general/allscreens/options/audible_bell</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Audible Bell</short>
+        <long>Audible system beep</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/ignore_hints_when_maximized</key>
+      <applyto>/apps/compiz/general/allscreens/options/ignore_hints_when_maximized</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Ignore Hints When Maximized</short>
+        <long>Ignore size increment and aspect hints when window is maximized</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/hide_skip_taskbar_windows</key>
+      <applyto>/apps/compiz/general/allscreens/options/hide_skip_taskbar_windows</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Hide Skip Taskbar Windows</short>
+        <long>Hide windows not in taskbar when entering show desktop mode</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/edge_delay</key>
+      <applyto>/apps/compiz/general/allscreens/options/edge_delay</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Edge Trigger Delay</short>
+        <long>Duration the pointer must rest in a screen edge before an edge action is taken. (0 - 10000)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/cursor_theme</key>
+      <applyto>/apps/compiz/general/allscreens/options/cursor_theme</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Cursor theme</short>
+        <long>Cursor theme name</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/cursor_size</key>
+      <applyto>/apps/compiz/general/allscreens/options/cursor_size</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>18</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Cursor size</short>
+        <long>Size of the cursor (8 - 128)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/ping_delay</key>
+      <applyto>/apps/compiz/general/allscreens/options/ping_delay</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>5000</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Ping Delay</short>
+        <long>Interval between ping messages (1000 - 30000)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/texture_filter</key>
+      <applyto>/apps/compiz/general/allscreens/options/texture_filter</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Texture Filter</short>
+        <long>Texture filtering (0 = Fast, 1 = Good, 2 = Best)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/click_to_focus</key>
+      <applyto>/apps/compiz/general/allscreens/options/click_to_focus</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Click To Focus</short>
+        <long>Click on window moves input focus to it</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/raise_on_click</key>
+      <applyto>/apps/compiz/general/allscreens/options/raise_on_click</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Raise On Click</short>
+        <long>Raise windows when clicked</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/autoraise</key>
+      <applyto>/apps/compiz/general/allscreens/options/autoraise</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Auto-Raise</short>
+        <long>Raise selected windows after interval</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/autoraise_delay</key>
+      <applyto>/apps/compiz/general/allscreens/options/autoraise_delay</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>1000</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Auto-Raise Delay</short>
+        <long>Interval before raising selected windows (0 - 10000)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/close_window_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/close_window_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;F4</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Close Window</short>
+        <long>Close active window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/close_window_button</key>
+      <applyto>/apps/compiz/general/allscreens/options/close_window_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Close Window</short>
+        <long>Close active window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/raise_window_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/raise_window_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Raise Window</short>
+        <long>Raise window above other windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/raise_window_button</key>
+      <applyto>/apps/compiz/general/allscreens/options/raise_window_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;Button6</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Raise Window</short>
+        <long>Raise window above other windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/lower_window_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/lower_window_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Lower Window</short>
+        <long>Lower window beneath other windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/lower_window_button</key>
+      <applyto>/apps/compiz/general/allscreens/options/lower_window_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;Button6</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Lower Window</short>
+        <long>Lower window beneath other windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/unmaximize_window_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/unmaximize_window_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;F5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Unmaximize Window</short>
+        <long>Unmaximize active window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/minimize_window_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/minimize_window_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;F9</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Minimize Window</short>
+        <long>Minimize active window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/minimize_window_button</key>
+      <applyto>/apps/compiz/general/allscreens/options/minimize_window_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Minimize Window</short>
+        <long>Minimize active window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/maximize_window_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/maximize_window_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;F10</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Maximize Window</short>
+        <long>Maximize active window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/maximize_window_horizontally_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/maximize_window_horizontally_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Maximize Window Horizontally</short>
+        <long>Maximize active window horizontally</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/maximize_window_vertically_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/maximize_window_vertically_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Maximize Window Vertically</short>
+        <long>Maximize active window vertically</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/window_menu_button</key>
+      <applyto>/apps/compiz/general/allscreens/options/window_menu_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;Button3</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Window Menu</short>
+        <long>Window menu button binding</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/window_menu_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/window_menu_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;space</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Window Menu</short>
+        <long>Window menu key binding</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/show_desktop_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/show_desktop_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;d</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Show Desktop</short>
+        <long>Hide all windows and focus desktop</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/show_desktop_edge</key>
+      <applyto>/apps/compiz/general/allscreens/options/show_desktop_edge</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Show Desktop</short>
+        <long>Hide all windows and focus desktop</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/toggle_window_maximized_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/toggle_window_maximized_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Toggle Window Maximized</short>
+        <long>Toggle active window maximized</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/toggle_window_maximized_button</key>
+      <applyto>/apps/compiz/general/allscreens/options/toggle_window_maximized_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Toggle Window Maximized</short>
+        <long>Toggle active window maximized</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/toggle_window_maximized_horizontally_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/toggle_window_maximized_horizontally_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Toggle Window Maximized Horizontally</short>
+        <long>Toggle active window maximized horizontally</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/toggle_window_maximized_vertically_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/toggle_window_maximized_vertically_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Toggle Window Maximized Vertically</short>
+        <long>Toggle active window maximized vertically</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/toggle_window_shaded_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/toggle_window_shaded_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;s</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Toggle Window Shaded</short>
+        <long>Toggle active window shaded</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/allscreens/options/slow_animations_key</key>
+      <applyto>/apps/compiz/general/allscreens/options/slow_animations_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Slow Animations</short>
+        <long>Toggle use of slow animations</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/hsize</key>
+      <applyto>/apps/compiz/general/screen0/options/hsize</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>4</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Horizontal Virtual Size</short>
+        <long>Screen size multiplier for horizontal virtual size (1 - 32)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/vsize</key>
+      <applyto>/apps/compiz/general/screen0/options/vsize</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Vertical Virtual Size</short>
+        <long>Screen size multiplier for vertical virtual size (1 - 32)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/number_of_desktops</key>
+      <applyto>/apps/compiz/general/screen0/options/number_of_desktops</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Number of Desktops</short>
+        <long>Number of virtual desktops (1 - 1)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/lighting</key>
+      <applyto>/apps/compiz/general/screen0/options/lighting</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Lighting</short>
+        <long>Use diffuse light when screen is transformed</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/detect_refresh_rate</key>
+      <applyto>/apps/compiz/general/screen0/options/detect_refresh_rate</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Detect Refresh Rate</short>
+        <long>Automatic detection of refresh rate</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/refresh_rate</key>
+      <applyto>/apps/compiz/general/screen0/options/refresh_rate</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>50</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Refresh Rate</short>
+        <long>The rate at which the screen is redrawn (times/second) (1 - 200)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/detect_outputs</key>
+      <applyto>/apps/compiz/general/screen0/options/detect_outputs</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Detect Outputs</short>
+        <long>Automatic detection of output devices</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/overlapping_outputs</key>
+      <applyto>/apps/compiz/general/screen0/options/overlapping_outputs</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Overlapping Output Handling</short>
+        <long>Which one of overlapping output devices should be preferred (0 = Smart mode, 1 = Prefer larger output, 2 = Prefer smaller output)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/outputs</key>
+      <applyto>/apps/compiz/general/screen0/options/outputs</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[640x480+0+0]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Outputs</short>
+        <long>List of strings describing output devices</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/sync_to_vblank</key>
+      <applyto>/apps/compiz/general/screen0/options/sync_to_vblank</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Sync To VBlank</short>
+        <long>Only perform screen updates during vertical blanking period</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/focus_prevention_level</key>
+      <applyto>/apps/compiz/general/screen0/options/focus_prevention_level</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Focus Prevention Level</short>
+        <long>Level of focus stealing prevention (0 = Off, 1 = Low, 2 = Normal, 3 = High, 4 = Very High)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/focus_prevention_match</key>
+      <applyto>/apps/compiz/general/screen0/options/focus_prevention_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>!(class=Polkit-gnome-authentication-agent-1)</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Focus Prevention Windows</short>
+        <long>Focus prevention windows (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/unredirect_fullscreen_windows</key>
+      <applyto>/apps/compiz/general/screen0/options/unredirect_fullscreen_windows</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Unredirect Fullscreen Windows</short>
+        <long>Allow drawing of fullscreen windows to not be redirected to offscreen pixmaps</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/default_icon</key>
+      <applyto>/apps/compiz/general/screen0/options/default_icon</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>icon</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Default Icon</short>
+        <long>Default window icon image</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/force_independent_output_painting</key>
+      <applyto>/apps/compiz/general/screen0/options/force_independent_output_painting</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Force independent output painting.</short>
+        <long>Paint each output device independly, even if the output devices overlap</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/general/screen0/options/texture_compression</key>
+      <applyto>/apps/compiz/general/screen0/options/texture_compression</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Texture Compression</short>
+        <long>If available use compression for textures converted from images</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

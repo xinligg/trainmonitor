@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="facer que">
+						<longdesc>Isto ocultará permanentemente a pregunta de nova versión desde check-new-release-gtk. Teña en conta que o botón pequeno na interface principal do update-manager aínda estará presente.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Mensaxe de primeira benvida">
+						<longdesc>Se se escolle esta chave, presentarase unha mensaxe de benvida a primeira vez que se execute.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Mostrar o resumo de paquetes antes do nome na lista de actualizacións.">
+						<longdesc>Se estabelece esta chave, a xanela principal da lista de actualizacións mostrará o resumo de paquetes antes do nome de paquetes.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Mostrar a versión na lista de actualizacións">
+						<longdesc>Se se preme esta tecla a xanela da lista principal de actualizacións mostrará información da versión (dunha versión á outra)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Pechar automaticamente a xanela de instalación tras unha instalación correcta">
+						<longdesc>Se se activa isto, a xanela de instalación fecharase automaticamente ao concluír sen problemas a instalación.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*obsoleto* Comprobe se existen novas versións da distribución">
+						<longdesc>Desaconséllase empregar esta chave e facelo no seu lugar co ficheiro /etc/update-manager/release-upgrades Comprobar automaticamente se hai dispoñíbel unha nova versión da distribución actual e ofrecer unha anovación (de ser posíbel).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="O tamaño da xanela">
+						<longdesc>Almacena o tamaño do cadro de diálogo do Xestor de actualizacións</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Mostrar detalles dunha actualización">
+						<longdesc>Almacena o estado do expansor que contén a lista de cambios e a descrición</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Recorde recargar a lista de canles">
+						<longdesc>Se se desactiva a comprobación automática de actualizacións terá que recargar a lista de canles manualmente. Esta opción permite ocultar o recordatorio que se mostra neste caso.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Ordenar Ascendentemente">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Directorio no que gardar os ficheiros">
+						<longdesc>O directorio no que se gardarán os ficheiros. Por omisión usarase o directorio de documentos.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Cara da páxina a escanear">
+						<longdesc>A cara da páxina que desexe escanear. Pode ser un dos seguintes: «ambos», «anverso» e «recverso»</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Resolución para o escaneado de fotos">
+						<longdesc>Resolución en puntos por polgada a usar cando se escanean fotos.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Resolución para o escaneado de texto">
+						<longdesc>Resolución en puntos por polgada a usar cando se escanean textos.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Resolución da última imaxe escaneada">
+						<longdesc>Resolución en puntos por polgada da imaxe escaneada anteriormente.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Altura do papel en décimas de mm">
+						<longdesc>A altura do papel en décimas de mm (ou 0 para a detección automática do papel).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Largura do papel en décimas de mm">
+						<longdesc>A largura do papel en décimas de mm (ou 0 para a detección automática do papel).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Altura da imaxe escaneada en píxeles">
+						<longdesc>A altura da imaxe escaneada. Este valor actualizase co que tuvo a última páxina escaneada.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Largura da imaxe escaneada">
+						<longdesc>A largura da imaxe escaneada. Este valor actualizase co que tuvo a última páxina escaneada.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Dirección de escaneado">
+						<longdesc>A dirección do escáner a través da páxina escaneada. Pode ser calquera dos seguintes: «top-to-bottom» «bottom-to-top» «left-to-right» «right-to-left»</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Tipo de documento que está sendo escaneado">
+						<longdesc>O tipo de documento que se vai a escanear. «text» para documentos de texto, «photo» para fotos. Esta opción determina a resolución, as cores e o postprocesamento do escaneado.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Dispositivo desde o que escanear">
+						<longdesc>Dispositivo SANE desde o que adquirir as imaxes.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="VERDADEIRO se a xanela do aplicativo está maximizada">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Altura da xanela en píxeles">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Largura da xanela en píxeles">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

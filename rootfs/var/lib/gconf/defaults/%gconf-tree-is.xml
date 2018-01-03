@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="first_run">
+					<local_schema short_desc="Byrja á því að birta ávarp">
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Sýna útgáfu í uppfærslulista">
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Loka glugganum sjálfkrafa ef uppfærslan heppnast">
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*úrelt* Leita að nýjum útgáfum">
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Gluggastærð">
+						<longdesc>Geymir stærðina á svarglugga uppfærslustjórans</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Birta smáatriði uppfærslna">
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Minna á að endurhlaða listann yfir rásir">
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

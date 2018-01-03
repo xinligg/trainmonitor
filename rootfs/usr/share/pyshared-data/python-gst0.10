@@ -1,0 +1,40 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 1
+[files]
+/usr/lib/python2.6/dist-packages/gst-0.10=d
+/usr/lib/python2.6/dist-packages/gst-0.10/gst=d
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/extend=d
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/extend/__init__.py=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/extend/pygobject.py=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/extend/utils.py=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/extend/discoverer.py=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/extend/sources.py=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/extend/leveller.py=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/extend/jukebox.py=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/_gst.so=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/interfaces.so=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/__init__.py=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/pbutils.so=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/audio.so=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/video.so=f
+/usr/lib/python2.6/dist-packages/gst-0.10/gst/tag.so=f
+/usr/lib/python2.6/dist-packages/pygst.py=f
+/usr/lib/python2.6/dist-packages/pygst.pth=f
+/usr/lib/python2.6/dist-packages/gstoption.so=f
+/usr/share/pyshared/gst-0.10=d
+/usr/share/pyshared/gst-0.10/gst=d
+/usr/share/pyshared/gst-0.10/gst/extend=d
+/usr/share/pyshared/gst-0.10/gst/extend/__init__.py=f
+/usr/share/pyshared/gst-0.10/gst/extend/pygobject.py=f
+/usr/share/pyshared/gst-0.10/gst/extend/utils.py=f
+/usr/share/pyshared/gst-0.10/gst/extend/discoverer.py=f
+/usr/share/pyshared/gst-0.10/gst/extend/sources.py=f
+/usr/share/pyshared/gst-0.10/gst/extend/leveller.py=f
+/usr/share/pyshared/gst-0.10/gst/extend/jukebox.py=f
+/usr/share/pyshared/gst-0.10/gst/__init__.py=f
+/usr/share/pyshared/pygst.py=f
+/usr/share/pyshared/pygst.pth=f

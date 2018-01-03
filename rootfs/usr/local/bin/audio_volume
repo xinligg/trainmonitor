@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# amixer options
+VOL_STEP=5		# amount to increase / decrease volume
+CARD=0			# sound card number
+CONTROL=Master	# control name
+
+# FIXME: use unmute only if pswitch is supported
+
+case $1 in
+up)
+		ACTION="$VOL_STEP+ unmute"
+        ;;
+down)
+		ACTION="$VOL_STEP- unmute"
+        ;;
+mute)
+		ACTION="toggle"
+        ;;			
+*)
+		echo "Usage: $0 up|down|mute"
+        exit
+        ;;
+esac
+
+RESULT=`amixer set -c $CARD $CONTROL $ACTION`
+# FIXME: find volume on mono OR front left
+VOLUME=$(echo $RESULT | sed -ne '/Mono/s/.*\[\(.*\)%\].*/\1/p')
+  
+if [ -z `echo $RESULT | grep '\[off\]'` ]; then
+	ICON="/usr/share/plate/chrome/content/image/kmixdocked.png"
+else
+    ICON="/usr/share/plate/chrome/content/image/kmixdocked_error.png"
+fi
+
+if [ -z $VOLUME ]; then
+ VOLUME=0 
+fi
+
+notify-send "Volume" -i $ICON -h int:value:$VOLUME -h string:x-canonical-private-synchronous:

@@ -1,0 +1,721 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="ibus">
+				<dir name="panel">
+					<entry name="custom_font">
+						<local_schema short_desc="自訂字型">
+							<longdesc>為語言面板自訂字型</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="使用自訂字型">
+							<longdesc>語言面板是否使用自訂字型</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_im_name">
+						<local_schema short_desc="顯示輸入法名稱">
+							<longdesc>在語言列上顯示輸入法名稱</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_icon_on_systray">
+						<local_schema short_desc="在系統匣內顯示圖示">
+							<longdesc>在系統匣內顯示圖示</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="lookup_table_orientation">
+						<local_schema short_desc="查選表單表排列方向">
+							<longdesc>查詢表單的排列方向。0 = 水平，1 = 垂直</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="語言面板位置">
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="語言面板位置">
+						</local_schema>
+					</entry>
+					<entry name="show">
+						<local_schema short_desc="自動隱藏">
+							<longdesc>語言面板行為。0 = 嵌入選單內，1 = 自動隱藏，2 = 永遠顯示</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="enable_by_default">
+						<local_schema short_desc="預設啟用輸入法">
+							<longdesc>當應用程式取得輸入焦點時，預設將輸入法啟用</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_global_engine">
+						<local_schema short_desc="使用全域輸入法">
+							<longdesc>在所有的應用程式中共享同一個輸入法</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="embed_preedit_text">
+						<local_schema short_desc="內嵌編輯模式">
+							<longdesc>在應用程式視窗中內嵌編輯模式</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_keyboard_layout">
+						<local_schema short_desc="使用系統鍵盤配置">
+							<longdesc>使用系統鍵盤 (XKB) 配置</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preload_engines">
+						<local_schema short_desc="預先載入引擎">
+							<longdesc>當 ibus 啟動時預先載入引擎</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="hotkey">
+						<entry name="previous_engine">
+							<local_schema short_desc="「上一個引擎」快捷鍵">
+								<longdesc>用來切換到清單內上一個輸入法的快捷鍵</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="prev_engine">
+							<local_schema short_desc="「上一個引擎」快捷鍵">
+								<longdesc>用來切換到清單內上一個輸入法的快捷鍵</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="next_engine_in_menu">
+							<local_schema short_desc="「下一個引擎」快捷鍵">
+								<longdesc>用來切換到清單內下一個輸入法的快捷鍵</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="next_engine">
+							<local_schema short_desc="「下一個引擎」快捷鍵">
+								<longdesc>用來切換到清單內下一個輸入法的快捷鍵</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="trigger">
+							<local_schema short_desc="觸發用快捷鍵">
+								<longdesc>用來開啟或關閉輸入法的快捷鍵</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="令 check-new-release-gtk 忽略有新的版本推出">
+						<longdesc>這會永遠隱藏來自 check-new-release-gtk 的新發行版提示。但留意 update-manager 主介面上的小按鈕仍會在那。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="首次執行歡迎訊息">
+						<longdesc>若設定此選項則首次執行時會顯示歡迎訊息。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="在更新清單內的套件名稱前方顯示套件摘要">
+						<longdesc>若設定此鍵，主要更新清單視窗會在套件名稱前方顯示套件摘要。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="在更新列表顯示版本">
+						<longdesc>如果設定此設定鍵，主更新列表視窗會顯示版本資訊 (由何版本至何版本)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="安裝成功後自動關閉安裝視窗">
+						<longdesc>如果設定此設定鍵，安裝視窗會在安裝成功後自動關閉。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*不建議* 檢查有沒有新的發行版本">
+						<longdesc>此設定鍵改因為檔案 /etc/update-manager/release-upgrades 而被取消。
+自動檢查是否有新版本的發行版並提供升級服務 (如果可以) 。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="視窗大小">
+						<longdesc>儲存 update-manager 對話視窗的大小</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="顯示更新套件的詳細資料">
+						<longdesc>存放是否顯示更詳細資訊，包括套件的更動清單和詳細說明</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="提示重新載入頻道列表">
+						<longdesc>若停用自動更新檢查功能，則您必須自行更新套件列表。此功能同時可隱藏更新提示。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="匯出為 LaTeX 時使用 UTF-8 編碼">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema short_desc="頁首/頁尾格式（右面部分）">
+							<longdesc>請使用列印設定對話方塊編輯此值。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema short_desc="頁首/頁尾格式（中間部分）">
+							<longdesc>請使用列印設定對話方塊編輯此值。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema short_desc="頁首/頁尾格式（左面部分）">
+							<longdesc>請使用列印設定對話方塊編輯此值。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="paper-orientation">
+						<local_schema short_desc="紙張">
+						</local_schema>
+					</entry>
+					<entry name="paper">
+						<local_schema short_desc="紙張">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="預設底邊距">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-left">
+						<local_schema short_desc="預設靠左">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-top">
+						<local_schema short_desc="預設頂外邊距">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-bottom">
+						<local_schema short_desc="預設底外邊距">
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="預設底邊距">
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="預設頂邊距">
+						</local_schema>
+					</entry>
+					<entry name="preferred-unit">
+						<local_schema short_desc="偏好的顯示單位">
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="預設縮放高度">
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="預設縮放寬度">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="預設縮放百分比">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="預設縮放類型">
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="預設列印方向">
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="預設標題列印">
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="預設黑白列印">
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="預設列印格線">
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="預設垂直置中">
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="預設水平置中">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="預設的頁首/頁尾字型是斜體字。">
+							<longdesc>本變數決定頁首/頁尾預設字型是否斜體字。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="預設的頁首/頁尾字型是粗體字。">
+							<longdesc>本變數決定頁首/頁尾預設字型是否粗體字。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="預設頁首/頁尾字型名稱">
+							<longdesc>預設的頁首/頁尾字型名稱。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="預設頁首/頁尾字型大小">
+							<longdesc>預設的頁首/頁尾字型大小。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="頁尾">
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="頁首">
+						</local_schema>
+					</entry>
+					<entry name="gtk-setting">
+						<local_schema short_desc="GTK列印設定">
+							<longdesc>「GTK列印設定」組態。請勿修改本變數。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="將列印設定套用於所有工作表">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="額外增效模組目錄的清單。">
+							<longdesc>本清單列出了所有載有增效模組的目錄。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="增效模組檔案狀態清單。">
+							<longdesc>本清單列出了所有增效模組檔案的狀態。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="已知增效模組的清單。">
+							<longdesc>本清單列出了所有已知的增效模組。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="使用中的增效模組的清單。">
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="啟用新的增效模組">
+							<longdesc>本變數決定是否啟用每個新的增效模組。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="names-of-days">
+						<local_schema short_desc="自動修正日期名稱">
+							<longdesc>自動修正日期名稱</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema>
+							<longdesc>自動修正功能不會修正本清單中所有字詞的第一個字母。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="自動修正第一個字母">
+							<longdesc>自動修正第一個字母</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema>
+							<longdesc>函數選擇程序中保留了最近使用的函數紀錄清單。這裡是清單長度上限。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="最近使用函數的清單">
+							<longdesc>函數選擇程序中保留了最近使用的函數紀錄清單。這裡是清單本身的內容。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="遞增排序">
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="排序時會保留格式">
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="排序時會區分大小寫">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="預設為覆寫檔案">
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema>
+									<longdesc>某些檔案格式只能容納一張工作表。在一本有多張工作表的活頁簿中，當只能儲存一張工作表時，本變數決定是否向使用者發出警告。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Gnumeric 檔案的預設壓縮程度">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="預設縮放倍率">
+									<longdesc>一本新的活頁簿中預設的縮放倍率。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="預設視窗垂直尺寸">
+									<longdesc>本數字 (介乎 0.25 至 1.00 之間) 是預設開啟視窗時視窗所佔的螢幕垂直長度的比例。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="預設視窗水平尺寸">
+									<longdesc>本數字 (介乎 0.25 至 1.00 之間) 是預設開啟視窗時視窗所佔的螢幕水平長度的比例。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="autocomplete">
+								<local_schema short_desc="自動完成">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbars">
+							<entry name="ObjectToolbar-position">
+								<local_schema>
+									<longdesc>本變數決定是否顯示物件工具列。0 為左面、1 為右面、2 為置上。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ObjectToolbar">
+								<local_schema short_desc="物件工具列可見">
+									<longdesc>本變數決定起始時是否顯示物件工具列。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar-position">
+								<local_schema>
+									<longdesc>本變數決定是否顯示格式工具列。0 為左面、1 為右面、2 為置上。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar">
+								<local_schema short_desc="格式工具列可見">
+									<longdesc>本變數決定起始時是否顯示格式工具列。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar-position">
+								<local_schema short_desc="標準工具列位置">
+									<longdesc>本變數決定是否顯示標準工具列。0 為左面、1 為右面、2 為置上。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar">
+								<local_schema short_desc="標準工具列可見">
+									<longdesc>本變數決定起始時是否顯示標準工具列。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="垂直 DPI">
+									<longdesc>垂直方向的螢幕解析度。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="水平 DPI">
+									<longdesc>水平方向的螢幕解析度。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="預設的工作表數目">
+								<longdesc>一本新的活頁簿中預設的工作表數目。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="預設的字型是斜體字。">
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="預設的字型是粗體字。">
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="預設字型名稱">
+								<longdesc>一本新的活頁簿中預設的字型名稱。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="預設字型大小">
+								<longdesc>一本新的活頁簿中預設的字型大小。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="maxnum">
+						<local_schema short_desc="可復原操作的次數">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="復原次數上限">
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="在復原清單中顯示工作表名稱">
+							<longdesc>本變數決定是否在復原/取消復原清單中顯示工作表名稱。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="工具列樣式">
+							<longdesc>工具列樣式。有效的值為 both、both_horiz、icon、text</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

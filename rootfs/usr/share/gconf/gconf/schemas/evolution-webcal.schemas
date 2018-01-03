@@ -1,0 +1,43 @@
+<gconfschemafile>
+<schemalist>
+<schema>
+     <key>/schemas/desktop/gnome/url-handlers/webcal/enabled</key>
+     <applyto>/desktop/gnome/url-handlers/webcal/enabled</applyto>
+     <owner>evolution-webcal</owner>
+     <type>bool</type>
+     <default>true</default>
+     <gettext_domain>evolution-webcal</gettext_domain>
+     <locale name="C">
+       <short>How to handle webcal URLs</short>
+       <long>Set to true to have a program specified in command handle webcal URLs</long>
+     </locale>
+</schema>
+
+   <schema>
+     <key>/schemas/desktop/gnome/url-handlers/webcal/command</key>
+     <applyto>/desktop/gnome/url-handlers/webcal/command</applyto>
+     <owner>evolution-webcal</owner>
+     <type>string</type>
+     <default>/usr/lib/evolution-webcal/evolution-webcal %s</default>
+     <gettext_domain>evolution-webcal</gettext_domain>
+     <locale name="C">
+       <short>URL handler for webcal uris</short>
+       <long>URL handler for webcal uris</long>
+     </locale>
+    </schema>
+
+   <schema>
+     <key>/schemas/desktop/gnome/url-handlers/webcal/need-terminal</key>
+     <applyto>/desktop/gnome/url-handlers/webcal/need-terminal</applyto>
+     <owner>evolution-webcal</owner>
+     <type>bool</type>
+     <default>false</default>
+     <gettext_domain>evolution-webcal</gettext_domain>
+     <locale name="C">
+       <short>Run program in terminal</short>
+       <long>True if the program to handle this URL should be run in a terminal</long>
+     </locale>
+	  </schema>
+
+</schemalist>
+</gconfschemafile>

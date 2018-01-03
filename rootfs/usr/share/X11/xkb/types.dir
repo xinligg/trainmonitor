@@ -1,0 +1,6 @@
+-dp----- -------- pc(default)
+-dp----- -------- mousekeys(default)
+--p----- -------- caps(internal)
+--p----- -------- caps(internal_nocancel)
+--p----- -------- caps(shift)
+--p----- -------- caps(shift_nocancel)

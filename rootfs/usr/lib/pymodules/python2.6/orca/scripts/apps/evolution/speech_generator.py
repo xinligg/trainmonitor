@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/scripts/apps/evolution/speech_generator.py

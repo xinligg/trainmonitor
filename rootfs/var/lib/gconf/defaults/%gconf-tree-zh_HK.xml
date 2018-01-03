@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="ibus">
+				<dir name="panel">
+					<entry name="custom_font">
+						<local_schema short_desc="自訂字型">
+							<longdesc>為語言面板自訂字型</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="使用自訂字型">
+							<longdesc>語言面板是否使用自訂字型</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_im_name">
+						<local_schema short_desc="顯示輸入法名稱">
+							<longdesc>在語言列上顯示輸入法名稱</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_icon_on_systray">
+						<local_schema short_desc="在系統匣內顯示圖示">
+							<longdesc>在系統匣內顯示圖示</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="lookup_table_orientation">
+						<local_schema short_desc="查選表單表排列方向">
+							<longdesc>查詢表單的排列方向。0 = 水平，1 = 垂直</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="語言面板位置">
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="語言面板位置">
+						</local_schema>
+					</entry>
+					<entry name="show">
+						<local_schema short_desc="自動隱藏">
+							<longdesc>語言面板行為。0 = 嵌入選單內，1 = 自動隱藏，2 = 永遠顯示</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="use_global_engine">
+						<local_schema short_desc="使用全域輸入法">
+							<longdesc>在所有的應用程式中共享同一個輸入法</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="embed_preedit_text">
+						<local_schema short_desc="內嵌編輯模式">
+							<longdesc>在應用程式視窗中內嵌編輯模式</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_keyboard_layout">
+						<local_schema short_desc="使用系統鍵盤配置">
+							<longdesc>使用系統鍵盤 (XKB) 配置</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preload_engines">
+						<local_schema short_desc="預先載入引擎">
+							<longdesc>當 ibus 啟動時預先載入引擎</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="hotkey">
+						<entry name="previous_engine">
+							<local_schema short_desc="「上一個引擎」快捷鍵">
+							</local_schema>
+						</entry>
+						<entry name="prev_engine">
+							<local_schema short_desc="「上一個引擎」快捷鍵">
+							</local_schema>
+						</entry>
+						<entry name="next_engine_in_menu">
+							<local_schema short_desc="「下一個引擎」快捷鍵">
+							</local_schema>
+						</entry>
+						<entry name="next_engine">
+							<local_schema short_desc="「下一個引擎」快捷鍵">
+							</local_schema>
+						</entry>
+						<entry name="trigger">
+							<local_schema short_desc="觸發用快捷鍵">
+								<longdesc>用來開啟或關閉輸入法的快捷鍵</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="令 check-new-release-gtk 忽略有新的版本推出">
+						<longdesc>這會永遠隱藏來自 check-new-release-gtk 的新發行版提示。但留意 update-manager 主介面上的小按鈕仍會在那。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="首次執行歡迎訊息">
+						<longdesc>若設定此選項則首次執行時會顯示歡迎訊息。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="在更新清單內的套件名稱前方顯示套件摘要">
+						<longdesc>若設定此鍵，主要更新清單視窗會在套件名稱前方顯示套件摘要。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="在更新列表顯示版本">
+						<longdesc>如果設定此設定鍵，主更新列表視窗會顯示版本資訊 (由何版本至何版本)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="安裝成功後自動關閉安裝視窗">
+						<longdesc>如果設定此設定鍵，安裝視窗會在安裝成功後自動關閉。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*不建議* 檢查有沒有新的發行版本">
+						<longdesc>此設定鍵改因為檔案 /etc/update-manager/release-upgrades 而被取消。
+自動檢查是否有新版本的發行版並提供升級服務 (如果可以) 。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="視窗大小">
+						<longdesc>儲存 update-manager 對話視窗的大小</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="顯示更新套件的詳細資料">
+						<longdesc>存放是否顯示更詳細資訊，包括套件的更動清單和詳細說明</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="提示重新載入頻道列表">
+						<longdesc>若停用自動更新檢查功能，則您必須自行更新套件列表。此功能同時可隱藏更新提示。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

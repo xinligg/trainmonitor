@@ -1,0 +1,9 @@
+pyversions=2.6
+
+/usr/lib/pyshared/python2.6/gmenu.so
+/usr/share/pyshared/GMenuSimpleEditor/__init__.py
+/usr/share/pyshared/GMenuSimpleEditor/config.py
+/usr/share/pyshared/GMenuSimpleEditor/main.py
+/usr/share/pyshared/GMenuSimpleEditor/maindialog.py
+/usr/share/pyshared/GMenuSimpleEditor/menufilewriter.py
+/usr/share/pyshared/GMenuSimpleEditor/menutreemodel.py

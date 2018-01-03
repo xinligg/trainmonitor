@@ -1,0 +1,589 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="check-new-release-gtk má ignorovať toto nové vydanie">
+						<longdesc>Týmto sa natrvalo skryje upozornenie na nové vydanie od check-new-release-gtk. Všimnite si, že malé tlačidlo v hlavnom rozhraní Správcu aktualizácií bude stále zobrazené.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Uvítacia správa po prvom spustení">
+						<longdesc>Ak je táto voľba nastavená, zobrazí sa po prvom spustení uvítacia správa</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Zobraziť stručné informácie o balíku pred názvom balíka v zozname aktualizácií">
+						<longdesc>Ak je táto voľba nastavená, hlavné aktualizačné okno zobrazí stručné informácie o balíku pred názvom balíka.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Zobraziť verziu v zozname aktualizácií">
+						<longdesc>Ak je táto voľba nastavená, hlavné aktualizačné okno zobrazí informácie o verzii (z verzie na verziu).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Automaticky zatvoriť okno inštalácie po úspešnom nainštalovaní">
+						<longdesc>Ak je táto voľba nastavená, inštalačné okno sa po úspešnej inštalácii automaticky zatvorí.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="Kontrolovať dostupnosť novej verzie distribúcie">
+						<longdesc>Automaticky kontrolovať dostupnosť novšej verzie súčasnej distribúcie, a ak je to možné ponúknuť možnosť jej aktualizácie.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Veľkosť okna">
+						<longdesc>Uchováva veľkosť dialágu správcu aktualizácií</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Zobraziť podrobnosti o aktualizácii">
+						<longdesc>Uchováva stav prvku obsahujúceho zoznam zmien a popis</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Pripomínať znovunačítavanie zoznamu dostupných balíkov">
+						<longdesc>Ak je automatická kontrola aktualizácií zakázaná, musíte obnoviť zoznam zdrojov ručne. Táto voľba umožní skrytie pripomienky, ktorá sa v tomto prípade zobrazuje.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="Použiť UTF-8 v export pre LaTeX">
+								<longdesc>Toto nastavenie určuje, či vytvorné súbory LaTeX používajú UTF-8 (unicode) alebo ISO-8859-1 (Latin1). Pre použitie súborov UTF-8 je nutné nainštalovať ucs LaTeX.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="Povoliť výber nekatívnych rozsahov">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-font-name">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="Pätička stránky">
+							<longdesc>Štandardná pätička stránky pre nové dokumenty, ktorú je možné zmeniť v dialógu pre nastavenie stránky.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Hlavička stránky">
+							<longdesc>Štandardná hlavička stránky pre nové dokumenty, ktorú je možné zmeniť v dialógu pre nastavenie stránky.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="Použiť nastavenie tlače pre všetky listy">
+							<longdesc>Táto hodnota určuje, či sa štandardný dialóg pre tlač použije pre všetky listy naraz.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Používateľský priečinok pre automatický formát">
+							<longdesc>Hlavný priečinok pre používateľské šablóny automatického formátu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="Systémový priečinok pre automatické formáty">
+							<longdesc>Tento priečinok obsahuje preinštalované šablóny automatického formátu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="Zoznam extra priečinkov pre autoformát.">
+							<longdesc>Tento zoznam obsahuje všetky extra priečinky pre šablóny automatického formátu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="Zoznam priečinkov extra modulov.">
+							<longdesc>Tento zoznam obsahuje všetky extra priečinky pre moduly.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Zoznam stavov súborov pre moduly.">
+							<longdesc>Tento zoznam obsahuje všetky stavy súborov modulov.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Zoznam známych modulov.">
+							<longdesc>Tento zoznam obsahuje všetky známe moduly.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Zoznam aktívnych modulov.">
+							<longdesc>Tento zoznam obsahuje všetky moduly, ktoré sa majú automaticky aktivovať.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Aktivovať nové moduly">
+							<longdesc>Táto premenná určuje, či sa má aktivovať každý novonájdený modul.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Náhrada pre automatické opravy">
+							<longdesc>Náhrada pre automatické opravy</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="Mená dní pre automatické opravy">
+							<longdesc>Mená dní pre automatické opravy</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="Zoznam výnimiek pre prvé písmeno">
+							<longdesc>Automatické opravy neopravujú prvé písmená pre slová z tohto zoznamu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="Prvé písmená pre automatické opravy">
+							<longdesc>Prvé písmená pre automatické opravy</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="Zoznam výnimiek pre počiatočné prvé písmená">
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Počiatočné veľké písmená pre automatické opravy">
+							<longdesc>Počiatočné veľké písmená pre automatické opravy</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="Maximálny počet nedávno použitých funkcií">
+							<longdesc>Výber funkcie udržiava zoznam naposledy použitých funkcií. Toto je maximálna dĺžka tohto zoznamu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="Zoznam nedávno použitých funkcií.">
+							<longdesc>Výber funkcie udržiava zoznam naposledy použitých funkcií. Toto je tento zoznam.maximálna dĺžka tohto zoznamu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="cut-and-paste">
+					<entry name="prefer-clipboard">
+						<local_schema short_desc="Preferovať schránku pred výberom PRIMARY">
+							<longdesc>Ak je TRUE, Gnumeric bude preferovať moderný výber CLIPBOARD a nie staršie výbery PRIMARY. Nastavte na FALSE ak potrebujete prenášať dáta zo starších aplikácií, ako je Xterm alebo Emacs, ktoré nastavujú iba výber PRIMARY.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="Počet automatických výrazov">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Utriediť vzostupne">
+									<longdesc>Táto voľba určuje počiatočný stav tlačidla triedenia v dialógu triedenia.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Triedenie zachováva formát">
+									<longdesc>Nastavením tejto voľby budú tlačidlá triedenia zachovávať formátovanie buniek počas tridenia a určuje počiatočný stav voľby pre zachovanie triedenia v dialógu triedenia.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Rozlišovať veľkosť písmen pri triedení">
+									<longdesc>Nastavením tejto voľby budú tlačidlá triedenia triediť s rozlíšením veľkosti písmen a určuje počiatočný stav voľby pre rozlišovanie veľkosti písmen v dialógu triedenia.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Štandardné tlačidlo pre prepisovanie súborov">
+									<longdesc>Pred prepísaním existujúceho súboru sa zobrazí varovanie. Nastavenie tejto voľby umožňuje predefinovať štandardné tlačidlo v tomto dialógu.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="Varovavať pri exporte do formátu s jediným listom">
+									<longdesc>Niektoré formáty súborov môžu obsahovať iba jeden list. Táto premenná určuje, či sa zobrazí varovanie pre používateľa v prípade, že sa ukladá zošiť s viacerými listami pomocou formátu, ktorý podporuje iba jediný list.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Štandardná úroveň kompresie pre súbory Gnumeric">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Štandardné zväčšenie">
+									<longdesc>Počiatočné zväčšenie nových zošitov.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Štandardná vertikálna veľkosť okna">
+									<longdesc>Toto číslo (medzi 0,25 a 1,00) určuje vertikálnu časť veľkosti obrazovky pokrytú štandardným oknom.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Štandardná horizontálna veľkosť okna">
+									<longdesc>Toto číslo (medzi 0,25 a 1,00) určuje horizontálnu časť veľkosti obrazovky pokrytú štandardným oknom.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="transitionkeys">
+								<local_schema short_desc="Klávesy pre prechod">
+								</local_schema>
+							</entry>
+							<entry name="recalclag">
+								<local_schema short_desc="Čakanie pred automatickým prepočítaním">
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="Okamžité posúvanie">
+									<longdesc>Táto premenná určuje, či sa vykonáva okamžité alebo pozdržané posúvanie.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Automatické dopĺňanie">
+									<longdesc>Táto premenná určuje, či je zapnuté automatické dopĺňanie.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="Vertikálne rozlíšenie">
+									<longdesc>Rozlíšenie obrazovky vertikálne.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="Horizontálne rozlíšenie">
+									<longdesc>Rozlíšenie obrazovky horizontálne.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="Štandardný počet listov">
+								<longdesc>Počet listov vytvorených v novom zošite.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Štandardné písmo je šikmé.">
+								<longdesc>Táto hodnota určuje, či je štandardné písmo listov šikmé.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="Štandardné písmo je tučné.">
+								<longdesc>Táto hodnota určuje, či je štandardné písmo listov tučné.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Meno štandardného písma">
+								<longdesc>Štandardné písmo pre nové zošity.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Štandardná veľkosť písma">
+								<longdesc>Štandardná veľkosť písma v nových zošitoch.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="Dĺžka popisu vrátenia späť">
+							<longdesc>Táto hodnota určuje maximálnu dĺýku popisu príkazo v zoznamoch vrátenia späť a opakovania.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="Počet položiek vrátenia späť">
+							<longdesc>Táto hodnota určuje maximálny počet položiek v zoznamoch vrátenia späť a opakovania.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Maximálna veľkosť vrátenia späť">
+							<longdesc>Táto hodnota určuje dĺžku zoznamu vrátenia späť. Každá úprava má asociovanú veľkosť udanú v násobku pamäti potrebnej pre jednoduchú úpravu jedinej bunky. Zoznam akcií vrátenia späť je pri presiahnutí tejto hodnoty orezaný.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="Zobraziť meno listu v zozname vrátenia späť">
+							<longdesc>Táto hodnota určuje, či sa v zoznamoch vrátenia späť a opakovania zobrazujú mená listov.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Štýl panelu nástrojov">
+							<longdesc>Štýl panelu nástrojov. Platné hodnoty sú both, both_horiz, icon a text</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="page_height">
+					<local_schema short_desc="Výška skenovaného obrázku">
+						<longdesc>Výška skenovaného obrázku. Táto hodnota sa aktualizuje podľa poslednej skenovanej stránky.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Šírka skenovaného obrázku v pixeloch">
+						<longdesc>Šírka skenovaného obrázku. Táto hodnota sa aktualizuje podľa poslednej skenovanej stránky.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Smer skenovania">
+						<longdesc>Smer skeneru naprieč skenovanou stránkou. Môže to byť jedno z následujúcich: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Druh dokumentu ktorý sa skenuje">
+						<longdesc>Druh dokumentu ktorý sa skenuje. &apos;text&apos; pre textové dokumenty, &apos;photo&apos; pre fotografie. Táto hodnota určuje rozlíšenie skenovania, farby a koncové spracovanie.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Zariadenie z ktorého skenovať">
+						<longdesc>Zariadenie SANE z ktorého získať obrázky.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="TRUE pokiaľ je aplikačné okno v maximálnej veľkosti">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Výška okna v pixeloch">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Šírka okna v pixeloch">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

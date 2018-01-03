@@ -1,0 +1,1 @@
+/usr/share/pyshared/sessioninstaller/core.py

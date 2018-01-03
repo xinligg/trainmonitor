@@ -1,0 +1,1 @@
+/usr/share/pyshared/ibus/attribute.py

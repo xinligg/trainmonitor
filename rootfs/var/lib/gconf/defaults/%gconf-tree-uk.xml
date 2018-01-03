@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="Поставити відмітку для ігнорування отримання нового релізу">
+						<longdesc>Підказка про нові випуски не буде зображена при звертанні до модуля check-new-release-gtk. Зверніть увагу, що невелика кнопку в головному вікні Менеджера оновлень буде, як і раніше, видно.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Спершу запустити привітання">
+						<longdesc>Якщо відмічено, буде показане вікно привітання.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Показати інформацію про пакет перед іменем у списку оновлень.">
+						<longdesc>Якщо цей ключ встановлено, вікно головного списку оновлень буде показувати інформацію про пакет перед його іменем.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Показувати версію у списку оновлень">
+						<longdesc>Якщо цей ключ встановлено головне вікно списку оновлення буде показувати інформацію про версії (з версії на версію)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Автоматично закрити вікно після успішного встановлення">
+						<longdesc>Якщо цей ключ встановлений, вікно установки буде автоматично закрито у разі успішної установки.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="Перевірити наявність нових релізів дистрибутива">
+						<longdesc>Цей ключ є застарілим на користь файла /etc/update-manager/release-upgrades. Перевірити автоматично наявність нової версії цього дистрибутива та запропонувати оновлення (якщо це можливо).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Розмір вікна">
+						<longdesc>Зберігає розмір вікна менеджера оновлень</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Показати подробиці оновлення">
+						<longdesc>Зберігати стан експандера, що містить опис та список змін</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Нагадувати про поновлення списку каналів">
+						<longdesc>Якщо автоматична перевірка вимкнена, ви можете перезавантажити список каналів вручну. У даному випадку ця опція дозволяє сховати показ нагадувача.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Зростаюче сортування">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Каталог збережених файлів">
+						<longdesc>Каталог, до якого слід зберігати файли. Якщо не буде вказано, типовим вважатиметься каталог документів.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Бік сторінки, який слід сканувати">
+						<longdesc>Бік паперу,  який слід сканувати. Може мати такі значення: &apos;both&apos; &apos;front&apos; &apos;back&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Роздільна здатність для сканування фотографій">
+						<longdesc>Роздільна здатність у точках на дюйм для сканування фотографій.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Роздільна здатність для сканування тексту">
+						<longdesc>Роздільна здатність у точках на дюйм для сканування тексту.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Роздільна здатність попереднього сканованого зображення">
+						<longdesc>Роздільна здатність у точках на дюйм попереднього сканованого зображення.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Висота паперу у десятих міліметра">
+						<longdesc>Висота паперу у десятих міліметра (або 0 для автоматичного визначення паперу)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Ширина паперу у десятих міліметра">
+						<longdesc>Ширина паперу у десятих міліметра (або 0 для автоматичного визначення паперу)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Висота сканованого зображення у пікселях">
+						<longdesc>Висота сканованого зображення у пікселях. Це значення буде оновлено на те, яке було використано для попереднього зображення.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Ширина сканованого зображення у пікселях">
+						<longdesc>Ширина сканованого зображення у пікселях. Це значення буде оновлено на те, яке було використано для попереднього зображення.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Напрямок сканування">
+						<longdesc>Напрямок сканування сторінки. Може мати такі значення: «top-to-bottom» (згори вниз), «bottom-to-top» (знизу вгору), «left-to-right» (зліва праворуч), «right-to-left» (справа ліворуч)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Тип документа, який ви скануєте">
+						<longdesc>Тип документа, який ви скануєте. «text» — текстовий документ, «photo» — фотографії. Значення цього параметра впливає на роздільну здатність сканування, використання кольорів та остаточну обробку зображення.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Пристрій сканування">
+						<longdesc>Пристрій SANE, з якого слід отримувати зображення.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="Якщо позначено, вікно програми буде максимізовано">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Висота вікна у пікселях">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Ширина вікна у пікселях">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

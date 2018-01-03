@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/service/AddressBook/scenario/contacts/disallow_contact.py

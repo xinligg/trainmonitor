@@ -1,0 +1,11 @@
+pyversions=2.4-
+
+/usr/share/pyshared/invest/__init__.py
+/usr/share/pyshared/invest/about.py
+/usr/share/pyshared/invest/applet.py
+/usr/share/pyshared/invest/chart.py
+/usr/share/pyshared/invest/defs.py
+/usr/share/pyshared/invest/networkmanager.py
+/usr/share/pyshared/invest/preferences.py
+/usr/share/pyshared/invest/quotes.py
+/usr/share/pyshared/invest/widgets.py

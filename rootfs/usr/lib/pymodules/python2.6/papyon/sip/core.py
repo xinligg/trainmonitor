@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/sip/core.py

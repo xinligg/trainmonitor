@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="ignorar la verificacion d&apos;una novèla version donada">
+						<longdesc>Aquò desactivarà definitivament l&apos;anonci d&apos;una version novèla. Notatz plan que lo boton serà encara disponible dins l&apos;interfàcia principala del gestionari de mesas a jorn.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Messatge de benvenguda al moment de la primièra utilizacion">
+						<longdesc>Un messatge de benvenguda serà presentat s&apos;aquò es activat.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Afichar la version dins la lista de las mesas a jorn">
+						<longdesc>S&apos;aquesta opcion es activada, las informacions de version (de version a version) seràn indicadas dins la lista de las mesas a jorn.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Tampar automaticament la fenèstra d&apos;installacion aprèp una installacion capitada">
+						<longdesc>S&apos;aquesta casa es marcada, la fenèstra d&apos;installacion serà automaticament tampada aprèp una installacion capitada.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*desconselhat* Verificatz la disponibilitat de versions novèlas d&apos;aquesta distribucion">
+						<longdesc>Aquesta opcion es desconselhada ; es remplaçada pel fichièr /etc/update-manager/release-upgrades. Aquò verifica automaticament se una version novèla de la distribucion correnta es disponibla e prepausa la mesa a nivèl (se possible).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="La talha de la fenèstra">
+						<longdesc>Enregistra la talha de la fenèstra del gestionari de mesas a jorn</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Afichar los detalhs d&apos;una mesa a jorn">
+						<longdesc>Enregistra l&apos;estat desvolopat o reduch de la lista dels cambiaments e de la descripcion</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Me rapelar de recargar la lista dels depauses logicials">
+						<longdesc>Se la recèrca automatica de las mesas a jorn es desactivada, vos cal recargar manualament la lista dels depauses logicials. Aquesta opcion permet d&apos;amagar la notificacion qu&apos;apareis dins aquel cas.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="printsetup">
+					<entry name="paper-orientation">
+						<local_schema short_desc="Papièr">
+						</local_schema>
+					</entry>
+					<entry name="paper">
+						<local_schema short_desc="Papièr">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Ordenar de manièra ascendenta">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Estil de barra d&apos;espleches">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

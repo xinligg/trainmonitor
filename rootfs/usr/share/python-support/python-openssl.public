@@ -1,0 +1,14 @@
+pyversions=2.6
+
+/usr/lib/pyshared/python2.6/OpenSSL/SSL.so
+/usr/lib/pyshared/python2.6/OpenSSL/crypto.so
+/usr/lib/pyshared/python2.6/OpenSSL/rand.so
+/usr/share/pyshared/OpenSSL/__init__.py
+/usr/share/pyshared/OpenSSL/test/__init__.py
+/usr/share/pyshared/OpenSSL/test/test_crypto.py
+/usr/share/pyshared/OpenSSL/test/test_rand.py
+/usr/share/pyshared/OpenSSL/test/test_ssl.py
+/usr/share/pyshared/OpenSSL/test/util.py
+/usr/share/pyshared/OpenSSL/tsafe.py
+/usr/share/pyshared/OpenSSL/version.py
+/usr/share/pyshared/pyOpenSSL-0.10.egg-info

@@ -1,0 +1,401 @@
+# emelFM2 (v 0.4.1)
+
+# This is the emelFM2 configuration data file.
+# It will be overwritten each time the program is run!
+
+# If you're inclined to edit the file between program sessions, note this:
+# for tree options, you have to use \| to escape | and you have to use \< to escape <,
+#  if that is the first non-space character on a line.
+
+# show all options in config dialogs
+advanced-config=true
+# reload config on external change
+auto-refresh-config=true
+# document containing usage advice
+usage-help-doc=/usr/local/share/doc/emelfm2/USAGE
+# document containing configuration advice
+config-help-doc=/usr/local/share/doc/emelfm2/CONFIGURATION
+# warn about running processes when shutting down
+session-end-warning=true
+# bookmarks
+bookmarks=<
+/||root|/
+home||Your home directory|~
+media||/media|/media
+mnt||/mnt|/mnt
+usr||/usr|/usr
+usr/local||/usr/local|/usr/local
+trash||default trash directory|~/.local/share/Trash/files
+>
+# open bookmark in other pane on middle-button click
+bookmarks-button2-other=false
+# focus file pane after opening a bookmark in it
+bookmarks-focus-after-open=true
+# confirm any delete of a selected bookmark
+bookmarks-confirm-delete=false
+# confirm any delete of multiple bookmarks
+bookmarks-confirm-multi-delete=true
+# x terminal emulator:
+command-xterm=xterm
+# use external file-viewer
+use-external-viewer=false
+# viewer command:
+command-viewer=gview
+# use external file-editor
+use-external-editor=false
+# editor command:
+command-editor=leafpad
+# use external encoding converter
+use-external-encoder=false
+# converter command:
+command-encoder=enca -L %{(languages)@File encoding:} -x UTF-8 <%p
+# use aliases
+command-use-aliases=true
+# interpret 'relative' paths
+transparent-dir-links=true
+# running commands survive shutdown
+command-persist=true
+# watch priority
+command-watch-priority=300
+# stop after timeout
+task-timeout-checks=false
+# timeout interval
+task-timeout-interval=20
+# confirm any delete
+confirm-delete=false
+# confirm any overwrite
+confirm-overwrite=false
+# relative symlinks
+relative-symlinks=true
+# filetypes
+filetypes=<
+directories||
+	|extensions|
+		|<directory>|
+	|commands|
+		|打开目录|cd %%f
+>
+# case-insensitive filetypes
+anycase-filetypes=false
+# plugins
+plugins=<
+>
+# 'go up' on middle-button click
+button2-updir=true
+# match windows (TM) right-click behaviour
+windows-right-click=false
+# advanced windows (TM) right-click behaviour
+windows-right-click-extra=false
+# show icons in dialog buttons
+dialog-button-icons=true
+# use icons directory
+use-icon-dir=false
+# icons directory
+icon-dir=/YOURHOME/.emelfm2
+# keybindings
+keybindings=<
+general||false||
+	panes||false||
+	directory lines||false||
+	command line||false||
+>
+# chained keybindings timeout (ms)
+keybindings-timeout=2000
+# custom-menus
+custom-menus=<
+>
+# show icons in menus
+menu-show-icons=true
+# menu icon size
+menu-isize=menu
+# menu popup delay (ms)
+submenu-up-delay=50
+# menu popdown delay (ms)
+submenu-down-delay=400
+# auto refresh
+auto-refresh=true
+# focus the pane after completing a directory entry
+dir-line-focus-after-activate=true
+# select first item in newly-opened directories
+select-first-item=false
+# use horizontal panes
+panes-horizontal=false
+# scrollbar position
+scrollbar-position=bottom-right
+# type of indicator for active pane
+active-pane-signal=colored headers
+# banded background
+panes-hinted=false
+# use custom font
+custom-list-font=true
+# custom font
+list-font=WenQuanYi Bitmap Song 12
+# date format
+date-string=Default: May 20 09:11
+# size format
+size-string=condensed
+# show parent directory entry '..' in file lists
+show-updir-entry=true
+# filename sort is case sensitive
+namesort-case-sensitive=false
+# both panes are like pane 1
+pane2-uses-other=true
+# both panes are like pane 2
+pane1-uses-other=false
+# executable
+color-ft-exec=forest green
+# directory
+color-ft-dir=blue
+# symlink
+color-ft-link=sky blue
+# device
+color-ft-dev=orange
+# socket
+color-ft-socket=purple
+# active pane header color
+color-active-pane=dark grey
+# highlight color
+color-highlight=wheat
+# show 文件名 column
+pane1-show-column0=true
+# show 大小 column
+pane1-show-column1=true
+# show Permissions column
+pane1-show-column2=false
+# show Owner column
+pane1-show-column3=false
+# show Group column
+pane1-show-column4=false
+# show Modified column
+pane1-show-column5=false
+# show Accessed column
+pane1-show-column6=false
+# show Changed column
+pane1-show-column7=false
+# panebar1
+panebar1=<
+左侧 源目录|||output.clear|
+回退|gtk-go-back|Go to previous directory in history|pane1.go_back|
+上一层目录|gtk-go-up|Go up to parent directory|pane1.go_up|
+前进|gtk-go-forward|Go to next directory in history|pane1.go_forward|
+>
+# show the pane1 bar
+panebar1-show=true
+# show tooltips for pane1 bar buttons
+panebar1-tooltips=false
+# space handling
+panebar1-space=none
+# pane1 bar container
+panebar1-type=file-pane 1
+# pane1 bar horizontal
+panebar1-hori=true
+# pane1 bar priority
+panebar1-priority=0
+# pane1 bar buttons have relief
+panebar1-relief=true
+# pane1 bar buttons are the same size
+panebar1-same=true
+# button style
+panebar1-style=label only
+# icon size
+panebar1-isize=menu
+# show 文件名 column
+pane2-show-column0=true
+# show 大小 column
+pane2-show-column1=true
+# show Permissions column
+pane2-show-column2=false
+# show Owner column
+pane2-show-column3=false
+# show Group column
+pane2-show-column4=false
+# show Modified column
+pane2-show-column5=false
+# show Accessed column
+pane2-show-column6=false
+# show Changed column
+pane2-show-column7=false
+# panebar2
+panebar2=<
+前进|gtk-go-forward|Go to next directory in history|pane2.go_forward|
+上一层目录|gtk-go-up|Go up to parent directory|pane2.go_up|
+回退|gtk-go-back|Go to previous directory in history|pane2.go_back|
+右侧 目标目录|||output.clear|
+>
+# show the pane2 bar
+panebar2-show=true
+# show tooltips for pane2 bar buttons
+panebar2-tooltips=false
+# space handling
+panebar2-space=none
+# pane2 bar container
+panebar2-type=file-pane 2
+# pane2 bar horizontal
+panebar2-hori=true
+# pane2 bar priority
+panebar2-priority=0
+# pane2 bar buttons have relief
+panebar2-relief=true
+# pane2 bar buttons are the same size
+panebar2-same=true
+# button style
+panebar2-style=label only
+# icon size
+panebar2-isize=menu
+# At startup, show a specific directory in pane 1
+pane1-use-startup-dir=false
+# pane 1 startup directory:
+pane1-use-startup-dir-startup-dir=~
+# At startup, show a specific directory in pane 2
+pane2-use-startup-dir=false
+# pane 2 startup directory:
+pane2-use-startup-dir-startup-dir=/
+# toolbars button style
+allbars-style=theme
+# toolbars icon size
+allbars-isize=dnd
+# taskbar
+taskbar=<
+删除文件|gtk-delete|删除文件|file.delete|
+刷新目录|gtk-refresh|刷新目录|panes.refresh|
+拯救到->|gtk-copy|拯救数据|file.copy|
+>
+# show the task bar
+taskbar-show=true
+# show tooltips for task bar buttons
+taskbar-tooltips=false
+# space handling
+taskbar-space=none
+# task bar container
+taskbar-type=file-pane 1
+# task bar horizontal
+taskbar-hori=false
+# task bar priority
+taskbar-priority=1
+# task bar buttons have relief
+taskbar-relief=false
+# task bar buttons are the same size
+taskbar-same=true
+# button style
+taskbar-style=theme
+# icon size
+taskbar-isize=dnd
+# commandbar
+commandbar=<
+帮助|gtk-help|Get information about this program|dialog.about|
+退出|gtk-quit|Close this program|command.quit|
+>
+# show the command bar
+commandbar-show=true
+# show tooltips for command bar buttons
+commandbar-tooltips=false
+# space handling
+commandbar-space=none
+# command bar container
+commandbar-type=both panes
+# command bar horizontal
+commandbar-hori=false
+# command bar priority
+commandbar-priority=1
+# command bar buttons have relief
+commandbar-relief=true
+# command bar buttons are the same size
+commandbar-same=true
+# button style
+commandbar-style=theme
+# icon size
+commandbar-isize=dnd
+# command-aliases
+command-aliases=<
+>
+# show last
+command-line-history-last=false
+# maximum number of history entries
+command-line-history-max=10
+# double entries
+command-line-history-double=false
+# cyclic list
+command-line-history-cycle=false
+# show as a menu
+command-line-menu-style=false
+# append space after unique items
+command-line-complete-append-space=false
+# show last entry
+dir-line-history-last=true
+# show pathname as a tooltip
+dir-line-pathname-hint=true
+# directory path completion
+dir-line-completion=<Tab> only
+# maximum number of history entries
+dir-line-history-max=256
+# double entries
+dir-line-history-double=false
+# cyclic list
+dir-line-history-cycle=true
+# show as a menu
+dir-line-menu-style=false
+# context-menu
+context-menu=<
+新建文件夹|gtk-open|false|false|command.mkdir|
+拯救数据|gtk-copy|false|false|file.copy|
+>
+# show output pane when a new message appears
+show-output-window-on-output=false
+# show output pane if the command line is focused
+command-line-show-output-on-focus-in=false
+# hide output pane if the command line is unfocused
+command-line-hide-output-on-focus-out=false
+# show commands
+fileop-show=false
+# scroll to new output
+output-jump-new=false
+# only scroll when really following
+output-jump-new-following=true
+# only scroll when new output is at the end
+output-jump-new-end=false
+# line wrap mode
+output-wrap-mode=none
+# left margin (pixels)
+output-left-margin=6
+# right margin (pixels)
+output-right-margin=2
+# use custom font
+custom-output-font=false
+# custom output font
+output-font=文泉驿正黑 12
+# positive color
+color-positive=dark green
+# negative color
+color-negative=red
+# unimportant color
+color-unimportant=light grey
+# dialog position
+dialog-position=none
+# open info frame
+dialog-mkdir-show-info=true
+# follow active-pane directory
+dialog-mkdir-follow-pane=true
+# suggest directory name
+dialog-mkdir-suggest-directory=true
+# show last directory name
+dialog-mkdir-show-last=false
+# replicate changes
+dialog-mkdir-connected=true
+# wrap text
+dialog-view-wrap=true
+# window width
+dialog-view-width=84
+# window height
+dialog-view-height=30
+# use custom font
+dialog-view-use-font=true
+# custom font for viewing files
+dialog-view-font=文泉驿正黑 12
+# case sensitive searches
+dialog-search-case-sensitive=false
+# show last search string
+dialog-search-show-last=true
+# keep search history
+dialog-search-history=false
+# backup when saving
+edit-save-backup=false

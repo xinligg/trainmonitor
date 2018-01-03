@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/package/config/root/.gconf/apps/gnome-terminal
+END
+%gconf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/package/config/root/.gconf/apps/gnome-terminal/%25gconf.xml
+END

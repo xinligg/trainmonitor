@@ -1,0 +1,661 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="ibus">
+				<dir name="panel">
+					<entry name="custom_font">
+						<local_schema short_desc="Własna czcionka">
+							<longdesc>Nazwa własnej czcionki dla panelu języków</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Użycie własnej czcionki">
+							<longdesc>Nazwa własnej czcionki użytej w panelu języków</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_im_name">
+						<local_schema short_desc="Wyświetlanie nazwy metody wprowadzania">
+							<longdesc>Wyświetlanie nazwy metody wprowadzania na panelu języków</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_icon_on_systray">
+						<local_schema short_desc="Wyświetlanie ikony w obszarze powiadamiania">
+							<longdesc>Wyświetlanie ikony w obszarze powiadamiania</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="lookup_table_orientation">
+						<local_schema short_desc="Orientacja tablicy wyszukiwania">
+							<longdesc>Orientacja tablicy wyszukiwania. 0 = pozioma, 1 = pionowa</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="Pozycja panela języków">
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="Pozycja panela języków">
+						</local_schema>
+					</entry>
+					<entry name="show">
+						<local_schema short_desc="Automatyczne ukrywanie">
+							<longdesc>Zachowanie panela języków. 0 = osadzony w menu, 1 = automatycznie ukrywany, 2 = zawsze wyświetlany</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="use_global_engine">
+						<local_schema short_desc="Użycie globalnej metody wprowadzania">
+							<longdesc>Używanie tej samej metody wprowadzania we wszystkich aplikacjach</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="embed_preedit_text">
+						<local_schema short_desc="Osadzanie wcześniej wprowadzonego tekstu">
+							<longdesc>Osadzanie wcześniej wprowadzonego tekstu w oknie aplikacji</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_keyboard_layout">
+						<local_schema short_desc="Użycie systemowych ustawień układu klawiatury">
+							<longdesc>Użycie systemowego układu klawiatury (XKB)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preload_engines">
+						<local_schema short_desc="Wcześniejsze wczytanie mechanizmów">
+							<longdesc>Wcześniejsze wczytanie mechanizmów podczas uruchamiania usługi iBus</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="hotkey">
+						<entry name="previous_engine">
+							<local_schema short_desc="Klawisze skrótów poprzedniego mechanizmu">
+							</local_schema>
+						</entry>
+						<entry name="prev_engine">
+							<local_schema short_desc="Klawisze skrótów poprzedniego mechanizmu">
+							</local_schema>
+						</entry>
+						<entry name="next_engine_in_menu">
+							<local_schema short_desc="Klawisze skrótów następnego mechanizmu">
+							</local_schema>
+						</entry>
+						<entry name="next_engine">
+							<local_schema short_desc="Klawisze skrótów następnego mechanizmu">
+							</local_schema>
+						</entry>
+						<entry name="trigger">
+							<local_schema short_desc="Klawisze skrótów przełącznika">
+								<longdesc>Klawisze skrótów do włączania lub wyłączania metody wprowadzania</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-notifier">
+				<entry name="hide_reboot_notification">
+					<local_schema short_desc="Ukryj komunikat o potrzebie ponownego uruchomienia systemu">
+						<longdesc>Nie pokazuj ikony ani komunikatu w sprawie potrzeby ponownego uruchomienia systemu. Jest to przydatne dla administratorów chcących odebrać tę możliwość użytkownikom.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="regular_auto_launch_interval">
+					<local_schema short_desc="Co ile dni uruchamiać automatyczne sprawdzanie aktualizacji">
+						<longdesc>Co ile dni uruchamiać automatyczne sprawdzanie aktualizacji przez program update-manager. Proszę pamiętać, że zostanie on uruchomiony automatycznie do aktualizacji zabezpieczeń. Jeśli zostanie ustawiony na &quot;0&quot; to będzie włączany gdy ukażą się nowe aktualizacje.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="auto_launch">
+					<local_schema short_desc="Automatyczne uruchamianie domyślnego działania">
+						<longdesc>Domyślne działanie (update-manager) będzie automatyczne uruchamianie. Wszystkie okna dialogowe jak powiadomienia, ponowne uruchomienie, wykrywanie nośnika będą uruchamiane automatycznie</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="end_system_uids">
+					<local_schema short_desc="Maksymalny UID zarezerwowany dla użytkowników systemu">
+						<longdesc>Program update-notifier nie zostanie uruchomiony dla użytkowników określonych w górnym obszarze tego zakresu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_apport_crashes">
+					<local_schema short_desc="Automatyczne wyświetlanie raportów o błędach apport">
+						<longdesc>Jeśli wyłączone, użytkownik nie będzie powiadamiany o oczekujących raportach o błędach.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="sprawia, że check-new-release-gtk ignoruje nowe wydania">
+						<longdesc>To spowoduje trwałe ukrycie zapytania o instalację nowej wersji systemu pochodzącej z check-new-release-gtk. Przycisk znajdujący się w głównym oknie menadżera aktualizacji pozostanie nadal widoczny.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Komunikat powitalny po pierwszym uruchomieniu">
+						<longdesc>Jeżeli ten klucz jest ustawiony, pierwszy komunikat powitalny zostanie wyświetlony.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Wyświetlanie podsumowań pakietów przed nazwami pakietów na liście aktualizacji">
+						<longdesc>Ustawienie tego klucza powoduje, że główne okna listy aktualizacji wyświetli podsumowania pakietów przed nazwami pakietów.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Wyświetl wersje na liście dostępnych aktualizacji">
+						<longdesc>Jeśli ta opcja jest zaznaczona, główne okno z listą aktualizacji będzie wyświetlać informację o wersjach (źródłowa i docelowa).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Automatycznie zamknij okno instalacji po jej pomyślnym zakończeniu">
+						<longdesc>Jeżeli to pole jest zaznaczone, okno instalacji zostanie automatycznie zamknięte po pomyślnym jej ukończeniu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*niezalecane* Sprawdzaj nowe wydania dystrybucji">
+						<longdesc>Ten klucz jest przestarzały i zostanie zastąpiony plikiem /etc/update-manager/release-upgrades. Automatycznie sprawdzaj, czy jest dostępne nowe wydanie bieżącej dystrybucji i zasugeruj aktualizację, jeżeli jest ona możliwa.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Rozmiar okna">
+						<longdesc>Zapamiętuje rozmiar okna Menedżera aktualizacji</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Pokaż szczegóły aktualizacji">
+						<longdesc>Zapamiętuje położenie wysuwalnego obszaru zawierającego listę zmian i opis</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Przypominaj o odświeżaniu listy kanałów">
+						<longdesc>Jeżeli automatyczne sprawdzanie aktualizacji jest wyłączone, odśwież listę kanałów ręcznie. Ta opcja pozwala na ukrycie przypominania o tym fakcie.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="printsetup">
+					<entry name="footer">
+						<local_schema short_desc="Stopka strony">
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Nagłówek strony">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Katalog użytkownika na automatyczne formaty">
+							<longdesc>Główny katalog na szablony automatycznego formatowania specyficzne dla użytkownika.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema>
+							<longdesc>Ten katalog zawiera przeinstalowane szablony automatycznego formatowania.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema>
+							<longdesc>Ta lista zawiera wszystkie dodatkowe katalogi zawierające szablony automatycznego formatowania.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="Lista dodatkowych katalogów z wtyczkami.">
+							<longdesc>Ta lista zawiera wszystkie dodatkowe katalogi zawierające wtyczki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Lista stanów plików z wtyczkami.">
+							<longdesc>Ta lista zawiera wszystkie stany plików z wtyczkami.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Lista znanych wtyczek.">
+							<longdesc>Ta lista zawiera wszystkie znane wtyczki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Lista aktywnych wtyczek.">
+							<longdesc>Ta lista zwiera wszystkie wtyczki, które powinny być automatycznie aktywowane.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema>
+							<longdesc>Ta zmienna określa czy należy aktywować każdą nowonapotkaną wtyczkę.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="Maksymalna długość listy ostatnio używanych funkcji">
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="Lista ostatnio używanych funkcji.">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Rosnąco">
+									<longdesc>Ta opcja określa początkowy stan przycisku porządku sortowania w oknie dialogowym sortowania.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Sortowanie zachowuje formaty">
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Sortowanie z _rozróżnianiem małych i wielkich liter">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Domyślne nadpisywanie plików">
+									<longdesc>Zanim istniejący plik zostanie nadpisany, gnumeric wyświetli okno z ostrzeżeniem. Ustawienie tej opcji uczyni przycisk nadpisywania w tym oknie dialogowym przyciskiem domyślnym.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="Ostrzeganie przed eksportem do formatu pojedynczego arkusza">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Domyślny poziom kompresji dla plików Gnumerica">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Domyślny współczynnik powiększenia">
+									<longdesc>Początkowy współczynnik powiększenia dla nowych zeszytów.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Domyślny rozmiar okna w pionie">
+									<longdesc>Ta liczba (pomiędzy 0,25 a 1,00) określa część rozmiaru ekranu zajmowaną przez domyślne okno w pionie.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Domyślny rozmiar okna w poziomie">
+									<longdesc>Ta liczba (pomiędzy 0,25 a 1,00) określa część rozmiaru ekranu zajmowaną przez domyślne okno w poziomie.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="recalclag">
+								<local_schema short_desc="Opóźnienie automatycznego przeliczania wyrażenia">
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="Przewijanie na bieżąco">
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Automatyczne uzupełnianie">
+									<longdesc>Ta zmienna określa czy ustawione jest automatyczne uzupełnianie.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="Rozdzielczość DPI w pionie">
+									<longdesc>Rozdzielczość ekranu w pionie.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="Rozdzielczość DPI w poziomie">
+									<longdesc>Rozdzielczość ekranu w poziomie.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="Domyślna liczba arkuszy">
+								<longdesc>Liczba arkuszy początkowo tworzonych w nowym zeszycie.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Domyślna czcionka jest pochylona.">
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="Domyślna czcionka jest pogrubiona.">
+								<longdesc>Ta wartość określa czy domyślna czcionka dla nowych zeszytów jest wytłuszczona.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Domyślna nazwa czcionki">
+								<longdesc>Domyślna nazwa czcionki dla nowych zeszytów.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Domyślny rozmiar czcionki">
+								<longdesc>Domyślny rozmiar czcionki dla nowych zeszytów.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="Długość deskryptorów cofnięcia">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Maksymalna liczba cofnięć">
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="Wyświetlanie nazwy arkusza na liście cofnięć">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Styl paska narzędziowego">
+							<longdesc>Styl paska narzędziowego. Poprawnymi wartościami są both, both_horiz, icon i text</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Katalog do zapisania plików">
+						<longdesc>Katalog do zapisywania plików. Jeśli nie ustawiono, używa domyślnego katalogu Dokumenty.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Strona do skanowania">
+						<longdesc>Strona do skanowania. Może wynosić jedną z wartości: &quot;both&quot; (obie), &quot;front&quot; (przód), &quot;back&quot; (tył)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Rozdzielczość skanowanych zdjęć">
+						<longdesc>Rozdzielczość do użycia podczas skanowania zdjęć w punktach na cal (dpi).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Rozdzielczość skanowanego tekstu">
+						<longdesc>Rozdzielczość do użycia podczas skanowania tekstu w punktach na cal (dpi).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Rozdzielczość ostatnio zeskanowanego obrazu">
+						<longdesc>Rozdzielczość ostatnio skanowanego obrazu w punktach na cal (dpi).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Wysokość papieru w dziesiątkach milimetrów">
+						<longdesc>Wysokość papieru w dziesiątkach milimetrów (lub 0 dla automatycznego wykrywania papieru).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Szerokość papieru w dziesiątkach milimetrów">
+						<longdesc>Szerokość papieru w dziesiątkach milimetrów (lub 0 dla automatycznego wykrywania papieru).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Wysokość zeskanowanego obrazu w pikselach">
+						<longdesc>Wysokość zeskanowanego obrazu w pikselach. Ta wartość jest aktualizowana do tej, jaka wynosiła podczas ostatniego skanowania.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Szerokość zeskanowanego obrazu w pikselach">
+						<longdesc>Szerokość zeskanowanego obrazu w pikselach. Ta wartość jest aktualizowana do tej, jaka wynosiła podczas ostatniego skanowania.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Kierunek skanowania">
+						<longdesc>Kierunek skanowania na skanowanej stronie. Może być jednym z następujących: &quot;top-to-bottom&quot; (od góry do dołu), &quot;bottom-to-top&quot; (od dołu do góry), &quot;left-to-right&quot; (od lewej do prawej), &quot;right-to-left&quot; (od prawej do lewej)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Typ skanowanego dokumentu">
+						<longdesc>Typ skanowanego dokumentu. Wartość &quot;text&quot; (tekst) dla dokumentów tekstowych, &quot;photo&quot; (zdjęcie) dla zdjęć. To ustawienie decyduje o rozdzielczości skanowania, kolorach i możliwości późniejszej obróbki.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Urządzenie skanujące">
+						<longdesc>Urządzenie SANE do pobierania obrazu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="Wartość &quot;True&quot;, jeśli okno programu jest zmaksymalizowane">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Wysokość okna w pikselach">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Szerokość okna w pikselach">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

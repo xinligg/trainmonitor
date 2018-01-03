@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/scripts/apps/acroread/__init__.py

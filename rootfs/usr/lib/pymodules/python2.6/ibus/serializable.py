@@ -1,0 +1,1 @@
+/usr/share/pyshared/ibus/serializable.py

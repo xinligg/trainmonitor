@@ -1,0 +1,11 @@
+pyversions=2.5-
+
+/usr/share/pyshared/sessioninstaller-0.0.0.egg-info
+/usr/share/pyshared/sessioninstaller/__init__.py
+/usr/share/pyshared/sessioninstaller/backends/aptd.py
+/usr/share/pyshared/sessioninstaller/backends/dummy.py
+/usr/share/pyshared/sessioninstaller/backends/synaptic.py
+/usr/share/pyshared/sessioninstaller/core.py
+/usr/share/pyshared/sessioninstaller/errors.py
+/usr/share/pyshared/sessioninstaller/gstinstaller.py
+/usr/share/pyshared/sessioninstaller/utils.py

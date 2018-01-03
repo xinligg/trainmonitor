@@ -1,0 +1,17 @@
+#!/bin/sh
+
+BOOTDISK_INI=/BootDisk.ini
+BOOTDISK=`fdisk -l | grep "^/dev/" | head -n 1 | cut -d' ' -f1 | tr -d "0-9"`
+HIDPART=`cat /proc/mounts | grep mnt | cut -d' ' -f1`
+HARDDISK=/media/`cat /proc/mounts | grep mnt | cut -d' ' -f1 | cut -d'/' -f3`
+
+echo "[BootDisk]" 		> $BOOTDISK_INI
+echo "BootDisk=$BOOTDISK"	>> $BOOTDISK_INI
+echo ""				>> $BOOTDISK_INI
+echo "[HidPart]"		>> $BOOTDISK_INI
+echo "HidPart=$HIDPART"		>> $BOOTDISK_INI
+echo ""				>> $BOOTDISK_INI
+
+ln -sf $HARDDISK /mnt/harddisk
+ln -sf . /mnt/hidpart
+

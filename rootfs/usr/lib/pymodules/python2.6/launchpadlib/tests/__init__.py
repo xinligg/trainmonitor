@@ -1,0 +1,1 @@
+/usr/share/pyshared/launchpadlib/tests/__init__.py

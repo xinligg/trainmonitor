@@ -1,0 +1,771 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="check-release-gtk een nieuwe uitgave laten negeren">
+						<longdesc>Dit zal de melding van een nieuwe uitgave permanent verbergen voor check-new-release-gtk. Merk op dat de kleine knop in de hoofd-interface van update-manager nog steeds aanwezig zal zijn.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Welkomstbericht bij eerste start">
+						<longdesc>Als deze optie wordt aangezet, zal er een welkomstbericht gepresenteerd worden.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Toon de pakketsamenvatting voor de pakketnaam in de updatelijst">
+						<longdesc>Als deze waarde is ingesteld zal het updatevenster de pakket-samenvatting voor de pakketnaam tonen.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Versies weergeven in de lijst met updates.">
+						<longdesc>Bij inschakelen zal de versie-informatie weergegeven worden in de lijst met updates (de wijzigingen tussen de oude versie en de nieuwe).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Het installatievenster automatisch sluiten na voltooiing van de installatie">
+						<longdesc>Als deze optie wordt aangezet, zal het installatievenster automatisch gesloten worden na een succesvolle installatie.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*verouderd* Controleren op nieuwe distributieversies">
+						<longdesc>Deze sleutel is verouderd. Gebruik nu bij voorkeur het bestand /etc/update-manager/release-upgrades.
+Automatisch controleren of er een nieuwe versie van de huidige distributie beschikbaar is en aanbieden om te upgraden (indien mogelijk).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="De venstergrootte">
+						<longdesc>Onthoudt de grootte van het dialoogvenster van updatebeheer</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Details van een update weergeven">
+						<longdesc>Onthoudt de toestand van het vensterdeel dat de lijst met wijzigingen en de omschrijvingen bevat</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Herinneren om de kanalenlijst te herladen">
+						<longdesc>Indien automatisch controleren voor updates uitgeschakeld is, moet u de kanalenlijst zelf herladen. Met deze optie kunt u er voor zorgen dat in dat soort gevallen geen herinnering gegeven wordt.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="Bij LaTeX-export, UTF-8 gebruiken">
+								<longdesc>Deze instelling bepaalt of aangemaakte LaTeX-bestanden UTF-8 (unicode) gebruiken of ISO-8859-1 (Latin1). Om UTF-8 bestanden te maken, moet u het ucs LaTeX pakket hebben geïnstalleerd.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="&quot;Bereik-selecties zonder focus&quot; toestaan">
+								<longdesc>Sommige dialoogvensters bevatten slechts een enkel invoerveld voor bereik-selecties in de werkmap. Als deze variabele aangevinkt wordt, zal een bereik-selectie rechtstreeks in dit invoerveld worden gezet, zelfs al heeft dit invoerveld geen toetsenbord-aandacht.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema short_desc="Kop/voet opmaakt (rechter deel)">
+							<longdesc>Gebruik het dialoogvenster Afdrukinstellingen om deze waarde te wijzigen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema short_desc="Kop/voet opmaak (midden)">
+							<longdesc>Gebruik het dialoogvenster Afdrukinstellingen om deze waarde te wijzigen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema short_desc="Kop/voet opmaak (linker deel)">
+							<longdesc>Gebruik het dialoogvenster Afdrukinstellingen om deze waarde te wijzigen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="Standaard ondermarge">
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="Standaard ondermarge">
+							<longdesc>Deze waarde geeft het standaart aantal punten van de onderkant van de pagina tot het einde van de tekst. Gebruik het dialoogvenster Afdrukinstellingen om deze waarde te wijzigen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="Standaard bovenmarge">
+							<longdesc>Deze waarde geeft het standaard aantal punten van de bovenkant van de pagina tot het begin van de tekst. Gebruik het dialoogvenster Afdrukinstellingen om deze waarde te wijzigen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-left">
+						<local_schema short_desc="Standaard herhaald linkergebied">
+							<longdesc>Deze tekenreeks geeft het standaard gebied dat aan de linkerzijde van elk afgedrukt werkblad wordt herhaald. Gebruik het dialoog Afdrukinstellingen om deze waarde in te stellen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-top">
+						<local_schema short_desc="Standaard herhaald bovengebied">
+							<longdesc>Deze tekenreeks geeft het standaard gebied dat aan de bovenzijde van elk afgedrukt werkblad wordt herhaald. Gebruik het dialoog Afdrukinstellingen om deze waarde in te stellen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="Standaard schaalhoogte">
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="Standaard schaalbreedte">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="Standaard schalingspercentage">
+							<longdesc>Deze waarde geeft het percentage waarmee elke afgedrukte pagina wordt vergroot of verkleind. Gebruik het dialoogvenster Afdrukinstellingen om deze waarde te wijzigen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="Standaard schalingstype">
+							<longdesc>Deze waarde bepaalt of de standaardinstelling in het afdrukinstellingen-venster wat betreft het op schaal maken van pagina&apos;s met een gegeven percentage. Gebruik het Afdrukinstellingenvenster om deze waarde te bewerken.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="Standaard afdrukrichting">
+							<longdesc>Deze waarde bepaalt de standaard instelling in het dialoogvenster Afdrukinstellingen of eerst naar rechts wordt afgedrukt en dan naar beneden. Gebruik het dialoogvenster Afdrukinstellingen om deze waarde te wijzigen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="Standaard titel afdrukken">
+							<longdesc>Deze waarde bepaalt of de standaardinstelling in het afdrukinstellingen-venster wat betreft het afdrukken van rij- en kolomkoppen. Gebruik het Afdrukinstellingenvenster om deze waarde te bewerken</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="Standaard zwart-wit afdrukken">
+							<longdesc>Deze waarde bepaalt de standaard instelling in het dialoogvenster Afdrukinstellingen of alleen in zwart-wit wordt afgedrukt. Gebruik het dialoogvenster Afdrukinstellingen om deze waarde te wijzigen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-even-if-only-styles">
+						<local_schema short_desc="Standaard cellen afdrukken met alleen stijlen">
+							<longdesc>Deze waarde bepaalt de standaard instelling in het dialoog Afdrukinstellingen, of lege cellen (maar met opmaak) worden afgedrukt. Gebruik het dialoog Afdrukinstellingen om deze instelling te wijzigen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="Standaard rooster afdrukken">
+							<longdesc>&gt;Deze waarde bepaalt of bij de standaardinstelling in het dialoogvenster &quot;Afdrukinstellingen&quot; rasterlijnen worden gebruikt. Gebruik het dialoogvenster &quot;Afdrukinstellingen&quot; om deze waarde te bewerken.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="Standaard verticale centrering">
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="Standaard horizontale centrering">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="Het standaard lettertype voor de kop/voet is cursief.">
+							<longdesc>Deze waarde bepaalt of het standaard lettertype van een kop of voettekst, cursief is.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="Het standaard lettertype voor de kop/voet is vet.">
+							<longdesc>Deze waarde bepaalt of het standaard lettertype van een kop of voettekst, vet is.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="Standaard lettertype-naam kop/voet">
+							<longdesc>De naam van het standaard lettertype voor kop en voetteksten</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="Standaard lettertypegrootte kop/voet">
+							<longdesc>Het grootte van het standaard lettertype voor kop en voetteksten</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="Paginavoet">
+							<longdesc>De standaard paginavoet voor nieuwe documenten hetgeen aangepast kan worden via het dialoogvenster: pagina-instellen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Paginakop">
+							<longdesc>De standaard paginakop voor nieuwe documenten hetgeen aangepast kan worden via het dialoogvenster: pagina-instellen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="Afdrukinstellingen toepassen op alle werkbladen">
+							<longdesc>Deze waarde bepaalt of de instellingen in het afdruk-dialoogvenster standaard voor alle werkbladen tegelijk gelden.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Gebruikersmap voor autoformaten.">
+							<longdesc>De hoofdmap voor gebruikerspecifieke autoformat-sjablonen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="Systeemmap voor autoformaten">
+							<longdesc>Deze map bevat de vooraf-geïnstalleerde autoformat-sjablonen</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="Lijst van extra Autoformat-mappen.">
+							<longdesc>Deze lijst bevat alle extra mappen met autoformat-sjablonen.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="Lijst van extra plugin-mappen.">
+							<longdesc>Deze lijst bevat alle extra mappen met plugins.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Lijst van Plugin Bestandstoestanden.">
+							<longdesc>Deze lijst bevat alle plugin bestandstoestanden.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Lijst van bekende plugins.">
+							<longdesc>Deze lijst bevat alle beschikbare plugins.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Lijst met actieve plugins">
+							<longdesc>Deze lijst bevat alle plugins die automatisch moeten worden geactiveerd.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Nieuwe plugins activeren">
+							<longdesc>Deze variabele bepaalt of nieuw ontdekte plugins automatisch worden geactiveerd.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Vervanging automatisch corrigeren">
+							<longdesc>Vervanging automatisch corrigeren</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="Autocorrectie toepassen op dagnamen">
+							<longdesc>Autocorrectie toepassen op dagnamen</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="Lijst met Eerste-letter Uitzonderingen">
+							<longdesc>Autocorrectie corrigeert niet de eerste letter voor woorden die in deze lijst staan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="Eerste letter automatisch corrigeren">
+							<longdesc>Eerste letter automatisch corrigeren</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="Lijst met Beginhoofdletter Uitzonderingen">
+							<longdesc>Autocorrectie corrigeert niet een begin-hoofdletter voor woorden die in deze lijst staan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Beginhoofdletter automatisch corrigeren">
+							<longdesc>Beginhoofdletter automatisch corrigeren</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="Maximumlengte van de lijst met recentelijk gebruikte functies.">
+							<longdesc>De functiekiezer gebruikt een lijst met recentelijk gebruikte functies. Dit is de maximumlengte van die lijst.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="Lijst van recentelijk gebruikte functies.">
+							<longdesc>De functiekiezer houdt een lijst bij van recentelijk gebruikte functies. Dat is deze lijst.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="cut-and-paste">
+					<entry name="prefer-clipboard">
+						<local_schema short_desc="bij selecteren CLIPBOARD prefereren boven PRIMARY">
+							<longdesc>Indien WAAR, zal Gnumeric de modernere CLIPBOARD-selectie verkiezen boven de verouderde PRIMARY-selecties. Zet deze variabele op ONWAAR als u met oudere toepassingen te maken heeft, zoals Xterm of Emacs, die alleen de PRIMARY-selectie gebruiken.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="Aantal automatisch clausules">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Oplopend sorteren">
+									<longdesc>Deze optie bepaalt de beginstand van de sorteervolgorde-knop in het sorteerdialoogvenster.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Sorteren behoudt opmaak">
+									<longdesc>Deze optie zort dat de sorteerknoppen op de werkbalk bij het sorteren de opmaak van de cellen behouden. Ook zal hiermee het vinkje in het sorteerdialoogvenster standaard bij: &apos;opmaak behouden&apos; staan</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Sorteren is hoofdlettergevoelig">
+									<longdesc>Deze optie zorgt dat de sorteerknoppen op de werkbalk hoofdlettergevoelig sorteren. Ook zal hiermee het vinkje in het sorteerdialoogvenster standaard bij: &apos;hooflettergevoelig&apos; staan.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Bestanden overschrijven instellen als standaard">
+									<longdesc>Voordat een reeds bestaand bestand wordt overschreven laat gnumeric een waarschuwingsdialoog zien. Als u deze optie aanzet zal de knop voor overschrijven, de standaardknop zijn.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="Waarschuwen als geëxporteerd wordt naar een enkel-werkblad formaat">
+									<longdesc>Sommige bestandsformaten kunnen slechts een enkel werkblad bevatten. Deze variabele bepaalt of de gebruiker wordt gewaarschuwd als er van een werkmap met meerdere werkbladen slechts één werkblad wordt opgeslagen.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Standaard compressieniveau voor Gnumeric-bestanden">
+								<longdesc>Dit getal (tussen 0 en 9) geeft de mate waarin Gnumeric bestanden comprimeert bij het opslaan in het standaard bestandsformaat. Bij 0 is er geen compressie terwijl bij 9 de bestanden maximaal gecomprimeerd worden.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Standaard zoom-factor">
+									<longdesc>De standaard zoomfactor voor nieuwe werkmappen.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Standaard verticale grootte van venster">
+									<longdesc>Dit getal (tussen 0.25 en 1.00) geeft de verticale fractie van het beeldscherm dat door het standaardvenster in beslag wordt genomen.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Standaard horizontale grootte van venster">
+									<longdesc>Dit getal (tussen 0.25 en 1.00) geeft de horizontale fractie van het beeldscherm dat door het standaardvenster in beslag wordt genomen.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="transitionkeys">
+								<local_schema short_desc="Overgangstoetsen">
+								</local_schema>
+							</entry>
+							<entry name="recalclag">
+								<local_schema short_desc="Vertraging bij automatisch herberekenen van uitdrukkingen">
+									<longdesc>Indien `lag&apos; gelijk is aan 0, zal gnumeric alle auto-uitdrukkingen onmiddellijk na elke wijziging herberekenen. Indien `lag&apos; niet gelijk is aan nul, krijgt gnumeric gelegenheid om wijzigingen te verzamelen voordat er opnieuw een herberekening wordt uitgevoerd. Wanneer `lag&apos; positief is, wacht gnumeric na het aanbrengen van de wijziging met de herberekening, gedurende het aantal milliseconden dat `lag&apos; aangeeft; indien binnen deze periode meer wijzigingen worden doorgevoerd, worden deze op het eind van de periode gelijk meeverwerkt.
+Wanneer `lag&apos; negatief is, wordt een herberekening pas uitgevoerd nadat er een periode van |lag| milliseconden geen activiteit is geweest.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="Live schuiven">
+									<longdesc>Deze variabele bepaalt of &apos;live&apos;-schuiven (versus vertraagd) wordt gebruikt.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Automatisch aanvullen">
+									<longdesc>Deze variabele bepaalt of autoaanvullen wordt gebruikt.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbars">
+							<entry name="ObjectToolbar">
+								<local_schema short_desc="Objectenwerkbalk zichtbaar">
+									<longdesc>Deze variabele bepaalt of de objectenwerkbalk in eerste instantie getoond wordt.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar">
+								<local_schema short_desc="Opmaakwerkbalk zichtbaar">
+									<longdesc>Deze variabele bepaalt of de opmaakwerkbalk in eerste instantie getoond wordt.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar-position">
+								<local_schema short_desc="Standaardwerkbalk positie">
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar">
+								<local_schema short_desc="Standaardwerkbalk zichtbaar">
+									<longdesc>Deze variabele bepaalt of de standaardwerkbalk in eerste instantie getoond wordt.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="DPI Vertikaal">
+									<longdesc>Schermresolutie in verticale richting.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="DPI Horizontaal">
+									<longdesc>Schermresolutie in horizontale richting.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="Standaard aantal werkbladen">
+								<longdesc>Het standaard aantal werkbladen in een nieuwe werkmap.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Het standaard lettertype is cursief.">
+								<longdesc>Deze waarde bepaalt of het standaard lettertype van een nieuwe werkmap cursief is.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="Het standaard lettertype is vet.">
+								<longdesc>Deze waarde bepaalt of het standaard lettertype van een nieuwe werkmap, vet is.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Standaard lettertype-naam">
+								<longdesc>De naam van het standaard lettertype voor nieuwe werkmappen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Standaard lettergrootte">
+								<longdesc>Het grootte van het standaard lettertype voor nieuwe werkmappen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="Lengte van de herstellen-omschrijvingen">
+							<longdesc>Deze waarde geeft de maximum lengte van de opdrachtomschrijvingen in de herstellen/opnieuw lijsten.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="Aantal Herstellen-items">
+							<longdesc>Deze waarde bepaalt het maximum aantal items in de herstellen/opnieuw-lijst.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Maximum omvang van Herstellen">
+							<longdesc>Deze waarde bepaalt de lengte van de herstellen-lijst. Elke bewerking heeft een geassocieerde grootte teneinde het te kunnen vergelijken met het geheugengebruik dat benodigd is voor het bewerken van een enkele cel (de grootte daarvan is 1). De herstellen-lijst zal worden afgekapt als de grootte van de lijst, deze waarde overschrijdt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="Werkbladnaam tonen in de Herstellen-lijst">
+							<longdesc>Deze waarde bepaalt of de werkbladnamen worden getoond in de herstellen/opnieuw lijsten.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Werkbalkstijl">
+							<longdesc>Werkbalk-stijl. Geldige waarden zijn both, both_horiz, icon en text</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Map om bestanden in op te slaan">
+						<longdesc>De map waarin bestanden worden opgeslagen. Dit is standaard de map Documenten indien niet ingesteld.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Te scannen paginazijde">
+						<longdesc>De te scannen paginazijde. Het kan één van de volgende waarden bevatten: &apos;both&apos; &apos;front&apos; &apos;back&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Resolutie voor gescande foto&apos;s">
+						<longdesc>De te gebruiken resolutie in punten-per-inch (dtp) tijdens het scannen van foto&apos;s.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Resolutie voor gescande tekst">
+						<longdesc>De te gebruiken resolutie in punten-per-inch (dtp) tijdens het scannen van tekst.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Resolutie van laatste gescande afbeelding">
+						<longdesc>De resolutie in punten-per-inch (dtp) van de vorige gescande afbeelding.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Hoogte van het papier in tienden van een mm">
+						<longdesc>De hoogte van het papier in tienden van een mm (of 0 voor automatische papierdetectie).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Breedte van het papier in tienden van een mm">
+						<longdesc>De breedte van het papier in tienden van een mm (of 0 voor automatische papierdetectie).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Hoogte van gescande afbeelding in pixels">
+						<longdesc>De hoogte van de gescande afbeelding in pixels. Deze waarde representeert de laatst gescande pagina.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Breedte van gescande afbeelding in pixels">
+						<longdesc>De breedte van de gescande afbeelding in pixels. Deze waarde representeert de laatst gescande pagina.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Scanrichting">
+						<longdesc>De richting van de scanner over de gescande pagina. Dit kan een van de volgende waarden zijn: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Type document dat gescand wordt">
+						<longdesc>Type document dat gescand wordt. &apos;text&apos; voor tekstdocumenten, &apos;photo&apos; voor foto&apos;s. Deze instelling bepaalt de scanresolutie, de kleuren en naverwerking.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Te gebruiken scanapparaat">
+						<longdesc>SANE-apparaat om beeld van te ontvangen</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="TRUE als het programmavenster gemaximaliseerd is">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Vensterhoogte in pixels">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Vensterbreedte in pixels">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

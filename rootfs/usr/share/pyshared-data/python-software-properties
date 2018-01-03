@@ -1,0 +1,23 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 1
+[files]
+/usr/share/pyshared/softwareproperties=d
+/usr/share/pyshared/softwareproperties/CountryInformation.py=f
+/usr/share/pyshared/softwareproperties/SoftwareProperties.py=f
+/usr/share/pyshared/softwareproperties/AptAuth.py=f
+/usr/share/pyshared/softwareproperties/distro.py=f
+/usr/share/pyshared/softwareproperties/ppa.py=f
+/usr/share/pyshared/softwareproperties/MirrorTest.py=f
+/usr/share/pyshared/softwareproperties/__init__.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties=d
+/usr/lib/python2.6/dist-packages/softwareproperties/CountryInformation.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/SoftwareProperties.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/AptAuth.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/distro.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/ppa.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/MirrorTest.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/__init__.py=f

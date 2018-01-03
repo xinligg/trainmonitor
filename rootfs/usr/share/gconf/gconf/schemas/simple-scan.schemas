@@ -1,0 +1,2086 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <applyto>/apps/simple-scan/window_width</applyto>
+      <key>/schemas/apps/simple-scan/window_width</key>
+      <owner>simple-scan</owner>
+      <type>int</type>
+      <default>600</default>
+      <locale name="C">
+        <short>Window width in pixels</short>
+      </locale>
+
+      <locale name="ar">
+        <short>عرض النافذة بالبكسل</short>
+      </locale>
+
+      <locale name="bg">
+        <short>Ширина на прозореца в пиксели</short>
+      </locale>
+
+      <locale name="ca">
+        <short>Amplada de la finestra en píxels</short>
+      </locale>
+
+      <locale name="cs">
+        <short>Šířka okna v pixelech</short>
+      </locale>
+
+      <locale name="da">
+        <short>Vinduesbredde i pixel</short>
+      </locale>
+
+      <locale name="de">
+        <short>Fensterbreite in Pixel</short>
+      </locale>
+
+      <locale name="el">
+        <short>Πλάτος παραθύρου σε εικονοστοιχεία</short>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Window width (in pixels)</short>
+      </locale>
+
+      <locale name="es">
+        <short>Anchura de la ventana en píxeles</short>
+      </locale>
+
+      <locale name="fi">
+        <short>Ikkunan leveys pikseleinä</short>
+      </locale>
+
+      <locale name="fr">
+        <short>Largeur de la fenêtre en pixels</short>
+      </locale>
+
+      <locale name="gl">
+        <short>Largura da xanela en píxeles</short>
+      </locale>
+
+      <locale name="he">
+        <short>Window width in pixels</short>
+      </locale>
+
+      <locale name="hu">
+        <short>Ablak szélessége képpontban</short>
+      </locale>
+
+      <locale name="it">
+        <short>Larghezza della finestra in pixel</short>
+      </locale>
+
+      <locale name="ja">
+        <short>ウィンドウの幅(ピクセル)</short>
+      </locale>
+
+      <locale name="nb">
+        <short>Vindusbredde i pixler</short>
+      </locale>
+
+      <locale name="nl">
+        <short>Vensterbreedte in pixels</short>
+      </locale>
+
+      <locale name="pl">
+        <short>Szerokość okna w pikselach</short>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Largura da janela em pixels</short>
+      </locale>
+
+      <locale name="ro">
+        <short>Lățimea ferestrei, în pixeli</short>
+      </locale>
+
+      <locale name="ru">
+        <short>Ширина окна в пикселах</short>
+      </locale>
+
+      <locale name="sk">
+        <short>Šírka okna v pixeloch</short>
+      </locale>
+
+      <locale name="sl">
+        <short>Širina okna v točkah</short>
+      </locale>
+
+      <locale name="sv">
+        <short>Fönsterbredd i bildpunkter</short>
+      </locale>
+
+      <locale name="tr">
+        <short>Pencerenin piksel cinsinden genişliği</short>
+      </locale>
+
+      <locale name="uk">
+        <short>Ширина вікна у пікселях</short>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>窗口宽度 (像素)</short>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/window_height</applyto>
+      <key>/schemas/apps/simple-scan/window_height</key>
+      <owner>simple-scan</owner>
+      <type>int</type>
+      <default>400</default>
+      <locale name="C">
+        <short>Window height in pixels</short>
+      </locale>
+
+      <locale name="ar">
+        <short>ارتفاع النافذة بالبكسل</short>
+      </locale>
+
+      <locale name="bg">
+        <short>Височина на прозореца в пиксели</short>
+      </locale>
+
+      <locale name="ca">
+        <short>Alçada de la finestra en píxels</short>
+      </locale>
+
+      <locale name="cs">
+        <short>Výška okna v pixelech</short>
+      </locale>
+
+      <locale name="da">
+        <short>Vindueshøjde i pixel</short>
+      </locale>
+
+      <locale name="de">
+        <short>Fensterhöhe in Pixel</short>
+      </locale>
+
+      <locale name="el">
+        <short>Ύψος παραθύρου σε εικονοστοιχεία</short>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Window height (in pixels)</short>
+      </locale>
+
+      <locale name="es">
+        <short>Altura de la ventana en píxeles</short>
+      </locale>
+
+      <locale name="fi">
+        <short>Ikkunan korkeus pikseleinä</short>
+      </locale>
+
+      <locale name="fr">
+        <short>Hauteur de la fenêtre en pixels</short>
+      </locale>
+
+      <locale name="gl">
+        <short>Altura da xanela en píxeles</short>
+      </locale>
+
+      <locale name="he">
+        <short>Window height in pixels</short>
+      </locale>
+
+      <locale name="hu">
+        <short>Ablak magassága képpontban</short>
+      </locale>
+
+      <locale name="it">
+        <short>Altezza della finestra in pixel</short>
+      </locale>
+
+      <locale name="ja">
+        <short>ウィンドウの高さ(ピクセル)</short>
+      </locale>
+
+      <locale name="nb">
+        <short>Vindushøyde i pixler</short>
+      </locale>
+
+      <locale name="nl">
+        <short>Vensterhoogte in pixels</short>
+      </locale>
+
+      <locale name="pl">
+        <short>Wysokość okna w pikselach</short>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Altura da janela em pixels</short>
+      </locale>
+
+      <locale name="ro">
+        <short>Înălțimea ferestrei, în pixeli</short>
+      </locale>
+
+      <locale name="ru">
+        <short>Высота окна в пикселах</short>
+      </locale>
+
+      <locale name="sk">
+        <short>Výška okna v pixeloch</short>
+      </locale>
+
+      <locale name="sl">
+        <short>Višina okna v točkah</short>
+      </locale>
+
+      <locale name="sv">
+        <short>Fönsterhöjd i bildpunkter</short>
+      </locale>
+
+      <locale name="tr">
+        <short>Pencerenin piksel cinsinden yüksekliği</short>
+      </locale>
+
+      <locale name="uk">
+        <short>Висота вікна у пікселях</short>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>窗口高度 (像素)</short>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/window_is_maximized</applyto>
+      <key>/schemas/apps/simple-scan/window_is_maximized</key>
+      <owner>simple-scan</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>TRUE if the application window is maximized</short>
+      </locale>
+
+      <locale name="ar">
+        <short>صحيح إن كانت نافذة البرنامج مكبرة</short>
+      </locale>
+
+      <locale name="bg">
+        <short>TRUE ако прозореца на приложението е максимизиран.</short>
+      </locale>
+
+      <locale name="ca">
+        <short>TRUE (cert) si la finestra de l&apos;aplicació està maximitzada</short>
+      </locale>
+
+      <locale name="cs">
+        <short>Nastavit na hodnotu PRAVDA, pokud má být okno maximalizované</short>
+      </locale>
+
+      <locale name="da">
+        <short>SAND hvis programvinduet er maksimeret.</short>
+      </locale>
+
+      <locale name="de">
+        <short>TRUE wenn das Anwendungsfenster maximiert ist</short>
+      </locale>
+
+      <locale name="el">
+        <short>ΑΛΗΘΕΣ αν το παράθυρο της εφαρμογής είναι μεγιστοποιημένο</short>
+      </locale>
+
+      <locale name="en_GB">
+        <short>TRUE if the application window is maximised</short>
+      </locale>
+
+      <locale name="es">
+        <short>VERDADERO si la ventana de la aplicación está maximizada</short>
+      </locale>
+
+      <locale name="fr">
+        <short>VRAI si la fenêtre de l&apos;application est maximisée</short>
+      </locale>
+
+      <locale name="gl">
+        <short>VERDADEIRO se a xanela do aplicativo está maximizada</short>
+      </locale>
+
+      <locale name="he">
+        <short>TRUE if the application window is maximized</short>
+      </locale>
+
+      <locale name="hu">
+        <short>Igaz, ha az alkalmazás teljes képernyős módban van</short>
+      </locale>
+
+      <locale name="it">
+        <short>VERO se la finestra dell&apos;applicazione è massimizzata</short>
+      </locale>
+
+      <locale name="ja">
+        <short>アプリケーションのウィンドウを最大化するには TRUE にします</short>
+      </locale>
+
+      <locale name="nb">
+        <short>SANN hvis programvinduet er maksimert</short>
+      </locale>
+
+      <locale name="nl">
+        <short>TRUE als het programmavenster gemaximaliseerd is</short>
+      </locale>
+
+      <locale name="pl">
+        <short>Wartość &quot;True&quot;, jeśli okno programu jest zmaksymalizowane</short>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>VERDADEIRO se a janela do aplicativo está maximizada</short>
+      </locale>
+
+      <locale name="ro">
+        <short>ADEVĂRAT dacă fereastra aplicației este mărită la maximum</short>
+      </locale>
+
+      <locale name="ru">
+        <short>TRUE, если окно приложения развёрнуто на весь экран</short>
+      </locale>
+
+      <locale name="sk">
+        <short>TRUE pokiaľ je aplikačné okno v maximálnej veľkosti</short>
+      </locale>
+
+      <locale name="sl">
+        <short>PRAV, če je okno programa razpeto</short>
+      </locale>
+
+      <locale name="sv">
+        <short>TRUE om programfönstret är maximerat</short>
+      </locale>
+
+      <locale name="tr">
+        <short>Eğer uygulama penceresi maksimum yapıldığında DOĞRU (TRUE)</short>
+      </locale>
+
+      <locale name="uk">
+        <short>Якщо позначено, вікно програми буде максимізовано</short>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>TRUE 如果应用程序窗口是最大化的</short>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/selected_device</applyto>
+      <key>/schemas/apps/simple-scan/selected_device</key>
+      <owner>simple-scan</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>Device to scan from</short>
+        <long>
+          SANE device to acquire images from.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>الجهاز الذي سيمسح منه</short>
+        <long>جهاز SANE  للحصول على الصور منه.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Устройство, от което да се сканира</short>
+        <long>SANE устройство, от което да се получи изображението.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Dispositiu d&apos;escaneig</short>
+        <long>Dispositiu SANE per a l&apos;adquisició d&apos;imatges.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zařízení určené ke skenování</short>
+        <long>Zařízení SANE pro načítání obrázků.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Enhed at skanne fra</short>
+        <long>SANE-enhed at erhverve billeder fra.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Scangerät</short>
+        <long>SANE-Gerät, von dem Bilder angefordert werden.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Συσκευή που χρησιμοποιείται για σάρωση</short>
+        <long>Συσκευή SANE που χρησιμοποιείται για την λήψη εικόνων.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Device to scan from</short>
+        <long>SANE device to acquire images from.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Para escanear desde el dispositivo</short>
+        <long>Dispositivo SANE desde donde adquirir las imágenes.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Laite jolta luetaan</short>
+        <long>SANE-laite jolta kuvat luetaan.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Numériser depuis</short>
+        <long>Périphérique SANE à utiliser pour l&apos;acquisition des images.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Dispositivo desde o que escanear</short>
+        <long>Dispositivo SANE desde o que adquirir as imaxes.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Device to scan from</short>
+        <long>SANE device to acquire images from.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A szkennelő eszkőz</short>
+        <long>Képek beszerzése erről a SANE eszközről</long>
+      </locale>
+
+      <locale name="it">
+        <short>Dispositivo di acquisizione</short>
+        <long>Dispositivo SANE da cui acquisire le immagini.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>スキャンするデバイス</short>
+        <long>画像を取得する SANE デバイスです。</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Enhet det skal skannes fra</short>
+        <long>SANE-enhet som bilder skal hentes fra.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Te gebruiken scanapparaat</short>
+        <long>SANE-apparaat om beeld van te ontvangen</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Urządzenie skanujące</short>
+        <long>Urządzenie SANE do pobierania obrazu.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Dispositivo de onde digitalizar</short>
+        <long>Dispositivo para o SANE adquirir imagens.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dispozitiv de folosit pentru scanare</short>
+        <long>Dispozitivul SANE din care se preiau imaginile.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Устройство сканирования</short>
+        <long>Устройство SANE для получения изображений.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zariadenie z ktorého skenovať</short>
+        <long>Zariadenie SANE z ktorého získať obrázky.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Naprava za optično branje</short>
+        <long>Naprava SANE za pridobivanje slik.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Enhet att läsa in från</short>
+        <long>SANE-enhet att hämta in bilder från.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Tarama yapılacak aygıt</short>
+        <long>Görüntülerin alınacağı SANE aygıtı</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Пристрій сканування</short>
+        <long>Пристрій SANE, з якого слід отримувати зображення.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>扫描设备</short>
+        <long>从 SANE 设备获取图像。</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/document_type</applyto>
+      <key>/schemas/apps/simple-scan/document_type</key>
+      <owner>simple-scan</owner>
+      <type>string</type>
+      <default>photo</default>
+      <locale name="C">
+        <short>Type of document being scanned</short>
+        <long>
+          Type of document being scanned.
+	  'text' for text documents, 'photo' for photos.
+	  This setting decides on the scan resolution, colors and post-processing.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>نوع المستند الذي يجري مسحه</short>
+        <long>نوع المستند الذي يجري مسحه. &apos;text&apos; للمستندات النصية، &apos;photo&apos; للصور. يحدد هذا الإعداد دقة المسح والألوان والمعالجة البعدية.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Типове документи, които се сканират</short>
+        <long>Типове документи, които се сканират. &apos;текст&apos; за текстови документи, &apos;фото&apos; за снимки. Тези настройки определят разделителната способност на сканирането, цветовете и последващата обработка.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Tipus de document a escanejar</short>
+        <long>Tipus de document a escanejar. «text» per documents de text o «photo» per fotos. Aquest paràmetre decideix la resolució de l&apos;escaneig, els colors i el postprocessament.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Typ skenovaného dokumentu</short>
+        <long>Typ skenovaného dokumentu. &apos;text&apos; pro textové dokumenty, &apos;photo&apos; pro fotografie. Toto nastavení rozhoduje o rozlišení skenování, barvách a následném zpracování.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Type af dokument der bliver skannet</short>
+        <long>Type af dokument der skannes. &quot;text&quot; for tekst dokumenter, &quot;photo&quot; for billeder. Denne indstilling træffer valget for skanningsopløsning, farver og efterbehandling.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Typ des zu scannenden Dokuments</short>
+        <long>Typ des zu scannenden Dokuments. »Text« steht für Textdokumente, »Foto« für Fotos. Die Einstellungen bestimmen die Scanauflösung, -Farbe und -Nachbearbeitung.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ο τύπος του εγγράφου που σαρώνεται</short>
+        <long>Ο τύπος του εγγράφου που σαρώνεται. &apos;text&apos; για έγγραφα κειμένου, &apos;photo&apos; για φωτογραφίες. Αυτή η ρύθμιση καθορίζει την ανάλυση σάρωσης, τα χρώματα και τη μετέπειτα επεξεργασία.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Type of document being scanned</short>
+        <long>Type of document being scanned. &apos;Text&apos; for text documents, &apos;Photo&apos; for photos. This determines the scan resolution, colour and post-processing settings.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Tipo de documento que está siendo escaneado</short>
+        <long>Tipo del documento que va a ser escaneado. «Texto» para documentos de texto, «Fotografía» para fotografías. Esta opción determina la resolución, los colores y el post-procesamiento del escaneado.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Luettavan asiakirjan tyyppi</short>
+        
+      </locale>
+
+      <locale name="fr">
+        <short>Nature du document qui va être numérisé</short>
+        <long>Nature du document qui va être numérisé. « texte » pour les documents texte, « photo » pour les photographies. Ce paramètre détermine la résolution de numérisation, le nombre de couleurs et les traitements postérieurs.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Tipo de documento que está sendo escaneado</short>
+        <long>O tipo de documento que se vai a escanear. «text» para documentos de texto, «photo» para fotos. Esta opción determina a resolución, as cores e o postprocesamento do escaneado.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Type of document being scanned</short>
+        <long>Type of document being scanned. &apos;text&apos; for text documents, &apos;photo&apos; for photos. This setting decides on the scan resolution, colors and post-processing.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A szkennelt dokumentum típusa</short>
+        <long>A szkennelt dokumentum típusa. „text” a szöveges dokumentumokhoz, „photo” a fotókhoz. Ez a beállítás határozza meg a szkennelt dokumentum felbontását, színeit és utófeldolgozását.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Tipo del documento da acquisire</short>
+        <long>Tipo di documento da acquisire. &quot;text&quot; per documenti di testo, &quot;photo&quot; per fotografie. Questa impostazione influenza la risoluzione dell&apos;acquisizione, le impostazioni di colore e la post-produzione.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>スキャンするドキュメントの種類</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Dokumenttype som skannes</short>
+        <long>Dokumenttype som skannes. &apos;tekst&apos; for tekstdokumenter, &apos;bilde&apos; for bilder. Denne innstillinger bestemmer oppløsning, farger og etterbehandling for skanningen.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Type document dat gescand wordt</short>
+        <long>Type document dat gescand wordt. &apos;text&apos; voor tekstdocumenten, &apos;photo&apos; voor foto&apos;s. Deze instelling bepaalt de scanresolutie, de kleuren en naverwerking.</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Typ skanowanego dokumentu</short>
+        <long>Typ skanowanego dokumentu. Wartość &quot;text&quot; (tekst) dla dokumentów tekstowych, &quot;photo&quot; (zdjęcie) dla zdjęć. To ustawienie decyduje o rozdzielczości skanowania, kolorach i możliwości późniejszej obróbki.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Tipo do documento sendo digitalizado</short>
+        <long>Tipo de documento sendo digitalizado. &apos;texto&apos; para documentos de texto, &apos;foto&apos; para fotos. Este ajuste define a resolução de digitalização, cores e pós-processamento.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Tipul de document scanat</short>
+        <long>Tipul de document scanat. „text” pentru documentele în format text, „photo” pentru fotografii. Aceste configurări decid rezoluția, culorile și post-procesarea scanării.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Тип сканируемого документа</short>
+        <long>Тип сканируемого документа. &apos;text&apos; для текстовых документов, &apos;photo&apos; для фотографий. Выбор типа определяет разрешение, цвета и пост-обработку при сканировании.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Druh dokumentu ktorý sa skenuje</short>
+        <long>Druh dokumentu ktorý sa skenuje. &apos;text&apos; pre textové dokumenty, &apos;photo&apos; pre fotografie. Táto hodnota určuje rozlíšenie skenovania, farby a koncové spracovanie.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Vrsta optično branega dokumenta</short>
+        <long>Vrsta optično branega dokumenta. &apos;besedilo&apos; za dokumente z besedilom, &apos;fotografije&apos; za fotografije. Ta nastavitev določi ločljivost optičnega branja, barve in nadaljnje obdvelovanje</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Typ av dokument som ska läsas in</short>
+        <long>Typ av dokument som läses in. &quot;text&quot; för textdokument, &quot;photo&quot; för foton. Denna inställning bestämmer inläsningens upplösning, färger och efterbehandling.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Taranacak belgenin türü</short>
+        <long>Taranan belgenin türü. Metin belgeleri için &apos;metin&apos;, fotoğraflar için &apos;fotoğraf&apos;. Bu ayar tarama çözünürlüğünü, renkleri ve  tarama sonrası işlemleri belirler.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Тип документа, який ви скануєте</short>
+        <long>Тип документа, який ви скануєте. «text» — текстовий документ, «photo» — фотографії. Значення цього параметра впливає на роздільну здатність сканування, використання кольорів та остаточну обробку зображення.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>扫描文档的类型</short>
+        <long>扫描文档的类型。“文本”适用于文本文档，“照片”适用于照片。这些设置将会决定扫描分辨率、色彩和预处理。</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/scan_direction</applyto>
+      <key>/schemas/apps/simple-scan/scan_direction</key>
+      <owner>simple-scan</owner>
+      <type>string</type>
+      <default>top-to-bottom</default>
+      <locale name="C">
+        <short>Direction of scan</short>
+        <long>
+	  The direction of the scanner across the scanned page. It can be one of the following:
+          'top-to-bottom'
+          'bottom-to-top'
+          'left-to-right'
+          'right-to-left'
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>اتجاه المسح</short>
+        <long>اتجاه الماسحة  عبر الصفحة الممسوحة . يمكن أن يكون: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Посока на сканиране</short>
+        <long>Посоката на скенера през сканираната страница. Може да бъде една от следните: &apos;отгоре-надолу&apos; &apos;отдолу-нагоре&apos; &apos;от лява-надясно&apos; &apos;от дясно-наляво&apos;</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Direcció de l&apos;escaneig</short>
+        <long>La direcció de l&apos;escaneig a través de la pàgina escanejada. Pot ser una de les següents: «top-to-bottom» (de dalt a baix), «bottom-to-top» (de baix a dalt), «left-to-right» (d&apos;esquerra a dreta) o «right-to-left» (de dreta a esquerra).</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Směr skenování</short>
+        <long>Směr skenování stránky. Jsou dostupné následující možnosti: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</long>
+      </locale>
+
+      <locale name="da">
+        <short>Skanneretning</short>
+        <long>Retningen af skanneren på tværs af siden der skannes. Den kan være én af de følgende: &quot;top-to-bottom&quot; &quot;bottom-to-top&quot; &quot;left-to-right&quot; &quot;right-to-left&quot;</long>
+      </locale>
+
+      <locale name="de">
+        <short>Scanverzeichnis</short>
+        <long>Die Scanrichtung im Verhältnis zur zu gescannten Seite. Kann eins der folgenden sein: »Oben nach Unten«, »Unten nach Oben«, »Links nach Rechts« oder »Rechts nach Links«</long>
+      </locale>
+
+      <locale name="el">
+        <short>Κατεύθυνση σάρωσης</short>
+        <long>Η κατεύθυνση του σαρωτή κατά μήκος της σαρωμένης σελίδας. Μπορεί να είναι κάποιο από τα εξής: &apos;top-to-bottom&apos; (από πάνω προς τα κάτω) &apos;bottom-to-top&apos; (από κάτω προς τα πάνω) &apos;left-to-right&apos; (από αριστερά προς δεξιά) &apos;right-to-left&apos; (από δεξιά προς αριστερά)</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Direction of scan</short>
+        <long>The direction of the scanner across the scanned page. It can be one of the following: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</long>
+      </locale>
+
+      <locale name="es">
+        <short>Dirección de escaneo</short>
+        <long>La dirección del escáner a través de la página escaneada. Puede ser cualquiera de los siguientes: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Lukemisen suunta</short>
+        
+      </locale>
+
+      <locale name="fr">
+        <short>Sens de numérisation</short>
+        <long>Direction du balayage lors de la numérisation de la page. Celle-ci peut être : de haut en bas ; de bas en haut ; de gauche à droite ; de droite à gauche</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Dirección de escaneado</short>
+        <long>A dirección do escáner a través da páxina escaneada. Pode ser calquera dos seguintes: «top-to-bottom» «bottom-to-top» «left-to-right» «right-to-left»</long>
+      </locale>
+
+      <locale name="he">
+        <short>Direction of scan</short>
+        <long>The direction of the scanner across the scanned page. It can be one of the following: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A szkennelés íránya</short>
+        <long>A szkennelés iránya, a lehetséges értékek a következők: „top-to-bottom” (fentről lefelé), „bottom-to-top” (lentről felfelé)  „left-to-right” (balról jobbra), „right-to-left” (jobbról balra)</long>
+      </locale>
+
+      <locale name="it">
+        <short>Direzione dell&apos;acquisizione</short>
+        <long>La direzione di acquisizione. Può essere uno dei seguenti valori: &quot;top-to-bottom&quot; (dall&apos;alto in basso), &quot;bottom-to-top&quot; (dal basso in alto), &quot;left-to-right&quot; (da sinistra a destra), &quot;right-to-left&quot; (da destra a sinistra)</long>
+      </locale>
+
+      <locale name="ja">
+        <short>スキャン方向</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Skanneretning</short>
+        <long>Retning skanneren skal gjøre over siden. Den kan være en av følgende: &apos;topp-til-bunn&apos; &apos;bunn-til-topp&apos; &apos;venstre-til-høyre&apos; &apos;høyre-til-venstre&apos;</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Scanrichting</short>
+        <long>De richting van de scanner over de gescande pagina. Dit kan een van de volgende waarden zijn: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Kierunek skanowania</short>
+        <long>Kierunek skanowania na skanowanej stronie. Może być jednym z następujących: &quot;top-to-bottom&quot; (od góry do dołu), &quot;bottom-to-top&quot; (od dołu do góry), &quot;left-to-right&quot; (od lewej do prawej), &quot;right-to-left&quot; (od prawej do lewej)</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Direção da digitalização</short>
+        <long>A direção do digitalizador através da página digitalizada pode ser uma das seguintes: &apos;de cima para baixo&apos; &apos;de baixo para cima&apos; &apos;esquerda para direita&apos; &apos;direita para esquerda&apos;</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Direcția scanării</short>
+        <long>Direcția scanerului peste pagina scanată. Poate fi una dintre următoarele: „top-to-bottom”, „bottom-to-top”, „left-to-right”, „right-to-left”</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Направление сканирования</short>
+        <long>Направление сканирования. Возможны следующие варианты: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Smer skenovania</short>
+        <long>Smer skeneru naprieč skenovanou stránkou. Môže to byť jedno z následujúcich: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Smer optičnega branja</short>
+        <long>Smer optičnega branja čez optično brano stran. Lahko je ena od naslednjih: &apos;od-zgoraj-navzdol&apos; &apos;od-spodaj-navzgor&apos; &apos;od-leve-proti-desni&apos; &apos;od-desne-proti-levi&apos;</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Riktning för inläsning</short>
+        <long>Riktningen för bildläsaren över den inlästa sidan. Det kan vara en av följande: &quot;top-to-bottom&quot; &quot;bottom-to-top&quot; &quot;left-to-right&quot; &quot;right-to-left&quot;</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Tarama yönü</short>
+        <long>Tarayıcının taranan sayfa boyunca yönü. Şunlardan biri olabilir: &apos;yukarıdan aşağıya&apos; &apos;aşağıdan yukarıya&apos; &apos;soldan sağa&apos; &apos;sağdan sola&apos;</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Напрямок сканування</short>
+        <long>Напрямок сканування сторінки. Може мати такі значення: «top-to-bottom» (згори вниз), «bottom-to-top» (знизу вгору), «left-to-right» (зліва праворуч), «right-to-left» (справа ліворуч)</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>扫描方向</short>
+        <long>扫描仪扫描页面的方式。可以是如下几种：顶部到底部、底部到顶部、左边到右边，右边到左边</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/page_width</applyto>
+      <key>/schemas/apps/simple-scan/page_width</key>
+      <owner>simple-scan</owner>
+      <type>int</type>
+      <default>595</default>
+      <locale name="C">
+        <short>Width of scanned image in pixels</short>
+        <long>
+      The width of scanned image in pixels.  This value is updated to what the last scanned page was.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>عرض الصورة الممسوحة بالبكسل.</short>
+        <long>عرض الصورة الممسوحة بالبكسل. تحدث هذه القيمة حسب ما كانت عليه الصورة السابقة.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Ширина на сканираните изображения в пиксели</short>
+        <long>Ширина на сканираните изображения в пиксели. Тази стойност е обновена до стойността от на последната сканирана страница.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Amplada de la imatge escanejada en píxels</short>
+        <long>L&apos;amplada de la imatge escanejada en píxels. Aquest valor s&apos;ha actualitzat al que tenia l&apos;última pàgina escanejada.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Šířka skenovaného obrázku v pixelech</short>
+        <long>Šířka skenovaného obrázku v pixelech. Tato hodnota je přizpůsobena posledně skenované stránce.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Bredde af skannet billede i pixel</short>
+        <long>Bredden af skannede billede i pixel. Denne værdi opdateres svarende til sidste skannede side.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Breite des gescannten Bilds in Pixel</short>
+        <long>Die Breite des gescannten Fotos in Pixeln. Der Wert wird entsprechend der zuletzt gescannten Seite übernommen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Πλάτος της σαρωμένης εικόνας σε εικονοστοιχεία</short>
+        <long>Το πλάτος της σαρωμένης εικόνας σε εικονοστοιχεία. Η τιμή αυτή ενημερώνεται με το πλάτος της τελευταίας σαρωμένης σελίδας.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Width of scanned image (in pixels)</short>
+        <long>The width of scanned image in pixels. This value is updated to the width of the last image scanned.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Anchura de la imagen escaneada</short>
+        <long>La anchura de la imagen escaneada. Este valor se actualiza con el que tuvo la última página escaneada</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Luettavan kuvan leveys pikseleinä</short>
+        
+      </locale>
+
+      <locale name="fr">
+        <short>Largeur de l&apos;image numérisée en pixels</short>
+        <long>La largeur de l&apos;image numérisée en pixels. Cette valeur est mise à jour en fonction de la dernière page numérisée.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Largura da imaxe escaneada</short>
+        <long>A largura da imaxe escaneada. Este valor actualizase co que tuvo a última páxina escaneada.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Width of scanned image in pixels</short>
+        <long>The width of scanned image in pixels. This value is updated to what the last scanned page was.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A szkennelt kép szélessége képpontban</short>
+        <long>A szkennelt kép szélessége képpontban. Mindig a legutolsó szkennelés eredményét veszi fel.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Larghezza dell&apos;immagine acquisita in pixel</short>
+        <long>Larghezza dell&apos;immagine acquisita in pixel. Questo valore è aggiornato all&apos;ultima acquisizione.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>スキャン画像の幅(ピクセル)</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Bredde på skannet bilde, i pixler</short>
+        <long>Bredden på skannede bilder, i pixler. Denne verdien settes til størrelsen fra sist skannede side.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Breedte van gescande afbeelding in pixels</short>
+        <long>De breedte van de gescande afbeelding in pixels. Deze waarde representeert de laatst gescande pagina.</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Szerokość zeskanowanego obrazu w pikselach</short>
+        <long>Szerokość zeskanowanego obrazu w pikselach. Ta wartość jest aktualizowana do tej, jaka wynosiła podczas ostatniego skanowania.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Largura da imagem digitalizada em pixels</short>
+        <long>A largura da imagem digitalizada em pixels. Este valor é atualizado com o valor que a última imagem foi digitalizada.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Lățimea imaginii scanate, în pixeli</short>
+        <long>Lățimea imaginii scanate, în pixeli. Această valoare este actualizată la cea corespunzătoare paginii scanate precedent.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Ширина отсканированного изображения в пикселах</short>
+        <long>Ширина отсканированного изображения в пикселах. Это значение обновляется при каждом новом сканировании.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Šírka skenovaného obrázku v pixeloch</short>
+        <long>Šírka skenovaného obrázku. Táto hodnota sa aktualizuje podľa poslednej skenovanej stránky.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Širina optično brane slike v točkah</short>
+        <long>Širina optično brane slike v točkah. Ta vrednost je posodobljena na vrednost zadnje optično brane strani.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Bredd för den inlästa bilden i bildpunkter</short>
+        <long>Bredd för den inlästa bilden i bildpunkter.  Detta värde uppdateras till vad som senaste inlästa bilden använde.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Taranan görüntünün piksel cinsinden genişliği</short>
+        <long>Taranan görüntünün piksel cinsinden genişliği. Bu değer en son taranan sayfaya göre güncellenir.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Ширина сканованого зображення у пікселях</short>
+        <long>Ширина сканованого зображення у пікселях. Це значення буде оновлено на те, яке було використано для попереднього зображення.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>所扫描图像的宽度 (以像素计)。</short>
+        <long>所扫描图像的宽度 (以像素计)。这是上次扫描的页面的值。</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/page_height</applyto>
+      <key>/schemas/apps/simple-scan/page_height</key>
+      <owner>simple-scan</owner>
+      <type>int</type>
+      <default>842</default>
+      <locale name="C">
+        <short>Height of scanned image in pixels</short>
+        <long>
+      The height of scanned image in pixels.  This value is updated to what the last scanned page was.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>ارتفاع الصورة الممسوحة بالبكسل</short>
+        <long>ارتفاع الصورة الممسوحة بالبكسل. تحدث هذه القيمة حسب ما كانت عليه الصورة السابقة.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Височина на сканираното изображение в пиксели</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Alçada de la imatge escanejada en píxels</short>
+        <long>L&apos;alçada de la imatge escanejada en píxels. Aquest valor s&apos;ha actualitzat al que tenia l&apos;última pàgina escanejada.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Výška skenovaného obrázku v pixelech</short>
+        <long>Výška skenovaného obrázku v pixelech. Tato hodnota je přizpůsobena posledně skenované stránce.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Højde af skannet billede i pixel</short>
+        <long>Højden af skannede billede i pixel. Denne værdi opdateres svarende til sidste skannede side.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Höhe des gescannten Bilds in Pixel</short>
+        <long>Die Höhe des gescannten Bilds in Pixel. Der Wert wird entsprechend der zuletzt gescannten Seite übernommen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ύψος εικόνας σάρωσης σε εικονοστοιχεία</short>
+        <long>Το ύψος της σαρωμένης εικόνας σε εικονοστοιχεία. Η τιμή αυτή ενημερώνεται με το ύψος της τελευταίας σαρωμένης σελίδας.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Height of scanned image in pixels</short>
+        <long>The height of scanned image in pixels. This value is updated to the height of the last image scanned.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Altura de la imagen escaneada en píxeles</short>
+        <long>La altura de la imagen escaneada. Este valor se actualiza con el que tuvo la última página escaneada</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Luetun kuvan korkeus pikseleissä</short>
+        <long>Luettavan kuvan korkeus pikseleinä. Arvo päivittyy viimeisimmän luetun sivun mukaan.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Hauteur de l&apos;image numérisée en pixels</short>
+        <long>La hauteur de l&apos;image numérisée en pixels. Cette valeur est mise à jour en fonction de la dernière page numérisée.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Altura da imaxe escaneada en píxeles</short>
+        <long>A altura da imaxe escaneada. Este valor actualizase co que tuvo a última páxina escaneada.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Height of scanned image in pixels</short>
+        <long>The height of scanned image in pixels. This value is updated to what the last scanned page was.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A szkennelt kép magassága képpontban</short>
+        <long>A szkennelt kép magassága képpontban. Mindig a legutolsó szkennelés eredményét veszi fel.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Altezza dell&apos;immagine acquisita in pixel</short>
+        <long>Altezza dell&apos;immagine acquisita in pixel. Questo valore è aggiornato all&apos;ultima acquisizione.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>スキャンされる画像の高さ(ピクセル)</short>
+        <long>ピクセル単位のスキャンされたイメージの高さです。この値は最後にスキャンしたページのものに更新されます。</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Høyde på skannede bilder, i pixler</short>
+        <long>Høyden på skannet bilde, i pixler. Verdien settes til sist skannede side.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Hoogte van gescande afbeelding in pixels</short>
+        <long>De hoogte van de gescande afbeelding in pixels. Deze waarde representeert de laatst gescande pagina.</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wysokość zeskanowanego obrazu w pikselach</short>
+        <long>Wysokość zeskanowanego obrazu w pikselach. Ta wartość jest aktualizowana do tej, jaka wynosiła podczas ostatniego skanowania.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Altura da imagem digitalizada em pixels</short>
+        <long>A altura da imagem digitalizada em pixels. Este valor é atualizado com o valor da última página digitalizada.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Înălțimea imaginii scanate, în pixeli</short>
+        <long>Înălțimea imaginii scanate, în pixeli. Această valoare este actualizată la cea corespunzătoare paginii scanate precedent.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Высота отсканированного изображения в пикселах</short>
+        <long>Высота отсканированного изображения в пикселах. Это значение обновляется при каждом новом сканировании.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Výška skenovaného obrázku</short>
+        <long>Výška skenovaného obrázku. Táto hodnota sa aktualizuje podľa poslednej skenovanej stránky.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Višina optično prebrane slike v točkah</short>
+        <long>Višina optično brane slike v točkah. Ta vrednost je posodobljena na vrednost zadnje optično prebrane strani.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Höjd för den inlästa bilden i bildpunkter</short>
+        <long>Höjd för den inlästa bilden i bildpunkter.  Detta värde uppdateras till vad som senaste inlästa bilden använde.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Taranan görüntünün piksel cinsinden yüksekliği</short>
+        <long>Taranan görüntünün piksel cinsinden yüksekliği. Bu değer en son taranan sayfaya göre güncellenir.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Висота сканованого зображення у пікселях</short>
+        <long>Висота сканованого зображення у пікселях. Це значення буде оновлено на те, яке було використано для попереднього зображення.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>所扫描图像的的高度 (以像素计)</short>
+        <long>所扫描图像的高度 (以像素计)。这是上次扫描的页面的值。</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/paper_width</applyto>
+      <key>/schemas/apps/simple-scan/paper_width</key>
+      <owner>simple-scan</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+        <short>Width of paper in tenths of a mm</short>
+        <long>
+      The width of the paper in tenths of a mm (or 0 for automatic paper detection).
+        </long>
+      </locale>
+
+      <locale name="bg">
+        <short>Ширина на хартията в десетки милиметри</short>
+        <long>Широчина на листа в десетки милиметри (избери 0 за автоматично разпознаване).</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Amplada del paper en dècimes de mm</short>
+        <long>L&apos;amplada del paper en dècimes de mm (o 0 per la detecció automàtica del paper)</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Šířka papíru v desetinách milimetru</short>
+        <long>Šířka papíru v desetinách milimetru (nebo 0 pro automatické zjištění papíru).</long>
+      </locale>
+
+      <locale name="da">
+        <short>Bredde af papir i tiendedele millimeter</short>
+        <long>Bredde af papir i tiendedele millimeter (eller 0 for automatisk papirstørelse)</long>
+      </locale>
+
+      <locale name="de">
+        <short>Seitenbreite in Zehntelmillimetern</short>
+        <long>Seitenbreite in Zehntelmillimetern (oder 0 für automatische Papiererkennung)</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Width of paper in tenths of a mm</short>
+        <long>The width of the paper in tenths of a mm (or 0 for automatic paper detection).</long>
+      </locale>
+
+      <locale name="es">
+        <short>Anchura del papel en décimas de mm</short>
+        <long>La anchura del papel en décimas de mm (0 para detección automática del papel).</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Largeur du papier en dixièmes de mm.</short>
+        <long>La largeur du papier en dixièmes de mm (ou 0 pour une détection automatique du papier).</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Largura do papel en décimas de mm</short>
+        <long>A largura do papel en décimas de mm (ou 0 para a detección automática do papel).</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Papír szélessége tizedmilliméterben</short>
+        <long>Papír szélessége tizedmilliméterben (0 az automatikus papírfelismeréshez).</long>
+      </locale>
+
+      <locale name="it">
+        <short>Larghezza del foglio in decimi di mm</short>
+        <long>L&apos;altezza del foglio in decimi di mm  (0 per rilevamento automatico).</long>
+      </locale>
+
+      <locale name="ja">
+        <short>10mm単位での紙の幅</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Papirbredde i tiendels millimeter</short>
+        <long>Papirbredden i tiendels millimeter (eller 0 for automatisk gjenkjenning).</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Breedte van het papier in tienden van een mm</short>
+        <long>De breedte van het papier in tienden van een mm (of 0 voor automatische papierdetectie).</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Szerokość papieru w dziesiątkach milimetrów</short>
+        <long>Szerokość papieru w dziesiątkach milimetrów (lub 0 dla automatycznego wykrywania papieru).</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Lățimea hârtiei în zecimi de mm</short>
+        <long>Lățimea hârtiei în zecimi de mm (sau 0 pentru detectarea automată a hârtiei)</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Ширина бумаги, см</short>
+        
+      </locale>
+
+      <locale name="sl">
+        <short>Širina papirja v desetinkah milimetra</short>
+        <long>Širina papirja v desetinkah milimetra (ali 0 za samodejno zaznavanje).</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Bredd på pappret i tiondels millimeter</short>
+        <long>Bredd på pappret i tiondels millimeter (eller 0 för automatisk pappersidentifiering).</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Ondabirlik mm cinsinden kağıdın genişliği</short>
+        <long>Ondabirlik mm cinsinden kağıdın genişliği ( ya da otomatik kağıt tespiti için 0).</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Ширина паперу у десятих міліметра</short>
+        <long>Ширина паперу у десятих міліметра (або 0 для автоматичного визначення паперу)</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>纸张的宽度 (以 0.1mm 计)</short>
+        <long>纸张的宽度 (以 0.1mm 计，0 代表自动检查纸张)</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/paper_height</applyto>
+      <key>/schemas/apps/simple-scan/paper_height</key>
+      <owner>simple-scan</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+        <short>Height of paper in tenths of a mm</short>
+        <long>
+      The height of the paper in tenths of a mm (or 0 for automatic paper detection).
+        </long>
+      </locale>
+
+      <locale name="bg">
+        <short>Височина на хартията в десетки милиметри</short>
+        <long>Височина на хартията в десетки милиметри (или 0 за автоматично разпознаване).</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Alçada del paper en dècimes parts d&apos;un mm</short>
+        <long>L&apos;alçada del paper en dècimes de mm (o 0 per la detecció automàtica del paper).</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Výška papíru v desetinách milimetru</short>
+        <long>Výška papíru v desetinách milimetru (nebo 0 pro automatické zjištění papíru).</long>
+      </locale>
+
+      <locale name="da">
+        <short>Højde af papir i tiendedele millimeter</short>
+        <long>Højde af papir tiendedele millimeter (eller 0 for automatisk papirstørelse).</long>
+      </locale>
+
+      <locale name="de">
+        <short>Papierhöhe in Zehntelmillimetern</short>
+        <long>Papierhöhe in Zehntelmillimetern (oder 0 für automatische Papiererkennung)</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Height of paper in tenths of a mm</short>
+        <long>The height of the paper in tenths of a mm (or 0 for automatic paper detection).</long>
+      </locale>
+
+      <locale name="es">
+        <short>Altura del papel en décimas de mm</short>
+        <long>La altura del papel en décimas de mm (0 para detección automática del papel).</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Hauteur du papier en dixièmes de mm</short>
+        <long>La hauteur du papier en dixièmes de mm (ou 0 pour une détection automatique du papier).</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Altura do papel en décimas de mm</short>
+        <long>A altura do papel en décimas de mm (ou 0 para a detección automática do papel).</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Papír magassága tizedmilliméterben</short>
+        <long>Papír magassága tizedmilliméterben (0 az automatikus papírfelismeréshez).</long>
+      </locale>
+
+      <locale name="it">
+        <short>Altezza del foglio in decimi di mm</short>
+        <long>Altezza del foglio in decimi di mm (0 per rilevamento automatico).</long>
+      </locale>
+
+      <locale name="ja">
+        <short>10mm単位の用紙の高さ</short>
+        <long>10mm単位の紙の高さ (または 0 で自動紙検知)</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Papirhøyde i tiendels millimeter</short>
+        <long>Papirhøyde i tiendels millimeter (eller 0 for automatisk gjenkjenning).</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Hoogte van het papier in tienden van een mm</short>
+        <long>De hoogte van het papier in tienden van een mm (of 0 voor automatische papierdetectie).</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wysokość papieru w dziesiątkach milimetrów</short>
+        <long>Wysokość papieru w dziesiątkach milimetrów (lub 0 dla automatycznego wykrywania papieru).</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Înălțimea hârtiei în zecimi de mm</short>
+        <long>Înălțimea hârtiei în zecimi de mm (sau 0 pentru detectarea automată a hârtiei)</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Višina papirja v desetinkah milimetra</short>
+        <long>Višina papirja v desetinkah milimetra (ali 0 za samodejno zaznavanje papirja).</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Höjd på pappret i tiondels millimeter</short>
+        <long>Höjd på pappret i tiondels millimeter (eller 0 för automatisk pappersidentifiering).</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Ondabirlik mm cinsinden kağıdın yüksekliği</short>
+        <long>Ondabirlik mm cinsinden kağıdın yüksekliği ( ya da otomatik kağıt tespiti için 0).</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Висота паперу у десятих міліметра</short>
+        <long>Висота паперу у десятих міліметра (або 0 для автоматичного визначення паперу)</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>纸张的高度 (以 0.1mm 计)</short>
+        <long>纸张的高度 (以 0.1mm 计，0 代表自动检查纸张)</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/page_dpi</applyto>
+      <key>/schemas/apps/simple-scan/page_dpi</key>
+      <owner>simple-scan</owner>
+      <type>int</type>
+      <default>72</default>
+      <locale name="C">
+        <short>Resolution of last scanned image</short>
+        <long>
+      The resolution in dots-per-inch of the previously scanned image.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>ميز آخر صورةممسوحة</short>
+        <long>الميز بالنقطة في البوصة للصورة الممسوحة سابقا.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Разделителна способност на последното сканирано изображение</short>
+        <long>Разделителна способност в точки-за-инч от предишното сканирано изображение.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Resolució de l&apos;última imatge escanejada</short>
+        <long>La resolució en punts per polzada de la imatge prèviament escanejada.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Rozlišení posledního skenovaného obrázku</short>
+        <long>Rozlišení posledně skenovaného obrázku v bodech na palec.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Opløsningen af det sidste billede der blev skannet</short>
+        <long>Opløsningen i punkter per tomme, på det forrige skannede billede.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Auflösung des zuletzt gescannten Bildes</short>
+        <long>Die Auflösung in DPI (Punkte pro Zoll) des zuletzt eingescannten Bildes.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ανάλυση τελευταίας σαρωμένης εικόνας</short>
+        <long>Η ανάλυση σε κουκκίδες ανά ίντσα της προηγούμενης σαρωμένης εικόνας.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Resolution of last scanned image</short>
+        <long>The resolution of the last image scanned (in dots-per-inch).</long>
+      </locale>
+
+      <locale name="es">
+        <short>Resolución de la última imagen escaneada</short>
+        <long>La resolución en puntos por pulgada de la imagen escaneada anteriormente.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Viimeisimmän luetun kuvan tarkkuus</short>
+        
+      </locale>
+
+      <locale name="fr">
+        <short>Résolution de la dernière image numérisée</short>
+        <long>La résolution de la dernière image numérisée en points par pouce.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Resolución da última imaxe escaneada</short>
+        <long>Resolución en puntos por polgada da imaxe escaneada anteriormente.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Resolution of last scanned image</short>
+        <long>The resolution in dots-per-inch of the previously scanned image.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Az utoljára beszkennelt kép felbontása</short>
+        <long>Az utoljára beszkennelt kép DPI felbontása.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Risoluzione dell&apos;ultima immagine acquisita</short>
+        <long>La risoluzione in punti per pollice del documento precedentemente acquisito.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>最後にスキャンした画像の解像度</short>
+        <long>前にスキャンした画像の解像度(DPI)です。</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Oppløsning på sist skannede bilde</short>
+        <long>Oppløsning i punkter-per-tomme til sist utførte skanning.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Resolutie van laatste gescande afbeelding</short>
+        <long>De resolutie in punten-per-inch (dtp) van de vorige gescande afbeelding.</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Rozdzielczość ostatnio zeskanowanego obrazu</short>
+        <long>Rozdzielczość ostatnio skanowanego obrazu w punktach na cal (dpi).</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Resolução da última imagem digitalizada</short>
+        <long>A resolução em pontos por polegada da imagem previamente digitalizada.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Rezoluția ultimei imagini scanate</short>
+        <long>Rezoluția în dpi (dots-per-inch) a imaginii scanate precedent.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Разрешение последнего отсканированного изображения</short>
+        <long>Разрешение в точках на дюйм предыдущего отсканированного изображения.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ločljivost zadnjega optičnega branja</short>
+        <long>Ločljivost zadnjega optičnega branja v točkah na palec (dpi)</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Upplösning för senaste inlästa bild</short>
+        <long>Upplösningen i punkter per tum för den föregående inlästa bilden.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>En son taranan görüntünün çözünürlüğü</short>
+        <long>Bir önceki taranan görüntünün inç başına nokta sayısı cinsinden çözünürlüğü.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Роздільна здатність попереднього сканованого зображення</short>
+        <long>Роздільна здатність у точках на дюйм попереднього сканованого зображення.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>上次扫描的图片分辨率</short>
+        <long>上次扫描图片的分辨率 (点/英寸)。</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/text_dpi</applyto>
+      <key>/schemas/apps/simple-scan/text_dpi</key>
+      <owner>simple-scan</owner>
+      <type>int</type>
+      <default>150</default>
+      <locale name="C">
+        <short>Resolution for text scans</short>
+        <long>
+        The resolution in dots-per-inch to use when scanning text.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>ميز مسح النصوص</short>
+        <long>الميز بالنقطة في البوصة الذي سيستخدم عند مسح النصوص.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Разделителна способност на текстовите сканирания</short>
+        <long>Разделителна способност в точки-за-инч, която да се използва, когато се сканира текст.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Resolució per l&apos;escaneig de text</short>
+        <long>La resolució en punts per polzada quan s&apos;escanegi text.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Rozlišení pro skenování textu</short>
+        <long>Rozlišení v bodech na palec použité při skenování textu.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Opløsning for tekstskan</short>
+        <long>Opløsningen i punkter per tomme, der skal bruges når der skannes tekst.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Auflösung von Text-Scans</short>
+        <long>Die für Text zu verwendende Auflösung in DPI (Punkte pro Zoll)</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ανάλυση για σάρωση κειμένου</short>
+        <long>Η ανάλυση σε κουκκίδες ανά ίντσα που θα χρησιμοποιηθεί στην σάρωση κειμένων.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Resolution for text scans</short>
+        <long>The resolution in dots-per-inch to use when scanning text.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Resolución para los escaneados de texto</short>
+        <long>La resolución en puntos por pulgada a usar al escanear texto.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Tarkkuus tekstin lukemiseen</short>
+        
+      </locale>
+
+      <locale name="fr">
+        <short>Résolution pour des numérisations de textes</short>
+        <long>La résolution en points par pouce à utiliser lors de la numérisation de texte.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Resolución para o escaneado de texto</short>
+        <long>Resolución en puntos por polgada a usar cando se escanean textos.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Resolution for text scans</short>
+        <long>The resolution in dots-per-inch to use when scanning text.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Szövegek szkennelésének felbontása</short>
+        <long>Szövegek szkennelésnél használandó  DPI felbontás.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Risoluzione per acquisizione testo</short>
+        <long>La risoluzione in punti per pollice da usare per l&apos;acquisizione di testi.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>テキストスキャンの解像度</short>
+        <long>テキストをスキャンするときの解像度(DPI)です。</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Oppløsning for tekstskanning</short>
+        <long>Oppløsningen i punkter-per-tomme for skanning av tekst.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Resolutie voor gescande tekst</short>
+        <long>De te gebruiken resolutie in punten-per-inch (dtp) tijdens het scannen van tekst.</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Rozdzielczość skanowanego tekstu</short>
+        <long>Rozdzielczość do użycia podczas skanowania tekstu w punktach na cal (dpi).</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Resolução para digitalização de textos</short>
+        <long>A resolução em pontos por polegada para usar quando digitalizar texto.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Rezoluția pentru scanări text</short>
+        <long>Rezoluția în dpi (dots-per-inch) folosită la scanarea de text.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Разрешение для сканирования текста</short>
+        <long>Разрешение в точках на дюйм при сканировании текста.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ločljivost za optično branje besedil</short>
+        <long>Ločljivost optičnega branja besedil v točkah na palec (dpi)</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Upplösning för textinläsningar</short>
+        <long>Upplösning i punkter per tum att använda när text läses in.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Metin taramaları için çözünürlük</short>
+        <long>Metin tararken kullanılacak inç başına nokta sayısı cinsinden çözünürlük.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Роздільна здатність для сканування тексту</short>
+        <long>Роздільна здатність у точках на дюйм для сканування тексту.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>文本扫描分辨率</short>
+        <long>上次扫描文档的分辨率 (点/英寸)。</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/photo_dpi</applyto>
+      <key>/schemas/apps/simple-scan/photo_dpi</key>
+      <owner>simple-scan</owner>
+      <type>int</type>
+      <default>300</default>
+      <locale name="C">
+        <short>Resolution for photo scans</short>
+        <long>
+        The resolution in dots-per-inch to use when scanning photos.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>ميز مسح الصور</short>
+        <long>الميز بالنقطة في البوصة الذي سيستخدم عند مسح الصور.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Разделителна способност на фото сканиранията</short>
+        <long>Разделителна способност в точки-за-инч, която да се използва при сканиране на снимки.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Resolució per l&apos;escaneig de fotos</short>
+        <long>La resolució en punts per polzada quan s&apos;escanegin fotos.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Rozlišení pro skenování fotografií</short>
+        <long>Rozlišení v bodech na palec použité při skenování fotografií.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Opløsning for billedskan</short>
+        <long>Opløsningen i punkter per tomme, der skal bruges når der skannes foto.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Auflösung von Foto-Scans</short>
+        <long>Die für Fotos zu verwendende Auflösung in DPI (Punkte pro Zoll)</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ανάλυση για σάρωση φωτογραφιών</short>
+        <long>Η ανάλυση σε κουκκίδες ανά ίντσα που θα χρησιμοποιηθεί στην σάρωση φωτογραφιών.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Resolution for photo scans</short>
+        <long>The resolution in dots-per-inch to use when scanning photos.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Resolución para los escaneados de fotografías</short>
+        <long>La resolución en puntos por pulgada a usar al escanear fotografías.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Tarkkuus valokuvien luvulle</short>
+        
+      </locale>
+
+      <locale name="fr">
+        <short>Résolution pour des numérisations de photos</short>
+        <long>La résolution en points par pouce à utiliser lors de la numérisation de photos.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Resolución para o escaneado de fotos</short>
+        <long>Resolución en puntos por polgada a usar cando se escanean fotos.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Resolution for photo scans</short>
+        <long>The resolution in dots-per-inch to use when scanning photos.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Fotók szkennelésének felbontása</short>
+        <long>Fotók szkennelésnél használandó  DPI felbontás.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Risoluzione per acquisizione foto</short>
+        <long>La risoluzione in punti per pollice da usare per l&apos;acquisizione di foto.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>写真スキャンの解像度</short>
+        <long>写真をスキャンするときの解像度(DPI)です。</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Oppløsning for bildeskanning</short>
+        <long>Oppløsning i punkter-per-tomme for skanning av bilder.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Resolutie voor gescande foto&apos;s</short>
+        <long>De te gebruiken resolutie in punten-per-inch (dtp) tijdens het scannen van foto&apos;s.</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Rozdzielczość skanowanych zdjęć</short>
+        <long>Rozdzielczość do użycia podczas skanowania zdjęć w punktach na cal (dpi).</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Resolução para digitalização de fotos</short>
+        <long>A resolução em pontos por polegadas para usar quando digitalizar fotos.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Rezoluția pentru scanări foto</short>
+        <long>Rezoluția în dpi (dots-per-inch) folosită la scanarea fotografiilor.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Разрешение для сканирования фотографий</short>
+        <long>Разрешение в точках на дюйм при сканировании фотографий.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ločljivost za optično branje fotografij</short>
+        <long>Ločljivost optičnega branja fotografij v točkah na palec (dpi)</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Upplösning för fotoinläsningar</short>
+        <long>Upplösningen i punkter per tum att använda när foton läses in.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Fotoğraf taramaları için çözünürlük</short>
+        <long>Fotoğrafları tararken kullanılacak inç başına nokta sayısı cinsinden çözünürlük.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Роздільна здатність для сканування фотографій</short>
+        <long>Роздільна здатність у точках на дюйм для сканування фотографій.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>照片扫描分辨率</short>
+        <long>扫描照片时使用的分辨率 (点/英寸)。</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/page_side</applyto>
+      <key>/schemas/apps/simple-scan/page_side</key>
+      <owner>simple-scan</owner>
+      <type>string</type>
+      <default>both</default>
+      <locale name="C">
+        <short>Page side to scan</short>
+        <long>
+        The page side to scan. It can be one of the following:
+          'both'
+          'front'
+          'back'
+        </long>
+      </locale>
+
+      <locale name="bg">
+        <short>Страна на листа за сканиране</short>
+        <long>Страна на листа за сканиране. Тя може да бъде една от следните: &quot;двете&quot; &quot;предна&quot; &quot;обратна&quot;</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Cara de la pàgina a escanejar</short>
+        <long>El costat de la pàgina a escanejar. Pot ser un dels següents: «both» (ambdós), «front» (frontal) o «back» (dorsal)</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Strana stránky ke skenování</short>
+        <long>Strana stránky ke skenování. Může to být jedna z následujících hodnot: „both“ (obě), „front“ (přední), „back“ (zadní)</long>
+      </locale>
+
+      <locale name="da">
+        <short>Papirside der skal skannes</short>
+        <long>Papirside der skal skannes. Den kan være følgende: &apos;both&apos; &apos;front&apos; &apos;back&apos;</long>
+      </locale>
+
+      <locale name="de">
+        <short>Zu scannende Seite des Blattes</short>
+        <long>Die zu scannende Seite des Papiers. Mögliche Werte sind: »Beide«, »Vorderseite« und »Rückseite«.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Page side to scan</short>
+        <long>The page side to scan. It can be one of the following: &apos;both&apos; &apos;front&apos; &apos;back&apos;</long>
+      </locale>
+
+      <locale name="es">
+        <short>Cara a escanear de la página</short>
+        <long>La cara a escanear de la página. Puede ser uno de los siguientes: «ambas», «anverso» o «reverso».</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Face(s) de la page à numériser</short>
+        <long>La ou les faces de la page à numériser. Cela peut être au choix : « Recto verso », « Recto » ou « Verso »</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Cara da páxina a escanear</short>
+        <long>A cara da páxina que desexe escanear. Pode ser un dos seguintes: «ambos», «anverso» e «recverso»</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Lapok szkennelendő oldala</short>
+        <long>Lapok szkennelendő oldala. A lehetséges értékek: „both” (mindkettő) „front” (előlap), „back” (hátlap)</long>
+      </locale>
+
+      <locale name="it">
+        <short>Lato della pagina da acquisire</short>
+        <long>I lati della pagina da acquisire. Può essere uno dei seguenti: &quot;entrambi&quot; &quot;fronte&quot; &quot;retro&quot;</long>
+      </locale>
+
+      <locale name="ja">
+        <short>スキャンする面</short>
+        <long>スキャンする面のことです。次のうちから 1 つ選択できます: &apos;両面&apos; &apos;表面&apos; &apos;裏面&apos;</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Side som skal skannes</short>
+        <long>Siden som skal skannes. Det kan være én av følgende: &apos;begge&apos; &apos;forside&apos; &apos;bakside&apos;</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Te scannen paginazijde</short>
+        <long>De te scannen paginazijde. Het kan één van de volgende waarden bevatten: &apos;both&apos; &apos;front&apos; &apos;back&apos;</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Strona do skanowania</short>
+        <long>Strona do skanowania. Może wynosić jedną z wartości: &quot;both&quot; (obie), &quot;front&quot; (przód), &quot;back&quot; (tył)</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Partea de scanat a paginii</short>
+        <long>Partea de scanat a paginii. Poate fi una din următoarele: „ambele”, „față”, „verso”</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Сторона страницы для сканирования</short>
+        <long>Сторона страницы для сканирования. Может быть: &apos;с обоих сторон&apos;, &apos;лицевая&apos;, &apos;обратная&apos;</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Stran strani za optično branje</short>
+        <long>Stran strani za optično branje. Lahko je eno od naslednjega: &apos;obe&apos; &apos;spredaj&apos; &apos;zadaj&apos;</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Sida att läsa in</short>
+        <long>Sidan att läsa in. Det kan vara en av följande: &quot;both&quot; &quot;front&quot; &quot;back&quot;</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Taranacak sayfa tarafı</short>
+        <long>Taranacak sayfa tarafı. Şu seçeneklerden biri olabilir: &apos;her iki taraf&apos; &apos;ön taraf&apos; &apos;arka taraf&apos;</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Бік сторінки, який слід сканувати</short>
+        <long>Бік паперу,  який слід сканувати. Може мати такі значення: &apos;both&apos; &apos;front&apos; &apos;back&apos;</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>扫描纸张的哪面</short>
+        <long>扫描纸张的哪面。可以是以下值：“正面” “背面” “均扫描”</long>
+      </locale>
+    </schema>
+    <schema>
+      <applyto>/apps/simple-scan/save_directory</applyto>
+      <key>/schemas/apps/simple-scan/save_directory</key>
+      <owner>simple-scan</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>Directory to save files to</short>
+        <long>
+        The directory to save files to.  Defaults to the documents directory if unset.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>دليل حفظ الملفات</short>
+        <long>الدليل الذي ستحفظ به الملفات. يستخدم دليل المستندات إذا لم يحدد هنا.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Папка, където да се запазят файловете</short>
+        <long>Папка, където да се запазват файловете. По подразбиране, ако не е настроено,  е папката с документи.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Directori on desar els fitxers</short>
+        <long>El directori on desar els fitxers. Per defecte serà el directori de documents si no es defineix.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Adresář pro ukládání souborů</short>
+        <long>Adresář pro ukládání souborů. Standardně se ukládají do adresáře Dokumenty, pokud není nastaveno.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Mappe til at gemme filer i</short>
+        <long>Mappen til at gemme filer i. Som standard bruges dokumentmappen.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Verzeichnis, in dem die Dateien gespeichert werden</short>
+        <long>Das Verzeichnis, in dem die Dateien gespeichert werden. Vorgabe ist das Dokumente-Verzeichnis, wenn nicht gesetzt.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Κατάλογος στον οποίο θα αποθηκευτούν τα αρχεία</short>
+        <long>Ο κατάλογος στον οποίο θα αποθηκευτούν τα αρχεία. Αν δεν ορισθεί, προεπιλογή είναι ο κατάλογος εγγράφων.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Directory to save files to</short>
+        <long>The folder where files are saved. Default is the Documents folder.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Directorio en el que guardar los archivos</short>
+        <long>El directorio en el que se guardarán los archivos. Por defecto será el directorio de documentos.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Kansio, johon tiedostot tallennetaan</short>
+        <long>Kansio, johon tiedostot tallennetaan. Oletusasetus on Asiakirjat-kansio.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Dossier dans lequel les fichiers sont enregistrés</short>
+        <long>Le dossier où les fichiers sont enregistrés. S&apos;il n&apos;est pas défini, le dossier documents sera utilisé par défaut.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Directorio no que gardar os ficheiros</short>
+        <long>O directorio no que se gardarán os ficheiros. Por omisión usarase o directorio de documentos.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Fájlok mentése ebbe a könyvtárba</short>
+        <long>A fájlok mentésének helye. Alapértelmezésben a Dokumentumok mappa, ha nincs beállítva.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Directory dove salvare i file</short>
+        <long>La directory dove salvare i file. Valore predefinito è la directory dei documenti.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ファイルを保存するディレクトリ</short>
+        <long>ファイルを保存するディレクトリです。設定されていない場合、標準でドキュメントディレクトリに保存されます。</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Lagre filer i mappe</short>
+        <long>Mappen filer skal lagres til. Standard er dokumentmappen.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Map om bestanden in op te slaan</short>
+        <long>De map waarin bestanden worden opgeslagen. Dit is standaard de map Documenten indien niet ingesteld.</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Katalog do zapisania plików</short>
+        <long>Katalog do zapisywania plików. Jeśli nie ustawiono, używa domyślnego katalogu Dokumenty.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dosarul în care să se salveze fișierele</short>
+        <long>Dosarul în care să se salveze fișierele. Dacă nu este definit, fișierele sunt salvate în dosarul de documente.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Папка для сохранения файлов</short>
+        <long>Папка для сохранения файлов. По умолчанию используется папка с документами.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Mapa za shranjevanje datotek</short>
+        <long>Mapa za shranjevanje datotek. Privzeto mapa dokumentov, če ni nastavljena.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Katalog att spara filer i</short>
+        <long>Katalogen att spara filer i. Standardvärdet är dokumentkatalogen om den inte är inställd.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Dosyaların kaydedileceği dizin</short>
+        <long>Dosyaların kaydedileceği dizin. Ayarlanmadıysa, belgeler dizini varsayılandır.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Каталог збережених файлів</short>
+        <long>Каталог, до якого слід зберігати файли. Якщо не буде вказано, типовим вважатиметься каталог документів.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>保存文件的文件夹：</short>
+        <long>用于保存文件的文件夹。如果不设置，默认使用 文档 文件夹。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

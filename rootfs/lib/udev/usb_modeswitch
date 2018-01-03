@@ -1,0 +1,8 @@
+#!/bin/sh -e
+#
+# udev script for usb-modeswitch
+(
+	. /lib/udev/hotplug.functions
+	wait_for_file /usr/sbin/usb_modeswitch_dispatcher
+	exec /usr/sbin/usb_modeswitch_dispatcher "$@" 2>/dev/null &
+) &

@@ -1,0 +1,15 @@
+pyversions=2.3-
+
+/usr/share/pyshared/pyxdg-0.19.egg-info
+/usr/share/pyshared/xdg/BaseDirectory.py
+/usr/share/pyshared/xdg/Config.py
+/usr/share/pyshared/xdg/DesktopEntry.py
+/usr/share/pyshared/xdg/Exceptions.py
+/usr/share/pyshared/xdg/IconTheme.py
+/usr/share/pyshared/xdg/IniFile.py
+/usr/share/pyshared/xdg/Locale.py
+/usr/share/pyshared/xdg/Menu.py
+/usr/share/pyshared/xdg/MenuEditor.py
+/usr/share/pyshared/xdg/Mime.py
+/usr/share/pyshared/xdg/RecentFiles.py
+/usr/share/pyshared/xdg/__init__.py

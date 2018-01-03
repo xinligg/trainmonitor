@@ -1,0 +1,15 @@
+
+[Default Applications]
+image/jpeg=gpicview.desktop
+audio/mpeg=gnome-mplayer.desktop
+video/mp4=gnome-mplayer.desktop
+video/x-ms-wmv=gnome-mplayer.desktop
+video/x-flv=gnome-mplayer.desktop
+video/x-msvideo=gnome-mplayer.desktop
+image/bmp=gpicview.desktop
+image/gif=gpicview.desktop
+image/png=gpicview.desktop
+application/x-ole-storage=epdfview.desktop
+application/x-gnumeric=gnumeric.desktop
+application/x-abiword=abiword.desktop
+application/vnd.ms-excel=gnumeric.desktop

@@ -1,0 +1,272 @@
+<gconfschemafile>
+	<schemalist>
+		<schema>
+			<key>/schemas/apps/control-center/cc_actions_list</key>
+			<applyto>/apps/control-center/cc_actions_list</applyto>
+			<owner>control-center</owner>
+			<type>list</type>
+			<list_type>string</list_type>
+			<gettext_domain>gnome-control-center-2.0</gettext_domain>
+			<locale name="C">
+				<default><!-- Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a "," -->[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]</default>
+				<short>Task names and associated .desktop files</short>
+				<long>The task name to be displayed in the control-center followed by a ";" separator then the filename of an associated .desktop file to launch for that task.</long>
+			</locale>
+			<locale name="ar">
+				<default>[غيّر السمة;gtk-theme-selector.desktop,ضبط التطبيقات المفضلة;default-applications.desktop,أضف طابعة;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="as">
+				<default>[থিম সলনি কৰক;gtk-theme-selector.desktop,পছন্দৰ অনুপ্ৰয়োগ নিৰ্ধাৰিত কৰক;default-applications.desktop,মূদ্ৰক যোগ কৰক;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ast">
+				<default>[Camudar el tema;gtk-theme-selector.desktop,Afitar les aplicaciones preferíes;default-applications.desktop,Amestar imprentadora;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="be@latin">
+				<default>[Źmiani matyŭ;gtk-theme-selector.desktop,Abiary zmoŭčanyja aplikacyi;default-applications.desktop,Dadaj drukarku;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="bg">
+				<default>[Смяна на темата;gtk-theme-selector.desktop,Предпочитани програми;default-applications.desktop,Добавяне на принтер;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="bn">
+				<default>[থিম পরিবর্তন;gtk-theme-selector.desktop,পছন্দসই অ্যাপ্লিকেশন নির্ধারণ;default-applications.desktop,প্রিন্টার যোগ;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="bn_IN">
+				<default>[থিম পরিবর্তন;gtk-theme-selector.desktop,পছন্দসই অ্যাপ্লিকেশন নির্ধারণ;default-applications.desktop,প্রিন্টার যোগ;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ca">
+				<default>[Canvia el tema;gtk-theme-selector.desktop,Estableix les aplicacions preferides;default-applications.desktop,Afegeix una impressora;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ca@valencia">
+				<default>[Canvia el tema;gtk-theme-selector.desktop,Estableix les aplicacions preferides;default-applications.desktop,Afig una impressora;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="crh">
+				<default>[Tema Değiştir;gtk-theme-selector.desktop,Tercih Edilen Uygulamaları Ata;default-applications.desktop,Yazıcı Ekle;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="cs">
+				<default>[Změnit motiv;gtk-theme-selector.desktop,Nastavit preferované aplikace;default-applications.desktop,Přidat tiskárnu;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="da">
+				<default>[Ændr tema;gtk-theme-selector.desktop,Vælg foretrukne programmer;default-applications.desktop,Tilføj printer;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="de">
+				<default>[Thema ändern;gtk-theme-selector.desktop,Bevorzugte Anwendungen festlegen;default-applications.desktop,Drucker hinzufügen;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="dz">
+				<default>[ཌེཀསི་ཊོབ་རྒྱབ་བརྟེན་སོར ;རྒྱབ་བརྟེན་ ཌེཀསི་ཊོབ བརྗོད་དོན་སོར ཇིཊི་ཀེ-བརྗོད་དོན་-སེལ་བྱེད ཌེཀསི་ཊོབ་ འཇུག་སྤྱོད་དགའ་གདམ་གཞི་སྒྲིག་ སྔོན་སྒྲིག་-འཇུག་སྤྱོད།  ཌེཀསི་ཊོབ དཔར་འཕྲུལ་ཁ་སྐོང་བརྐྱབས ཇི་ནོམ-ཀབསི- འཛིན་སྐྱོང་པ་གིས་ཌེཀསི་ཊོབ]</default>
+			</locale>
+			<locale name="el">
+				<default>[Αλλαγή θέματος;gtk-theme-selector.desktop,Ορισμός προτιμώμενων εφαρμογών;default-applications.desktop,Προσθήκη εκτυπωτή;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="en_GB">
+				<default>[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="es">
+				<default>[Cambiar el tema;gtk-theme-selector.desktop,Establecer las aplicaciones preferidas;default-applications.desktop,Añadir impresora;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="et">
+				<default>[Teema muutmine;gtk-theme-selector.desktop,Eelistatud rakenduste määramine;default-applications.desktop,Printeri lisamine;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="eu">
+				<default>[Aldatu gaia;gtk-theme-selector.desktop,Ezarri hobetsitako aplikazioak;default-applications.desktop,Gehitu inprimagailua;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="fi">
+				<default>[Vaihda teemaa;gtk-theme-selector.desktop,Aseta ensisijaiset sovellukset;default-applications.desktop, Lisää tulostin;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="fr">
+				<default>[Modifier le thème;gtk-theme-selector.desktop,Définir les applications préférées;default-applications.desktop,Ajouter une imprimante;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ga">
+				<default>[Athraigh Téama;gtk-theme-selector.desktop,Socraigh Feidhmchláir de Rogha;default-applications.desktop,Cuir Printéir Leis;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="gl">
+				<default>[Cambiar o tema;gtk-theme-selector.desktop,Estabelecer os aplicativos preferidos;default-applications.desktop,Engadir impresora;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="gu">
+				<default>[થીમને બદલો;gtk-theme-selector.desktop,પસંદ થયેલ કાર્યક્રમોને સુયોજિત કરો;default-applications.desktop,પ્રિન્ટરને ઉમેરો;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="he">
+				<default>[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="hi">
+				<default>[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="hu">
+				<default>[Téma módosítása;gtk-theme-selector.desktop,Alapértelmezett alkalmazások beállítása;default-applications.desktop,Nyomtató felvétele;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="id">
+				<default>[Ubah Tema; gtk-tema-selector.desktop, Tetapkan Aplikasi yang dipilih; standar-applications.desktop, Tambah printer; gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="it">
+				<default>[Cambia tema;appearance.desktop,Imposta applicazioni preferite;default-applications.desktop,Aggiungi stampante;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ja">
+				<default>[外観の設定;gnome-appearance-properties.desktop,お気に入りのアプリ;default-applications.desktop,プリンタの追加;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="kn">
+				<default>[ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಬದಲಾಯಿಸು;gtk-theme-selector.desktop,ಇಚ್ಛೆಯ ಅನ್ವಯವನ್ನು ಹೊಂದಿಸು;default-applications.desktop,ಮುದ್ರಕವನ್ನು ಸೇರಿಸು;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ko">
+				<default>[테마 바꾸기;gtk-theme-selector.desktop,기본 프로그램 설정;default-applications.desktop,프린터 추가;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="lt">
+				<default>[Keisti temą;gtk-theme-selector.desktop,Nustatyti pageidaujamas programas;default-applications.desktop,Pridėti spausdintuvą;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="lv">
+				<default>[Mainīt tēmu;gtk-theme-selector.desktop,Iestatīt noklusētās programmas;default-applications.desktop,Pievienot printeri;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="mk">
+				<default>[Промени ја темата;gtk-theme-selector.desktop,Постави преферирани апликации;default-applications.desktop,Додај печатач;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ml">
+				<default>[രംഗവിതാനം മാറ്റുക;gnome-appearance-properties.desktop,മുന്‍ഗണനാ പ്രയോഗങ്ങള്‍ സജ്ജമാക്കുക;gnome-default-applications.desktop,പ്രിന്റര്‍ ചേര്‍ക്കുക;system-config-printer.desktop]</default>
+			</locale>
+			<locale name="mr">
+				<default>[सुत्रयोजना बदलवा;gtk-theme-selector.desktop, प्राधान्यकृत अनुप्रयोग निश्चित करा;default-applications.desktop,छपाईयंत्र जोडा;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="nb">
+				<default>[Endre tema;gtk-theme-selector.desktop,Velg forvalgte programmer;default-applications.desktop,Legg til skriver;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="nl">
+				<default>[Werkbladachtergond wijzigen;gtk-theme-selector.desktop,Standaardtoepassingen instellen;default-applications.desktop,Printer toevoegen;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="nn">
+				<default>[Endra drakt;gtk-theme-selector.desktop,Vel foretrukne program;default-applications.desktop,Legg til skrivar;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="or">
+				<default>[ପ୍ରସଙ୍ଗ ପରିବର୍ତ୍ତନ କରନ୍ତୁ;gtk-theme-selector.desktop,ମନପସନ୍ଦ ପ୍ରୟୋଗ ସେଟ କରନ୍ତୁ;default-applications.desktop,ମୁଦ୍ରଣୀ ଯୋଡନ୍ତୁ;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="pa">
+				<default>[ਥੀਮ ਬਦਲੋ;gtk-theme-selector.desktop,ਪਸੰਦੀਦਾ ਐਪਲੀਕੇਸ਼ਨ ਸੈੱਟ ਕਰੋ;default-applications.desktop,ਪਰਿੰਟਰ ਸ਼ਾਮਲ;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="pl">
+				<default>[Zmiana motywu;gtk-theme-selector.desktop,Preferowane programy;default-applications.desktop,Dodanie drukarki;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="pt">
+				<default>[Alterar o Tema;gtk-theme-selector.desktop,Definir as Aplicações Preferidas;default-applications.desktop,Adicionar Impressora;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="pt_BR">
+				<default>[Alterar tema;gtk-theme-selector.desktop,Definir aplicativos preferenciais;default-applications.desktop,Adicionar impressora;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ro">
+				<default>[Schimbă temă;gtk-theme-selector.desktop,Definire aplicații preferate;default-applications.desktop,Adăugare imprimantă;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ru">
+				<default>[Изменить тему;gtk-theme-selector.desktop,Установить предпочтительные приложения;default-applications.desktop,Добавить принтер;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="sk">
+				<default>[Zmeniť tému;gtk-theme-selector.desktop,Nastaviť predvolené aplikácie;default-applications.desktop,Pridať tlačiareň;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="sl">
+				<default>[Zamenjaj temo;gtk-theme-selector.desktop,Določi prednostne programe;default-applications.desktop,Dodaj tiskalnik;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="sq">
+				<default>[Ndrysho temën;gtk-theme-selector.desktop,Përcakto aplikativët e preferuar;default-applications.desktop,Shto printues;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="sr">
+				<default>[Измени тему;gtk-theme-selector.desktop,Одреди омиљене програме;default-applications.desktop,Додај штампач;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="sr@latin">
+				<default>[Izmeni temu;gtk-theme-selector.desktop,Odredi omiljene programe;default-applications.desktop,Dodaj štampač;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="sv">
+				<default>[Ändra tema;gtk-theme-selector.desktop,Ställ in föredragna program;default-applications.desktop,Lägg till skrivare;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ta">
+				<default>[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="te">
+				<default>[థీమ్ ను మార్చుము;gtk-theme-selector.desktop,అభీష్ట అనువర్తనంలను అమర్చుము; default-applications.desktop,ముద్రణాయంత్రంను జతచేయుము;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="th">
+				<default>[เปลี่ยนชุดตกแต่ง;gtk-theme-selector.desktop,เลือกโปรแกรมหลักๆ;default-applications.desktop,เพิ่มเครื่องพิมพ์;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="tr">
+				<default>[Tema Değiştir;gtk-theme-selector.desktop,Tercih Edilen Uygulamaları Ata;default-applications.desktop,Yazıcı Ekle;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="ug">
+				<default>[تېما ئۆزگەرت;gtk-theme-selector.desktop، ئامراق پروگرامما تەڭشىكى Applications;default-applications.desktop,پرىنتېر قوش;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="uk">
+				<default>[Змінити тему;gtk-theme-selector.desktop,Встановити стандартну програму;default-applications.desktop,Додати принтер;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="vi">
+				<default>[Đổi sắc thái;gtk-theme-selector.desktop,Đặt các ứng dụng đã thích;default-applications.desktop,Thêm máy in;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="zh_CN">
+				<default>[更改主题;gtk-theme-selector.desktop,设定首选应用程序;default-applications.desktop,添加打印机;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="zh_HK">
+				<default>[更改佈景主題;gtk-theme-selector.desktop,設定首選應用程式;default-applications.desktop,加入打印機;gnome-cups-manager.desktop]</default>
+			</locale>
+			<locale name="zh_TW">
+				<default>[更改佈景主題;gtk-theme-selector.desktop,設定首選應用程式;default-applications.desktop,加入印表機;gnome-cups-manager.desktop]</default>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/control-center/cc_exit_shell_on_static_action</key>
+			<applyto>/apps/control-center/cc_exit_shell_on_static_action</applyto>
+			<owner>control-center</owner>
+			<type>bool</type>
+			<default>false</default>
+			<gettext_domain>gnome-control-center-2.0</gettext_domain>
+			<locale name="C">
+				<short>Close the control-center when a task is activated</short>
+				<long>if true, the control-center will close when a "Common Task" is activated.</long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/control-center/cc_exit_shell_on_action_start</key>
+			<applyto>/apps/control-center/cc_exit_shell_on_action_start</applyto>
+			<owner>control-center</owner>
+			<type>bool</type>
+			<default>false</default>
+			<gettext_domain>gnome-control-center-2.0</gettext_domain>
+			<locale name="C">
+				<short>Exit shell on start action performed</short>
+				<long>Indicates whether to close the shell when a start action is performed.</long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/control-center/cc_exit_shell_on_action_help</key>
+			<applyto>/apps/control-center/cc_exit_shell_on_action_help</applyto>
+			<owner>control-center</owner>
+			<type>bool</type>
+			<default>false</default>
+			<gettext_domain>gnome-control-center-2.0</gettext_domain>
+			<locale name="C">
+				<short>Exit shell on help action performed</short>
+				<long>Indicates whether to close the shell when a help action is performed.</long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/control-center/cc_exit_shell_on_action_add_remove</key>
+			<applyto>/apps/control-center/cc_exit_shell_on_action_add_remove</applyto>
+			<owner>control-center</owner>
+			<type>bool</type>
+			<default>false</default>
+			<gettext_domain>gnome-control-center-2.0</gettext_domain>
+			<locale name="C">
+				<short>Exit shell on add or remove action performed</short>
+				<long>Indicates whether to close the shell when an add or remove action is performed.</long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/control-center/cc_exit_shell_on_action_upgrade_uninstall</key>
+			<applyto>/apps/control-center/cc_exit_shell_on_action_upgrade_uninstall</applyto>
+			<owner>control-center</owner>
+			<type>bool</type>
+			<default>false</default>
+			<gettext_domain>gnome-control-center-2.0</gettext_domain>
+			<locale name="C">
+				<short>Exit shell on upgrade or uninstall action performed</short>
+				<long>Indicates whether to close the shell when an upgrade or uninstall action is performed.</long>
+			</locale>
+		</schema>
+
+	</schemalist>
+</gconfschemafile>

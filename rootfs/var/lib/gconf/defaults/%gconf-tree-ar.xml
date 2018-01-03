@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="ibus">
+				<dir name="panel">
+					<entry name="custom_font">
+						<local_schema>
+							<longdesc>اسم الخط المخصص للوحة اللغة</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="استعمال خط مخصص">
+							<longdesc>استخدم خط مخصص في لوحة اللغة</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="first_run">
+					<local_schema short_desc="رساة ترحيب أول تشغيل">
+						<longdesc>إذا حُدد هذا المفتاح ستُعرض رسالة ترحيب عند أول تشغيل.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="أظهر النسخة في قائمة التحديث">
+						<longdesc>إذا ضُبط هذا المفتاح ستُظهر نافذة قائمة التحديث الرئيسية معلومات النسخة (من النسخة إلى النسخة)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="أغلق نافذة التثبيت تلقائياً بعد تثبيت ناجح">
+						<longdesc>اذا كان هذا المفتاح مفعّل نافذة التثبيت ستغلق تلقائياً بعد تثبيت ناجح.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*تقادمت* تحسس إصدارة حديثة للتوزيعة">
+						<longdesc>هذا المفتاح مُغرَق لصالح الملف /etc/update-manager/release-upgrades
+يلتمس تلقائيا إصدارات جديدة من التوزيعة و يعرض الترقية (إن أمكن).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="مساحة النافذة">
+						<longdesc>يحفظ حجم حوار update-manager</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="أظهر تفاصيل تحديث">
+						<longdesc>يحفظ حالة المُمدِّد الذي يضم قائمة التغييرات و وصفها</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="تذكير لإعادة تحميل قائمة القنوات">
+						<longdesc>إذا كان الالتماس الأوتوماتي للتحديثات معطلا فينبغي لك إعادة تحميل قائمة القنوات يدويا. يمكّنك هذا الخيار من إخفاء التنويه التي تظهر في هذه الحالة.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="printsetup">
+					<entry name="hf-font-name">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="رتّب تصاعدياً">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="دليل حفظ الملفات">
+						<longdesc>الدليل الذي ستحفظ به الملفات. يستخدم دليل المستندات إذا لم يحدد هنا.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="ميز مسح الصور">
+						<longdesc>الميز بالنقطة في البوصة الذي سيستخدم عند مسح الصور.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="ميز مسح النصوص">
+						<longdesc>الميز بالنقطة في البوصة الذي سيستخدم عند مسح النصوص.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="ميز آخر صورةممسوحة">
+						<longdesc>الميز بالنقطة في البوصة للصورة الممسوحة سابقا.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="ارتفاع الصورة الممسوحة بالبكسل">
+						<longdesc>ارتفاع الصورة الممسوحة بالبكسل. تحدث هذه القيمة حسب ما كانت عليه الصورة السابقة.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="عرض الصورة الممسوحة بالبكسل.">
+						<longdesc>عرض الصورة الممسوحة بالبكسل. تحدث هذه القيمة حسب ما كانت عليه الصورة السابقة.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="اتجاه المسح">
+						<longdesc>اتجاه الماسحة  عبر الصفحة الممسوحة . يمكن أن يكون: &apos;top-to-bottom&apos; &apos;bottom-to-top&apos; &apos;left-to-right&apos; &apos;right-to-left&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="نوع المستند الذي يجري مسحه">
+						<longdesc>نوع المستند الذي يجري مسحه. &apos;text&apos; للمستندات النصية، &apos;photo&apos; للصور. يحدد هذا الإعداد دقة المسح والألوان والمعالجة البعدية.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="الجهاز الذي سيمسح منه">
+						<longdesc>جهاز SANE  للحصول على الصور منه.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="صحيح إن كانت نافذة البرنامج مكبرة">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="ارتفاع النافذة بالبكسل">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="عرض النافذة بالبكسل">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

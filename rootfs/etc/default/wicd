@@ -1,0 +1,3 @@
+# Don't start the daemon by default, let the user set it.
+# Use "yes" (without quotes) to make /etc/init.d/wicd start the WICD daemon.
+START_DAEMON=yes

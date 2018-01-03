@@ -1,0 +1,1 @@
+/usr/share/pyshared/gtk-2.0/gnomevfs/__init__.py

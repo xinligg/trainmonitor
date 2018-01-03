@@ -1,0 +1,673 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="ibus">
+				<dir name="panel">
+					<entry name="custom_font">
+						<local_schema>
+							<longdesc>Saját betű neve a nyelv panelen</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Saját betű használata">
+							<longdesc>Saját betű használata a nyelv panelen</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-notifier">
+				<entry name="hide_reboot_notification">
+					<local_schema short_desc="Újraindítási értesítés elrejtése">
+						<longdesc>Ne jelenítsen meg újraindítás szükséges ikont vagy ablakot. Ez rendszergazdáknak hasznos, akik el akarják rejteni ezt a szolgáltatást a felhasználók elől.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="regular_auto_launch_interval">
+					<local_schema short_desc="Az automatikus frissítés gyakorisága (napokban).">
+						<longdesc>A Frissítéskezelő automatikus indítása ennyi naponként a normál frissítések telepítéséhez. A biztonsági frissítéseket a Frissítéskezelő azonnal indítja. A frissítések elérhetővé válásukkor azonnal indulnak, ha időközként „0” napot állít be.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="auto_launch">
+					<local_schema short_desc="Alapértelmezett művelet automatikus indítása">
+						<longdesc>Az alapértelmezett parancs (Frissítéskezelő) automatikusan elindul. A párbeszéddoboz, mint minden értesítőbuborék esetén, melyhez újraindítás szükséges, az &quot;Adathordozót találtam&quot; üzenet jelenik meg.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="end_system_uids">
+					<local_schema short_desc="Felhasználói azonosítók maximális száma">
+						<longdesc>A Frissítésfigyelőt nem futtathatják azok a felhasználók, akik nem rendelkeznek megfelelő jogosultságokkal.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_apport_crashes">
+					<local_schema short_desc="Apport összeomlás-jelentések automatikus megjelenítése">
+						<longdesc>Ha ez ki van kapcsolva, akkor a felhasználó nem kap értesítést a függőben lévő összeomlás-jelentésekről.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="A check-new-release-gtk hagyjon figyelmen kívül egy adott új kiadást">
+						<longdesc>Ez véglegesen elrejti az új kiadás kérdést a „check-new-release-gtk” alkalmazásból. Ne feledje, hogy a Frissítéskezelőben továbbra is megtalálható lesz ez a gomb.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Üdvözlőszöveg (csak az első futáskor jelenik meg)">
+						<longdesc>E kulcs igazra állításával megjeleníthető az üdvözlőszöveg.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Csomag összefoglalásának megjelenítése a csomagnév előtt a frissítéslistában">
+						<longdesc>Ha ez a kulcs be van állítva, akkor a fő frissítéslista ablak megjeleníti a csomag összefoglalását a csomagnév előtt.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Verzió megjelenítése a frissítési listában">
+						<longdesc>Ha ez a kulcs be van állítva, a fő frissítési ablakban meg fog jelenni a verzióinformáció (hogy melyik verzióról melyikre frissít).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="A telepítőablak automatikus bezárása sikeres telepítés esetén">
+						<longdesc>Ha ez a kulcs be van állítva, akkor a telepítőablak sikeres telepítések után automatikusan bezárul.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="Új disztribúciókiadások keresése (elavult)">
+						<longdesc>Ez a kulcs elavult, helyette az /etc/update-manager/release-upgrades fájl használatos. Az aktuális terjesztés új verziójának automatikus keresése és a frissítés felajánlása (ha lehetséges).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Az ablak mérete">
+						<longdesc>A frissítéskezelő ablak méretének tárolása</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Frissítés részleteinek megjelenítése">
+						<longdesc>Eltárolja a módosítások listáját és a leírást tartalmazó kiterjesztő állapotát</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Figyelmeztessen, ha újra kell tölteni a csatornalistát">
+						<longdesc>Ha a frissítések automatikus keresése le van tiltva, akkor a csatornalistát kézzel kell újratölteni. Ezzel a beállítással elrejtheti az ilyen helyzetekben megjelenő emlékeztetőt.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="Fókuszálatlan tartománykijelölések engedélyezése">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema short_desc="Fejléc/lábléc formátuma (jobb oldali rész)">
+							<longdesc>Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema short_desc="Fejléc/lábléc formátuma (középső rész)">
+							<longdesc>Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema short_desc="Fejléc/lábléc formátuma (bal oldali rész)">
+							<longdesc>Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="Alapértelmezett alsó margó">
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="Alapértelmezett alsó margó">
+							<longdesc>Ez az érték meghatározza a pontok alapértelmezett számát az oldal aljától a törzs végéig. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="Alapértelmezett felső margó">
+							<longdesc>Ez az érték meghatározza a pontok alapértelmezett számát az oldal tetejétől a törzs kezdetéig. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-left">
+						<local_schema short_desc="Alapértelmezett ismételt bal oldali terület">
+							<longdesc>Ez a karakterlánc megadja az összes kinyomtatott lap bal oldalán ismétlendő alapértelmezett területet. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-top">
+						<local_schema short_desc="Alapértelmezett ismételt felső terület">
+							<longdesc>Ez a karakterlánc megadja az összes kinyomtatott lap tetején ismétlendő alapértelmezett területet. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="Alapértelmezett nagyítási magasság">
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="Alapértelmezett nagyítási szélesség">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="Alapértelmezett nagyítás százalékos aránya">
+							<longdesc>Ez az érték meghatározza minden egyes oldal átméretezésének alapértelmezett százalékát. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="Alapértelmezett nagyítása típusa">
+							<longdesc>Ez az érték meghatározza az oldalak adott százalékkal átméretezve nyomtatására vonatkozó alapértelmezett beállítást a Nyomtatási beállítások párbeszédablakban. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="Alapértelmezett nyomtatási irány">
+							<longdesc>Ez az érték meghatározza a nyomtatás irányára vonatkozó alapértelmezett beállítást (először jobbra, majd lefelé nyomtasson) a Nyomtatási beállítások párbeszédablakban. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="Alapértelmezett címnyomtatás">
+							<longdesc>Ez az érték meghatározza a sor- és oszlopfejlécek nyomtatására vonatkozó alapértelmezett beállítást a Nyomtatási beállítások párbeszédablakban. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="Alapértelmezett fekete-fehér nyomtatás">
+							<longdesc>Ez az érték meghatározza a nyomtatás fekete-fehérségére vonatkozó alapértelmezett beállítást a Nyomtatási beállítások párbeszédablakban. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-even-if-only-styles">
+						<local_schema short_desc="Alapértelmezésben a csak stílussal rendelkező cellák nyomtatása">
+							<longdesc>Ez az érték meghatározza az üres, de formázott cellák nyomtatására vonatkozó alapértelmezett beállítást a Nyomtatási beállítások párbeszédablakban. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="Alapértelmezett rácsvonal-nyomtatás">
+							<longdesc>Ez az érték meghatározza a Nyomtatás beállítása párbeszédablak rácsvonalak nyomtatására vonatkozó alapértelmezett beállítását. Ezen érték szerkesztésére használja a Nyomtatás beállítása párbeszédablakot.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="Alapértelmezett függőleges középre igazítás">
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="Alapértelmezett vízszintes középre igazítás">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema>
+							<longdesc>Ez az érték meghatározza, hogy a fejlécek és láblécek alapértelmezett betűkészlete dőlt-e.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="A fejlécek és láblécek alapértelmezett betűkészlete félkövér.">
+							<longdesc>Ez az érték meghatározza, hogy a fejlécek és láblécek alapértelmezett betűkészlete félkövér-e.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="Alapértelmezett fejléc/lábléc betűkészletnév">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="Fejléc/lábléc alapértelmezett betűmérete">
+							<longdesc>A fejlécek és láblécek alapértelmezett betűmérete.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="Oldallábléc">
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Oldalfejléc">
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="Nyomtatási beállítások alkalmazása minden munkalapra">
+							<longdesc>Ez az érték meghatározza, hogy alapértelmezésben a Nyomtatási beállítások párbeszédablak az összes munkalapra vonatkozik-e. </longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Felhasználói könyvtár az automatikus formázásokhoz">
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="Extra automatikus formázási könyvtárak listája.">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="Extra bővítménykönyvtárak listája.">
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Bővítményfájl-állapotok listája.">
+							<longdesc>Ez a lista tartalmazza az összes bővítményfájl állapotát.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Ismert bővítmények listája.">
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Aktív bővítmények listája.">
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Új bővítmények aktiválása">
+							<longdesc>Ez az érték meghatározza, hoyg minden egyes újonnan észlelt bővítmény aktiválandó-e.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Csere automatikus javítása">
+							<longdesc>Csere automatikus javítása</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="A napok neveinek automatikus javítása">
+							<longdesc>A napok neveinek automatikus javítása</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="Az &quot;első betű&quot; alóli kivételek listája">
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="Első betű automatikus javítása">
+							<longdesc>Első betű automatikus javítása</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="A két kezdő nagybetű javítása alóli kivételek listája">
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Kezdő nagybetűk automatikus javítása">
+							<longdesc>Kezdő nagybetűk automatikus javítása</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="A legutóbb használt függvények listájának maximális hossza">
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="A legutóbb használt függvények listája.">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Növekvő sorrend">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Fájlok felülírása alapértelmezésben">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="A Gnumeric fájlok alapértelmezett tömörítési szintje">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Alapértelmezett nagyítás">
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Alapértelmezett függőleges ablakméret">
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Alapértelmezett vízszintes ablakméret">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="recalclag">
+								<local_schema short_desc="Kifejezések automatikus újraszámolásának késleltetése">
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Automatikus kiegészítés">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbars">
+							<entry name="FormatToolbar">
+								<local_schema short_desc="Formázó eszköztár látható">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="horizontaldpi">
+								<local_schema short_desc="Vízszintes DPI">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="Munkalapok alapértelmezett száma">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="name">
+							<local_schema short_desc="Alapértelmezett betűkészletnév">
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Alapértelmezett betűméret">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Fájlok mentése ebbe a könyvtárba">
+						<longdesc>A fájlok mentésének helye. Alapértelmezésben a Dokumentumok mappa, ha nincs beállítva.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Lapok szkennelendő oldala">
+						<longdesc>Lapok szkennelendő oldala. A lehetséges értékek: „both” (mindkettő) „front” (előlap), „back” (hátlap)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Fotók szkennelésének felbontása">
+						<longdesc>Fotók szkennelésnél használandó  DPI felbontás.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Szövegek szkennelésének felbontása">
+						<longdesc>Szövegek szkennelésnél használandó  DPI felbontás.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Az utoljára beszkennelt kép felbontása">
+						<longdesc>Az utoljára beszkennelt kép DPI felbontása.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Papír magassága tizedmilliméterben">
+						<longdesc>Papír magassága tizedmilliméterben (0 az automatikus papírfelismeréshez).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Papír szélessége tizedmilliméterben">
+						<longdesc>Papír szélessége tizedmilliméterben (0 az automatikus papírfelismeréshez).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="A szkennelt kép magassága képpontban">
+						<longdesc>A szkennelt kép magassága képpontban. Mindig a legutolsó szkennelés eredményét veszi fel.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="A szkennelt kép szélessége képpontban">
+						<longdesc>A szkennelt kép szélessége képpontban. Mindig a legutolsó szkennelés eredményét veszi fel.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="A szkennelés íránya">
+						<longdesc>A szkennelés iránya, a lehetséges értékek a következők: „top-to-bottom” (fentről lefelé), „bottom-to-top” (lentről felfelé)  „left-to-right” (balról jobbra), „right-to-left” (jobbról balra)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="A szkennelt dokumentum típusa">
+						<longdesc>A szkennelt dokumentum típusa. „text” a szöveges dokumentumokhoz, „photo” a fotókhoz. Ez a beállítás határozza meg a szkennelt dokumentum felbontását, színeit és utófeldolgozását.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="A szkennelő eszkőz">
+						<longdesc>Képek beszerzése erről a SANE eszközről</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="Igaz, ha az alkalmazás teljes képernyős módban van">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Ablak magassága képpontban">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Ablak szélessége képpontban">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

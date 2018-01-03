@@ -1,0 +1,15 @@
+[python-package]
+format = 1
+python-version = current
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/lib/openoffice/basis3.2/program/officehelper.py=f
+/usr/lib/openoffice/basis3.2/program/pythonloader.py=f
+/usr/lib/openoffice/basis3.2/program/pythonscript.py=f
+/usr/lib/openoffice/basis3.2/share/Scripts/python/pythonSamples/TableSample.py=f
+/usr/lib/openoffice/basis3.2/share/Scripts/python/HelloWorld.py=f
+/usr/lib/openoffice/basis3.2/share/Scripts/python/Capitalise.py=f
+/usr/share/pyshared/uno.py=f
+/usr/share/pyshared/unohelper.py=f

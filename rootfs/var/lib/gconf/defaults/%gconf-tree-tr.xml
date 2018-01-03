@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="Verilen yeni güncellemeyi reddetmek için check-new-release-gtk yapın">
+						<longdesc>Bu, check-new-release-gtk&apos;deki yeni güncellemeleri kalıcı olarak gizleyecek. Ana güncelleme yöneticisindeki UI&apos;nin küçük düğmeyle hala orada kalacağını anımsat.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Önce hoşgeldiniz iletisini çalıştır">
+						<longdesc>Eğer bu seçenek seçildiyse ilk çalıştırmada bir hoşgeldiniz mesajı sunulacaktır.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Güncelleme listesinde paket özetini paket isminden önce göster">
+						<longdesc>Eğer bu anahtar atanmışsa; ana güncelleme listesi penceresi, paket içeriğini paket adından önce gösterecek.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Güncelleme listesinde sürümü göster">
+						<longdesc>Bu tuş ana güncelleme listesinde seçiliyken, pencere sürüm bilgisini gösterir (sürümden sürüme)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Başarılı kurulumdan sonra yükleme penceresini otomatik kapat">
+						<longdesc>Bu anahtar seçilirse, kurulum penceresi başarılı kurulum sonrası otomatik olarak kapatılacaktır.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*reddedildi* Yeni dağıtım duyurularını kontrol ediniz">
+						<longdesc>Bu anahtar, /etc/update-manager/release-upgrades dosyasından yana onaylanmadı. Mevcut dağıtımın yeni bir sürümünün olup olmadığını otomatik olarak denetleyin ve (eğer mümkünse) güncellemeyi önerin.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Pencere boyutu">
+						<longdesc>Güncelleme yöneticisi penceresinin boyutunu saklar</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Bir güncellemenin ayrıntılarını göster">
+						<longdesc>Değişikliklerin ve açıklamaların listesini içeren açılır bölümün durumunu saklar</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Kanal listesini yeniden yüklemeyi anımsat.">
+						<longdesc>Eğer kendiliğinden güncelleme denetimi devre dışı bırakılmışsa, kanal listesini elle yeniden yüklemelisiniz. Bu seçenek bu durumda gösterilen anımsatıcıyı saklamanıza olanak sağlar.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="Odaksız Aralık Seçimine İzin Ver">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="all-sheets">
+						<local_schema short_desc="Tüm çizelgelere yazdırma ayarını uygular">
+							<longdesc>Bu değer, yazıcı ayarları penceresinin tüm çizelgelere öntanımlı olarak aynı anda uygulanıp uygulanmayacağını belirler.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Otomatik Biçemler için Kullanıcı Dizini">
+							<longdesc>Kullanıcıya özel otomatik biçemleme şablonlarının ana dizini.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="Otomatik Biçemleme için Sistem Dizini">
+							<longdesc>Bu dizin gnumeric ile gelen otomatik biçemleme şablonlarını içerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="İlave Otomatik Biçemleme Dizinleri Listesi">
+							<longdesc>Bu liste otomatik biçemleme şablonlarının bulunduğu dizinleri içerir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="İlave Eklenti Dizinleri Listesi.">
+							<longdesc>Bu liste, eklentileri içeren dizinleri içerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Eklenti Dosyalarının Durum Listesi.">
+							<longdesc>Bu liste eklenti dosya durumlarını içerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Bilinen Eklentiler Listesi.">
+							<longdesc>Bu liste bilinen eklentileri içerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Etkin Eklentilerin Listesi.">
+							<longdesc>Bu liste, otomatik olarak etkinleştirileceği varsayılan eklentileri içerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Yeni Eklentileri Etkinleştir">
+							<longdesc>Bu değişken, yeni bir eklenti saptandığında eklentinin otomatik olarak yüklenip yüklenmeyeceğini belirler.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Otomatik düzelterek değiştirir">
+							<longdesc>Otomatik düzelterek değiştirir</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="Gün isimlerini otomatik düzeltir">
+							<longdesc>Gün isimlerini otomatik düzeltir</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="İlk Harfi Düzeltilmeyecekler Listesi">
+							<longdesc>Otomatik düzeltme motoru bu listedeki sözcüklerin ilk harflerini düzeltmez.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="İlk harfleri otomatik düzeltir">
+							<longdesc>İlk harfleri otomatik düzeltir</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="Baş Harfi Düzeltilmeyecekler Listesi">
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Baş harfleri otomatik düzeltir">
+							<longdesc>Baş harfleri otomatik düzeltir</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="Son Kullanılan İşlevler Listesinin Azami Uzunluğu">
+							<longdesc>İşlev seçici son kullanılan işlevlerin listesini tutar. Bu değer, bu listenin azami uzunluğunu belirler.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="Son kullanılan işlevler listesi.">
+							<longdesc>İşlev seçici son kullanılan işlevlerin listesini tutar. Bu o listedir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="Otomatik Eklenen Sözcüklerin Sayısı">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Artan Sıralama">
+									<longdesc>Bu seçenek, sıralama diyaloğundaki sırala düğmesinin durumunu belirler.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema>
+									<longdesc>Bu seçenek etkin olduğunda araç çubuğunda sıralama sırasında göze biçemlerini saklayacak sıralama düğmeleri etkin olur ve sıralama diyaloğundaki biçemleri saklama onay kutularının durumunu belirler.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Sıralama Harf Büyüklüğüne Duyarlıdır">
+									<longdesc>Bu seçenek etkin olduğunda araç çubuğunda harf büyüklüğüne göre sıralama düğmeleri etkin olur ve sıralama diyaloğundaki harf büyüklüğüne göre sıralama onay kutularının durumunu belirler.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Öntanımlı Üzerine Yazılacak Dosyalar">
+									<longdesc>Mevcut bir dosyanın üzerine yazılmadan önce, Gnumeric bir uyarı verir. Bu seçenekle uyarı penceresindeki Üzerine Yaz düğmesi öntanımlı seçilen düğme olur.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="Tek Çizelgelik Biçeme Çıktılandığında Uyar">
+									<longdesc>Bazı dosya biçemleri tek bir çizelge içerir. Bu değişken çok çizelgeli bir defterin sadece bir çizelgesi kaydedileceği zaman kullanıcının uyarılıp uyarılmayacağını belirler.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Gnumiric Dosyalarının Öntanımlı Sıkıştırma Seviyesi">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Öntanımlı Büyütme Çarpanı">
+									<longdesc>Yeni bir deferin hangi büyütme çarpanı ile açılacağını belirler.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Öntanımlı Pencere Düşey Uzunluğu">
+									<longdesc>Bu sayı (0.25 ile 1.00 arasındadır) öntanımlı pencerenin ekrana düşey oranıdır.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Öntanımlı Pencere Yatay Uzunluğu">
+									<longdesc>Bu sayı (0.25 ile 1.00 arasındadır) öntanımlı pencerenin ekrana yatay oranıdır.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="recalclag">
+								<local_schema short_desc="Otomatik Yeniden Hesaplama Gecikmesi">
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="Anında Kaydırma">
+									<longdesc>Bu değişken kaydırmanın gecikmeli olup olmadığını belirler.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Otomatik Tamamla">
+									<longdesc>Bu değişken otomatik tamamlamanın geçerli olup olmadığını belirler.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="Düşey DPI">
+									<longdesc>Düşey ekran çözünürlüğü</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="Yatay DPI">
+									<longdesc>Yatay ekran çözünürlüğü</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="Öntanımlı Çizelge Sayısı">
+								<longdesc>Yeni bir defterin kaç çizelge ile açılacağını belirler.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Öntanımlı yazıtipi eğiktir.">
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="Öntanımlı yazıtipi kalındır.">
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Öntanımlı yazıtipi ismi">
+								<longdesc>Yeni bir defterin öntanımlı yazıtipi ismi.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Öntanımlı Yazıtipi Yüksekliği">
+								<longdesc>Yeni bir defterin öntanımlı yazıtipi boyu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="Geri Al Açıklamalarının Uzunluğu">
+							<longdesc>Bu değer, Geri Al ve Tekrar Yap zincirlerindeki azami kayıtlı eylem sayısıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="Geri Al Öğelerinin Sayısı">
+							<longdesc>Bu değer, Geri Al/Yeniden Yap listelerindeki azami öğe sayısını belirler.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Azami Geri Alma Sayısı">
+							<longdesc>Bu değer, Geri Al zincirinin uzunluğunu belirler. Her düzenleme eylemi, bu değerle ilişkili uzunluktadır. Bu ilişki, bir basit gözenin düzenlenmesinin (bu eylemin değeri 1 dir) bellek gereksinimine göredir. Geri Al listesi, bu yapılandırma değerini aşan toplam bellekle kırpılır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="Geri Al Listesinde Çizelge İsmini Göster">
+							<longdesc>Bu değer, Geri Al ve Tekrar Yap listelerinde çizelge isimlerinin gösterilip gösterilmeyeceğini belirler.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Araç Çubuğu Tarzı">
+							<longdesc>Araç çubuğunun yerleşimi. Geçerli değerler, icon (simge), text (metin), both (herikisi altalta) ve both_horiz (herikisi yanyana)</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Dosyaların kaydedileceği dizin">
+						<longdesc>Dosyaların kaydedileceği dizin. Ayarlanmadıysa, belgeler dizini varsayılandır.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Taranacak sayfa tarafı">
+						<longdesc>Taranacak sayfa tarafı. Şu seçeneklerden biri olabilir: &apos;her iki taraf&apos; &apos;ön taraf&apos; &apos;arka taraf&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Fotoğraf taramaları için çözünürlük">
+						<longdesc>Fotoğrafları tararken kullanılacak inç başına nokta sayısı cinsinden çözünürlük.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Metin taramaları için çözünürlük">
+						<longdesc>Metin tararken kullanılacak inç başına nokta sayısı cinsinden çözünürlük.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="En son taranan görüntünün çözünürlüğü">
+						<longdesc>Bir önceki taranan görüntünün inç başına nokta sayısı cinsinden çözünürlüğü.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Ondabirlik mm cinsinden kağıdın yüksekliği">
+						<longdesc>Ondabirlik mm cinsinden kağıdın yüksekliği ( ya da otomatik kağıt tespiti için 0).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Ondabirlik mm cinsinden kağıdın genişliği">
+						<longdesc>Ondabirlik mm cinsinden kağıdın genişliği ( ya da otomatik kağıt tespiti için 0).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Taranan görüntünün piksel cinsinden yüksekliği">
+						<longdesc>Taranan görüntünün piksel cinsinden yüksekliği. Bu değer en son taranan sayfaya göre güncellenir.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Taranan görüntünün piksel cinsinden genişliği">
+						<longdesc>Taranan görüntünün piksel cinsinden genişliği. Bu değer en son taranan sayfaya göre güncellenir.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Tarama yönü">
+						<longdesc>Tarayıcının taranan sayfa boyunca yönü. Şunlardan biri olabilir: &apos;yukarıdan aşağıya&apos; &apos;aşağıdan yukarıya&apos; &apos;soldan sağa&apos; &apos;sağdan sola&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Taranacak belgenin türü">
+						<longdesc>Taranan belgenin türü. Metin belgeleri için &apos;metin&apos;, fotoğraflar için &apos;fotoğraf&apos;. Bu ayar tarama çözünürlüğünü, renkleri ve  tarama sonrası işlemleri belirler.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Tarama yapılacak aygıt">
+						<longdesc>Görüntülerin alınacağı SANE aygıtı</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="Eğer uygulama penceresi maksimum yapıldığında DOĞRU (TRUE)">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Pencerenin piksel cinsinden yüksekliği">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Pencerenin piksel cinsinden genişliği">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

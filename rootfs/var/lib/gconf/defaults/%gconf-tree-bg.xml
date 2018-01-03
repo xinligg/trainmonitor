@@ -1,0 +1,581 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="накарай check-new-release-gtk да игнорира определена нова версия">
+						<longdesc>Това перманентно ще скрие промпта за нова версия от check-new-release-gtk. Забележете, че малкия бутон в главния update-manager UI ще бъде все още там.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Съобщение &apos;Добре дошли&apos; при първо стартиране">
+						<longdesc>Ако този ключ бъде зададен, ще се покаже съобщение за добре дошли.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Показване на версия в списъка с актуализации">
+						<longdesc>Ако този ключ е настроен, прозореца за инсталация ще покаже информация за версията (от версия до версия).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Автоматично затваряне на прозореца след успешно инсталиране">
+						<longdesc>Ако този ключ е настроен, прозореца за инсталация ще бъде затворен автоматично при успешна инсталация.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*отхвърлен* Проверка за нови издания на дистрибуцията">
+						<longdesc>Този ключ е отхвърлен в полза на файла /etc/update-manager/release-upgrades. Автоматична проверка за нова версия на текущата дистрибуция и предложение за надграждане (ако е възможно).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Размерът на прозореца">
+						<longdesc>Съхранява размера на update-manager диалога</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Показване подробностите за актуализациите">
+						<longdesc>Съхранява състоянието на разширения панел, който съдържа списъка с промени и описанието</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Припомняне за презареждане на списъка с канали">
+						<longdesc>Ако е забранена автоматичната проверка за актуализации, ще трябва ръчно да презареждате списъка с канали. Тази опция позволява в този случай да се скрие напомнянето.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="Позволяване на избран обхват без фокус">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema short_desc="Формат на горен/долен колонтитул (дясна част)">
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema short_desc="Формат на горен/долен колонтитул (средна част)">
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema short_desc="Формат на горен/долен колонтитул (лява част)">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="Стандартна долна граница">
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="Стандартна долна граница">
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="Стандартна горна граница">
+						</local_schema>
+					</entry>
+					<entry name="repeat-left">
+						<local_schema short_desc="Стандартна повтаряща се лява част">
+						</local_schema>
+					</entry>
+					<entry name="repeat-top">
+						<local_schema short_desc="Стандартна повтаряща се горна част">
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="Стандартна височина на мащаба">
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="Стандартна ширина на мащаба">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="Стандартен мащаб в проценти">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="Стандартен тип на мащаба">
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="Стандартна посока за разпечатване">
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="Печатане на заглавието по подразбиране">
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="Стандартно черно-бяло разпечатване">
+						</local_schema>
+					</entry>
+					<entry name="print-even-if-only-styles">
+						<local_schema short_desc="Печатане на клетки с един стил по подразбиране">
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="Печатане на решетката по подразбиране">
+							<longdesc>&gt;Тази стойност определя стандартната настройка в диалоговия прозорец &quot;Настройки за печат&quot; дали да се печата решетката. Използвайте диалоговия прозорец, за да редактирате стойността.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="Стандартно вертикално подравняване">
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="Стандартно хоризонтално подравняване">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="Стандартният шрифт за горен/долен колонтитул е курсив.">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="Стандартният шрифт за горен/долен колонтитул е чер.">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="Стандартен шрифт за горен/долен колонтитул">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="Стандартен размер на горен/долен колонтитул">
+							<longdesc>Стандартния кегел за горни и долни колонтитули.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="Долен колонтитул">
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Горен колонтитул">
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="Използване на настройките за печат за всички книги">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="sys-dir">
+						<local_schema>
+							<longdesc>Папката съдържа предварително инсталирани шаблони с автоматично форматиране.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="file-states">
+						<local_schema>
+							<longdesc>Този списък съдържа състоянието на файловете на всички модули.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Списък с активни модули.">
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Активиране на нови модули">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Автоматична поправка при замяна">
+							<longdesc>Автоматична поправка при замяна</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="Автоматична поправка на имената на дните">
+							<longdesc>Автоматична поправка на имената на дните</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="Автоматична поправка на първата буква">
+							<longdesc>Автоматична поправка на първата буква</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Автоматична поправка на първите главни букви">
+							<longdesc>Автоматична поправка на първите главни букви</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="Брой автоматични клаузи">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Нарастваща сортировка">
+									<longdesc>Тази опция определя първоначалното състояние на бутона за ред на подреждане в диалоговия прозорец за подреждане.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Подреждането запазва форматирането">
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Подреждането зачита малки/големи букви">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="x">
+								<local_schema short_desc="Стандартен размер на хоризонталния прозорец">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="autocomplete">
+								<local_schema short_desc="Автоматично довършване">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="DPI по вертикала">
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="DPI по хоризонтала">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="Стандартен брой листове">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Стандартният шрифт е курсив.">
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Стандартно име на шрифт">
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Кегел по подразбиране">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="maxnum">
+						<local_schema short_desc="Брой обекти за възстановяване">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Максимален размер за възстановяване">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Папка, където да се запазят файловете">
+						<longdesc>Папка, където да се запазват файловете. По подразбиране, ако не е настроено,  е папката с документи.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Страна на листа за сканиране">
+						<longdesc>Страна на листа за сканиране. Тя може да бъде една от следните: &quot;двете&quot; &quot;предна&quot; &quot;обратна&quot;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Разделителна способност на фото сканиранията">
+						<longdesc>Разделителна способност в точки-за-инч, която да се използва при сканиране на снимки.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Разделителна способност на текстовите сканирания">
+						<longdesc>Разделителна способност в точки-за-инч, която да се използва, когато се сканира текст.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Разделителна способност на последното сканирано изображение">
+						<longdesc>Разделителна способност в точки-за-инч от предишното сканирано изображение.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Височина на хартията в десетки милиметри">
+						<longdesc>Височина на хартията в десетки милиметри (или 0 за автоматично разпознаване).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Ширина на хартията в десетки милиметри">
+						<longdesc>Широчина на листа в десетки милиметри (избери 0 за автоматично разпознаване).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Височина на сканираното изображение в пиксели">
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Ширина на сканираните изображения в пиксели">
+						<longdesc>Ширина на сканираните изображения в пиксели. Тази стойност е обновена до стойността от на последната сканирана страница.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Посока на сканиране">
+						<longdesc>Посоката на скенера през сканираната страница. Може да бъде една от следните: &apos;отгоре-надолу&apos; &apos;отдолу-нагоре&apos; &apos;от лява-надясно&apos; &apos;от дясно-наляво&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Типове документи, които се сканират">
+						<longdesc>Типове документи, които се сканират. &apos;текст&apos; за текстови документи, &apos;фото&apos; за снимки. Тези настройки определят разделителната способност на сканирането, цветовете и последващата обработка.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Устройство, от което да се сканира">
+						<longdesc>SANE устройство, от което да се получи изображението.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="TRUE ако прозореца на приложението е максимизиран.">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Височина на прозореца в пиксели">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Ширина на прозореца в пиксели">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,6 @@
+pyversions=2.6
+
+/usr/lib/pyshared/python2.6/cupsext.so
+/usr/lib/pyshared/python2.6/hpmudext.so
+/usr/lib/pyshared/python2.6/pcardext.so
+/usr/lib/pyshared/python2.6/scanext.so

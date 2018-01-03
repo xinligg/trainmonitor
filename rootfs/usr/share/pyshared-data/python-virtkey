@@ -1,0 +1,9 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/lib/python2.6/dist-packages/virtkey.so=f
+/usr/share/pyshared/python_virtkey-0.60.0.egg-info=f

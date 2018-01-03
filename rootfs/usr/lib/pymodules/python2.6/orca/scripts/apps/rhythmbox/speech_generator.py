@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/scripts/apps/rhythmbox/speech_generator.py

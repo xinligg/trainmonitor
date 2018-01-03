@@ -1,0 +1,29 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 1
+[files]
+/usr/share/pyshared/LanguageSelector=d
+/usr/share/pyshared/LanguageSelector/__init__.py=f
+/usr/share/pyshared/LanguageSelector/CheckLanguageSupport.py=f
+/usr/share/pyshared/LanguageSelector/FontConfig.py=f
+/usr/share/pyshared/LanguageSelector/ImSwitch.py=f
+/usr/share/pyshared/LanguageSelector/LangCache.py=f
+/usr/share/pyshared/LanguageSelector/LanguageSelector.py=f
+/usr/share/pyshared/LanguageSelector/LocaleInfo.py=f
+/usr/share/pyshared/LanguageSelector/macros.py=f
+/usr/share/pyshared/LanguageSelector/utils.py=f
+/usr/share/pyshared/LanguageSelector/xkb.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector=d
+/usr/lib/python2.6/dist-packages/LanguageSelector/__init__.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/CheckLanguageSupport.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/FontConfig.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/ImSwitch.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/LangCache.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/LanguageSelector.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/LocaleInfo.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/macros.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/utils.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/xkb.py=f

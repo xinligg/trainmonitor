@@ -1,0 +1,41 @@
+#! /bin/sh
+set -e
+
+. /scripts/functions
+
+PREREQ="framebuffer console_setup"
+
+prereqs () {
+	echo "$PREREQ"
+}
+
+case $1 in
+	prereqs)
+		prereqs
+		exit 0
+		;;
+esac
+
+# If we are in the Casper LiveCD initramfs, do not start AppArmor.
+if [ -f /scripts/casper-bottom/42disable_apparmor ]; then
+    exit 0
+fi
+
+log_begin_msg "Starting AppArmor profiles"
+
+# Temporarily pivot to the real root directory, loading the profiles
+# from that disk.
+mount -n -o move /sys ${rootmnt}/sys
+set +e
+chroot ${rootmnt} /etc/apparmor/initramfs
+RET=$?
+set -e
+mount -n -o move ${rootmnt}/sys /sys
+
+if [ $RET -ne 0 ]; then
+    log_failure_msg "AppArmor profiles failed to load"
+else
+    log_end_msg
+fi
+
+exit 0

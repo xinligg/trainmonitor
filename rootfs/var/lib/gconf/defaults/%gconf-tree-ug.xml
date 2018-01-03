@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="check-new-release-gtk يېڭى نەشرىگە پەرۋا قىلمايدىغان بولسۇن">
+						<longdesc>بۇ check-new-release-gtk دىن چىققان يېڭى نەشرى ھەققىدىكى كۆرسەتمىنى يوشۇرىدۇ. update-manager نىڭ ئاساسىي كۆزنىكىدىكى كىچىك توپچا يەنىلا كۆرۈنىدۇ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="تۇنجى ئىجرا بولغاندىكى مەرھابا ئۇچۇرى">
+						<longdesc>بۇ ئاچقۇچ بەلگىلەنسە، دەسلەپكى قوزغىلىشتا «مەرھابا» ئۇچۇرى كۆرۈنىدۇ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="يېڭىلاش تىزىملىكىدىكى بوغا ئاتىنىڭ ئالدىدا بوغچا ھەققىدىكى ئۈزۈندىنى كۆرسەتسۇن">
+						<longdesc>ئەگەر بۇ ئاچقۇچ بېكىتىلسە، ئاساسلىق يېڭىلاش تىزىملىكى كۆزنىكىدە بوغچا ھەققىدىكى ئۈزۈندى بوغچا ئاتى ئالدىدا كۆرسىتىلىدۇ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="يېڭىلاش تىزىملىكىدە نەشرىنى كۆرسەت">
+						<longdesc>ئەگەر بۇ ئاچقۇچ بېكىتىلسە، ئاساسلىق يېڭىلاش تىزىملىكى كۆزنىكىدە نەشر ئۇچۇرى كۆرسىتىلىدۇ(قايسى نەشرىدىن قايسى نەشرگە).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="ئورنىتىش مۇۋەپپەقىيەتلىك تاماملانغاندىن كېيىن ئورنىتىش كۆزنىكىنى ئاپتوماتىك تاقا.">
+						<longdesc>بۇ ئاچقۇچ بەلگىلەنسە، ئورنىتىش مۇۋەپپەقىيەتلىك بولغاندا ئورنىتىش كۆزنىكى تاقىلىدۇ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*تەۋسىيە قىلىنمايدىغان*  يېڭى distribution ئېلان قىلىندىمۇ تەكشۈرۈش">
+						<longdesc>/etc/update-manager/release-upgrades نىڭ ھالىتىگە ئاساسەن ئاپتوماتىك بېكىتىلىدىغان، تەۋسىيە قىلىنمايدىغان ئاچقۇچتۇر. ھازىرقى سىستېمىنىڭ يېڭى نەشرى بار بولسا، upgrade قىلىش تەۋسىيە قىلىنىدۇ(مۇمكىن بولسا).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="كۆزنەك چوڭلۇقى">
+						<longdesc>update-manager كۆزنىكىنىڭ چوڭلۇقىنى ساقلىسۇن</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="يېڭىلاشنىڭ تەپسىلاتىنى كۆرسەت">
+						<longdesc>ئۆزگىرىش تىزىملىكى ۋە چۈشەندۈرۈشىنى ئوز ئىچىگە ئالغان expander نىڭ ھالىتىنى ساقلىسۇن</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="قانال تىزىملىكىنى قايتا ئوقۇشنى ئەسكەرت">
+						<longdesc>يېڭىلانمىلارنى ئاپتوماتىك تەكشۈرۈش ئىناۋەتسىز قىلىنسا، قانال تىزىملىكىنى قولدا يېڭىلىشىڭىز كېرەك. بۇ تاللانما ئىشلىتىلسە، مۇشۇنداق ئەھۋالدا ئەسلەتكۈ كۆرسىتىشنى يوشۇرغىلى بولىدۇ.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

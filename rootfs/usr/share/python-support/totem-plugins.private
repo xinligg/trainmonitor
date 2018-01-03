@@ -1,0 +1,7 @@
+/usr/lib/totem/plugins/dbus/dbus-service.py
+/usr/lib/totem/plugins/jamendo/jamendo.py
+/usr/lib/totem/plugins/opensubtitles/opensubtitles.py
+/usr/lib/totem/plugins/opensubtitles/hash.py
+/usr/lib/totem/plugins/pythonconsole/pythonconsole.py
+/usr/lib/totem/plugins/pythonconsole/console.py
+/usr/lib/totem/plugins/totem/__init__.py

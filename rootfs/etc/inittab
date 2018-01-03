@@ -1,0 +1,5 @@
+::sysinit:/init
+::restart:/sbin/init
+tty1::respawn:-/bin/sh
+::ctrlaltdel:/sbin/reboot
+::shutdown:/bin/umount -a -r

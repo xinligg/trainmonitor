@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="ibus">
+				<dir name="panel">
+					<entry name="custom_font">
+						<local_schema short_desc="मनपसंद फ़ॉन्ट">
+							<longdesc>भाषा पटल के लिए मनपसंद फ़ॉन्ट नाम</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="मनपसंद फ़ॉन्ट का प्रयोग करें">
+							<longdesc>भाषा पटल के लिए मनपसंद फ़ॉन्ट नाम का प्रयोग करें</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_im_name">
+						<local_schema short_desc="इनपुट विधि नाम दिखाएँ">
+							<longdesc>भाषा पट्टी पर इनपुट विधि नाम दिखाएँ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_icon_on_systray">
+						<local_schema short_desc="तंत्र तश्तरी पर प्रतीक दिखाएँ">
+							<longdesc>तंत्र तश्तरी पर प्रतीक दिखाएँ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="lookup_table_orientation">
+						<local_schema short_desc="लुकअप सारणी की दिशा">
+							<longdesc>सारणी देखने के लिए दिशा. 0 = क्षैतिज, 1 = लंबवत</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="भाषा पैनल स्थिति">
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="भाषा पैनल स्थिति">
+						</local_schema>
+					</entry>
+					<entry name="show">
+						<local_schema short_desc="स्वतः छुपाएँ">
+							<longdesc>भाषा फलक का व्यवहार. 0 = मेन्यू में अंतःस्थापित, 1 = स्वतः छिपाएँ, 2 = हमेशा दिखाएँ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="enable_by_default">
+						<local_schema short_desc="इनपुट विधि को तयशुदा रूप से सक्रिय करें">
+							<longdesc>जब अनुप्रयोग इनपुट फोकस पाता है तो इनपुट विधि को तयशुदा रूप से सक्रिय करें</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_global_engine">
+						<local_schema short_desc="लक्ष्य इनपुट विधि का प्रयोग करें">
+							<longdesc>सभी अनुप्रयोगों के बीच समान इनपुट विधि को साझा करें</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="embed_preedit_text">
+						<local_schema short_desc="पूर्वसंपादित पाठ अंतःस्थापित करें">
+							<longdesc>अनुप्रयोग विंडो में पूर्वसंपादित पाठ अंतःस्थापित करें</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_keyboard_layout">
+						<local_schema short_desc="तंत्र कुंजीपट लेआउट का प्रयोग करें">
+							<longdesc>तंत्र कुंजीपट (XKB) लेआउट का प्रयोग करें</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preload_engines">
+						<local_schema short_desc="पहले से लोड इंजन">
+							<longdesc>ibus आरंभन के दौरान पहले से लोड इंजन</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="hotkey">
+						<entry name="previous_engine">
+							<local_schema short_desc="पिछला इंजन शॉर्टकट कुंजी">
+								<longdesc>सूची में पिछली इनपुट विधि में जाने के लिए शॉर्टकट कुंजियाँ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="prev_engine">
+							<local_schema short_desc="पिछला इंजन शॉर्टकट कुंजी">
+								<longdesc>सूची में पिछली इनपुट विधि में जाने के लिए शॉर्टकट कुंजियाँ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="next_engine_in_menu">
+							<local_schema short_desc="अगला इंजन शॉर्टकट कुंजी">
+								<longdesc>सूची में अगली इनपुट विधि में जाने के लिए शॉर्टकट कुंजियाँ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="next_engine">
+							<local_schema short_desc="अगला इंजन शॉर्टकट कुंजी">
+								<longdesc>सूची में अगली इनपुट विधि में जाने के लिए शॉर्टकट कुंजियाँ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="trigger">
+							<local_schema short_desc="शॉर्टकट कुंजी ट्रिगर करें">
+								<longdesc>इनपुट विधि को चालू या बंद रखने के लिए शॉर्टकट कुंजी</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="make check-new-release-gtk के द्वारा दिये गए नए प्रकाशन की उपेक्षा करें">
+						<longdesc>यह नए प्रकाशित प्राम्प्ट को check-new-release-gtk से स्थायी रुप से छुपा देता है. ध्यान दें कि अद्यतन-प्रबंधक UI में छोटा बटन फिर भी उपस्थित रहेगा.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="पहले सुस्वागतम् संदेश चलाएं">
+						<longdesc>यदि इस कुँजी को नियत करते हैं तो सर्वप्रथम सुस्वागतम् का संदेश दिखेगा.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="अद्यतन सूची में संस्करण को दिखाएं">
+						<longdesc>यदि इस कुँजी को नियत किया जाता है तो मुख्य अद्यतन सूची खिड़की संस्करण सूचना दिखाएगी (एक से दूसरे संस्करण तक)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="सफलतापुर्वक संस्थापन के पश्चात संस्थापित खिड़की को स्वतः बंद कर दें">
+						<longdesc>यदि इस कुँजी को नियत करते है तो संस्थापना खिड़की सफलतापुर्वक संस्थापना पश्चात स्वतः ही बंद हो जाएगा.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*अवमानना* नए वितरक प्रकाशन हेतु जाँच करें">
+						<longdesc>कुंजी की अवमानना संचिका /etc/update-manager/release-upgrades के पक्ष में करें स्वतः जाँच करे कि यदि वर्तमान वितरक का कोई नया संस्करण उपलब्ध है तथा कोटि उन्नयन का प्रस्ताव दें (यदि संभव हो).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="खिड़की का आकार">
+						<longdesc>अद्यतन-प्रबंधक संवाद के आकार को संगृहित करें</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="अद्यतन का विस्तृत विवरण दिखाएं">
+						<longdesc>विकसीत होने की स्थिति जिसमें परिवर्तन की सूची तथा वर्णऩ शामिल है संगृहित करें</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="चैनल सूची के पुनःलदान हेतु अनुस्मरण">
+						<longdesc>यदि स्वतः अद्यतन जाँच अशक्त है. तो आप चैनल सूची को हस्त में पुनःलदान करें. इस विकल्प से इस मामले में आपको अनुस्मारक दिखाना छिपाया जा सकता है.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

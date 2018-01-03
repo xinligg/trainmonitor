@@ -1,0 +1,142 @@
+#!/usr/bin/perl
+
+open (F, ">/tmp/sysinfo"); # for system info in home tab
+open (FS, ">/tmp/sysinfo-s"); # for full screen window
+
+chomp($time_s = `LC_ALL=C date +%I:%M\\ %p`);
+
+chomp($time = `LC_ALL=C date +%R`);
+chomp($date = `LC_ALL=C date +%b%_d\\ \\(%a\\)`);
+
+if (`ifconfig | grep -v 127.* | grep "inet addr"`) { # online
+	$netstat = "Online"; 
+	$net_short = $netstat;
+	$iw = `iwconfig`;
+	$ssid = $1 if $iw =~ /ESSID:"(.*?)"/;
+
+	# try to calculate signal strength 
+
+	$quality = $1 if $iw =~ /Link Quality=(.*?)\s/;
+	$str = sprintf "%.2d", ((eval $quality)*100);
+
+	if ($str != '') {
+		if ($str >= 75) { $net_icon = "wireless-signal-excellent.png"; } 
+		elsif ($str >= 50 && $str < 75) { $net_icon = "wireless-signal-good.png"; } 
+		elsif ($str >= 25 && $str < 50) { $net_icon = "wireless-signal-ok.png"; }
+		else { $net_icon = "wireless-signal-weak.png"; }
+	} else { $net_icon = "wireless-signal-excellent.png"; } 
+
+	if ($ssid ne '' && $str ne '') {
+		$netstat_desc .= "$ssid - $str%";
+		$net_short .= " ($ssid)";
+	}
+} 
+
+elsif ( -e "/tmp/netstat.tmp" && `ps | grep dhclient`) { 
+$netstat = "Connecting"; $net_short = $netstat; $net_icon = "network-idle.png"; } 
+else { $netstat = "Offline"; $net_short = $netstat; $net_icon = "edit-delete.png"; } 
+
+# get battery info 
+$info = `cat /proc/acpi/battery/*/state`;
+
+
+if ( $info ne '' ) {
+
+	$batstat = "";
+	if ($info =~ /discharging/) {
+		$r = $1 if $info =~ /present rate:\s+(\d+)\s/;
+		$c = $1 if $info =~ /remaining capacity:\s+(\d+)\s/;
+	
+		if ($r != 0) {
+		$h = sprintf "%d", $c/$r;
+		$m = sprintf "%.2d", 60*$c/$r-$h*60;
+		$batstat_desc = "$h:$m";
+		}
+
+	} else {
+		$batstat_desc = "Charging"; 
+	}
+	
+	$power_info = `find /sys/bus/acpi/drivers/battery/*/power_supply/*/uevent`;
+	
+	for (`cat $power_info`) {
+	$full = $2 if /(ENERGY|CHARGE)_FULL=(.*)$/;
+	$now = $2 if /(ENERGY|CHARGE)_NOW=(.*)$/;
+	}
+	
+	if ($full) {
+		$bat_percent = $now / $full * 100;
+		$batstat .= sprintf "%.2d%", $bat_percent ;
+	}
+	
+	if ( $batstat_desc =~ /Charging/) { $bat_icon = "battery-charging.png"; }  
+	
+	elsif ($bat_percent ne '') {
+
+	if ($bat_percent >= 75) { $bat_icon = "battery-full.png"; }
+	elsif ($bat_percent >= 50 && $bat_percent < 75) { $bat_icon = "battery-good.png"; }
+	elsif ($bat_percent >= 25 && $bat_percent < 50) { $bat_icon = "battery-caution.png"; }
+	else { $bat_icon = "battery-low.png"; }
+	
+	} else { $bat_icon = "battery-full.png"; }
+
+}
+
+=pod
+$meminfo = `cat /proc/meminfo`;
+
+$memtotal = $1 if $meminfo =~ /MemTotal:\s+(\d+?) kB/;
+$memfree = $1 if $meminfo =~ /MemFree:\s+(\d+?) kB/;
+#print "total:", $mentotal, "\n";
+
+$mem = sprintf "%.2d%", $memfree / $memtotal * 100;
+$mem_f = sprintf "%d MB", $memfree/1024;
+=cut
+
+print F <<EOF;
+
+<tr>
+		<td>
+			<table style="background: #E0FFE0;"><tr>
+				<td class="image">
+				<img src="image/$net_icon" />
+				</td>
+				<td>
+				<strong>$netstat</strong><br />
+				<span>$netstat_desc</span>
+				</td>
+			</tr></table>
+
+		</td>
+		
+EOF
+
+if ($batstat) {
+print F <<EOF;
+		<td>
+			<table style="background: #E0FFE0;"><tr>
+				<td class="image">
+				<img src="image/$bat_icon" />
+				</td><td>
+				<strong>$batstat</strong><br />
+				<span>$batstat_desc</span>
+				</td>
+			</tr></table>
+		</td>	
+EOF
+}
+
+print F <<EOF;
+		
+		<td>
+			<table style="background: #E0FFE0;"><tr><td>
+				<strong>$time</strong><br />
+				<span>$date</span>
+			</td>
+			</tr></table>
+		</td>
+</tr>
+EOF
+
+if ($batstat) { print FS "$net_short | $time_s | Battery: $batstat ($batstat_desc)\n"; } 
+else { print FS "$net_short | $time_s \n"; }

@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/workarounds</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/workarounds</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Workarounds</short>
+        <long>Window placement workarounds</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/mode</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/mode</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>2</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Placement Mode</short>
+        <long>Algorithm to use for window placement (0 = Cascade, 1 = Centered, 2 = Smart, 3 = Maximize, 4 = Random, 5 = Under pointer)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/multioutput_mode</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/multioutput_mode</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Multi Output Mode</short>
+        <long>Selects how window placement should behave if multiple outputs are selected (0 = Use active output device, 1 = Use output device with pointer, 2 = Use output device of focussed window, 3 = Place across all outputs)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/force_placement_match</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/force_placement_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Force Placement Windows</short>
+        <long>Windows that should forcedly be placed, even if they indicate the window manager should avoid placing them. (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/position_matches</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/position_matches</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Positioned windows</short>
+        <long>Windows that should be positioned by default</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/position_x_values</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/position_x_values</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>int</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>X Positions</short>
+        <long>X position values</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/position_y_values</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/position_y_values</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>int</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Y Positions</short>
+        <long>Y position values</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/position_constrain_workarea</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/position_constrain_workarea</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>bool</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Keep In Workarea</short>
+        <long>Keep placed window in work area, even if that means that the position might differ from the specified position</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/mode_matches</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/mode_matches</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Windows</short>
+        <long>Windows that should have a certain positioning mode</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/mode_modes</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/mode_modes</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>int</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Mode</short>
+        <long>Positioning modes</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/viewport_matches</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/viewport_matches</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Viewport positioned windows</short>
+        <long>Windows that should be positioned in specific viewports by default</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/viewport_x_values</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/viewport_x_values</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>int</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>X Viewport Positions</short>
+        <long>Horizontal viewport positions</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/place/screen0/options/viewport_y_values</key>
+      <applyto>/apps/compiz/plugins/place/screen0/options/viewport_y_values</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>int</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Y Viewport Positions</short>
+        <long>Vertical viewport positions</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

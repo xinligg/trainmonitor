@@ -1,0 +1,4 @@
+/apps/gnome-power-manager/notify/sleep_failed_uri ""
+/apps/gnome-power-manager/ui/icon_policy charge
+/apps/gnome-power-manager/lock/use_screensaver_settings false
+/apps/gnome-power-manager/lock/blank_screen false

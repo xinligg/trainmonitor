@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="lakaat check-new-release-gtk da chom hep gouzout ez eus un handelv nevez">
+						<longdesc>An dra-mañ a guzho da vat ar c&apos;hemenn a-zivout un handelv nevez a-berzh check-new-release-gtk. Notennit e chomo an afell vihan e ketal kevregat ardoer an hizivaat.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Kemenn an donemat evit al loc&apos;h kentañ">
+						<longdesc>Mar arventennet e vo kinniget ur c&apos;hemenn da lavarout Donemat evit al loc&apos;h kentañ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Diskouez an handelvoù war roll an hizivaat">
+						<longdesc>Mar arventennet e vo diskouezet stlennoù an handelvoù (eus handelv da handelv) gant prenestr pennañ roll an hizivadennoù.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Emserriñ ar prenestr-staliañ goude ma &apos;z eo bet staliet gant berzh">
+						<longdesc>Mar arventennet e vo serret ar prenestr staliañ gant un doare emgefreek pa vo staliet gant berzh.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*N&apos;eo ket aliet* Klask handelvoù nevez an dasparzhadenn">
+						<longdesc>N&apos;eo ket aliet an alc&apos;hwez-mañ, grit kentoc&apos;h gant /etc/update-manager/release-upgrades. Gwiriañ ent emgefreek hag-eñ ez eus un handelv hegerz nevez eus an dasparzhadenn, hag-eñ ez eo kinniget an hizivaat (mar bez tro).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Ment ar prenestr">
+						<longdesc>Enrollañ a ra ment boestad emziviz ardoer an hizivaat</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Diskouez munudoù un hizivadenn">
+						<longdesc>Kadaviñ a ra stad an astennerez ma &apos;z eo roll ar c&apos;hemmoù hag an deskrivadurioù enni</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Soñjit e adkargañ roll an dastumlec&apos;h meziantoù">
+						<longdesc>Mard eo bet diweredekaet ar klask hizivadennoù emgefreek ez eo ret deoc&apos;h adkargañ roll an dastumlec&apos;hioù gant an dorn. Bez ez eus tro da guzhañ an notennig da zerc&apos;hel soñj diskouezet en dro-mañ.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

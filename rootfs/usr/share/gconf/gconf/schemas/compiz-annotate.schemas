@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/annotate/allscreens/options/initiate_button</key>
+      <applyto>/apps/compiz/plugins/annotate/allscreens/options/initiate_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;&lt;Alt&gt;Button1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate</short>
+        <long>Initiate annotate drawing</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/annotate/allscreens/options/erase_button</key>
+      <applyto>/apps/compiz/plugins/annotate/allscreens/options/erase_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;&lt;Alt&gt;Button3</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate erase</short>
+        <long>Initiate annotate erasing</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/annotate/allscreens/options/clear_key</key>
+      <applyto>/apps/compiz/plugins/annotate/allscreens/options/clear_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;&lt;Alt&gt;k</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Clear</short>
+        <long>Clear</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/annotate/allscreens/options/clear_button</key>
+      <applyto>/apps/compiz/plugins/annotate/allscreens/options/clear_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Clear</short>
+        <long>Clear</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/annotate/allscreens/options/fill_color</key>
+      <applyto>/apps/compiz/plugins/annotate/allscreens/options/fill_color</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>#ff0000ff</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Annotate Fill Color</short>
+        <long>Fill color for annotations</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/annotate/allscreens/options/stroke_color</key>
+      <applyto>/apps/compiz/plugins/annotate/allscreens/options/stroke_color</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>#00ff00ff</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Annotate Stroke Color</short>
+        <long>Stroke color for annotations</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/annotate/allscreens/options/line_width</key>
+      <applyto>/apps/compiz/plugins/annotate/allscreens/options/line_width</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>3.0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Line width</short>
+        <long>Line width for annotations (0.1 - 100.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/annotate/allscreens/options/stroke_width</key>
+      <applyto>/apps/compiz/plugins/annotate/allscreens/options/stroke_width</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1.0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Stroke width</short>
+        <long>Stroke width for annotations (0.1 - 20.0)</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

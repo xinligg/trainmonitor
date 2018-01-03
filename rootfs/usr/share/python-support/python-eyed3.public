@@ -1,0 +1,9 @@
+pyversions=2.3-
+
+/usr/share/pyshared/eyeD3-0.6.17.egg-info
+/usr/share/pyshared/eyeD3/__init__.py
+/usr/share/pyshared/eyeD3/binfuncs.py
+/usr/share/pyshared/eyeD3/frames.py
+/usr/share/pyshared/eyeD3/mp3.py
+/usr/share/pyshared/eyeD3/tag.py
+/usr/share/pyshared/eyeD3/utils.py

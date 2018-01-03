@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/initiate_normal_key</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/initiate_normal_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Normal Window Resize</short>
+        <long>Start resizing window normally</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/initiate_outline_key</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/initiate_outline_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Outline Window Resize</short>
+        <long>Start resizing window with outline</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/initiate_rectangle_key</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/initiate_rectangle_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Rectangle Window Resize</short>
+        <long>Start resizing window with rectangle</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/initiate_stretch_key</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/initiate_stretch_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Stretch Window Resize</short>
+        <long>Start resizing window by stretching it</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/initiate_button</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/initiate_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;Button2</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Resize</short>
+        <long>Start resizing window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/initiate_key</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/initiate_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;F8</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Resize</short>
+        <long>Start resizing window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/mode</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/mode</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>2</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Default Resize Mode</short>
+        <long>Default mode used for window resizing (0 = Normal, 1 = Outline, 2 = Rectangle, 3 = Stretch)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/border_color</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/border_color</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>#ffffff64</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Border Color</short>
+        <long>Border color used for outline and rectangle resize modes</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/fill_color</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/fill_color</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>#0000001e</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Fill Color</short>
+        <long>Fill color used for rectangle resize mode</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/normal_match</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/normal_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Normal Resize Windows</short>
+        <long>Windows that normal resize should be used for (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/outline_match</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/outline_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Outline Resize Windows</short>
+        <long>Windows that outline resize should be used for (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/rectangle_match</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/rectangle_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Rectangle Resize Windows</short>
+        <long>Windows that rectangle resize should be used for (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/resize/allscreens/options/stretch_match</key>
+      <applyto>/apps/compiz/plugins/resize/allscreens/options/stretch_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Stretch Resize Windows</short>
+        <long>Windows that stretch resize should be used for (match)</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

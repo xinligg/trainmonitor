@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="check-new-release-gtk орындалатын кезде, жаңа релиздерді қарастырмау">
+						<longdesc>check-new-release-gtk модуліне сұраным жасалатын кезде жаңа релиздердің жетімдігі туралы мәлімдеме көрсетілмейтін болады. Бірақ та Жаңарту менеджер бас терезесінде кішкене ғана батырма бұрындағыдай көріне беретіне назар салыңыз.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Бірінші ашылу кезіндегі шығатын қарсы алу мәлімдеме">
+						<longdesc>Егер де баптау таңдалынған болса, қарсы алу мәлімдемесі көрсетілетін болады.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Жаңарту тізімінде пакет туралы ақпаратты, пакет атынан бұрын көрсету">
+						<longdesc>Егер бұл баптау қосылған болса, жаңарту тізімінде пакет туралы ақпаратты, пакет атынан бұрын көрсетілетін болады.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Жаңарту тізімінде нұсқаны көрсету">
+						<longdesc>Егер де осы кілт орнатылған болса, басты терезесінің жаңарту тізімінде нұсқалар туралы ақпарат (нұсқадан нұсқаға) көрсетіледі.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Сәтті орнатылымнан кейін терезені жабу">
+						<longdesc>Егер белгі қойылған болса, орнатылым терезесі, орнатылымның сәтті аяқтауынан кейін жабылатын болады.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*қарастырылмайын* Дистрибутивтің жаңа шығарылымдарының (релиз) жетімдігін тексеру">
+						<longdesc>/etc/update-manager/release-upgrades жаңартулардың жетімдігін автоматты түрде тексеріп, оларды орнатуға ұсынатындықтан (жетімді болатын болса) бұл кілт іске қосылмаған.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Терезенің өлшемі">
+						<longdesc>Жаңарту менеджер терезесінің ауқымын сақтау</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Жаңартуның толық ақпаратын көрсету">
+						<longdesc>Сипаттамасы мен өзгертулер тізімі бар панельдің күйін сақтау</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Қайнарлар тізімін жаңарту туралы ескерті">
+						<longdesc>Егер де жаңартуларды автоматты тексеру таңдалмаған болса, сіз қайнар көздер тізімін өзіңіз жаңартуыңыз қажет. Бұл баптау осы жағдайдағы шығаратын мәлімдемені жасырады.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

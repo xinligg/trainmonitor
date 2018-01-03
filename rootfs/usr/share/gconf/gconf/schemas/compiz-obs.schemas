@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/opacity_increase_key</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/opacity_increase_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Increase Opacity</short>
+        <long>Opacity Increase</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/opacity_increase_button</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/opacity_increase_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;Button4</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Increase Opacity</short>
+        <long>Opacity Increase</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/opacity_decrease_key</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/opacity_decrease_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Decrease Opacity</short>
+        <long>Opacity Decrease</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/opacity_decrease_button</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/opacity_decrease_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;Button5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Decrease Opacity</short>
+        <long>Opacity Decrease</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/brightness_increase_key</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/brightness_increase_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Increase Brightness</short>
+        <long>Brightness Increase</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/brightness_increase_button</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/brightness_increase_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Increase Brightness</short>
+        <long>Brightness Increase</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/brightness_decrease_key</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/brightness_decrease_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Decrease Brightness</short>
+        <long>Brightness Decrease</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/brightness_decrease_button</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/brightness_decrease_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Decrease Brightness</short>
+        <long>Brightness Decrease</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/saturation_increase_key</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/saturation_increase_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Increase Saturation</short>
+        <long>Saturation Increase</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/saturation_increase_button</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/saturation_increase_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Increase Saturation</short>
+        <long>Saturation Increase</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/saturation_decrease_key</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/saturation_decrease_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Decrease Saturation</short>
+        <long>Saturation Decrease</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/allscreens/options/saturation_decrease_button</key>
+      <applyto>/apps/compiz/plugins/obs/allscreens/options/saturation_decrease_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Decrease Saturation</short>
+        <long>Saturation Decrease</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/screen0/options/opacity_step</key>
+      <applyto>/apps/compiz/plugins/obs/screen0/options/opacity_step</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Step</short>
+        <long>Opacity Step (1 - 10)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/screen0/options/opacity_matches</key>
+      <applyto>/apps/compiz/plugins/obs/screen0/options/opacity_matches</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Windows</short>
+        <long>Windows that should have a different opacity by default</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/screen0/options/opacity_values</key>
+      <applyto>/apps/compiz/plugins/obs/screen0/options/opacity_values</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>int</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Window values</short>
+        <long>Opacity values for windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/screen0/options/brightness_step</key>
+      <applyto>/apps/compiz/plugins/obs/screen0/options/brightness_step</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Step</short>
+        <long>Brightness Step (1 - 10)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/screen0/options/brightness_matches</key>
+      <applyto>/apps/compiz/plugins/obs/screen0/options/brightness_matches</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Windows</short>
+        <long>Windows that should have a different brightness by default</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/screen0/options/brightness_values</key>
+      <applyto>/apps/compiz/plugins/obs/screen0/options/brightness_values</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>int</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Window values</short>
+        <long>Brightness values for windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/screen0/options/saturation_step</key>
+      <applyto>/apps/compiz/plugins/obs/screen0/options/saturation_step</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Step</short>
+        <long>Saturation Step (1 - 10)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/screen0/options/saturation_matches</key>
+      <applyto>/apps/compiz/plugins/obs/screen0/options/saturation_matches</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Windows</short>
+        <long>Windows that should have a different saturation by default</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/obs/screen0/options/saturation_values</key>
+      <applyto>/apps/compiz/plugins/obs/screen0/options/saturation_values</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>int</list_type>
+      <default>[]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Window values</short>
+        <long>Saturation values for windows</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

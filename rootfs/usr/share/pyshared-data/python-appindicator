@@ -1,0 +1,13 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/share/pyshared/appindicator=d
+/usr/share/pyshared/appindicator/_appindicator.a=f
+/usr/share/pyshared/appindicator/__init__.py=f
+/usr/share/pyshared/appindicator/_appindicator.la=f
+/usr/lib/python2.6/dist-packages/appindicator=d
+/usr/lib/python2.6/dist-packages/appindicator/_appindicator.so=f

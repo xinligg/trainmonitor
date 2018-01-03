@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Gufw
+Version: 10.10.1
+Summary: An easy, intuitive, way to manage your Linux firewall. It supports common tasks such as allowing or blocking pre-configured, common p2p, or individual ports port(s), and many others!
+Home-page: http://gufw.tuxfamily.org
+Author: Marcos Alvarez Costales <marcos@ubuntu-ast.org>
+Author-email: <marcos@ubuntu-ast.org>
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN

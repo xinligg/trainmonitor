@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/scripts/apps/Eclipse/__init__.py

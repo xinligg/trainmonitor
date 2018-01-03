@@ -1,0 +1,17 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 1
+[files]
+/usr/share/pyshared/command_not_found-0.1.egg-info=f
+/usr/share/pyshared/CommandNotFound=d
+/usr/share/pyshared/CommandNotFound/__init__.py=f
+/usr/share/pyshared/CommandNotFound/CommandNotFound.py=f
+/usr/share/pyshared/CommandNotFound/util.py=f
+/usr/lib/python2.6/dist-packages/command_not_found-0.1.egg-info=f
+/usr/lib/python2.6/dist-packages/CommandNotFound=d
+/usr/lib/python2.6/dist-packages/CommandNotFound/__init__.py=f
+/usr/lib/python2.6/dist-packages/CommandNotFound/CommandNotFound.py=f
+/usr/lib/python2.6/dist-packages/CommandNotFound/util.py=f

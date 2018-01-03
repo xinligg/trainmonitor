@@ -1,0 +1,33 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 1
+[files]
+/usr/share/pyshared/softwareproperties=d
+/usr/share/pyshared/softwareproperties/gtk=d
+/usr/share/pyshared/softwareproperties/gtk/DialogMirror.py=f
+/usr/share/pyshared/softwareproperties/gtk/DialogCacheOutdated.py=f
+/usr/share/pyshared/softwareproperties/gtk/dialogs.py=f
+/usr/share/pyshared/softwareproperties/gtk/DialogEdit.py=f
+/usr/share/pyshared/softwareproperties/gtk/DialogAddSourcesList.py=f
+/usr/share/pyshared/softwareproperties/gtk/SimpleGtkbuilderApp.py=f
+/usr/share/pyshared/softwareproperties/gtk/CdromProgress.py=f
+/usr/share/pyshared/softwareproperties/gtk/__init__.py=f
+/usr/share/pyshared/softwareproperties/gtk/utils.py=f
+/usr/share/pyshared/softwareproperties/gtk/SoftwarePropertiesGtk.py=f
+/usr/share/pyshared/softwareproperties/gtk/DialogAdd.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties=d
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk=d
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/DialogMirror.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/DialogCacheOutdated.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/dialogs.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/DialogEdit.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/DialogAddSourcesList.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/SimpleGtkbuilderApp.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/CdromProgress.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/__init__.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/utils.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/SoftwarePropertiesGtk.py=f
+/usr/lib/python2.6/dist-packages/softwareproperties/gtk/DialogAdd.py=f

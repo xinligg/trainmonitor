@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/scripts/apps/Thunderbird/__init__.py

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Shutdown
+Name[zh_CN]=关机
+Comment[zh_CN]= 关闭计算机
+Exec=/usr/bin/eldy_poweroff
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+Icon=staros-shutdown
+StartupNotify=false
+OnlyShowIn=GNOME;

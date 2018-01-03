@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/water/allscreens/options/initiate_key</key>
+      <applyto>/apps/compiz/plugins/water/allscreens/options/initiate_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Super&gt;</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate</short>
+        <long>Enable pointer water effects</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/water/allscreens/options/toggle_rain_key</key>
+      <applyto>/apps/compiz/plugins/water/allscreens/options/toggle_rain_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Shift&gt;F9</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Toggle rain</short>
+        <long>Toggle rain effect</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/water/allscreens/options/toggle_wiper_key</key>
+      <applyto>/apps/compiz/plugins/water/allscreens/options/toggle_wiper_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Shift&gt;F8</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Toggle wiper</short>
+        <long>Toggle wiper effect</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/water/allscreens/options/offset_scale</key>
+      <applyto>/apps/compiz/plugins/water/allscreens/options/offset_scale</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Offset Scale</short>
+        <long>Water offset scale (0 - 10)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/water/allscreens/options/rain_delay</key>
+      <applyto>/apps/compiz/plugins/water/allscreens/options/rain_delay</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>250</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Rain Delay</short>
+        <long>Delay (in ms) between each rain-drop (1 - 3600000)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/water/allscreens/options/title_wave</key>
+      <applyto>/apps/compiz/plugins/water/allscreens/options/title_wave</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Title wave</short>
+        <long>Wave effect from window title</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

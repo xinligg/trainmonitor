@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-notifier">
+				<entry name="hide_reboot_notification">
+					<local_schema short_desc="Ascunde notificarea de repornire">
+						<longdesc>Nu afișa o iconiță sau un dialog care să ceară repornirea. Aceasta este utilă pentru administratorii de sistem care doresc să împiedice repornirea sistemului de către utilizatori.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="regular_auto_launch_interval">
+					<local_schema short_desc="Intervalul (în zile) la care să se facă verificarea automată a actualizărilor normale">
+						<longdesc>Intervalul (în zile) la care se lansează automat update-manager pentru actualizări normale. Rețineți că se va lansa automat imediat pentru actualizări de securitate. Dacă îl definiți ca „0” se va lansa de asemenea imediat ce actualizările sunt disponibile.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="auto_launch">
+					<local_schema short_desc="Lansează automat acțiunea implicită">
+						<longdesc>Acțiunea implicită (update-manager) va fi pornită automat. Toate casetele de dialog cum ar fi referințele de notificare, repornire necesară, unitate media detectată se vor deschide automat</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="end_system_uids">
+					<local_schema short_desc="UID-ul maxim care este rezervat pentru utilizatorii de sistem">
+						<longdesc>„Notificare actualizări” nu va fi pornit pentru utilizatorii de sistem, aceasta specifică limita superioară a acestei raze.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_apport_crashes">
+					<local_schema short_desc="Afișează automat rapoartele de erori generate de apport">
+						<longdesc>Dacă este dezactivat. utilizatorul nu va fi anunțat despre rapoartere de erori în curs.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="face ca check-new-release-gtk să ignore o nouă versiune dată">
+						<longdesc>Aceasta va ascunde permanent notificarea de versiune nouă din check-new-release-gtk. Rețineți că butonul mic din fereastra principală update-manager va fi tot acolo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Mesaj de întâmpinare pentru prima execuție">
+						<longdesc>Dacă această cheie este definită, va fi afișat un mesaj de întâmpinare la prima execuție.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Arată rezumatul pachetului înainte numelui acestuia în lista de actualizări">
+						<longdesc>Dacă această cheie este definită, fereastra cu lista principală de actualizări va arăta rezumatul pachetului înainte numelui pachetului.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Afișează versiunea în lista de actualizări">
+						<longdesc>Dacă această cheie este definită, fereastra principală cu lista actualizărilor va afișa informații despre versiuni (de la versiune la versiune).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Închide automat fereastra de instalare după instalarea cu succes">
+						<longdesc>Dacă această cheie este definită, atunci fereastra de instalare va fi automat închisă după o instalare cu succes.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*depășit* Verifică versiuni noi ale distribuției">
+						<longdesc>Această cheie este învechită în favoarea fișierului /etc/update-manager/release-upgrades. Verifică automat dacă există o nouă versiune a distribuției și oferă posibilitatea de a înnoi la aceasta (dacă este posibil).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Mărimea ferestrei">
+						<longdesc>Stochează dimensiunea dialogului update-manager</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Arată detaliile unei actualizări">
+						<longdesc>Stochează starea extensorului care conține lista de modificări și descrierea</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Amintește despre reîncărcarea listei canalelor">
+						<longdesc>Dacă verificarea automată a actualizărilor este dezactivată, trebuie să reîncărcată lista canalelor manual. Această opțiune permite ascunderea mementoului afișat în acest caz.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Sortează ascendent">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Dosarul în care să se salveze fișierele">
+						<longdesc>Dosarul în care să se salveze fișierele. Dacă nu este definit, fișierele sunt salvate în dosarul de documente.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Partea de scanat a paginii">
+						<longdesc>Partea de scanat a paginii. Poate fi una din următoarele: „ambele”, „față”, „verso”</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Rezoluția pentru scanări foto">
+						<longdesc>Rezoluția în dpi (dots-per-inch) folosită la scanarea fotografiilor.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Rezoluția pentru scanări text">
+						<longdesc>Rezoluția în dpi (dots-per-inch) folosită la scanarea de text.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Rezoluția ultimei imagini scanate">
+						<longdesc>Rezoluția în dpi (dots-per-inch) a imaginii scanate precedent.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Înălțimea hârtiei în zecimi de mm">
+						<longdesc>Înălțimea hârtiei în zecimi de mm (sau 0 pentru detectarea automată a hârtiei)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Lățimea hârtiei în zecimi de mm">
+						<longdesc>Lățimea hârtiei în zecimi de mm (sau 0 pentru detectarea automată a hârtiei)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Înălțimea imaginii scanate, în pixeli">
+						<longdesc>Înălțimea imaginii scanate, în pixeli. Această valoare este actualizată la cea corespunzătoare paginii scanate precedent.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Lățimea imaginii scanate, în pixeli">
+						<longdesc>Lățimea imaginii scanate, în pixeli. Această valoare este actualizată la cea corespunzătoare paginii scanate precedent.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Direcția scanării">
+						<longdesc>Direcția scanerului peste pagina scanată. Poate fi una dintre următoarele: „top-to-bottom”, „bottom-to-top”, „left-to-right”, „right-to-left”</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Tipul de document scanat">
+						<longdesc>Tipul de document scanat. „text” pentru documentele în format text, „photo” pentru fotografii. Aceste configurări decid rezoluția, culorile și post-procesarea scanării.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Dispozitiv de folosit pentru scanare">
+						<longdesc>Dispozitivul SANE din care se preiau imaginile.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="ADEVĂRAT dacă fereastra aplicației este mărită la maximum">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Înălțimea ferestrei, în pixeli">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Lățimea ferestrei, în pixeli">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

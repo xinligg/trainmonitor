@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="update-manager">
+				<entry name="first_run">
+					<local_schema short_desc="Witającé wiadło przë pierszim zrëszeniu">
+						<longdesc>Jeżlë na òptacëjô  je nastôwionô, pierszé witającé wiadło bãdze wëskrzënioné.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Wëskrzëni wersëje w lësce przëstãpnych aktualizacëjów">
+						<longdesc>Jeżlë na òptacëjô  je nastôwionô, przédné òkno z lëstą zaktualnieniów bãdze wëskrzëniac wëdowiédzã ò wersëjach (zdrojach ë docélowô).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Aùtomatné zamkniãcé òkna instalacëji pò ji ùdałim skùńczeniu.">
+						<longdesc>Jeżlë na òptacëjô  je nastôwionô, òkno instalacëji bãdze aùtomatno zamkniãté pò ji ùdałim skùńczeniu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*niezamòdlëwóné* Sprôwdzôj nowé wëdôwczi distribùcëji">
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Miara òkna">
+						<longdesc>Pamiãtô miarã òkna Menadżera aktualizacëji</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Wëskrzëni detale aktualizacëjów">
+						<longdesc>Pamiãtô pòłóżenié rozwijónegò rumù zamëkającegò lëstã zjinaków ë òpisënk</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Przebôczë ò zladënkù znowa lëstë kanałów">
+						<longdesc>Jeżlë aùtomatné sprôwdzanié przëstãpnotë je wëłączoné, nót je zladowac znowa lëstã kanałów rãczno. Na òptacëjô zezwôlô na zatacenié przëbôczaniô ò tim.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

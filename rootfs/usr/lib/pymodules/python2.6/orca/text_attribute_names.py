@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/text_attribute_names.py

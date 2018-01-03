@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/allscreens/options/unfold_key</key>
+      <applyto>/apps/compiz/plugins/cube/allscreens/options/unfold_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;Down</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Unfold</short>
+        <long>Unfold cube</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/allscreens/options/next_slide_key</key>
+      <applyto>/apps/compiz/plugins/cube/allscreens/options/next_slide_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>space</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Next Slide</short>
+        <long>Advance to next slide</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/allscreens/options/prev_slide_key</key>
+      <applyto>/apps/compiz/plugins/cube/allscreens/options/prev_slide_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Backspace</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Prev Slide</short>
+        <long>Go back to previous slide</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/mipmap</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/mipmap</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Mipmap</short>
+        <long>Generate mipmaps when possible for higher quality scaling</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/multioutput_mode</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/multioutput_mode</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Multi Output Mode</short>
+        <long>Selects how the cube is displayed if multiple output devices are used. (0 = Automatic, 1 = Multiple cubes, 2 = One big cube)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/in</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/in</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Inside Cube</short>
+        <long>Inside cube</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/acceleration</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/acceleration</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>4.0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Acceleration</short>
+        <long>Fold Acceleration (1.0 - 20.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/speed</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/speed</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1.5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Speed</short>
+        <long>Fold Speed (0.1 - 50.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/timestep</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/timestep</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1.2</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Timestep</short>
+        <long>Fold Timestep (0.1 - 50.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/color</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/color</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>#cdbe70ff</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Cube Color</short>
+        <long>Color of top and bottom sides of the cube</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/scale_image</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/scale_image</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Scale image</short>
+        <long>Scale images to cover top face of cube</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/images</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/images</applyto>
+      <owner>compiz</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[/usr/share/gdm/themes/Human/ubuntu.png]</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Image files</short>
+        <long>List of PNG and SVG files that should be rendered on top face of cube</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/adjust_image</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/adjust_image</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Adjust Image</short>
+        <long>Adjust top face image to rotation</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/skydome</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/skydome</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Skydome</short>
+        <long>Render skydome</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/skydome_image</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/skydome_image</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Skydome Image</short>
+        <long>Image to use as texture for the skydome</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/skydome_animated</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/skydome_animated</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Animate Skydome</short>
+        <long>Animate skydome when rotating cube</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/skydome_gradient_start_color</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/skydome_gradient_start_color</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>#0db1fdff</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Skydome Gradient Start Color</short>
+        <long>Color to use for the top color-stop of the skydome-fallback gradient</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/skydome_gradient_end_color</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/skydome_gradient_end_color</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>#feffc7ff</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Skydome Gradient End Color</short>
+        <long>Color to use for the bottom color-stop of the skydome-fallback gradient</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/active_opacity</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/active_opacity</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>100.0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Opacity During Rotation</short>
+        <long>Opacity of desktop window during rotation. (0.0 - 100.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/inactive_opacity</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/inactive_opacity</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>100.0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Opacity When Not Rotating</short>
+        <long>Opacity of desktop window when not rotating. (0.0 - 100.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/cube/screen0/options/transparent_manual_only</key>
+      <applyto>/apps/compiz/plugins/cube/screen0/options/transparent_manual_only</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Transparency Only on Mouse Rotate</short>
+        <long>Initiates Cube transparency only if rotation is mouse driven.</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

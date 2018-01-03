@@ -1,0 +1,6 @@
+pyversions=2.5-
+
+/usr/share/pyshared/cupshelpers/__init__.py
+/usr/share/pyshared/cupshelpers/cupshelpers.py
+/usr/share/pyshared/cupshelpers/openprinting.py
+/usr/share/pyshared/cupshelpers/ppds.py

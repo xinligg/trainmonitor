@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/move/allscreens/options/initiate_button</key>
+      <applyto>/apps/compiz/plugins/move/allscreens/options/initiate_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;Button1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Move</short>
+        <long>Start moving window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/move/allscreens/options/initiate_key</key>
+      <applyto>/apps/compiz/plugins/move/allscreens/options/initiate_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;F7</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Move</short>
+        <long>Start moving window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/move/allscreens/options/opacity</key>
+      <applyto>/apps/compiz/plugins/move/allscreens/options/opacity</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>100</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Opacity</short>
+        <long>Opacity level of moving windows (1 - 100)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/move/allscreens/options/constrain_y</key>
+      <applyto>/apps/compiz/plugins/move/allscreens/options/constrain_y</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Constrain Y</short>
+        <long>Constrain Y coordinate to workspace area</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/move/allscreens/options/snapoff_maximized</key>
+      <applyto>/apps/compiz/plugins/move/allscreens/options/snapoff_maximized</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Snapoff maximized windows</short>
+        <long>Snapoff and auto unmaximized maximized windows when dragging</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/move/allscreens/options/lazy_positioning</key>
+      <applyto>/apps/compiz/plugins/move/allscreens/options/lazy_positioning</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Lazy Positioning</short>
+        <long>Do not update the server-side position of windows until finished moving</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

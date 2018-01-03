@@ -1,0 +1,55 @@
+[python-package]
+format = 1
+python-version = >=2.6
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/share/apport/package-hooks/gwibber-service.py=f
+/usr/share/pyshared/gwibber=d
+/usr/share/pyshared/gwibber/microblog=d
+/usr/share/pyshared/gwibber/microblog/util=d
+/usr/share/pyshared/gwibber/microblog/util/custom.py=f
+/usr/share/pyshared/gwibber/microblog/util/__init__.py=f
+/usr/share/pyshared/gwibber/microblog/util/resources.py=f
+/usr/share/pyshared/gwibber/microblog/util/exceptions.py=f
+/usr/share/pyshared/gwibber/microblog/util/imagehandler.py=f
+/usr/share/pyshared/gwibber/microblog/util/log.py=f
+/usr/share/pyshared/gwibber/microblog/util/keyring.py=f
+/usr/share/pyshared/gwibber/microblog/util/const.py=f
+/usr/share/pyshared/gwibber/microblog/util/couchmigrate.py=f
+/usr/share/pyshared/gwibber/microblog/util/facelib.py=f
+/usr/share/pyshared/gwibber/microblog/urlshorter=d
+/usr/share/pyshared/gwibber/microblog/urlshorter/__init__.py=f
+/usr/share/pyshared/gwibber/microblog/urlshorter/isgd.py=f
+/usr/share/pyshared/gwibber/microblog/urlshorter/zima.py=f
+/usr/share/pyshared/gwibber/microblog/urlshorter/ur1ca.py=f
+/usr/share/pyshared/gwibber/microblog/urlshorter/snipurlcom.py=f
+/usr/share/pyshared/gwibber/microblog/urlshorter/tinyurlcom.py=f
+/usr/share/pyshared/gwibber/microblog/urlshorter/cligs.py=f
+/usr/share/pyshared/gwibber/microblog/pingfm.py=f
+/usr/share/pyshared/gwibber/microblog/jaiku.py=f
+/usr/share/pyshared/gwibber/microblog/qaiku.py=f
+/usr/share/pyshared/gwibber/microblog/can.py=f
+/usr/share/pyshared/gwibber/microblog/__init__.py=f
+/usr/share/pyshared/gwibber/microblog/swp.py=f
+/usr/share/pyshared/gwibber/microblog/opencollaboration.py=f
+/usr/share/pyshared/gwibber/microblog/digg.py=f
+/usr/share/pyshared/gwibber/microblog/buzz.py=f
+/usr/share/pyshared/gwibber/microblog/twitter.py=f
+/usr/share/pyshared/gwibber/microblog/storage.py=f
+/usr/share/pyshared/gwibber/microblog/brightkite.py=f
+/usr/share/pyshared/gwibber/microblog/identica.py=f
+/usr/share/pyshared/gwibber/microblog/facebook.py=f
+/usr/share/pyshared/gwibber/microblog/config.py=f
+/usr/share/pyshared/gwibber/microblog/gwp.py=f
+/usr/share/pyshared/gwibber/microblog/flickr.py=f
+/usr/share/pyshared/gwibber/microblog/greader.py=f
+/usr/share/pyshared/gwibber/microblog/rss.py=f
+/usr/share/pyshared/gwibber/microblog/dispatcher.py=f
+/usr/share/pyshared/gwibber/microblog/friendfeed.py=f
+/usr/share/pyshared/gwibber/microblog/statusnet.py=f
+/usr/share/pyshared/gwibber/microblog/network.py=f
+/usr/share/pyshared/gwibber/lib=d
+/usr/share/pyshared/gwibber/lib/__init__.py=f
+/usr/share/pyshared/gwibber/__init__.py=f

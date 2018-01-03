@@ -1,0 +1,16 @@
+/usr/share/system-config-printer/config.py
+/usr/share/system-config-printer/check-device-ids.py
+/usr/share/system-config-printer/debug.py
+/usr/share/system-config-printer/dnssdresolve.py
+/usr/share/system-config-printer/firewall.py
+/usr/share/system-config-printer/installdriver.py
+/usr/share/system-config-printer/installpackage.py
+/usr/share/system-config-printer/monitor.py
+/usr/share/system-config-printer/PhysicalDevice.py
+/usr/share/system-config-printer/ppdippstr.py
+/usr/share/system-config-printer/probe_printer.py
+/usr/share/system-config-printer/pysmb.py
+/usr/share/system-config-printer/SearchCriterion.py
+/usr/share/system-config-printer/smburi.py
+/usr/share/system-config-printer/statereason.py
+/usr/share/system-config-printer/XmlHelper.py

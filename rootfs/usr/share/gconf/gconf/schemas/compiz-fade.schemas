@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/fade/screen0/options/fade_mode</key>
+      <applyto>/apps/compiz/plugins/fade/screen0/options/fade_mode</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Fade Mode</short>
+        <long>Window fade mode (0 = Constant speed, 1 = Constant time)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/fade/screen0/options/fade_speed</key>
+      <applyto>/apps/compiz/plugins/fade/screen0/options/fade_speed</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>5.0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Fade Speed</short>
+        <long>Window fade speed in "Constant speed" mode (0.1 - 25.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/fade/screen0/options/fade_time</key>
+      <applyto>/apps/compiz/plugins/fade/screen0/options/fade_time</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>100</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Fade Time</short>
+        <long>Window fade time (in ms) in "Constant time" mode (1 - 5000)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/fade/screen0/options/window_match</key>
+      <applyto>/apps/compiz/plugins/fade/screen0/options/window_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>any &amp; !(title=notify-osd)</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Fade windows</short>
+        <long>Windows that should be fading (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/fade/screen0/options/visual_bell</key>
+      <applyto>/apps/compiz/plugins/fade/screen0/options/visual_bell</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Visual Bell</short>
+        <long>Fade effect on system beep</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/fade/screen0/options/fullscreen_visual_bell</key>
+      <applyto>/apps/compiz/plugins/fade/screen0/options/fullscreen_visual_bell</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Fullscreen Visual Bell</short>
+        <long>Fullscreen fade effect on system beep</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/fade/screen0/options/minimize_open_close</key>
+      <applyto>/apps/compiz/plugins/fade/screen0/options/minimize_open_close</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Fade On Minimize/Open/Close</short>
+        <long>Fade effect on minimize/open/close window events</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/fade/screen0/options/dim_unresponsive</key>
+      <applyto>/apps/compiz/plugins/fade/screen0/options/dim_unresponsive</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Dim Unresponsive Windows</short>
+        <long>Dim windows that are not responding to window manager requests</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/fade/screen0/options/unresponsive_brightness</key>
+      <applyto>/apps/compiz/plugins/fade/screen0/options/unresponsive_brightness</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>65</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Unresponsive Window Brightness</short>
+        <long>Brightness (in %) of unresponsive windows (0 - 100)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/fade/screen0/options/unresponsive_saturation</key>
+      <applyto>/apps/compiz/plugins/fade/screen0/options/unresponsive_saturation</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Unresponsive Window Saturation</short>
+        <long>Saturation (in %) of unresponsive windows (0 - 100)</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

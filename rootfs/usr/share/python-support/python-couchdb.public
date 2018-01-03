@@ -1,0 +1,17 @@
+/usr/share/pyshared/CouchDB-0.6.egg-info/PKG-INFO
+/usr/share/pyshared/CouchDB-0.6.egg-info/SOURCES.txt
+/usr/share/pyshared/CouchDB-0.6.egg-info/dependency_links.txt
+/usr/share/pyshared/CouchDB-0.6.egg-info/requires.txt
+/usr/share/pyshared/CouchDB-0.6.egg-info/top_level.txt
+/usr/share/pyshared/CouchDB-0.6.egg-info/zip-safe
+/usr/share/pyshared/couchdb/__init__.py
+/usr/share/pyshared/couchdb/client.py
+/usr/share/pyshared/couchdb/design.py
+/usr/share/pyshared/couchdb/json.py
+/usr/share/pyshared/couchdb/multipart.py
+/usr/share/pyshared/couchdb/schema.py
+/usr/share/pyshared/couchdb/tools/dump.py
+/usr/share/pyshared/couchdb/tools/load.py
+/usr/share/pyshared/couchdb/tools/replication_helper.py
+/usr/share/pyshared/couchdb/tools/replication_helper_test.py
+/usr/share/pyshared/couchdb/view.py

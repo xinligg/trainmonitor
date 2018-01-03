@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="ibus">
+				<dir name="panel">
+					<entry name="custom_font">
+						<local_schema>
+							<longdesc>Tilpasset skrifttypenavn til sprogpanel</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Brug tilpasset skrifttype">
+							<longdesc>Brug tilpasset skrifttypenavn til sprogpanel</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-notifier">
+				<entry name="hide_reboot_notification">
+					<local_schema short_desc="Skjul påmindelse om genstart">
+						<longdesc>Vis ikke et &quot;genstart påkrævet&quot;-ikon eller dialogboks. Dette er nyttigt for systemadministratorer, der ikke ønsker at brugere skal have adgang til denne funktion.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="regular_auto_launch_interval">
+					<local_schema short_desc="Interval (i dage) mellem automatisk start af normale opdateringer">
+						<longdesc>Interval (i dage) mellem automatisk start af opdateringshåndtering til normale opdateringer. Bemærk venligst, at opdateringshåndtering vil åbne automatisk med det samme, når der er sikkerhedsopdateringer. Hvis du indstiller det til &quot;0&quot; vil den også åbne, så snart der er tilgængelige opdateringer.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="auto_launch">
+					<local_schema short_desc="Start automatisk standardhandlingen">
+						<longdesc>Standardhandlingen (update-manager) vil blive startet automatisk. Alle vinduesbokse, som f.eks. statusmeddelelser, genstart påkrævet, medie fundet vil åbne automatisk</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="end_system_uids">
+					<local_schema short_desc="Den maksimale UID, som er reserveret til systembrugere">
+						<longdesc>Opdateringspåmindelse vil ikke blive startet for systembrugere. Dette angiver dette områdes øverste grænse.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_apport_crashes">
+					<local_schema short_desc="Vis nedbrudsrapport fra apport automatisk">
+						<longdesc>Hvis dette er deaktiveret, bliver brugeren ikke informeret om ventende nedbrudsrapporter fra apport.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="få check-new-release-gtk til at ignorere en given ny udgave">
+						<longdesc>Dette vil permanent skjule den nye udgivelsesprompt fra check-new-release-gtk. Bemærk at den lille knap i grænsefladen for opdateringshåndteringen stadig vil være til stede.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Velkomstmeddelelse ved først opstart">
+						<longdesc>Hvis denne indstilling er valgt, vil en velkomstmeddelelse blive vist ved den første opstart.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Vis pakkebeskrivelse før pakkenavn i opdateringslisten">
+						<longdesc>Hvis denne værdi er sat, vil hovedvinduet for opdateringslisten vise pakkebeskrivelsen før pakkenavnet.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Vis version i opdateringsliste">
+						<longdesc>Hvis denne indstilling er valgt, vil det hovedvinduet med opdateringslisten vise versionsinformation (fra version til version).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Luk automatisk installationsvinduet efter vellykket installation">
+						<longdesc>Hvis denne indstilling er valgt, vil installationsvinduet automatisk lukke efter vellykket installation.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*forældet* Undersøg om der er nye distributionsudgivelser">
+						<longdesc>Denne nøgle er forældet til fordel for filen /etc/update-manager/release-upgrades, som automatisk undersøger, om der er en ny udgave af den nuværende distribution tilgængelig og tilbyder at opgradere (hvis det er muligt).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Vinduesstørrelsen">
+						<longdesc>Gemmer størrelsen på dialog eller opdateringshåndteringensdialogen</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Vis detaljer for opdatering">
+						<longdesc>Gemmer tilstand for udfolderen, der indeholder listen med ændringer og beskrivelsen</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Påmind om at genindlæse kanallisten">
+						<longdesc>Hvis søg automatisk efter opdateringer er slået fra, er du nødt til at genindlæse kanallisten manuelt. Denne indstilling tillader, at påmindelsen skjules i dette tilfælde.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="Brug UTF-8 i LaTeX-eksport">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Automatiske rettelser">
+							<longdesc>Automatiske rettelser</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Sortér stigende">
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Skeln mellem store og små bogstaver">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="gui">
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="Lodret DPI">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Mappe til at gemme filer i">
+						<longdesc>Mappen til at gemme filer i. Som standard bruges dokumentmappen.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Papirside der skal skannes">
+						<longdesc>Papirside der skal skannes. Den kan være følgende: &apos;both&apos; &apos;front&apos; &apos;back&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Opløsning for billedskan">
+						<longdesc>Opløsningen i punkter per tomme, der skal bruges når der skannes foto.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Opløsning for tekstskan">
+						<longdesc>Opløsningen i punkter per tomme, der skal bruges når der skannes tekst.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Opløsningen af det sidste billede der blev skannet">
+						<longdesc>Opløsningen i punkter per tomme, på det forrige skannede billede.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Højde af papir i tiendedele millimeter">
+						<longdesc>Højde af papir tiendedele millimeter (eller 0 for automatisk papirstørelse).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Bredde af papir i tiendedele millimeter">
+						<longdesc>Bredde af papir i tiendedele millimeter (eller 0 for automatisk papirstørelse)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Højde af skannet billede i pixel">
+						<longdesc>Højden af skannede billede i pixel. Denne værdi opdateres svarende til sidste skannede side.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Bredde af skannet billede i pixel">
+						<longdesc>Bredden af skannede billede i pixel. Denne værdi opdateres svarende til sidste skannede side.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Skanneretning">
+						<longdesc>Retningen af skanneren på tværs af siden der skannes. Den kan være én af de følgende: &quot;top-to-bottom&quot; &quot;bottom-to-top&quot; &quot;left-to-right&quot; &quot;right-to-left&quot;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Type af dokument der bliver skannet">
+						<longdesc>Type af dokument der skannes. &quot;text&quot; for tekst dokumenter, &quot;photo&quot; for billeder. Denne indstilling træffer valget for skanningsopløsning, farver og efterbehandling.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Enhed at skanne fra">
+						<longdesc>SANE-enhed at erhverve billeder fra.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="SAND hvis programvinduet er maksimeret.">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Vindueshøjde i pixel">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Vinduesbredde i pixel">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

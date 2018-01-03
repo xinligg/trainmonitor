@@ -1,0 +1,1 @@
+/usr/share/pyshared/xdg/__init__.py

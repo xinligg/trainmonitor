@@ -1,0 +1,39 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/lib/python2.6/dist-packages/mx=d
+/usr/lib/python2.6/dist-packages/mx/DateTime=d
+/usr/lib/python2.6/dist-packages/mx/DateTime/mxDateTime=d
+/usr/lib/python2.6/dist-packages/mx/DateTime/mxDateTime/mxDateTime.so=f
+/usr/share/pyshared/mx=d
+/usr/share/pyshared/mx/DateTime=d
+/usr/share/pyshared/mx/DateTime/mxDateTime=d
+/usr/share/pyshared/mx/DateTime/mxDateTime/__init__.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/mxDateTime_Python.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/test.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/testcmp.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/testcoerce.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/testcomdates.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/testnow.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/testpydatetime.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/testrichard.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/testroundoff.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/teststrftime.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/testsubclassing.py=f
+/usr/share/pyshared/mx/DateTime/mxDateTime/testticks.py=f
+/usr/share/pyshared/mx/DateTime/ARPA.py=f
+/usr/share/pyshared/mx/DateTime/DateTime.py=f
+/usr/share/pyshared/mx/DateTime/Feasts.py=f
+/usr/share/pyshared/mx/DateTime/ISO.py=f
+/usr/share/pyshared/mx/DateTime/LazyModule.py=f
+/usr/share/pyshared/mx/DateTime/Locale.py=f
+/usr/share/pyshared/mx/DateTime/NIST.py=f
+/usr/share/pyshared/mx/DateTime/ODMG.py=f
+/usr/share/pyshared/mx/DateTime/Parser.py=f
+/usr/share/pyshared/mx/DateTime/Timezone.py=f
+/usr/share/pyshared/mx/DateTime/__init__.py=f
+/usr/share/pyshared/mx/DateTime/timegm.py=f

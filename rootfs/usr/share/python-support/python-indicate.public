@@ -1,0 +1,4 @@
+pyversions=2.6
+
+/usr/lib/pyshared/python2.6/indicate/_indicate.so
+/usr/share/pyshared/indicate/__init__.py

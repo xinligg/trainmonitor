@@ -1,0 +1,5 @@
+pyversions=2.6
+
+/usr/lib/pyshared/python2.6/pycurl.so
+/usr/share/pyshared/curl/__init__.py
+/usr/share/pyshared/pycurl-7.19.0.egg-info

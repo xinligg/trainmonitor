@@ -1,0 +1,1 @@
+/usr/share/pyshared/rdflib/syntax/parsers/__init__.py

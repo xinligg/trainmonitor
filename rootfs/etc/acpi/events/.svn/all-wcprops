@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/package/config/etc/acpi/events
+END
+powerbtn
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/package/config/etc/acpi/events/powerbtn
+END
+eee-volume-toggle
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/package/config/etc/acpi/events/eee-volume-toggle
+END
+eee-volume-up
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/package/config/etc/acpi/events/eee-volume-up
+END
+eee-volume-down
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/package/config/etc/acpi/events/eee-volume-down
+END

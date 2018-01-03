@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/scripts/apps/pidgin/speech_generator.py

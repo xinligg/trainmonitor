@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/scripts/apps/gajim/__init__.py

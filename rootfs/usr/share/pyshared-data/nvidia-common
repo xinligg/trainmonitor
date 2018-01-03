@@ -1,0 +1,17 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 1
+[files]
+/usr/lib/python2.6/dist-packages/nvidia_common-0.0.0.egg-info=f
+/usr/lib/python2.6/dist-packages/NvidiaDetector=d
+/usr/lib/python2.6/dist-packages/NvidiaDetector/alternatives.py=f
+/usr/lib/python2.6/dist-packages/NvidiaDetector/nvidiadetector.py=f
+/usr/lib/python2.6/dist-packages/NvidiaDetector/__init__.py=f
+/usr/share/pyshared/NvidiaDetector=d
+/usr/share/pyshared/NvidiaDetector/alternatives.py=f
+/usr/share/pyshared/NvidiaDetector/nvidiadetector.py=f
+/usr/share/pyshared/NvidiaDetector/__init__.py=f
+/usr/share/pyshared/nvidia_common-0.0.0.egg-info=f

@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="naj check-new-release-gtk prezre dano novo izdajo">
+						<longdesc>S tem bo trajno skrit poziv k nadgradnji na najnovejšo različico preko check-new-release-gtk. Ostal pa bo majhen gumb v upravljalniku posodobitev.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Pozdravno sporočilo ob prvem zagonu">
+						<longdesc>V kolikor je možnost omogočena, bo ob prvem zagonu prikazano pozdravno sporočilo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Prikaži povzetek pred imenom paketa na seznamu posodobitev">
+						<longdesc>V primeru, da je da ključ nastavljen, bo glavno okno seznama posodobitev pokazalo povzetek paketa pred njegovim imenom.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="V seznamu posodobitev pokaži različico">
+						<longdesc>V kolikor je možnost omogočena, bo glavno okno s seznamom posodobitev prikazovalo podrobnosti različic (iz katere v katero različico bo paket nadgrajen)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Po uspešni namestitvi samodejno zapri namestitveno okno">
+						<longdesc>V kolikor je možnost omogočena, se bo okno po uspešni namestitvi samodejno zaprlo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="*zastarelo* : preverite novejše izdaje distribucije">
+						<longdesc>Ta ključ je zastarel. Nadomešča ga datoteka /etc/update-manager/release-upgrades. Sistem samodejno preveri, ali je na voljo novejša različica distribucije, ter v primeru, da je, ponudi možnost nadgradnje.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Velikost okna">
+						<longdesc>Shrani velikosti pogovornega okna upravljalnika posodobitev</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Pokaži podrobnosti posodobitve">
+						<longdesc>Shrani stanje razširitvenega polja, ki vsebuje seznam sprememb in opis</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Opomni na ponovno nalaganje seznama kanalov">
+						<longdesc>V kolikor je samodejno preverjanje posodobitev onemogočeno, je treba seznama kanalov ponovno naložiti ročno. Izbrana možnost prepreči prikazovanje tega opozorila.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="printsetup">
+					<entry name="paper-orientation">
+						<local_schema short_desc="Papir">
+						</local_schema>
+					</entry>
+					<entry name="paper">
+						<local_schema short_desc="Papir">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="Privzeta pisava glave in noge je ležeča.">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="Privzeta pisava glave in noge je krepka.">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema>
+							<longdesc>Privzeto ime pisave za glave in noge.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema>
+							<longdesc>Privzeta velikost ime pisave za glave in noge.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="Noga strani">
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Glava strani">
+						</local_schema>
+					</entry>
+					<entry name="gtk-setting">
+						<local_schema short_desc="GTKPrintSetting">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="Seznam map dodatnih vstavkov.">
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Seznam stanja datotek vstavkov.">
+							<longdesc>Seznam vsebuje vsa stanja datotek vstavkov.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Seznam nameščenih vstavkov.">
+							<longdesc>Seznam vsebuje vse poznane vstavke.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Seznam dejavnih vstavkov.">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="recentfunctions">
+						<local_schema short_desc="Seznam nedavno uporabljenih funkcij.">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Razvrsti naraščajoče">
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Razvrščanje ohrani obliko">
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Razvrsti z razlikovanjem velikosti črk">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="gui">
+						<dir name="editing">
+							<entry name="autocomplete">
+								<local_schema short_desc="Samodejno dopolnjevanje">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="size">
+							<local_schema short_desc="Privzeta velikost pisave">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Mapa za shranjevanje datotek">
+						<longdesc>Mapa za shranjevanje datotek. Privzeto mapa dokumentov, če ni nastavljena.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Stran strani za optično branje">
+						<longdesc>Stran strani za optično branje. Lahko je eno od naslednjega: &apos;obe&apos; &apos;spredaj&apos; &apos;zadaj&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Ločljivost za optično branje fotografij">
+						<longdesc>Ločljivost optičnega branja fotografij v točkah na palec (dpi)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Ločljivost za optično branje besedil">
+						<longdesc>Ločljivost optičnega branja besedil v točkah na palec (dpi)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Ločljivost zadnjega optičnega branja">
+						<longdesc>Ločljivost zadnjega optičnega branja v točkah na palec (dpi)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Višina papirja v desetinkah milimetra">
+						<longdesc>Višina papirja v desetinkah milimetra (ali 0 za samodejno zaznavanje papirja).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Širina papirja v desetinkah milimetra">
+						<longdesc>Širina papirja v desetinkah milimetra (ali 0 za samodejno zaznavanje).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Višina optično prebrane slike v točkah">
+						<longdesc>Višina optično brane slike v točkah. Ta vrednost je posodobljena na vrednost zadnje optično prebrane strani.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Širina optično brane slike v točkah">
+						<longdesc>Širina optično brane slike v točkah. Ta vrednost je posodobljena na vrednost zadnje optično brane strani.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Smer optičnega branja">
+						<longdesc>Smer optičnega branja čez optično brano stran. Lahko je ena od naslednjih: &apos;od-zgoraj-navzdol&apos; &apos;od-spodaj-navzgor&apos; &apos;od-leve-proti-desni&apos; &apos;od-desne-proti-levi&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Vrsta optično branega dokumenta">
+						<longdesc>Vrsta optično branega dokumenta. &apos;besedilo&apos; za dokumente z besedilom, &apos;fotografije&apos; za fotografije. Ta nastavitev določi ločljivost optičnega branja, barve in nadaljnje obdvelovanje</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Naprava za optično branje">
+						<longdesc>Naprava SANE za pridobivanje slik.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="PRAV, če je okno programa razpeto">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Višina okna v točkah">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Širina okna v točkah">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

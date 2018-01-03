@@ -1,0 +1,11 @@
+# GTK+ Input Method Modules file
+# Automatically generated file, do not edit
+# Created by /usr/lib/libgtk2.0-0/gtk-query-immodules-2.0 from gtk+-2.22.0
+#
+
+"/usr/lib/gtk-2.0/2.10.0/immodules/im-ibus.so" 
+"ibus" "IBus (Intelligent Input Bus)" "ibus" "" "ja:ko:zh:*" 
+
+#"/usr/lib/gtk-2.0/2.10.0/immodules/im-xim.so" 
+#"xim" "X Input Method" "gtk20" "/usr/share/locale" "ko:ja:th:zh" 
+

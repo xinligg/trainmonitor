@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/service/OfflineIM/__init__.py

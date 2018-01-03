@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/next_button</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/next_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Next window</short>
+        <long>Popup switcher if not visible and select next window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/next_key</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/next_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Alt&gt;Tab</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Next window</short>
+        <long>Popup switcher if not visible and select next window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/prev_button</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/prev_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Prev window</short>
+        <long>Popup switcher if not visible and select previous window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/prev_key</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/prev_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Shift&gt;&lt;Alt&gt;Tab</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Prev window</short>
+        <long>Popup switcher if not visible and select previous window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/next_all_button</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/next_all_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Next window (All windows)</short>
+        <long>Popup switcher if not visible and select next window out of all windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/next_all_key</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/next_all_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Control&gt;&lt;Alt&gt;Tab</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Next window (All windows)</short>
+        <long>Popup switcher if not visible and select next window out of all windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/prev_all_button</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/prev_all_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Prev window (All windows)</short>
+        <long>Popup switcher if not visible and select previous window out of all windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/prev_all_key</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/prev_all_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Tab</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Prev window (All windows)</short>
+        <long>Popup switcher if not visible and select previous window out of all windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/next_no_popup_button</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/next_no_popup_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Next window (No popup)</short>
+        <long>Select next window without showing the popup window.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/next_no_popup_key</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/next_no_popup_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Next window (No popup)</short>
+        <long>Select next window without showing the popup window.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/prev_no_popup_button</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/prev_no_popup_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Prev window (No popup)</short>
+        <long>Select previous window without showing the popup window.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/prev_no_popup_key</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/prev_no_popup_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Prev window (No popup)</short>
+        <long>Select previous window without showing the popup window.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/next_panel_button</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/next_panel_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Next Panel</short>
+        <long>Select next panel type window.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/next_panel_key</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/next_panel_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Next Panel</short>
+        <long>Select next panel type window.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/prev_panel_button</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/prev_panel_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Prev Panel</short>
+        <long>Select previous panel type window.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/allscreens/options/prev_panel_key</key>
+      <applyto>/apps/compiz/plugins/switcher/allscreens/options/prev_panel_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Prev Panel</short>
+        <long>Select previous panel type window.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/speed</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/speed</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1.5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Speed</short>
+        <long>Switcher speed (0.1 - 50)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/timestep</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/timestep</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1.2</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Timestep</short>
+        <long>Switcher timestep (0.1 - 50)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/window_match</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/window_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Toolbar | Utility | Dialog | Normal | Unknown</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Switcher windows</short>
+        <long>Windows that should be shown in switcher (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/mipmap</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/mipmap</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Mipmap</short>
+        <long>Generate mipmaps when possible for higher quality scaling</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/saturation</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/saturation</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>100</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Saturation</short>
+        <long>Amount of saturation in percent (0 - 100)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/brightness</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/brightness</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>65</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Brightness</short>
+        <long>Amount of brightness in percent (0 - 100)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/opacity</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/opacity</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>40</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Opacity</short>
+        <long>Amount of opacity in percent (0 - 100)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/bring_to_front</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/bring_to_front</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Bring To Front</short>
+        <long>Bring selected window to front</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/zoom</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/zoom</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Zoom</short>
+        <long>Distance desktop should be zoom out while switching windows (0 - 5)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/icon</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/icon</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Icon</short>
+        <long>Show icon next to thumbnail</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/minimized</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/minimized</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Minimized</short>
+        <long>Show minimized windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/switcher/screen0/options/auto_rotate</key>
+      <applyto>/apps/compiz/plugins/switcher/screen0/options/auto_rotate</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Auto Rotate</short>
+        <long>Rotate to the selected window while switching</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

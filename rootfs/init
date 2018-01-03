@@ -1,0 +1,41 @@
+#!/bin/sh
+export PATH="/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin:/usr/games"
+export HOME="/root"
+export LANG="zh_CN.UTF-8"
+export LANGUAGE="zh_CN.UTF-8"
+
+#echo "now mount tmpfs"
+busybox mount -t proc proc /proc
+busybox mount -t devtmpfs udev /dev
+busybox mount -t sysfs sys /sys
+#busybox --install -s
+
+/bin/mount -t tmpfs none /var/run -o nosuid
+/bin/mount -t tmpfs none /var/lock -o noexec,nosuid,nodev
+ln -sf /proc/mounts /etc/mtab
+#echo "now set hostname"
+
+hostname -F /etc/hostname
+
+#echo "now loadkmap"
+# keymap
+loadkmap < /usr/share/keymap/us.kmap
+
+
+#echo "now to start udev"
+#udev to create device
+#/sbin/udevd --daemon 
+#/sbin/udevadm trigger
+/host/oem/scripts/pre-boot.sh > /dev/null
+#/sbin/udevadm settle
+#mdev -s
+/bin/sync
+/bin/sync
+/bin/sync
+
+#sleep 3	
+#echo "now startx"
+# start X server
+startx -- -nocursor &
+
+/bin/sh

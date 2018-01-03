@@ -1,0 +1,2003 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/font/use_default_font</key>
+      <applyto>/apps/gedit-2/preferences/editor/font/use_default_font</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Use Default Font</short>
+	<long>Whether to use the system's default fixed width font for editing
+	text instead of a font specific to gedit.  If this option is turned
+	off, then the font named in the "Editor Font" option will be
+	used instead of the system font.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/font/editor_font</key>
+      <applyto>/apps/gedit-2/preferences/editor/font/editor_font</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+        <default><!-- Translators: This is the Editor Font.
+	This is a Pango font-->Monospace 12</default>
+	<short>Editor Font</short>
+	<long>A custom font that will be used for the editing area.
+	This will only take effect if the "Use Default Font" option is
+	turned off.</long>
+      </locale>
+      <locale name="af">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ar">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="as">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ast">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="az">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="be">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="be@latin">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="bg">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="bn">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="bn_IN">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="br">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="bs">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ca">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ca@valencia">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="crh">
+        <default>Yek-feza 12</default>
+      </locale>
+      <locale name="cs">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="cy">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="da">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="de">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="dz">
+        <default>མོ་ནོ་སི་པེསི་༡༢།</default>
+      </locale>
+      <locale name="el">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="en@shaw">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="en_CA">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="en_GB">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="eo">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="es">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="et">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="eu">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="fa">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="fi">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="fr">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ga">
+        <default>Aonleithid 12</default>
+      </locale>
+      <locale name="gl">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="gu">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="he">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="hi">
+        <default>मोनोस्पेस 12</default>
+      </locale>
+      <locale name="hr">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="hu">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="id">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="it">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ja">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ka">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="kn">
+        <default>ಮೊನೊಸ್ಪೇಸ್ ೧೨</default>
+      </locale>
+      <locale name="ko">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ku">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="lt">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="lv">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="mai">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="mg">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="mk">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ml">
+        <default>മോണോസ്പെയിസ് 12</default>
+      </locale>
+      <locale name="mr">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ms">
+        <default>Monoruang 12</default>
+      </locale>
+      <locale name="nb">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ne">
+        <default>मोनोस्पेस १२</default>
+      </locale>
+      <locale name="nl">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="nn">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="oc">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="or">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="pa">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="pl">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="pt">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="pt_BR">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ro">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ru">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="si">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="sk">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="sl">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="sq">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="sr">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="sr@latin">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="sv">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="ta">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="te">
+        <default>మోనోస్పేస్ 12</default>
+      </locale>
+      <locale name="th">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="tr">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="uk">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="vi">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="xh">
+        <default>I-Monospace 12</default>
+      </locale>
+      <locale name="zh_CN">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="zh_HK">
+        <default>Monospace 14</default>
+      </locale>
+      <locale name="zh_TW">
+        <default>Monospace 14</default>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/colors/scheme</key>
+      <applyto>/apps/gedit-2/preferences/editor/colors/scheme</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <default>classic</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Style Scheme</short>
+	<long>The ID of a GtkSourceView Style Scheme used to
+        color the text.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/save/create_backup_copy</key>
+      <applyto>/apps/gedit-2/preferences/editor/save/create_backup_copy</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Create Backup Copies</short>
+	<long>Whether gedit should create backup copies for the files
+	it saves.  You can set the backup file extension with the
+	"Backup Copy Extension" option.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/save/auto_save</key>
+      <applyto>/apps/gedit-2/preferences/editor/save/auto_save</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Autosave</short>
+	<long>Whether gedit should automatically save modified files
+	after a time interval.  You can set the time interval with the
+	"Autosave Interval" option.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/save/auto_save_interval</key>
+      <applyto>/apps/gedit-2/preferences/editor/save/auto_save_interval</applyto>
+      <owner>gedit</owner>
+      <type>int</type>
+      <default>10</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Autosave Interval</short>
+	<long>Number of minutes after which gedit will automatically
+	save modified files.  This will only take effect if the "Autosave"
+	option is turned on.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/undo/undo_actions_limit</key>
+      <applyto>/apps/gedit-2/preferences/editor/undo/undo_actions_limit</applyto>
+      <owner>gedit</owner>
+      <type>int</type>
+      <default>25</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Undo Actions Limit (DEPRECATED)</short>
+	<long>Maximum number of actions that gedit will be able to
+	undo or redo. Use "-1" for unlimited number of actions.
+	Deprecated since 2.12.0</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/undo/max_undo_actions</key>
+      <applyto>/apps/gedit-2/preferences/editor/undo/max_undo_actions</applyto>
+      <owner>gedit</owner>
+      <type>int</type>
+      <default>2000</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Maximum Number of Undo Actions</short>
+	<long>Maximum number of actions that gedit will be able to
+	undo or redo. Use "-1" for unlimited number of actions.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/wrap_mode/wrap_mode</key>
+      <applyto>/apps/gedit-2/preferences/editor/wrap_mode/wrap_mode</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <default>GTK_WRAP_WORD</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Line Wrapping Mode</short>
+	<long>Specifies how to wrap long lines in the editing area.
+	Use "GTK_WRAP_NONE" for no wrapping, "GTK_WRAP_WORD" for
+	wrapping at word boundaries, and "GTK_WRAP_CHAR" for wrapping
+	at individual character boundaries.  Note that the values are
+	case-sensitive, so make sure they appear exactly as mentioned
+	here.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/tabs/tabs_size</key>
+      <applyto>/apps/gedit-2/preferences/editor/tabs/tabs_size</applyto>
+      <owner>gedit</owner>
+      <type>int</type>
+      <default>8</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Tab Size</short>
+	<long>Specifies the number of spaces that should be displayed
+	instead of Tab characters.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/tabs/insert_spaces</key>
+      <applyto>/apps/gedit-2/preferences/editor/tabs/insert_spaces</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Insert spaces</short>
+	<long>Whether gedit should insert spaces instead of tabs.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/auto_indent/auto_indent</key>
+      <applyto>/apps/gedit-2/preferences/editor/auto_indent/auto_indent</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Automatic indent</short>
+	<long>Whether gedit should enable automatic indentation.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/line_numbers/display_line_numbers</key>
+      <applyto>/apps/gedit-2/preferences/editor/line_numbers/display_line_numbers</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Display Line Numbers</short>
+	<long>Whether gedit should display line numbers in the editing
+	area.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/current_line/highlight_current_line</key>
+      <applyto>/apps/gedit-2/preferences/editor/current_line/highlight_current_line</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Highlight Current Line</short>
+	<long>Whether gedit should highlight the current line.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/bracket_matching/bracket_matching</key>
+      <applyto>/apps/gedit-2/preferences/editor/bracket_matching/bracket_matching</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Highlight Matching Bracket</short>
+	<long>Whether gedit should highlight the bracket matching the selected one.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/right_margin/display_right_margin</key>
+      <applyto>/apps/gedit-2/preferences/editor/right_margin/display_right_margin</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Display Right Margin</short>
+	<long>Whether gedit should display the right margin in the editing
+	area.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/right_margin/right_margin_position</key>
+      <applyto>/apps/gedit-2/preferences/editor/right_margin/right_margin_position</applyto>
+      <owner>gedit</owner>
+      <type>int</type>
+      <default>80</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Right Margin Position</short>
+	<long>Specifies the position of the right margin.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/smart_home_end/smart_home_end</key>
+      <applyto>/apps/gedit-2/preferences/editor/smart_home_end/smart_home_end</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <default>after</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Smart Home End</short>
+	<long>Specifies how the cursor moves when the HOME and END keys
+	are pressed. Use "DISABLED" to always move at the start/end of
+	the line, "AFTER" to move to the start/end of the line the first
+	time the keys are pressed and to the start/end of the text ignoring
+	whitespaces the second time the keys are pressed, "BEFORE" to
+	move to the start/end of the text before moving to the start/end
+	of the line and "ALWAYS" to always move to the start/end of the
+	text instead of the start/end of the line.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/ui/toolbar/toolbar_visible</key>
+      <applyto>/apps/gedit-2/preferences/ui/toolbar/toolbar_visible</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Toolbar is Visible</short>
+	<long>Whether the toolbar should be visible in editing windows.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/ui/toolbar/toolbar_buttons_style</key>
+      <applyto>/apps/gedit-2/preferences/ui/toolbar/toolbar_buttons_style</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <default>GEDIT_TOOLBAR_SYSTEM</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Toolbar Buttons Style</short>
+	<long>Style for the toolbar buttons.  Possible values are
+	"GEDIT_TOOLBAR_SYSTEM" to use the system's default style,
+	"GEDIT_TOOLBAR_ICONS" to display icons only,
+	"GEDIT_TOOLBAR_ICONS_AND_TEXT" to display both icons and text, and
+	"GEDIT_TOOLBAR_ICONS_BOTH_HORIZ" to display prioritized text beside icons.
+	Note that the values are case-sensitive, so make sure they
+	appear exactly as mentioned here.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/ui/statusbar/statusbar_visible</key>
+      <applyto>/apps/gedit-2/preferences/ui/statusbar/statusbar_visible</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Status Bar is Visible</short>
+	<long>Whether the status bar at the bottom of editing windows
+	should be visible.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/ui/side_pane/side_pane_visible</key>
+      <applyto>/apps/gedit-2/preferences/ui/side_pane/side_pane_visible</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Side Pane is Visible</short>
+	<long>Whether the side pane at the left of editing windows
+	should be visible.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/ui/bottom_panel/bottom_panel_visible</key>
+      <applyto>/apps/gedit-2/preferences/ui/bottom_panel/bottom_panel_visible</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Bottom Panel is Visible</short>
+	<long>Whether the bottom panel at the bottom of editing windows
+	should be visible.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/print/page/print_syntax_highlighting</key>
+      <applyto>/apps/gedit-2/preferences/print/page/print_syntax_highlighting</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Print Syntax Highlighting</short>
+	<long>Whether gedit should print syntax highlighting when
+	printing documents.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/print/page/print_header</key>
+      <applyto>/apps/gedit-2/preferences/print/page/print_header</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Print Header</short>
+	<long>Whether gedit should include a document header when
+	printing documents.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/print/page/print_wrap_mode</key>
+      <applyto>/apps/gedit-2/preferences/print/page/print_wrap_mode</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <default>GTK_WRAP_WORD</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Printing Line Wrapping Mode</short>
+	<long>Specifies how to wrap long lines for printing.  Use
+	"GTK_WRAP_NONE" for no wrapping, "GTK_WRAP_WORD" for wrapping
+	at word boundaries, and "GTK_WRAP_CHAR" for wrapping at
+	individual character boundaries.  Note that the values are
+	case-sensitive, so make sure they appear exactly as mentioned
+	here.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/print/page/print_line_numbers</key>
+      <applyto>/apps/gedit-2/preferences/print/page/print_line_numbers</applyto>
+      <owner>gedit</owner>
+      <type>int</type>
+      <default>0</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Print Line Numbers</short>
+	<long>If this value is 0, then no line numbers will be
+	inserted when printing a document.  Otherwise, gedit will
+	print line numbers every such number of lines.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/print/fonts/print_font_body_pango</key>
+      <applyto>/apps/gedit-2/preferences/print/fonts/print_font_body_pango</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+        <default><!-- Translators: This is the Body font for printing.
+        This is a Pango font.-->Monospace 9</default>
+	<short>Body Font for Printing</short>
+	<long>Specifies the font to use for a document's body when
+	printing documents.</long>
+      </locale>
+      <locale name="af">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ar">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="as">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ast">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="be">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="be@latin">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="bg">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="bn">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="bn_IN">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="br">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ca">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ca@valencia">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="crh">
+        <default>Yek-feza 9</default>
+      </locale>
+      <locale name="cs">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="cy">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="da">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="de">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="dz">
+        <default>མོ་ནོ་སི་པེསི་༩།</default>
+      </locale>
+      <locale name="el">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="en@shaw">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="en_CA">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="en_GB">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="eo">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="es">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="et">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="eu">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="fa">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="fi">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="fr">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ga">
+        <default>Aonleithid 9</default>
+      </locale>
+      <locale name="gl">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="gu">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="he">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="hi">
+        <default>मोनोस्पेस 9</default>
+      </locale>
+      <locale name="hr">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="hu">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="id">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="it">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ja">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ka">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="kn">
+        <default>ಮೊನೊಸ್ಪೇಸ್ ೯</default>
+      </locale>
+      <locale name="ko">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ku">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="lt">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="lv">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="mai">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="mg">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="mk">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ml">
+        <default>മോണോസ്പെയിസ് 9</default>
+      </locale>
+      <locale name="mr">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="nb">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ne">
+        <default>मोनोस्पेस ९</default>
+      </locale>
+      <locale name="nl">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="nn">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="oc">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="or">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="pa">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="pl">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="pt">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="pt_BR">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ro">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ru">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="si">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="sk">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="sl">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="sq">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="sr">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="sr@latin">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="sv">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="ta">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="te">
+        <default>మోనోస్పేస్ 9</default>
+      </locale>
+      <locale name="th">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="tr">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="uk">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="vi">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="xh">
+        <default>I-Monospace 9</default>
+      </locale>
+      <locale name="zh_CN">
+        <default>Monospace 9</default>
+      </locale>
+      <locale name="zh_HK">
+        <default>Monospace 12</default>
+      </locale>
+      <locale name="zh_TW">
+        <default>Monospace 12</default>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/print/fonts/print_font_header_pango</key>
+      <applyto>/apps/gedit-2/preferences/print/fonts/print_font_header_pango</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+        <default><!-- Translators: This is the Header font for printing.
+        This is a Pango font.-->Sans 11</default>
+	<short>Header Font for Printing</short>
+	<long>Specifies the font to use for page headers when printing
+	a document. This will only take effect if the "Print Header"
+	option is turned on.</long>
+      </locale>
+      <locale name="af">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ar">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="as">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ast">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="be">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="be@latin">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="bg">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="bn">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="bn_IN">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="br">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ca">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ca@valencia">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="crh">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="cs">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="cy">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="da">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="de">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="dz">
+        <default>སེནསི་༡༡།</default>
+      </locale>
+      <locale name="el">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="en@shaw">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="en_CA">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="en_GB">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="eo">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="es">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="et">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="eu">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="fa">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="fi">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="fr">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ga">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="gl">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="gu">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="he">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="hi">
+        <default>सान्स 11</default>
+      </locale>
+      <locale name="hr">
+        <default>Sans Regular 11</default>
+      </locale>
+      <locale name="hu">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="id">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="it">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ja">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ka">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="kn">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ko">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ku">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="lt">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="lv">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="mai">
+        <default>सन्स 11</default>
+      </locale>
+      <locale name="mg">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="mk">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ml">
+        <default>സാന്‍സ് 11</default>
+      </locale>
+      <locale name="mr">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="nb">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="nds">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ne">
+        <default>सान्स् ११</default>
+      </locale>
+      <locale name="nl">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="nn">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="oc">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="or">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="pa">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="pl">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ps">
+        <default>Sans ۱۱</default>
+      </locale>
+      <locale name="pt">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="pt_BR">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ro">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ru">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="si">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="sk">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="sl">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="sq">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="sr">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="sr@latin">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="sv">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="ta">
+        <default>ஸான் 11</default>
+      </locale>
+      <locale name="te">
+        <default>సాన్స్ 11</default>
+      </locale>
+      <locale name="th">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="tr">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="uk">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="vi">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="xh">
+        <default>I-Sans 11</default>
+      </locale>
+      <locale name="zh_CN">
+        <default>Sans 11</default>
+      </locale>
+      <locale name="zh_HK">
+        <default>Sans 14</default>
+      </locale>
+      <locale name="zh_TW">
+        <default>Sans 14</default>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/print/fonts/print_font_numbers_pango</key>
+      <applyto>/apps/gedit-2/preferences/print/fonts/print_font_numbers_pango</applyto>
+      <owner>gedit</owner>
+      <type>string</type>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+        <default><!-- Translators: This is the Line Number font for printing.
+        This is a Pango font.-->Sans 8</default>
+	<short>Line Number Font for Printing</short>
+	<long>Specifies the font to use for line numbers when
+	printing.  This will only take effect if the "Print Line
+	Numbers" option is non-zero.</long>
+      </locale>
+      <locale name="af">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ar">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="as">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ast">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="be">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="be@latin">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="bg">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="bn">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="bn_IN">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="br">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ca">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ca@valencia">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="crh">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="cs">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="cy">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="da">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="de">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="dz">
+        <default>སེནསི་༨།</default>
+      </locale>
+      <locale name="el">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="en@shaw">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="en_CA">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="en_GB">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="eo">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="es">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="et">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="eu">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="fa">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="fi">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="fr">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ga">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="gl">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="gu">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="he">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="hi">
+        <default>सन्स 8</default>
+      </locale>
+      <locale name="hr">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="hu">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="id">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="it">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ja">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ka">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="kn">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ko">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ku">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="lt">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="lv">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="mai">
+        <default>सन्स 8</default>
+      </locale>
+      <locale name="mg">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="mk">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ml">
+        <default>സാന്‍സ് 8</default>
+      </locale>
+      <locale name="mr">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="nb">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="nds">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ne">
+        <default>सान्स् ८</default>
+      </locale>
+      <locale name="nl">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="nn">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="oc">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="or">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="pa">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="pl">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ps">
+        <default>Sans ۸</default>
+      </locale>
+      <locale name="pt">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="pt_BR">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ro">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ru">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="si">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="sk">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="sl">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="sq">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="sr">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="sr@latin">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="sv">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="ta">
+        <default>ஸான் 8</default>
+      </locale>
+      <locale name="te">
+        <default>సాన్స్  8</default>
+      </locale>
+      <locale name="th">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="tr">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="uk">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="vi">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="wa">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="xh">
+        <default>I-Sans 8</default>
+      </locale>
+      <locale name="zh_CN">
+        <default>Sans 8</default>
+      </locale>
+      <locale name="zh_HK">
+        <default>Sans 10</default>
+      </locale>
+      <locale name="zh_TW">
+        <default>Sans 10</default>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/ui/recents/max_recents</key>
+      <applyto>/apps/gedit-2/preferences/ui/recents/max_recents</applyto>
+      <owner>gedit</owner>
+      <type>int</type>
+      <default>5</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Maximum Recent Files</short>
+	<long>Specifies the maximum number of recently opened files
+	that will be displayed in the "Recent Files" submenu.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/encodings/auto_detected</key>
+      <applyto>/apps/gedit-2/preferences/encodings/auto_detected</applyto>
+      <owner>gedit</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+        <default><!-- Translators: This is the sorted list of encodings used by gedit
+	for automatic detection of the file encoding. You may want to customize it adding
+	encodings that are common in your country, for instance the GB18030 encoding
+	for the Chinese	translation. You may also want to remove the ISO-8859-15 encoding
+	(covering English and most Western European languages) if you think people
+	in you country will rarely use it.
+	"CURRENT" is a magic value used by gedit and it represents the encoding
+	for the current locale, so please don't translate the "CURRENT" term.
+	Only recognized encodings are used.
+	See http://svn.gnome.org/viewcvs/gedit/trunk/gedit/gedit-encodings.c?view=markup for
+	a list of supported encodings -->[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+	<short>Automatically Detected Encodings</short>
+	<long>Sorted list of encodings used by gedit for automatically detecting the encoding of
+	a file. "CURRENT" represents the current locale encoding. Only recognized encodings are used.</long>
+      </locale>
+      <locale name="ar">
+        <default>[UTF-8,CURRENT,ISO-8859-15,WINDOWS-1256]</default>
+      </locale>
+      <locale name="as">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="ast">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="be@latin">
+        <default>[UTF-8,CURRENT,CP1251,ISO-8859-5,UTF-16]</default>
+      </locale>
+      <locale name="bg">
+        <default>[UTF-8,WINDOWS-1251,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="bn">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="bn_IN">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="br">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="ca">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="ca@valencia">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="crh">
+        <default>[UTF-8,CURRENT,ISO-8859-9,UTF-16]</default>
+      </locale>
+      <locale name="cs">
+        <default>[UTF-8,CURRENT,ISO-8859-2,WINDOWS-1250,IBM852,UTF-16]</default>
+      </locale>
+      <locale name="cy">
+        <default>[UTF-8,CURRENT,ISO-8859-14,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="da">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="de">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="dz">
+        <default>[ཡུ་ཊི་ཨེཕ་-༨  ད་ལྟོ་  ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༥  ཡུ་ཊི་ཨེཕ་-༡༦]</default>
+      </locale>
+      <locale name="el">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="en@shaw">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="en_GB">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="eo">
+        <default>[UTF-8,CURRENT,ISO-8859-3,UTF-16]</default>
+      </locale>
+      <locale name="es">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="et">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="eu">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="fi">
+        <default>[UTF-8,CURRENT,ISO-8859-15]</default>
+      </locale>
+      <locale name="fr">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="ga">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="gl">
+        <default>[UTF-8,ACTUAL,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="gu">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="he">
+        <default>[UTF-8,CURRENT,ISO-8859-8,WINDOWS-1255]</default>
+      </locale>
+      <locale name="hi">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="hr">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="hu">
+        <default>[UTF-8,CURRENT,ISO-8859-2,WINDOWS-1250,ISO-8859-15]</default>
+      </locale>
+      <locale name="id">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="it">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="ja">
+        <default>[UTF-8,CURRENT,ISO-2022-JP,SHIFT_JIS,EUC-JP]</default>
+      </locale>
+      <locale name="kn">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="ko">
+        <default>[UTF-8,CURRENT,UHC,JOHAB,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="lt">
+        <default>[UTF-8,CURRENT,ISO-8859-15]</default>
+      </locale>
+      <locale name="lv">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="mai">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="mk">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="ml">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="mr">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="nb">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="ne">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="nl">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="nn">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="or">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="pa">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="pl">
+        <default>[UTF-8,CURRENT,ISO-8859-2]</default>
+      </locale>
+      <locale name="ps">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="pt">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="pt_BR">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="ro">
+        <default>[UTF-8,CURRENT,ISO-8859-2,ISO-8859-16,UTF-16]</default>
+      </locale>
+      <locale name="ru">
+        <default>[UTF-8,CURRENT,WINDOWS-1251,KOI8R,ISO-8859-5]</default>
+      </locale>
+      <locale name="si">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="sl">
+        <default>[UTF-8,CURRENT,ISO-8859-2,UTF-16]</default>
+      </locale>
+      <locale name="sq">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="sr">
+        <default>[UTF-8,CURRENT,ISO-8859-2,ISO-8859-5,WINDOWS-1250,WINDOWS-1251,ISO-8859-15]</default>
+      </locale>
+      <locale name="sr@latin">
+        <default>[UTF-8,CURRENT,ISO-8859-2,ISO-8859-5,WINDOWS-1250,WINDOWS-1251,ISO-8859-15]</default>
+      </locale>
+      <locale name="sv">
+        <default>[UTF-8,CURRENT,ISO-8859-1,ISO-8859-15]</default>
+      </locale>
+      <locale name="ta">
+        <default>[UTF-8,CURRENT,ISO-8859-15]</default>
+      </locale>
+      <locale name="te">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="th">
+        <default>[UTF-8,CURRENT,TIS-620,UTF-16]</default>
+      </locale>
+      <locale name="tr">
+        <default>[UTF-8,CURRENT,ISO-8859-9,UTF-16]</default>
+      </locale>
+      <locale name="uk">
+        <default>[UTF-8,CURRENT,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="vi">
+        <default>[UTF-8,CURRENT]</default>
+      </locale>
+      <locale name="zh_CN">
+        <default>[CURRENT,GB18030,GBK,GB2312,UTF-8,UTF-16]</default>
+      </locale>
+      <locale name="zh_HK">
+        <default>[UTF-8,CURRENT,BIG5,BIG5-HKSCS,EUC-TW,GB2312,GBK,GB18030,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="zh_TW">
+        <default>[UTF-8,CURRENT,BIG5,BIG5-HKSCS,EUC-TW,GB2312,GBK,GB18030,ISO-8859-15,UTF-16]</default>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/encodings/shown_in_menu</key>
+      <applyto>/apps/gedit-2/preferences/encodings/shown_in_menu</applyto>
+      <owner>gedit</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+        <default><!-- Translators: This is the list of encodings shown by default in the Character Encoding
+	menu in open/save file selector. Only recognized encodings are displayed.-->[ISO-8859-15]</default>
+	<short>Encodings shown in menu</short>
+	<long>List of encodings shown in the Character Encoding menu in open/save file selector.
+	Only recognized encodings are used.</long>
+      </locale>
+      <locale name="ar">
+        <default>[UTF-8,WINDOWS-1256]</default>
+      </locale>
+      <locale name="as">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ast">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="az">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="be">
+        <default>[UTF-8,CURRENT,CP1251,ISO-8859-15]</default>
+      </locale>
+      <locale name="be@latin">
+        <default>[ASCII,ISO-8859-1,ISO-8859-5,CP1251,UTF-8,UTF-16,UTF-32]</default>
+      </locale>
+      <locale name="bg">
+        <default>[UTF-8,WINDOWS-1251,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="bn">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="bn_IN">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="br">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="bs">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ca">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ca@valencia">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="crh">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="cs">
+        <default>[ISO-8859-2,ISO-8859-15]</default>
+      </locale>
+      <locale name="cy">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="da">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="de">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="dz">
+        <default>[ཨའིཨེསི་ཨོ་-༨༨༥༩-༡༥]</default>
+      </locale>
+      <locale name="el">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="en@shaw">
+        <default>[UTF-8]</default>
+      </locale>
+      <locale name="en_CA">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="en_GB">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="eo">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="es">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="et">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="eu">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="fa">
+        <default>[UTF-8]</default>
+      </locale>
+      <locale name="fi">
+        <default>[ISO-8859-15,ISO-8859-1]</default>
+      </locale>
+      <locale name="fr">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ga">
+        <default>[UTF-8,ISO-8859-15]</default>
+      </locale>
+      <locale name="gl">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="gu">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="he">
+        <default>[UTF-8,ISO-8859-8,WINDOWS-1255]</default>
+      </locale>
+      <locale name="hi">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="hr">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="hu">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="id">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="it">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ja">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ka">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="kn">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ko">
+        <default>[UTF-8,UHC,JOHAB,ISO-8859-15,UTF-16]</default>
+      </locale>
+      <locale name="ku">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="lt">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="lv">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="mai">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="mg">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="mk">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ml">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="mr">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ms">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="nb">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ne">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="nl">
+        <default>[UTF-8,ISO-8859-15]</default>
+      </locale>
+      <locale name="nn">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="oc">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="or">
+        <default>[ଆଇ.ଏସ.ଓ.-8859-15]</default>
+      </locale>
+      <locale name="pa">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="pl">
+        <default>[ISO-8859-2]</default>
+      </locale>
+      <locale name="pt">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="pt_BR">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ro">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="ru">
+        <default>[CP866,IBM855,ISO-8859-5,KOI8R,WINDOWS-1251]</default>
+      </locale>
+      <locale name="si">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="sk">
+        <default>[ISO-8859-2,ISO-8859-15]</default>
+      </locale>
+      <locale name="sl">
+        <default>[ISO-8859-2,UTF-8]</default>
+      </locale>
+      <locale name="sq">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="sr">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="sr@latin">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="sv">
+        <default>[UTF-8,ISO-8859-15]</default>
+      </locale>
+      <locale name="ta">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="te">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="th">
+        <default>[TIS-620]</default>
+      </locale>
+      <locale name="tr">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="uk">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="vi">
+        <default>[UTF-8]</default>
+      </locale>
+      <locale name="wa">
+        <default>[UTF-8,ISO-8859-15]</default>
+      </locale>
+      <locale name="xh">
+        <default>[ISO-8859-15]</default>
+      </locale>
+      <locale name="zh_CN">
+        <default>[GB18030,GBK,GB2312,UTF-8]</default>
+      </locale>
+      <locale name="zh_HK">
+        <default>[BIG5,BIG5-HKSCS,EUC-TW,GB2312,GBK,GB18030,ISO-8859-15]</default>
+      </locale>
+      <locale name="zh_TW">
+        <default>[BIG5,BIG5-HKSCS,EUC-TW,GB2312,GBK,GB18030,ISO-8859-15]</default>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/syntax_highlighting/enable</key>
+      <applyto>/apps/gedit-2/preferences/syntax_highlighting/enable</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Enable Syntax Highlighting</short>
+	<long>Whether gedit should enable syntax highlighting.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/plugins/active-plugins</key>
+      <applyto>/apps/gedit-2/plugins/active-plugins</applyto>
+      <owner>gedit</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[docinfo,modelines,filebrowser,spell,time]</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Active plugins</short>
+	<long>List of active plugins. It contains the "Location" of the active plugins. See the .gedit-plugin file for obtaining
+        the "Location" of a given plugin.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/save/writable_vfs_schemes</key>
+      <applyto>/apps/gedit-2/preferences/editor/save/writable_vfs_schemes</applyto>
+      <owner>gedit</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[dav,davs,ftp,sftp,smb,ssh]</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Writable VFS schemes</short>
+	<long>List of VFS schemes gedit supports in write mode. The 'file' scheme
+	is writable by default.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/cursor_position/restore_cursor_position</key>
+      <applyto>/apps/gedit-2/preferences/editor/cursor_position/restore_cursor_position</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Restore Previous Cursor Position</short>
+	<long>Whether gedit should restore the previous cursor position when a file is loaded.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gedit-2/preferences/editor/search_highlighting/enable</key>
+      <applyto>/apps/gedit-2/preferences/editor/search_highlighting/enable</applyto>
+      <owner>gedit</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <gettext_domain>gedit</gettext_domain>
+      <locale name="C">
+	<short>Enable Search Highlighting</short>
+	<long>Whether gedit should highlight all the occurrences of the searched text.</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

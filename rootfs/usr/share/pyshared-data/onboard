@@ -1,0 +1,28 @@
+[python-package]
+format = 1
+python-version = current
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/share/onboard/scripts/sokSettings.py=f
+/usr/share/onboard/layoutstrings.py=f
+/usr/share/pyshared/Onboard=d
+/usr/share/pyshared/Onboard/KeyGtk.py=f
+/usr/share/pyshared/Onboard/Keyboard.py=f
+/usr/share/pyshared/Onboard/settings.py=f
+/usr/share/pyshared/Onboard/Exceptions.py=f
+/usr/share/pyshared/Onboard/Pane.py=f
+/usr/share/pyshared/Onboard/SnippetList.py=f
+/usr/share/pyshared/Onboard/Config.py=f
+/usr/share/pyshared/Onboard/KeyboardSVG.py=f
+/usr/share/pyshared/Onboard/KbdWindow.py=f
+/usr/share/pyshared/Onboard/Indicator.py=f
+/usr/share/pyshared/Onboard/IconPalette.py=f
+/usr/share/pyshared/Onboard/OnboardGtk.py=f
+/usr/share/pyshared/Onboard/KeyCommon.py=f
+/usr/share/pyshared/Onboard/__init__.py=f
+/usr/share/pyshared/Onboard/utils.py=f
+/usr/share/pyshared/Onboard/KeyboardGTK.py=f
+/usr/share/pyshared/Onboard/X11.py=f
+/usr/share/pyshared/onboard-0.94.0.egg-info=f

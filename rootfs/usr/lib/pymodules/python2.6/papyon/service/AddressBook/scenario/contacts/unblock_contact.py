@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/service/AddressBook/scenario/contacts/unblock_contact.py

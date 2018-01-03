@@ -1,0 +1,10 @@
+/usr/share/pyshared/usb_creator-0.2.23.egg-info
+/usr/share/pyshared/usbcreator/backends/base/__init__.py
+/usr/share/pyshared/usbcreator/backends/base/backend.py
+/usr/share/pyshared/usbcreator/backends/udisks/__init__.py
+/usr/share/pyshared/usbcreator/backends/udisks/backend.py
+/usr/share/pyshared/usbcreator/frontends/base/__init__.py
+/usr/share/pyshared/usbcreator/frontends/base/frontend.py
+/usr/share/pyshared/usbcreator/install.py
+/usr/share/pyshared/usbcreator/misc.py
+/usr/share/pyshared/usbcreator/remtimest.py

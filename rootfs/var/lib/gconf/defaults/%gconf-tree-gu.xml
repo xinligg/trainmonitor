@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="ibus">
+				<dir name="panel">
+					<entry name="custom_font">
+						<local_schema short_desc="વૈવિધ્ય ફોન્ટ">
+							<longdesc>ભાષા પેનલ માટે વૈવિધ્ય ફોન્ટ નામ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="વૈવિધ્ય ફોન્ટને વાપરો">
+							<longdesc>ભાષા પેનલ માટે વૈવિધેય ફોન્ટ નામ ને વાપરો</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_im_name">
+						<local_schema short_desc="ઇનપુટ પદ્દતિ નામને બતાવો">
+							<longdesc>ભાષા પેનલ પર ઇનપુટ પદ્દતિ નામને બતાવો</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_icon_on_systray">
+						<local_schema short_desc="સિસ્ટમ ટ્રે પર ચિહ્નને બતાવો">
+							<longdesc>સિસ્ટમ ટ્રે પર ચિહ્નને બતાવો</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="lookup_table_orientation">
+						<local_schema short_desc="કોષ્ટકને જોવાની દિશા">
+							<longdesc>કોષ્ટકને જોવાની દિશા. 0 = આડુ, 1 = ઊભુ </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="y">
+						<local_schema short_desc="ભાષા પેનલ સ્થાન">
+						</local_schema>
+					</entry>
+					<entry name="x">
+						<local_schema short_desc="ભાષા પેનલ સ્થાન">
+						</local_schema>
+					</entry>
+					<entry name="show">
+						<local_schema short_desc="આપમેળે છુપાવો">
+							<longdesc>ભાષા પેનલની વર્ણતૂક. 0 = હંમેશા છુપાવો, 1 = આપમેળે છુપાવો, 2 = હંમેશા બતાવો</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="general">
+					<entry name="enable_by_default">
+						<local_schema short_desc="મૂળભૂત રીતે ઇનપુટ પદ્દતિને સક્રિય કરો">
+							<longdesc>મૂળભૂત રીતે ઇનપુટ પદ્દતિને સક્રિય કરો જ્યારે કાર્યક્રમને ઇનપુટ ફોકસ મળે છે</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_global_engine">
+						<local_schema short_desc="વૈશ્ર્વિક ઇનપુટ પદ્દતિને વાપરો">
+							<longdesc>બધા કાર્યક્રમોમાં એજ ઇનપુટ પદ્દતિને વહેંચો</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="embed_preedit_text">
+						<local_schema short_desc="બેસાડેલ Preedit લખાણ">
+							<longdesc>કાર્યક્રમ વિન્ડોમાં બેસાડેલ Preedit લખાણ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_system_keyboard_layout">
+						<local_schema short_desc="સિસ્ટમ કિબોર્ડ લેઆઉટને વાપરો">
+							<longdesc>સિસ્ટમ કિબોર્ડ (XKB) લેઆઉટને વાપરો</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preload_engines">
+						<local_schema short_desc="એંજિનોને ફરીથી લોડ કરો">
+							<longdesc>ibus શરૂ કરવા દરમ્યાન એંજિનોને ફરીથી લોડ કરો</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="hotkey">
+						<entry name="previous_engine">
+							<local_schema short_desc="પહેલાંની એંજિન ટૂંકાણ કીઓ">
+								<longdesc>યાદીમાં પહેલાંની ઇનપુટ પદ્દતિને લાવવા માટે ટૂંકાણ કીઓ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="prev_engine">
+							<local_schema short_desc="પહેલાંની એંજિન ટૂંકાણ કીઓ">
+								<longdesc>યાદીમાં પહેલાંની ઇનપુટ પદ્દતિને લાવવા માટે ટૂંકાણ કીઓ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="next_engine_in_menu">
+							<local_schema short_desc="પછીની એંજિન ટૂંકાણ કીઓ">
+								<longdesc>યાદીમાં પછીની ઇનપુટ પદ્દતિને બદલવા માટે ટૂંકાણ કીઓ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="next_engine">
+							<local_schema short_desc="પછીની એંજિન ટૂંકાણ કીઓ">
+								<longdesc>યાદીમાં પછીની ઇનપુટ પદ્દતિને બદલવા માટે ટૂંકાણ કીઓ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="trigger">
+							<local_schema short_desc="ટ્રીગર ટૂંકાણ કીઓ">
+								<longdesc>ઇનપુટ પદ્દતિને ફેરબદલી કરવાનું ચાલુ અથવા ા બંધ કરવા માટે ટૂંકાણ કીઓ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="printsetup">
+					<entry name="gtk-setting">
+						<local_schema short_desc="GTKPrintSetting">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

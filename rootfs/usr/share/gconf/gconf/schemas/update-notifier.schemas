@@ -1,0 +1,395 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/update-notifier/show_apport_crashes</key>
+      <applyto>/apps/update-notifier/show_apport_crashes</applyto>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Display apport crash reports automatically</short>
+        <long>If this is disabled, the user will not be notified about pending apport crash reports.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Vis nedbrudsrapport fra apport automatisk</short>
+        <long>Hvis dette er deaktiveret, bliver brugeren ikke informeret om ventende nedbrudsrapporter fra apport.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Apport-Absturzberichte automatisch anzeigen</short>
+        <long>Wenn diese Funktion deaktiviert ist, wird der Benutzer nicht über ausstehende Absturzberichte benachrichtigt.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Αυτόματη εμφάνιση αναφοράς κατάρρευσης</short>
+        <long>Αν αυτό απενεργοποιηθεί, ο χρήστης δεν θα ειδοποιηθεί για εκκρεμείς αναφορές κατάρρευσης από το apport.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Mostrar los informes de fallos generados por Apport automáticamente</short>
+        <long>Si se desactiva, el usuario no recibirá notificaciones de informes de fallos generados por Apport.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Näytä apport-kaatumisraportit automaattisesti</short>
+        <long>Jos tämä ei ole käytössä, käyttäjälle ei ilmoiteta odottamassa olevista kaatumisraporteista.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher automatiquement les rapports de plantages générés par « Apport »</short>
+        <long>Si ceci est désactivé, l&apos;utilisateur ne sera pas  informé sur les rapports de plantages en attente.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Apport összeomlás-jelentések automatikus megjelenítése</short>
+        <long>Ha ez ki van kapcsolva, akkor a felhasználó nem kap értesítést a függőben lévő összeomlás-jelentésekről.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>自動的に apport クラッシュレポートを表示する</short>
+        <long>これを無効にすると、apport クラッシュレポートの延期の通知をしません。</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Automatyczne wyświetlanie raportów o błędach apport</short>
+        <long>Jeśli wyłączone, użytkownik nie będzie powiadamiany o oczekujących raportach o błędach.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar automaticamente relatórios de falhas do apport</short>
+        <long>Se desativado, o usuário não receberá nenhuma notificação sobre relatórios de falhas gerados pelo apport.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Afișează automat rapoartele de erori generate de apport</short>
+        <long>Dacă este dezactivat. utilizatorul nu va fi anunțat despre rapoartere de erori în curs.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Visa automatiskt kraschrapporter från apport</short>
+        <long>Om detta är avstängt kommer användaren inte att uppmärksammas på när det finns kraschrapporter att rapportera in med apport.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>自动显示 apport 崩溃报告</short>
+        <long>如果禁用，用户将无法收到将来的 apport 崩溃报告通知。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/update-notifier/end_system_uids</key>
+      <applyto>/apps/update-notifier/end_system_uids</applyto>
+      <type>int</type>
+      <default>500</default>
+      <locale name="C">
+        <short>The maximum UID that is reserved for system users</short>
+        <long>Update-notifier will not be started for system users, this
+specifies the upper bound of this range.
+        </long>
+      </locale>
+
+      <locale name="da">
+        <short>Den maksimale UID, som er reserveret til systembrugere</short>
+        <long>Opdateringspåmindelse vil ikke blive startet for systembrugere. Dette angiver dette områdes øverste grænse.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Die höchste UID, die für Systemverwalter reserviert ist.</short>
+        <long>Die Aktualisierungsbenachrichtigung wird nicht für Systemverwalter gestartet; dies bestimmt die Obergrenze dieses Bereichs.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Το μέγιστο UID που έχει δεσμευτεί για τους χρήστες του συστήματος</short>
+        <long>Η ειδοποίηση ενημερώσεων δεν θα εκκινηθεί για τους χρήστες του συστήματος, αυτό καθορίζει το άνω όριο αυτής της περιοχής.</long>
+      </locale>
+
+      <locale name="es">
+        <short>El máximo UID que está reservado para usuarios del sistema</short>
+        <long>El notificador de actualizaciones no se iniciará con los usuarios del sistema; aquí se especifica el límite superior de este rango.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Järjestelmäkäyttäjille varattu maksimikäyttäjätunniste (UID)</short>
+        <long>Päivitysilmoitinta ei käynnistetä järjestelmäkäyttäjille. Tämä määrittelee kyseisen alueen yläreunan.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>L&apos;UID maximum réservé pour les utilisateurs système</short>
+        <long>Update-notifier ne sera pas lancé pour les utilisateurs système, ceci spécifie la limite haute pour cet intervalle.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Felhasználói azonosítók maximális száma</short>
+        <long>A Frissítésfigyelőt nem futtathatják azok a felhasználók, akik nem rendelkeznek megfelelő jogosultságokkal.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>システムユーザー用の最大UID</short>
+        <long>アップデート通知機能 (update-notifier) はシステムユーザ向けには起動されません、この設定ではその上限を指定します。</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Maksymalny UID zarezerwowany dla użytkowników systemu</short>
+        <long>Program update-notifier nie zostanie uruchomiony dla użytkowników określonych w górnym obszarze tego zakresu.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>O UID máximo que é reservado para usuários do sistema</short>
+        <long>Gerenciador de Atualizações não será iniciado para usuários de sistema. Isto especifica o limite superior dessa faixa.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>UID-ul maxim care este rezervat pentru utilizatorii de sistem</short>
+        <long>„Notificare actualizări” nu va fi pornit pentru utilizatorii de sistem, aceasta specifică limita superioară a acestei raze.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Det högsta UID som reserverats för systemanvändare</short>
+        <long>Uppdateringsnotifierare kommer inte att startas för systemanvändare, detta anger den övre gränsen för detta intervall.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>最大的 UID 为系统用户保留</short>
+        <long>Update-notifier 将不会为系统用户启动， 这指定了范围的上限。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/update-notifier/auto_launch</key>
+      <applyto>/apps/update-notifier/auto_launch</applyto>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Automatically launch the default action</short>
+        <long>The default action (update-manager) will be started 
+	automatically. All dialog boxes like notification hooks,  
+	reboot required, media detected will open automatically
+        </long>
+      </locale>
+
+      <locale name="da">
+        <short>Start automatisk standardhandlingen</short>
+        <long>Standardhandlingen (update-manager) vil blive startet automatisk. Alle vinduesbokse, som f.eks. statusmeddelelser, genstart påkrævet, medie fundet vil åbne automatisk</long>
+      </locale>
+
+      <locale name="de">
+        <short>Automatisch die voreingestellte Aktion ausführen</short>
+        <long>Die Standardaktion (Aktualisierungsverwaltung) wird automatisch gestartet. Alle Dialogfenster, wie zum Beispiel Benachrichtigungen, zu einem erforderlichen Neustart oder einem erkannten Medium werden automatisch geöffnet.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Αυτόματη εκκίνηση της προεπιλεγμένης ενέργειας</short>
+        <long>Η προεπιλεγμένη ενέργεια (update-manager) θα εκκινηθεί αυτόματα. Όλοι οι διάλογοι, όπως ειδοποιήσεις, ειδοποίησεις για επανεκκίνηση, εντοπισμός μέσων θα ανοίξουν αυτόματα.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Ejecutar automáticamente la acción predeterminada</short>
+        <long>La acción predeterminada (update-manager) se iniciará automáticamente. Todas las ventanas de diálogo como cuadros de notificaciones, peticiones de reinicio y detección de dispositivos se abrirán automáticamente.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Käynnistä oletustoiminto automaattisesti</short>
+        <long>Oletustoiminto (update-manager) käynnistetään automaattisesti. Kaikki valintaikkunat, kuten ilmoitukset, järjestelmän uudelleenkäynnistys vaadittu, media havaittu, avautuvat automaattisesti</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Exécuter automatiquement l&apos;action par défaut</short>
+        <long>L&apos;action par défaut (update-manager) sera exécutée automatiquement. Toutes les boîtes de dialogue, comme les notifications, les invitations au redémarrage et les médias détectés, s&apos;ouvriront automatiquement.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Alapértelmezett művelet automatikus indítása</short>
+        <long>Az alapértelmezett parancs (Frissítéskezelő) automatikusan elindul. A párbeszéddoboz, mint minden értesítőbuborék esetén, melyhez újraindítás szükséges, az &quot;Adathordozót találtam&quot; üzenet jelenik meg.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>標準の動作を自動的に起動する</short>
+        <long>デフォルトのアクション(アップデートマネージャ)が自動的に開始されます。通知サービス、再起動の要求、メディアの検出などのダイアログボックスは自動的に開かれます。</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Automatyczne uruchamianie domyślnego działania</short>
+        <long>Domyślne działanie (update-manager) będzie automatyczne uruchamianie. Wszystkie okna dialogowe jak powiadomienia, ponowne uruchomienie, wykrywanie nośnika będą uruchamiane automatycznie</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Inicia automaticamente a ação padrão</short>
+        <long>A ação padrão (update-manager) será iniciada automaticamente. Todas as caixas de diálogo como notificações, pedidos de reinicialização e mídia detectada serão abertos automaticamente.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Lansează automat acțiunea implicită</short>
+        <long>Acțiunea implicită (update-manager) va fi pornită automat. Toate casetele de dialog cum ar fi referințele de notificare, repornire necesară, unitate media detectată se vor deschide automat</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Starta automatiskt standardåtgärden</short>
+        <long>Standardåtgärden (update-manager) kommer att startas automatiskt. Alla dialogrutor såsom notifieringar, omstart krävs, media hittades, kommer att öppnas automatiskt</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>自动执行默认动作</short>
+        <long>将自动执行默认动作(更新管理器)。所有对话框，如提示、需要重启、发现移动介质，都将被自动打开。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/update-notifier/regular_auto_launch_interval</key>
+      <applyto>/apps/update-notifier/regular_auto_launch_interval</applyto>
+      <type>int</type>
+      <default>7</default>
+      <locale name="C">
+        <short>Interval (in days) when to auto launch for normal updates</short>
+        <long>The interval (in days) when auto launching update-manager
+	for normal updates. Please note that it will auto launch for
+	security updates immediately. If you set it to "0" it will 
+	also launch as soon as updates become available.
+        </long>
+      </locale>
+
+      <locale name="da">
+        <short>Interval (i dage) mellem automatisk start af normale opdateringer</short>
+        <long>Interval (i dage) mellem automatisk start af opdateringshåndtering til normale opdateringer. Bemærk venligst, at opdateringshåndtering vil åbne automatisk med det samme, når der er sikkerhedsopdateringer. Hvis du indstiller det til &quot;0&quot; vil den også åbne, så snart der er tilgængelige opdateringer.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Intervall (in Tagen) für die automatische Suche nach normalen Aktualisierung</short>
+        <long>Das Intervall (in Tagen), nach dem die Aktualisierungsverwaltung automatisch nach normalen Aktualisierungen sucht. Bitte beachten Sie, dass diese für Sicherheitsaktualisierungen sofort automatisch startet. Wenn Sie den Wert auf »0« setzen, wird diese auch automatisch starten, sobald normale Aktualisierungen bereitstehen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Διάστημα (σε μέρες) για την αυτόματη εκκίνηση σε κανονικές ενημερώσεις</short>
+        <long>Το χρονικό διάστημα (σε ημέρες) που μεσολαβεί μεταξύ έναρξης αυτόματων ενημερώσεων για κανονικές αναβαθμίσεις. Παρακαλούμε σημειώστε ότι θα εκκινήσει αυτόματα για ενημερώσεις ασφάλειας. Εάν το θέσετε σε &quot;0&quot; θα εκκινήσει επίσης όταν αυτές οι ενημερώσεις γίνουν διαθέσιμες.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Intervalo (en días) en el que lanzar automáticamente para actualizaciones normales</short>
+        <long>El intervalo (en días) en el que update-manager se lanzará automáticamente para actualizaciones normales. Note que se lanzará inmediatamente para actualizaciones de seguridad. Si lo establece como «0»  también se lanzará tan pronto como las actualizaciones estén disponibles.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Aikaväli päivissä, jolloin käynnistetään automaattisesti tavallisia päivityksiä varten</short>
+        <long>Aikaväli päivissä, jolloin update-manager käynnistetään automaattisesti tavallisia päivityksiä varten. Huomaa, että se käynnistyy automaattisesti turvallisuuspäivitysten kohdalla välittömästi. Jos asetetaan nollaksi (”0”), se myös käynnistyy heti kun päivityksiä tulee saataville.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Intervalle (en jours) pour le lancement automatique des mises à jour normales</short>
+        <long>L&apos;intervalle (en jours) pour le lancement automatique des mises à jour normales. Veuillez noter qu&apos;il se lancera automatiquement et immédiatement pour les mises à jour de sécurité. Si vous définissez la valeur à « 0 », il se lancera dès que des mises à jour sont disponibles.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Az automatikus frissítés gyakorisága (napokban).</short>
+        <long>A Frissítéskezelő automatikus indítása ennyi naponként a normál frissítések telepítéséhez. A biztonsági frissítéseket a Frissítéskezelő azonnal indítja. A frissítések elérhetővé válásukkor azonnal indulnak, ha időközként „0” napot állít be.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>通常のアップデートのための自動起動の間隔(日数)</short>
+        <long>通常の更新のために、アップデートマネージャを自動起動する間隔(日数)です。セキュリティアップデートに対しては、即座に自動起動することに注意して下さい。もし、 &quot;0&quot; に設定すると、アップデートが利用可能になると、すぐに起動するようになります。</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Co ile dni uruchamiać automatyczne sprawdzanie aktualizacji</short>
+        <long>Co ile dni uruchamiać automatyczne sprawdzanie aktualizacji przez program update-manager. Proszę pamiętać, że zostanie on uruchomiony automatycznie do aktualizacji zabezpieczeń. Jeśli zostanie ustawiony na &quot;0&quot; to będzie włączany gdy ukażą się nowe aktualizacje.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Intervalo (em dias) para atualizações normais</short>
+        <long>O intervalo (em dias) para carregar o update-manager para atualizações normais. Por favor, perceba que isso carregará atualizações de segurança automaticamente. Se você configurar para &quot;0&quot;, isso será carregado tão logo a atualização estiver disponível.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Intervalul (în zile) la care să se facă verificarea automată a actualizărilor normale</short>
+        <long>Intervalul (în zile) la care se lansează automat update-manager pentru actualizări normale. Rețineți că se va lansa automat imediat pentru actualizări de securitate. Dacă îl definiți ca „0” se va lansa de asemenea imediat ce actualizările sunt disponibile.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Intervallet (i dagar) för automatisk start för vanliga uppdateringar</short>
+        <long>Intervallet (i dagar) när update-manager ska automatiskt startas för vanliga uppdateringar. Observera att det omedelbart kommer att startas automatiskt för säkerhetsuppdateringar. Om du ställer in det till &quot;0&quot; så kommer det också att startas så snart som uppdateringar finns tillgängliga.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>自动执行常规更新的间隔(以天记)</short>
+        <long>自动运行更新管理器(update-manager)执行常规更新的间隔(以天记)。请注意，它将立即自动启动安全更新。若您将它设为“0”，更新一旦可用立即会执行。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/update-notifier/hide_reboot_notification</key>
+      <applyto>/apps/update-notifier/hide_reboot_notification</applyto>
+      <type>bool</type>
+      <default>False</default>
+      <locale name="C">
+        <short>Hide the reboot notification</short>
+        <long>Do not display a reboot required icon or dialog. This is
+	useful for sysadmin who want to prevent this feature from users.
+        </long>
+      </locale>
+
+      <locale name="da">
+        <short>Skjul påmindelse om genstart</short>
+        <long>Vis ikke et &quot;genstart påkrævet&quot;-ikon eller dialogboks. Dette er nyttigt for systemadministratorer, der ikke ønsker at brugere skal have adgang til denne funktion.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Neustart-Benachrichtigung unterdrücken</short>
+        <long>Das Symbol und den Dialog deaktivieren, die auf einen erforderlichen Neustart hinweisen. Dies ist für Systemverwalter interessant, die diese Funktion vor Benutzern verbergen möchten.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Απόκρυψη ειδοποίησης επανεκκίνησης</short>
+        <long>Να μην εμφανίζεται εικονίδιο ή διάλογος για απαιτούμενη επανεκκίνηση. Είναι χρήσιμο για διαχειριστές συστήματος που θέλουν να απενεργοποιήσουν αυτή τη λειτουργία για τους χρήστες τους.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Ocultar el aviso de reinicio</short>
+        <long>No presentar un icono o diálogo de reinicio requerido. Esto es útil para un administrador de sistemas que quiere ocultar esta característica a los usuarios.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Piilota huomautus uudelleenkäynnistämisestä</short>
+        <long>Älä näytä käynnistä uudelleen -vaatimuksen kuvaketta tai valintaikkunaa. Tämä on hyödyllinen ylläpitäjille, jotka haluavat estää käyttäjiä käynnistämästä tietokonetta uudelleen.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Masquer la notification de redémarrage</short>
+        <long>Ne pas afficher l&apos;icône ou la boîte de dialogue demandant un redémarrage. Ceci est utile aux administrateurs qui veulent empêcher les utilisateurs d&apos;effectuer cette opération.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Újraindítási értesítés elrejtése</short>
+        <long>Ne jelenítsen meg újraindítás szükséges ikont vagy ablakot. Ez rendszergazdáknak hasznos, akik el akarják rejteni ezt a szolgáltatást a felhasználók elől.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>再起動の通知を隠す</short>
+        <long>再起動の要求をアイコンやダイアログで表示しません。これは管理者がユーザに対してこの機能を見せたくない場合に役に立ちます。</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Ukryj komunikat o potrzebie ponownego uruchomienia systemu</short>
+        <long>Nie pokazuj ikony ani komunikatu w sprawie potrzeby ponownego uruchomienia systemu. Jest to przydatne dla administratorów chcących odebrać tę możliwość użytkownikom.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Ocultar a notificação para reiniciar</short>
+        <long>Não exibe um ícone ou diálogo de reinicialização necessária. Isto é útil para administradores de sistema que querem impedir essa característica para os usuários.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Ascunde notificarea de repornire</short>
+        <long>Nu afișa o iconiță sau un dialog care să ceară repornirea. Aceasta este utilă pentru administratorii de sistem care doresc să împiedice repornirea sistemului de către utilizatori.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Dölj omstartsnotifieringen</short>
+        <long>Visa inte en ikon eller dialogruta när en omstart krävs. Detta är användbart för systemadministratörer som vill dölja denna funktion från användarna.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>隐藏重启提示</short>
+        <long>不要显示需要重启的图标或对话框。这对希望阻止用户使用这项特性的系统管理员有用。</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

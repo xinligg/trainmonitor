@@ -1,0 +1,1 @@
+/usr/share/pyshared/usbcreator/frontends/base/frontend.py

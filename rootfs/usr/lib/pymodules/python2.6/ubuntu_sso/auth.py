@@ -1,0 +1,1 @@
+/usr/share/pyshared/ubuntu_sso/auth.py

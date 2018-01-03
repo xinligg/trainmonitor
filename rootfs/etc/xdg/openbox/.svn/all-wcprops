@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/package/config/etc/xdg/openbox
+END
+autostart.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/package/config/etc/xdg/openbox/autostart.sh
+END
+menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/package/config/etc/xdg/openbox/menu.xml
+END
+rc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/package/config/etc/xdg/openbox/rc.xml
+END

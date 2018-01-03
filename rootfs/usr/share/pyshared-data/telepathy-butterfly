@@ -1,0 +1,40 @@
+[python-package]
+format = 1
+python-version = >= 2.5
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/share/pyshared/butterfly=d
+/usr/share/pyshared/butterfly/channel=d
+/usr/share/pyshared/butterfly/channel/conference.py=f
+/usr/share/pyshared/butterfly/channel/contact_list.py=f
+/usr/share/pyshared/butterfly/channel/file_transfer.py=f
+/usr/share/pyshared/butterfly/channel/group.py=f
+/usr/share/pyshared/butterfly/channel/im.py=f
+/usr/share/pyshared/butterfly/channel/__init__.py=f
+/usr/share/pyshared/butterfly/channel/media.py=f
+/usr/share/pyshared/butterfly/channel/muc.py=f
+/usr/share/pyshared/butterfly/channel/text.py=f
+/usr/share/pyshared/butterfly/media=d
+/usr/share/pyshared/butterfly/media/constants.py=f
+/usr/share/pyshared/butterfly/media/__init__.py=f
+/usr/share/pyshared/butterfly/media/session_handler.py=f
+/usr/share/pyshared/butterfly/media/stream_handler.py=f
+/usr/share/pyshared/butterfly/util=d
+/usr/share/pyshared/butterfly/util/decorator.py=f
+/usr/share/pyshared/butterfly/util/__init__.py=f
+/usr/share/pyshared/butterfly/aliasing.py=f
+/usr/share/pyshared/butterfly/capabilities.py=f
+/usr/share/pyshared/butterfly/Channel_Interface_Conference.py=f
+/usr/share/pyshared/butterfly/Connection_Interface_Mail_Notification.py=f
+/usr/share/pyshared/butterfly/connection.py=f
+/usr/share/pyshared/butterfly/debug.py=f
+/usr/share/pyshared/butterfly/__init__.py=f
+/usr/share/pyshared/butterfly/presence.py=f
+/usr/share/pyshared/butterfly/avatars.py=f
+/usr/share/pyshared/butterfly/channel_manager.py=f
+/usr/share/pyshared/butterfly/connection_manager.py=f
+/usr/share/pyshared/butterfly/contacts.py=f
+/usr/share/pyshared/butterfly/handle.py=f
+/usr/share/pyshared/butterfly/mail_notification.py=f

@@ -1,0 +1,30 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/lib/python2.6/dist-packages/apt_pkg.so=f
+/usr/lib/python2.6/dist-packages/apt_inst.so=f
+/usr/lib/python2.6/dist-packages/apt=d
+/usr/lib/python2.6/dist-packages/apt/utils.py=f
+/usr/lib/python2.6/dist-packages/apt/__init__.py=f
+/usr/lib/python2.6/dist-packages/apt/cdrom.py=f
+/usr/lib/python2.6/dist-packages/apt/deprecation.py=f
+/usr/lib/python2.6/dist-packages/apt/package.py=f
+/usr/lib/python2.6/dist-packages/apt/cache.py=f
+/usr/lib/python2.6/dist-packages/apt/debfile.py=f
+/usr/lib/python2.6/dist-packages/apt/progress=d
+/usr/lib/python2.6/dist-packages/apt/progress/__init__.py=f
+/usr/lib/python2.6/dist-packages/apt/progress/gtk2.py=f
+/usr/lib/python2.6/dist-packages/apt/progress/old.py=f
+/usr/lib/python2.6/dist-packages/apt/progress/base.py=f
+/usr/lib/python2.6/dist-packages/apt/progress/text.py=f
+/usr/lib/python2.6/dist-packages/aptsources=d
+/usr/lib/python2.6/dist-packages/aptsources/distinfo.py=f
+/usr/lib/python2.6/dist-packages/aptsources/__init__.py=f
+/usr/lib/python2.6/dist-packages/aptsources/sourceslist.py=f
+/usr/lib/python2.6/dist-packages/aptsources/distro.py=f
+/usr/lib/python2.6/dist-packages/python_apt-0.7.96.1ubuntu11.egg-info=f
+/usr/share/python-apt/migrate-0.8.py=f

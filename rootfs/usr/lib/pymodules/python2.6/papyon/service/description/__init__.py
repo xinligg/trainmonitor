@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/service/description/__init__.py

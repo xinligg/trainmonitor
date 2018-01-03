@@ -1,0 +1,28 @@
+[python-package]
+format = 1
+python-version = >= 2.4
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/share/apport/package-hooks/source_virtualbox-ose.py=f
+/usr/share/pyshared/vboxapi=d
+/usr/share/pyshared/vboxapi/__init__.py=f
+/usr/share/pyshared/vboxapi/VirtualBox_constants.py=f
+/usr/share/pyshared/vboxapi-1.0.egg-info=f
+/usr/lib/virtualbox/vboxshell.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/vboxxpcom.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/components.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/file.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/__init__.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/nsError.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/primitives.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/xpcom_consts.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/xpt.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/client/__init__.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/server/__init__.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/server/enumerator.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/server/factory.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/server/loader.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/server/module.py=f
+/usr/lib/virtualbox/sdk/bindings/xpcom/python/xpcom/server/policy.py=f

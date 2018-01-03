@@ -1,0 +1,4 @@
+#!/bin/sh
+
+python /usr/share/weibo/notes_and_weibo.py
+

@@ -1,0 +1,17 @@
+[python-package]
+format = 1
+python-version = >= 2.5
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/share/pyshared/gnome_app_install-0.4.7ubuntu2.egg-info=d
+/usr/share/pyshared/gnome_app_install-0.4.7ubuntu2.egg-info/top_level.txt=f
+/usr/share/pyshared/gnome_app_install-0.4.7ubuntu2.egg-info/dependency_links.txt=f
+/usr/share/pyshared/gnome_app_install-0.4.7ubuntu2.egg-info/PKG-INFO=f
+/usr/share/pyshared/gnome_app_install-0.4.7ubuntu2.egg-info/SOURCES.txt=f
+/usr/share/pyshared/GnomeCodecInstall=d
+/usr/share/pyshared/GnomeCodecInstall/MainWindow.py=f
+/usr/share/pyshared/GnomeCodecInstall/__init__.py=f
+/usr/share/pyshared/GnomeCodecInstall/Main.py=f
+/usr/share/pyshared/GnomeCodecInstall/PackageWorker.py=f

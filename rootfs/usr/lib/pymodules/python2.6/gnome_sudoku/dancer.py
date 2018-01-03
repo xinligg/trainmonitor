@@ -1,0 +1,1 @@
+/usr/share/pyshared/gnome_sudoku/dancer.py

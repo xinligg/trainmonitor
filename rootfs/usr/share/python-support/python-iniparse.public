@@ -1,0 +1,7 @@
+pyversions=2.4-
+
+/usr/share/pyshared/iniparse-0.3.2-py2.6.egg-info
+/usr/share/pyshared/iniparse/__init__.py
+/usr/share/pyshared/iniparse/compat.py
+/usr/share/pyshared/iniparse/config.py
+/usr/share/pyshared/iniparse/ini.py

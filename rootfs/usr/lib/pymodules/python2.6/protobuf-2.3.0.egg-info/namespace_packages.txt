@@ -1,0 +1,1 @@
+/usr/share/pyshared/protobuf-2.3.0.egg-info/namespace_packages.txt

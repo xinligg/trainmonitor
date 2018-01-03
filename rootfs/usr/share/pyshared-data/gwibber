@@ -1,0 +1,31 @@
+[python-package]
+format = 1
+python-version = >=2.6
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/share/pyshared/gwibber=d
+/usr/share/pyshared/gwibber/lib=d
+/usr/share/pyshared/gwibber/lib/gtk=d
+/usr/share/pyshared/gwibber/lib/gtk/__init__.py=f
+/usr/share/pyshared/gwibber/lib/gtk/buzz.py=f
+/usr/share/pyshared/gwibber/lib/gtk/digg.py=f
+/usr/share/pyshared/gwibber/lib/gtk/facebook.py=f
+/usr/share/pyshared/gwibber/lib/gtk/flickr.py=f
+/usr/share/pyshared/gwibber/lib/gtk/friendfeed.py=f
+/usr/share/pyshared/gwibber/lib/gtk/identica.py=f
+/usr/share/pyshared/gwibber/lib/gtk/pingfm.py=f
+/usr/share/pyshared/gwibber/lib/gtk/qaiku.py=f
+/usr/share/pyshared/gwibber/lib/gtk/statusnet.py=f
+/usr/share/pyshared/gwibber/lib/gtk/twitter.py=f
+/usr/share/pyshared/gwibber/lib/gtk/widgets.py=f
+/usr/share/pyshared/gwibber/accounts.py=f
+/usr/share/pyshared/gwibber/actions.py=f
+/usr/share/pyshared/gwibber/client.py=f
+/usr/share/pyshared/gwibber/error.py=f
+/usr/share/pyshared/gwibber/gwui.py=f
+/usr/share/pyshared/gwibber/pidgin.py=f
+/usr/share/pyshared/gwibber/preferences.py=f
+/usr/share/pyshared/gwibber/resources.py=f
+/usr/share/pyshared/gwibber/util.py=f

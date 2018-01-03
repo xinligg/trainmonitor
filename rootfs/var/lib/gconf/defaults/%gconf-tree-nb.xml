@@ -1,0 +1,710 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="description">
+									<local_schema>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="keybindings">
+					<dir name="onscreenkeyboard">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="screenreader">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="magnifier">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="apps">
+			<dir name="gnome-terminal">
+				<dir name="profiles">
+					<dir name="Default">
+						<entry name="title">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="visible_name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="global">
+					<entry name="active_encodings">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="clock_applet">
+				<dir name="prefs">
+					<entry name="format">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus">
+				<dir name="preferences">
+					<entry name="desktop_font">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gweather">
+				<dir name="prefs">
+					<entry name="coordinates">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location4">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location3">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location2">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location1">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="location0">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="update-manager">
+				<entry name="check_new_release_ignore">
+					<local_schema short_desc="sørg for at check-new-release-gtk ignorerer angitt versjonsoppgradering">
+						<longdesc>Dette vil permanent deaktivere varselet om nye versjonsoppgraderinger fra check-new-release-gtk.  Knappen for versjonsoppgradering i hovedvinduet til update-manager vil fortsatt være tilgjengelig.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="first_run">
+					<local_schema short_desc="Velkomstmelding som vises ved første kjøring">
+						<longdesc>Hvis denne innstillingen er aktivert, vil det bli vist en velkomstmelding ved første kjøring.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="summary_before_name">
+					<local_schema short_desc="Vis pakkesammendrag før pakkenavn i oppdateringsliste">
+						<longdesc>Hvis denne tasten er satt, vil vinduet med oppdateringslisten vise pakkesammendraget før pakkenavnet.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_versions">
+					<local_schema short_desc="Vis versjonsnummer i oppdateringsliste">
+						<longdesc>Hvis denne innstillingen er valgt, vil hovedvinduet med oppdateringslisten vise versjonsinformasjon (fra versjon til versjon).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="autoclose_install_window">
+					<local_schema short_desc="Lukk installasjonsvinduet automatisk etter fullført installasjon">
+						<longdesc>Hvis denne innstillingen er valgt, vil installasjonsvinduet automatisk bli lukket når installasjonen er fullført.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="check_dist_upgrades">
+					<local_schema short_desc="Se etter nye utgivelser av distribusjonen">
+						<longdesc>Se etter nyere utgivelser av distribusjonen og tilby om mulig oppgradering.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_size">
+					<local_schema short_desc="Vindusstørrelsen">
+						<longdesc>Lagrer bredden og høyden av vinduet til oppdateringshåndtereren</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_details">
+					<local_schema short_desc="Vis detaljer om en oppdatering">
+						<longdesc>Lagrer tilstanden til utvidelsen, som inneholder en liste over endringer og en beskrivelse</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="remind_reload">
+					<local_schema short_desc="Vis påminnelse om å oppdatere listen over pakkekilder">
+						<longdesc>Dersom automatisk søk etter oppdateringer er deaktivert, må du hente listen over pakkekilder manuelt. Dette valget lar deg skjule påminnelsen som er vises her.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="totem">
+				<entry name="subtitle_encoding">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="control-center">
+				<entry name="cc_actions_list">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="Bruk UTF-8 ved eksport til LaTeX">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="Tillat områdevalg uten fokus">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="paper-orientation">
+						<local_schema short_desc="Papir">
+						</local_schema>
+					</entry>
+					<entry name="paper">
+						<local_schema short_desc="Papir">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="Forvalgt bunnmarg">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-left">
+						<local_schema short_desc="Forvalgt venstremarg">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-top">
+						<local_schema short_desc="Forvalgt topp utenfor margen">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-bottom">
+						<local_schema short_desc="Forvalgt bunn utenfor margen">
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="Forvalgt bunnmarg">
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="Forvalgt toppmarg">
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="Forvalgt skaleringshøyde">
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="Forvalgt skaleringsbredde">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="Forvalgt prosent for skalering">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="Forvalgt type skalering">
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="Forvalgt utskriftsretning">
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="Forvalgt tittel for utskrift">
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="Forvalgt sort/hvit utskrift">
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="Forvalgt utskrift av rutenett">
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="Forvalgt vertikal sentrering">
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="Forvalgt horisontal sentrering">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="Forvalgt skrift for topp- og bunntekst er kursiv.">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="Forvalgt skrift for topp- og bunntekst er uthevet.">
+							<longdesc>Denne verdien bestemmer om forvalgt skrift for topp- og bunntekster er uthevet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="Forvalgt skriftnavn for topp-/bunntekst">
+							<longdesc>Forvalgt skriftnavn for nye topp- og bunntekster.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="Forvalgt skriftstørrelse for topp-/bunntekst">
+							<longdesc>Forvalgt skriftstørrelse for topp- og bunntekster.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="Bunntekst for siden">
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Topptekst for siden">
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="Bruk på skriveroppsett på alle ark">
+							<longdesc>Denne verdien bestemmer om utskriftsdialogen brukes på alle ark samtidig som forvalg.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Brukerordbok for autoformater">
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="Systemkatalog for autoformat">
+							<longdesc>Denne katalogen inneholder de preinstallerte malene for autoformat.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="Liste med ekstra autoformatkataloger.">
+							<longdesc>Denne listen inneholder alle ekstra kataloger som inneholder maler for autoformat.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="Liste med ekstra tilleggskataloger.">
+							<longdesc>Denne listen inneholder alle ekstra kataloger som inneholder tillegg.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Liste med filtilstand for tillegg.">
+							<longdesc>Denne listen inneholder stilstandsdata for alle tilleggsfiler.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Liste med kjente tillegg.">
+							<longdesc>Denne listen inneholder alle kjente tillegg.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Liste over aktive tillegg.">
+							<longdesc>Denne listen inneholder alle tillegg som skal aktiveres automatisk.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Aktiver nye tillegg">
+							<longdesc>Denne variabelen bestemmer om alle nye tillegg skal aktiveres.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Autokorriger erstatt">
+							<longdesc>Autokorriger erstatt</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="Autokorriger dagnavn">
+							<longdesc>Autokorriger dagnavn</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="Liste med unntak for forbokstav">
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="Autokorriger første bokstav">
+							<longdesc>Autokorriger første bokstav</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Autokorriger storbokstav i begynnelsen av ord">
+							<longdesc>Autokorriger storbokstav i begynnelsen av ord</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="Maksimal lengde på liste over nylig brukte funksjoner">
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="Liste med nylig brukte funksjoner.">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="cut-and-paste">
+					<entry name="prefer-clipboard">
+						<local_schema short_desc="Foretrekk CLIPBOARD framfor PRIMARY utvalg">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="Antall automatiske klausuler">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Sorter stigende">
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Sortering beholder formater">
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Sortering skiller mellom små-/store bokstaver">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Overskriv filer som forvalg">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Forvalgt kompresjonsnivå for Gnumeric-filer">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Forvalgt zoom-faktor">
+									<longdesc>Forhåndsdefinert zoom-faktor for nye arbeidsbøker.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Forvalgt vertikal vindusstørrelse">
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Forvalgt horisontal størrelse for vindu">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="livescrolling">
+								<local_schema short_desc="Rulling i sanntid">
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Autofullfør">
+									<longdesc>Denne variabelen bestemmer om automatisk fullføring er aktivert.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbars">
+							<entry name="ObjectToolbar">
+								<local_schema short_desc="Objektverktøylinjen synlig">
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar">
+								<local_schema short_desc="Synlighet for verktøylinje for formattering">
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar-position">
+								<local_schema short_desc="Posisjon for standard verktøylinje">
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar">
+								<local_schema short_desc="Synlighet for standard verktøylinje">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="Vertikal DPI">
+									<longdesc>Skjermoppløsning i vertikal retning.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="Horisontal DPI">
+									<longdesc>Skjermoppløsning i horisontal retning.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-cols">
+							<local_schema short_desc="Forvalgt antall kolonner i et ark">
+							</local_schema>
+						</entry>
+						<entry name="n-rows">
+							<local_schema short_desc="Forvalgt antall rader i et ark">
+							</local_schema>
+						</entry>
+						<entry name="n-sheet">
+							<local_schema short_desc="Forvalgt antall ark">
+								<longdesc>Forhåndsdefinert antall ark i en ny arbeidsbok.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Forvalgt skrift er kursiv.">
+								<longdesc>Denne verdien bestemmer om forvalgt skrift for en ny arbeidsbok er kursiv.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="Forvalgt skrift er fet.">
+								<longdesc>Denne verdien bestemmer om forvalgt skrift for en ny arbeidsbok er uthevet.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Forvalgt skriftnavn">
+								<longdesc>Forvalgt skrift for nye arbeidsbøker.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Forvalgt skriftstørrelse">
+								<longdesc>Forvalgt skriftstørrelse for nye arbeidsbøker.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="maxnum">
+						<local_schema short_desc="Antall angreoppføringer">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Maksimal angrestørrelse">
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="Vis arknavn i angrelisten">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Stil for verktøylinjen">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="simple-scan">
+				<entry name="save_directory">
+					<local_schema short_desc="Lagre filer i mappe">
+						<longdesc>Mappen filer skal lagres til. Standard er dokumentmappen.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_side">
+					<local_schema short_desc="Side som skal skannes">
+						<longdesc>Siden som skal skannes. Det kan være én av følgende: &apos;begge&apos; &apos;forside&apos; &apos;bakside&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="photo_dpi">
+					<local_schema short_desc="Oppløsning for bildeskanning">
+						<longdesc>Oppløsning i punkter-per-tomme for skanning av bilder.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="text_dpi">
+					<local_schema short_desc="Oppløsning for tekstskanning">
+						<longdesc>Oppløsningen i punkter-per-tomme for skanning av tekst.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_dpi">
+					<local_schema short_desc="Oppløsning på sist skannede bilde">
+						<longdesc>Oppløsning i punkter-per-tomme til sist utførte skanning.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_height">
+					<local_schema short_desc="Papirhøyde i tiendels millimeter">
+						<longdesc>Papirhøyde i tiendels millimeter (eller 0 for automatisk gjenkjenning).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="paper_width">
+					<local_schema short_desc="Papirbredde i tiendels millimeter">
+						<longdesc>Papirbredden i tiendels millimeter (eller 0 for automatisk gjenkjenning).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_height">
+					<local_schema short_desc="Høyde på skannede bilder, i pixler">
+						<longdesc>Høyden på skannet bilde, i pixler. Verdien settes til sist skannede side.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="page_width">
+					<local_schema short_desc="Bredde på skannet bilde, i pixler">
+						<longdesc>Bredden på skannede bilder, i pixler. Denne verdien settes til størrelsen fra sist skannede side.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="scan_direction">
+					<local_schema short_desc="Skanneretning">
+						<longdesc>Retning skanneren skal gjøre over siden. Den kan være en av følgende: &apos;topp-til-bunn&apos; &apos;bunn-til-topp&apos; &apos;venstre-til-høyre&apos; &apos;høyre-til-venstre&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="document_type">
+					<local_schema short_desc="Dokumenttype som skannes">
+						<longdesc>Dokumenttype som skannes. &apos;tekst&apos; for tekstdokumenter, &apos;bilde&apos; for bilder. Denne innstillinger bestemmer oppløsning, farger og etterbehandling for skanningen.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="selected_device">
+					<local_schema short_desc="Enhet det skal skannes fra">
+						<longdesc>SANE-enhet som bilder skal hentes fra.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="window_is_maximized">
+					<local_schema short_desc="SANN hvis programvinduet er maksimert">
+					</local_schema>
+				</entry>
+				<entry name="window_height">
+					<local_schema short_desc="Vindushøyde i pixler">
+					</local_schema>
+				</entry>
+				<entry name="window_width">
+					<local_schema short_desc="Vindusbredde i pixler">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gedit-2">
+				<dir name="preferences">
+					<dir name="encodings">
+						<entry name="shown_in_menu">
+							<local_schema>
+							</local_schema>
+						</entry>
+						<entry name="auto_detected">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="print">
+						<dir name="fonts">
+							<entry name="print_font_numbers_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_header_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+							<entry name="print_font_body_pango">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="editor">
+						<dir name="font">
+							<entry name="editor_font">
+								<local_schema>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

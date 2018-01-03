@@ -1,0 +1,1 @@
+/usr/share/pyshared/gnome_sudoku/gtk_goodies/__init__.py

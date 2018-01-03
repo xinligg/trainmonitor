@@ -1,0 +1,14 @@
+[python-package]
+format = 1
+python-version = all
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/share/pyshared/pexpect.py=f
+/usr/share/pyshared/pxssh.py=f
+/usr/share/pyshared/fdpexpect.py=f
+/usr/share/pyshared/FSM.py=f
+/usr/share/pyshared/screen.py=f
+/usr/share/pyshared/ANSI.py=f
+/usr/share/pyshared/pexpect-2.3.egg-info=f

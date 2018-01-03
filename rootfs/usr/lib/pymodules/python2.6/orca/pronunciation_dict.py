@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/pronunciation_dict.py

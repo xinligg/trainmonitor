@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/scripts/apps/Banshee/speech_generator.py

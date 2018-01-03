@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/service/description/SingleSignOn/__init__.py

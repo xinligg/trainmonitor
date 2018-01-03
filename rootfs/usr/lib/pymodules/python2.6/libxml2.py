@@ -1,0 +1,1 @@
+/usr/share/pyshared/libxml2.py

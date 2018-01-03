@@ -1,0 +1,17 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 1
+[files]
+/usr/lib/python2.6/dist-packages/LanguageSelector=d
+/usr/lib/python2.6/dist-packages/LanguageSelector/gtk=d
+/usr/lib/python2.6/dist-packages/LanguageSelector/gtk/__init__.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/gtk/GtkLanguageSelector.py=f
+/usr/lib/python2.6/dist-packages/LanguageSelector/gtk/SimpleGtkbuilderApp.py=f
+/usr/share/pyshared/LanguageSelector=d
+/usr/share/pyshared/LanguageSelector/gtk=d
+/usr/share/pyshared/LanguageSelector/gtk/__init__.py=f
+/usr/share/pyshared/LanguageSelector/gtk/GtkLanguageSelector.py=f
+/usr/share/pyshared/LanguageSelector/gtk/SimpleGtkbuilderApp.py=f

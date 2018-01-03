@@ -1,0 +1,26 @@
+[python-package]
+format = 1
+python-version = >=2.5
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/share/pyshared/configglue=d
+/usr/share/pyshared/configglue/inischema=d
+/usr/share/pyshared/configglue/inischema/__init__.py=f
+/usr/share/pyshared/configglue/inischema/attributed.py=f
+/usr/share/pyshared/configglue/inischema/glue.py=f
+/usr/share/pyshared/configglue/inischema/parsers.py=f
+/usr/share/pyshared/configglue/inischema/typed.py=f
+/usr/share/pyshared/configglue/pyschema=d
+/usr/share/pyshared/configglue/pyschema/__init__.py=f
+/usr/share/pyshared/configglue/pyschema/options.py=f
+/usr/share/pyshared/configglue/pyschema/parser.py=f
+/usr/share/pyshared/configglue/pyschema/schema.py=f
+/usr/share/pyshared/configglue/__init__.py=f
+/usr/share/pyshared/configglue-0.9pre1.egg-info=d
+/usr/share/pyshared/configglue-0.9pre1.egg-info/PKG-INFO=f
+/usr/share/pyshared/configglue-0.9pre1.egg-info/SOURCES.txt=f
+/usr/share/pyshared/configglue-0.9pre1.egg-info/dependency_links.txt=f
+/usr/share/pyshared/configglue-0.9pre1.egg-info/top_level.txt=f
+/usr/share/pyshared/configglue-0.9pre1.egg-info/zip-safe=f

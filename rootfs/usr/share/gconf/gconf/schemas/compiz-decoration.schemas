@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/decoration/allscreens/options/shadow_radius</key>
+      <applyto>/apps/compiz/plugins/decoration/allscreens/options/shadow_radius</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>15.0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Shadow Radius</short>
+        <long>Drop shadow radius (0.1 - 18.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/decoration/allscreens/options/shadow_opacity</key>
+      <applyto>/apps/compiz/plugins/decoration/allscreens/options/shadow_opacity</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>0.5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Shadow Opacity</short>
+        <long>Drop shadow opacity (0.01 - 6.0)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/decoration/allscreens/options/shadow_color</key>
+      <applyto>/apps/compiz/plugins/decoration/allscreens/options/shadow_color</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>#000000ff</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Shadow Color</short>
+        <long>Drop shadow color</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/decoration/allscreens/options/shadow_x_offset</key>
+      <applyto>/apps/compiz/plugins/decoration/allscreens/options/shadow_x_offset</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Shadow Offset X</short>
+        <long>Drop shadow X offset (-16 - 16)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/decoration/allscreens/options/shadow_y_offset</key>
+      <applyto>/apps/compiz/plugins/decoration/allscreens/options/shadow_y_offset</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>5</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Shadow Offset Y</short>
+        <long>Drop shadow Y offset (-16 - 16)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/decoration/allscreens/options/command</key>
+      <applyto>/apps/compiz/plugins/decoration/allscreens/options/command</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>/usr/bin/compiz-decorator</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Command</short>
+        <long>Decorator command line that is executed if no decorator is already running</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/decoration/allscreens/options/mipmap</key>
+      <applyto>/apps/compiz/plugins/decoration/allscreens/options/mipmap</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Mipmap</short>
+        <long>Allow mipmaps to be generated for decoration textures</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/decoration/allscreens/options/decoration_match</key>
+      <applyto>/apps/compiz/plugins/decoration/allscreens/options/decoration_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>any</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Decoration windows</short>
+        <long>Windows that should be decorated (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/decoration/allscreens/options/shadow_match</key>
+      <applyto>/apps/compiz/plugins/decoration/allscreens/options/shadow_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>any</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Shadow windows</short>
+        <long>Windows that should have a shadow (match)</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

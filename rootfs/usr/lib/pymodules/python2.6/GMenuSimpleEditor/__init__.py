@@ -1,0 +1,1 @@
+/usr/share/pyshared/GMenuSimpleEditor/__init__.py

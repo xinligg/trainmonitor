@@ -1,0 +1,4 @@
+pyversions=2.6
+
+/usr/lib/pyshared/python2.6/webkit/webkit.so
+/usr/share/pyshared/webkit/__init__.py

@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/key_bindings_toggle</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/key_bindings_toggle</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Key Bindings Toggle Scale Mode</short>
+        <long>Key bindings toggle scale mode instead of enabling it when pressed and disabling it when released.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/button_bindings_toggle</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/button_bindings_toggle</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Button Bindings Toggle Scale Mode</short>
+        <long>Button bindings toggle scale mode instead of enabling it when pressed and disabling it when released.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_edge</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_edge</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker</short>
+        <long>Layout and start transforming windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_key</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;w</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker</short>
+        <long>Layout and start transforming windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_button</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker</short>
+        <long>Layout and start transforming windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_all_edge</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_all_edge</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker For All Windows</short>
+        <long>Layout and start transforming all windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_all_button</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_all_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker For All Windows</short>
+        <long>Layout and start transforming all windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_all_key</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_all_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>&lt;Super&gt;a</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker For All Windows</short>
+        <long>Layout and start transforming all windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_group_edge</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_group_edge</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker For Window Group</short>
+        <long>Layout and start transforming window group</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_group_button</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_group_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker For Window Group</short>
+        <long>Layout and start transforming window group</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_group_key</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_group_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker For Window Group</short>
+        <long>Layout and start transforming window group</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_output_edge</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_output_edge</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default/>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker For Windows on Current Output</short>
+        <long>Layout and start transforming windows on current output</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_output_button</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_output_button</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker For Windows on Current Output</short>
+        <long>Layout and start transforming windows on current output</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/initiate_output_key</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/initiate_output_key</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Disabled</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Initiate Window Picker For Windows on Current Output</short>
+        <long>Layout and start transforming windows on current output</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/allscreens/options/show_desktop</key>
+      <applyto>/apps/compiz/plugins/scale/allscreens/options/show_desktop</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Click Desktop to Show Desktop</short>
+        <long>Enter Show Desktop mode when Desktop is clicked during Scale</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/screen0/options/spacing</key>
+      <applyto>/apps/compiz/plugins/scale/screen0/options/spacing</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>12</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Spacing</short>
+        <long>Space between windows (0 - 250)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/screen0/options/speed</key>
+      <applyto>/apps/compiz/plugins/scale/screen0/options/speed</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>2.4</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Speed</short>
+        <long>Scale speed (0.1 - 50)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/screen0/options/timestep</key>
+      <applyto>/apps/compiz/plugins/scale/screen0/options/timestep</applyto>
+      <owner>compiz</owner>
+      <type>float</type>
+      <default>0.1</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Timestep</short>
+        <long>Scale timestep (0.1 - 50)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/screen0/options/darken_back</key>
+      <applyto>/apps/compiz/plugins/scale/screen0/options/darken_back</applyto>
+      <owner>compiz</owner>
+      <type>bool</type>
+      <default>false</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Darken Background</short>
+        <long>Darken background when scaling windows</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/screen0/options/opacity</key>
+      <applyto>/apps/compiz/plugins/scale/screen0/options/opacity</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>100</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Opacity</short>
+        <long>Amount of opacity in percent (0 - 100)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/screen0/options/overlay_icon</key>
+      <applyto>/apps/compiz/plugins/scale/screen0/options/overlay_icon</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Overlay Icon</short>
+        <long>Overlay an icon on windows once they are scaled (0 = None, 1 = Emblem, 2 = Big)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/screen0/options/window_match</key>
+      <applyto>/apps/compiz/plugins/scale/screen0/options/window_match</applyto>
+      <owner>compiz</owner>
+      <type>string</type>
+      <default>Toolbar | Utility | Dialog | Normal | Unknown</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Scale Windows</short>
+        <long>Windows that should be scaled in scale mode (match)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/screen0/options/hover_time</key>
+      <applyto>/apps/compiz/plugins/scale/screen0/options/hover_time</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>750</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Hover Time</short>
+        <long>Time (in ms) before scale mode is terminated when hovering over a window (50 - 10000)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/compiz/plugins/scale/screen0/options/multioutput_mode</key>
+      <applyto>/apps/compiz/plugins/scale/screen0/options/multioutput_mode</applyto>
+      <owner>compiz</owner>
+      <type>int</type>
+      <default>0</default>
+      <gettext_domain>compiz</gettext_domain>
+      <locale name="C">
+        <short>Multi Output Mode</short>
+        <long>Selects where windows are scaled if multiple output devices are used. (0 = On current output device, 1 = On all output devices)</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

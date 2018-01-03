@@ -1,0 +1,53 @@
+<gconfschemafile>
+  <schemalist>
+    
+    <schema>
+      <key>/schemas/apps/evolution/eplugin/evolution_indicator/only_inbox</key>
+      <applyto>/apps/evolution/eplugin/evolution_indicator/only_inbox</applyto>
+      <owner>evolution-indicator</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>evolution-indicator</gettext_domain>
+      <locale name="C">
+        <short>Only create notifications for new mail in an Inbox.</short>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/evolution/eplugin/evolution_indicator/play_sound</key>
+      <applyto>/apps/evolution/eplugin/evolution_indicator/play_sound</applyto>
+      <owner>evolution-indicator</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>evolution-indicator</gettext_domain>
+      <locale name="C">
+        <short>Play a sound for new mail.</short>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/evolution/eplugin/evolution_indicator/show_bubble</key>
+      <applyto>/apps/evolution/eplugin/evolution_indicator/show_bubble</applyto>
+      <owner>evolution-indicator</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>evolution-indicator</gettext_domain>
+      <locale name="C">
+        <short>Show a notification bubble.</short>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/evolution/eplugin/evolution_indicator/show_new_messages_in_panel</key>
+      <applyto>/apps/evolution/eplugin/evolution_indicator/show_new_messages_in_panel</applyto>
+      <owner>evolution-indicator</owner>
+      <type>bool</type>
+      <default>true</default>
+      <gettext_domain>evolution-indicator</gettext_domain>
+      <locale name="C">
+        <short>Show new message count in the message indicator applet.</short>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

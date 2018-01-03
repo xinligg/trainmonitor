@@ -1,0 +1,28 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/lib/python2.6/dist-packages/lazr=d
+/usr/lib/python2.6/dist-packages/lazr/uri=d
+/usr/lib/python2.6/dist-packages/lazr/uri/__init__.py=f
+/usr/lib/python2.6/dist-packages/lazr/uri/_uri.py=f
+/usr/lib/python2.6/dist-packages/lazr/uri/NEWS.txt=f
+/usr/lib/python2.6/dist-packages/lazr/uri/README.txt=f
+/usr/lib/python2.6/dist-packages/lazr/uri/configure.zcml=f
+/usr/lib/python2.6/dist-packages/lazr/uri/version.txt=f
+/usr/lib/python2.6/dist-packages/lazr/uri/tests=d
+/usr/lib/python2.6/dist-packages/lazr/uri/tests/__init__.py=f
+/usr/lib/python2.6/dist-packages/lazr/uri/tests/test_docs.py=f
+/usr/lib/python2.6/dist-packages/lazr/uri/tests/test_uri.py=f
+/usr/lib/python2.6/dist-packages/lazr.uri-1.0.2.egg-info=d
+/usr/lib/python2.6/dist-packages/lazr.uri-1.0.2.egg-info/PKG-INFO=f
+/usr/lib/python2.6/dist-packages/lazr.uri-1.0.2.egg-info/SOURCES.txt=f
+/usr/lib/python2.6/dist-packages/lazr.uri-1.0.2.egg-info/dependency_links.txt=f
+/usr/lib/python2.6/dist-packages/lazr.uri-1.0.2.egg-info/namespace_packages.txt=f
+/usr/lib/python2.6/dist-packages/lazr.uri-1.0.2.egg-info/not-zip-safe=f
+/usr/lib/python2.6/dist-packages/lazr.uri-1.0.2.egg-info/requires.txt=f
+/usr/lib/python2.6/dist-packages/lazr.uri-1.0.2.egg-info/top_level.txt=f
+/usr/lib/python2.6/dist-packages/lazr.uri-1.0.2-nspkg.pth=f

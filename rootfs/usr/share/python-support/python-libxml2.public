@@ -1,0 +1,5 @@
+pyversions=2.6
+
+/usr/lib/pyshared/python2.6/libxml2mod.so
+/usr/share/pyshared/drv_libxml2.py
+/usr/share/pyshared/libxml2.py

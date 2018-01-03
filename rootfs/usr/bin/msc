@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /usr/local/msc-3.0/
+./msc

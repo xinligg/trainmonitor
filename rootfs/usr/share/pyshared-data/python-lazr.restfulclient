@@ -1,0 +1,43 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/lib/python2.6/dist-packages/lazr=d
+/usr/lib/python2.6/dist-packages/lazr/restfulclient=d
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/__init__.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/_browser.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/_json.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/errors.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/resource.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/NEWS.txt=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/README.txt=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/version.txt=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/authorize=d
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/authorize/__init__.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/authorize/oauth.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/docs=d
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/docs/__init__.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/docs/caching.txt=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/docs/collections.txt=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/docs/entries.txt=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/docs/hosted-files.txt=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/docs/operations.txt=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/docs/toplevel.txt=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/tests=d
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/tests/__init__.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/tests/example.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/tests/test_docs.py=f
+/usr/lib/python2.6/dist-packages/lazr/restfulclient/tests/test_oauth_credentials.py=f
+/usr/lib/python2.6/dist-packages/lazr.restfulclient-0.9.20.egg-info=d
+/usr/lib/python2.6/dist-packages/lazr.restfulclient-0.9.20.egg-info/SOURCES.txt=f
+/usr/lib/python2.6/dist-packages/lazr.restfulclient-0.9.20.egg-info/dependency_links.txt=f
+/usr/lib/python2.6/dist-packages/lazr.restfulclient-0.9.20.egg-info/namespace_packages.txt=f
+/usr/lib/python2.6/dist-packages/lazr.restfulclient-0.9.20.egg-info/requires.txt=f
+/usr/lib/python2.6/dist-packages/lazr.restfulclient-0.9.20.egg-info/test_info.txt=f
+/usr/lib/python2.6/dist-packages/lazr.restfulclient-0.9.20.egg-info/top_level.txt=f
+/usr/lib/python2.6/dist-packages/lazr.restfulclient-0.9.20.egg-info/PKG-INFO=f
+/usr/lib/python2.6/dist-packages/lazr.restfulclient-0.9.20.egg-info/not-zip-safe=f
+/usr/lib/python2.6/dist-packages/lazr.restfulclient-0.9.20-nspkg.pth=f

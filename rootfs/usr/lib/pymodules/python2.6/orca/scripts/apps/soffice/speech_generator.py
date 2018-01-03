@@ -1,0 +1,1 @@
+/usr/share/pyshared/orca/scripts/apps/soffice/speech_generator.py

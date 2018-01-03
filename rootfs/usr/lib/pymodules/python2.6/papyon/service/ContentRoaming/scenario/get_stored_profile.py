@@ -1,0 +1,1 @@
+/usr/share/pyshared/papyon/service/ContentRoaming/scenario/get_stored_profile.py

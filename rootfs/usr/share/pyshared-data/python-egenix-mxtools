@@ -1,0 +1,40 @@
+[python-package]
+format = 1
+python-version = 2.6
+[pycentral]
+version = 0.6.11
+include-links = 0
+[files]
+/usr/lib/python2.6/dist-packages/mx=d
+/usr/lib/python2.6/dist-packages/mx/Tools=d
+/usr/lib/python2.6/dist-packages/mx/Tools/mxTools=d
+/usr/lib/python2.6/dist-packages/mx/Tools/mxTools/mxTools.so=f
+/usr/share/pyshared/mx=d
+/usr/share/pyshared/mx/Misc=d
+/usr/share/pyshared/mx/Misc/CSV.py=f
+/usr/share/pyshared/mx/Misc/Cache.py=f
+/usr/share/pyshared/mx/Misc/CommandLine.py=f
+/usr/share/pyshared/mx/Misc/ConfigFile.py=f
+/usr/share/pyshared/mx/Misc/Cookie.py=f
+/usr/share/pyshared/mx/Misc/ExitFunctions.py=f
+/usr/share/pyshared/mx/Misc/FileLock.py=f
+/usr/share/pyshared/mx/Misc/LazyModule.py=f
+/usr/share/pyshared/mx/Misc/Namespace.py=f
+/usr/share/pyshared/mx/Misc/OrderedMapping.py=f
+/usr/share/pyshared/mx/Misc/PackageTools.py=f
+/usr/share/pyshared/mx/Misc/__init__.py=f
+/usr/share/pyshared/mx/Misc/COPYRIGHT=f
+/usr/share/pyshared/mx/Tools=d
+/usr/share/pyshared/mx/Tools/mxTools=d
+/usr/share/pyshared/mx/Tools/mxTools/__init__.py=f
+/usr/share/pyshared/mx/Tools/mxTools/bench1.py=f
+/usr/share/pyshared/mx/Tools/mxTools/bench2.py=f
+/usr/share/pyshared/mx/Tools/mxTools/hack.py=f
+/usr/share/pyshared/mx/Tools/mxTools/test.py=f
+/usr/share/pyshared/mx/Tools/mxTools/test_safecall.py=f
+/usr/share/pyshared/mx/Tools/NewBuiltins.py=f
+/usr/share/pyshared/mx/Tools/Tools.py=f
+/usr/share/pyshared/mx/Tools/__init__.py=f
+/usr/share/pyshared/mx/Log.py=f
+/usr/share/pyshared/mx/NewBuiltins.py=f
+/usr/share/pyshared/mx/__init__.py=f
