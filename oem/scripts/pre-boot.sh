@@ -28,42 +28,9 @@ Section "Screen"
         Monitor         "Configured Monitor"
         Device          "Configured Video Device"
 EndSection
-
-Section "InputClass"
-	Identifier "eGalax touch class"
-	MatchProduct "eGalax Inc.|Touchkit|eGalax_eMPIA Technology Inc."
-	MatchDevicePath "/dev/input/event*"
-	Driver "void"
-EndSection
-
-Section "InputClass"
-	Identifier "eGalax mouse class"
-	MatchProduct "eGalax Inc.|Touchkit|eGalax_eMPIA Technology Inc.|eGalaxTouch Virtual Device"
-	MatchDevicePath "/dev/input/mouse*"
-	Driver "void"
-EndSection
-
-Section "InputClass"
-	Identifier "eGalax joystick class"
-	MatchProduct "eGalax Inc.|Touchkit|eGalaxTouch Virtual Device"
-	MatchDevicePath "/dev/input/js*"
-	Driver "void"
-EndSection
-
-Section "InputClass"
-	Identifier "eGalax virtual class"
-	MatchProduct "eGalaxTouch Virtual Device"
-	MatchDevicePath "/dev/input/event*"
-	Driver "evdev"
-EndSection
-
-Section "InputClass"
-        Identifier      "calibration"
-        MatchProduct    "DIALOGUE INC PenMount USB"
-        Option  "Calibration"   "102 902 116 905"
-        Option  "SwapAxes"      "0"
-EndSection
 EOF
+
+echo "blacklist i915" > /etc/modprobe.d/blacklist-graphicscard.conf
 			;;
 
 	'"1002"')
@@ -117,11 +84,9 @@ EndSection
 EOF
 			;;
 esac
-echo "blacklist i915" > /etc/modprobe.d/blacklist-modem.conf
 
 /sbin/udevd --daemon
 /sbin/udevadm trigger
 /sbin/udevadm settle
-rmmod i915
 
 #End scripts

@@ -150,14 +150,14 @@
     <keybind key="A-Tab">
       <action name="NextWindow"/>
     </keybind>
+    <keybind key="C-A-C">
+      <action name="Execute">
+        <command>/usr/bin/xinput_calibrator --output-filename /host/oem/config/calibration.conf</command>
+      </action>
+    </keybind>
     <keybind key="C-A-X">
       <action name="Execute">
         <command>/usr/bin/xterm -bg black -fg gray</command>
-      </action>
-    </keybind>
-    <keybind key="A-X">
-      <action name="Execute">
-        <command>killall vncts</command>
       </action>
     </keybind>
     <keybind key="C-A-J">
