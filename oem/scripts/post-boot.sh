@@ -21,15 +21,15 @@ modprobe advcan
 chmod 666 /dev/can0
 chmod 666 /dev/can1
 
-cd /opt/advcan
-./cansetup ./PCM3680.conf
-
 xset -dpms
 
 # for aufs to merge opt-get plugin
 #mkdir /opt
 #mount -t tmpfs none /opt
 ln -s $HOST_DIR/apps/* /opt
+
+cd /opt/advcan
+./cansetup ./PCM3680.conf
 
 #zenity --info test &
 cd /opt/Project
