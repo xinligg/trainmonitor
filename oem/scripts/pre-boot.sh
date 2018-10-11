@@ -11,6 +11,25 @@ case $ID in
 	'10de:0a6c')
 		echo "nm10 setting"
 			;;
+	'0300:1022')
+		echo "old 3353 geode crash screen"
+cat > /etc/X11/xorg.conf << EOF
+Section "Device"
+        Identifier      "Configured Video Device"
+        Driver          "vesa"
+EndSection
+
+Section "Monitor"
+        Identifier      "Configured Monitor"
+EndSection
+
+Section "Screen"
+        Identifier      "Default Screen"
+        Monitor         "Configured Monitor"
+        Device          "Configured Video Device"
+EndSection
+EOF
+			;;
 	'0300:8086')
 		echo "N455 setting"
 cat > /etc/X11/xorg.conf << EOF
